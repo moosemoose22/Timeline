@@ -1,0 +1,12 @@
+Spain Municipality Boundries, Spain
+
+This is a boundry file of Spain's Municipalities (of which there are over 8,000). The shapefile was downloaded from biogeo.berkeley.edu/bgm/gdata.php and was simplified using ArcMap
+
+Attributes:
+NAME_4: Municipality Name - Municipality Name
+Shape_Area: Shape_Area - 
+NAME_1: Country Name - Country Name
+NAME_2: District Name - District Name
+TYPE_4: Administrative Level - Administrative Level
+
+exported on Wed Nov 07 12:31:53 -0500 2012

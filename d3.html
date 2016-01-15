@@ -32,7 +32,11 @@ var path = d3.geo.path()
     .projection(projection);
 
 var g = svg.append("g");
-d3.json("maps/world-110m2.json", function(error, topology) {
+///maps/states_provinces/spain.topo.json
+var mapStr = "maps/world-110m2.json";
+//mapStr = "maps/states_provinces/spain.topo.json";
+mapStr = "maps/lala.json";
+d3.json(mapStr, function(error, topology) {
      svg.append("path")
       .datum(topojson.feature(topology, topology.objects.countries))
       .attr("d", d3.geo.path().projection(d3.geo.mercator()));
