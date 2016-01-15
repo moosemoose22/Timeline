@@ -28,11 +28,23 @@ path {
   text-anchor: middle;
 }
 
-.subunit-boundary {
+/*.subunit-boundary {
   fill: none;
   stroke: #222;
   stroke-dasharray: 2,2;
   stroke-linejoin: round;
+}*/
+
+.region {
+	fill: #000;
+	fill-opacity: .01;
+	stroke: #222;
+	stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+.region:hover {
+	fill: #000;
+	fill-opacity: .2;
 }
 
 .place,
@@ -50,15 +62,16 @@ text {
 <body>
 <script src="d3.v3.min.js"></script>
 <script src="topojson.v1.min.js"></script>
+<h2 id="regionName"></h2>
 <script>
-var width = 2000,
+var width = 1200,
     height = 1160;
 
 var projection = d3.geo.albers()
-    .center([0, 44])
-    .rotate([1, 0])
+    .center([0, 43.96])
+    .rotate([1, 0.37])
     .parallels([50, 60])
-    .scale(1200 * 5)
+    .scale(1200 * 4)
     .translate([width / 2, height / 2]);
 
 var path = d3.geo.path()
@@ -89,11 +102,12 @@ d3.json(mapStr, function(error, occitania) {
 		.attr("dy", ".35em")
 		.text(function(d) { return d.properties.name; });
 
-	svg.append("path")
+	/*svg.append("path")
 		.datum(topojson.mesh(occitania, occitania.objects.states_provinces, function(a, b) { return a !== b; }))
 		.attr("d", path)
-		.attr("class", "subunit-boundary");
+		.attr("class", "subunit-boundary");*/
 
+	// Add little gray dot next to city
 	svg.append("path")
 		.datum(topojson.feature(occitania, occitania.objects.places))
 		.attr("d", path)
@@ -109,26 +123,17 @@ d3.json(mapStr, function(error, occitania) {
 		.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
 		.text(function(d) { return d.properties.name; });
 
-
-
-/*svg.selectAll("states")
-                .data(countries)
-                .enter().insert("path", ".graticule")
-                .attr("class", "states")
-                .attr("d", path)
-                .style("fill", function(d, i) { return color(d.color = d3.max(neighbors[i], function(n) { return countries[n].color; }) + 1 | 0); })
-                .on('mouseover', function(d, i) {
-
-                var currentState = this;
-                d3.select(this).style('fill-opacity', 1);
-                })
-                .on('mouseout', function(d, i) {
-
-                    d3.selectAll('path')
-                            .style({
-                                'fill-opacity':.7
-                            });
-                });
+svg.selectAll('.region')
+		.data(topojson.feature(occitania, occitania.objects.states_provinces).features)
+		.enter()
+		.append('path')
+		.attr('class', 'region')
+		.attr('d', path);
+/*		.on('mouseover', function(d){
+			var name = d.properties.regionname;
+			console.log(d);
+		//	return document.getElementById('regionName').innerHTML=d.properties.keys();
+		});
 */
 
 });
