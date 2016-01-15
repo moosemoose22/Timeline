@@ -20,12 +20,30 @@ path {
 .subunit.ENG { fill: #ddc; }
 .subunit.IRL { display: none; }
 */
+.subunit-label {
+  fill: #777;
+  fill-opacity: .5;
+  font-size: 20px;
+  font-weight: 300;
+  text-anchor: middle;
+}
 
 .subunit-boundary {
   fill: none;
   stroke: #222;
   stroke-dasharray: 2,2;
   stroke-linejoin: round;
+}
+
+.place,
+.place-label {
+  fill: #444;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  pointer-events: none;
 }
 </style>
 </head>
@@ -63,6 +81,14 @@ d3.json(mapStr, function(error, occitania) {
 		.attr("class", function(d) { return "subunit " + d.id; })
 		.attr("d", path);
 
+	svg.selectAll(".subunit-label")
+		.data(topojson.feature(occitania, occitania.objects.subunits).features)
+		.enter().append("text")
+		.attr("class", function(d) { return "subunit-label " + d.id; })
+		.attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+		.attr("dy", ".35em")
+		.text(function(d) { return d.properties.name; });
+
 	svg.append("path")
 		.datum(topojson.mesh(occitania, occitania.objects.states_provinces, function(a, b) { return a !== b; }))
 		.attr("d", path)
@@ -82,8 +108,30 @@ d3.json(mapStr, function(error, occitania) {
 		.attr("dy", ".35em")
 		.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
 		.text(function(d) { return d.properties.name; });
-});
 
+
+
+/*svg.selectAll("states")
+                .data(countries)
+                .enter().insert("path", ".graticule")
+                .attr("class", "states")
+                .attr("d", path)
+                .style("fill", function(d, i) { return color(d.color = d3.max(neighbors[i], function(n) { return countries[n].color; }) + 1 | 0); })
+                .on('mouseover', function(d, i) {
+
+                var currentState = this;
+                d3.select(this).style('fill-opacity', 1);
+                })
+                .on('mouseout', function(d, i) {
+
+                    d3.selectAll('path')
+                            .style({
+                                'fill-opacity':.7
+                            });
+                });
+*/
+
+});
 </script>
 </body>
 </html>

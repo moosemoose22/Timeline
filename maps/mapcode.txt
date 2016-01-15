@@ -1,0 +1,26 @@
+ogr2ogr \
+  -f GeoJSON \
+  -where "ADM0_A3 IN ('ESP', 'FRA')" \
+  subunits.json \
+  ne_10m_admin_0_map_subunits.shp
+  
+ogr2ogr \
+  -f GeoJSON \
+  -where "ADM0_A3 IN ('ESP', 'FRA')" \
+  places.json \
+  ne_10m_populated_places.shp
+
+ogr2ogr \
+  -f GeoJSON \
+  -where "ADM0_A3 IN ('ESP', 'FRA')" \
+  states_provinces.json \
+  ne_10m_admin_1_states_provinces.shp
+
+topojson \
+  -o occitania.json \
+  --id-property SU_A3 \
+  --properties name=NAME,region=ADM1NAME \
+  -- \
+  subunits.json \
+  places.json \
+  states_provinces.json
