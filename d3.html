@@ -10,48 +10,30 @@ path {
   fill: grey;
 }
 
+/* Area coloring */
+.subunit.ESX { fill: #dcd; }
+.subunit.FXX { fill: #cdd; }
+.subunit.ESI { fill: #666; }
+.subunit.MCO { fill: #666; }
+.subunit.AND { fill: #99b; }
+/*.subunit.ESI { fill: #cdc; }
+.subunit.ENG { fill: #ddc; }
+.subunit.IRL { display: none; }
+*/
+
+.subunit-boundary {
+  fill: none;
+  stroke: #222;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
 </style>
 </head>
 <body>
 <script src="d3.v3.min.js"></script>
 <script src="topojson.v1.min.js"></script>
 <script>
-	/*
-var width = 960,
-    height = 500;
-
-var projection = d3.geo.mercator()
-    .center([0, 0 ])
-    .scale(5000)
-    .rotate([0,0]);
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-var path = d3.geo.path()
-    .projection(projection);
-
-var g = svg.append("g");
-///maps/states_provinces/spain.topo.json
-var mapStr = "maps/world-110m2.json";
-//mapStr = "maps/states_provinces/spain.topo.json";
-//mapStr = "maps/lala.json";
-mapStr = "maps/occitania.json"
-d3.json(mapStr, function(error, topology) {
-     svg.append("path")
-      .datum(topojson.feature(topology, topology.objects.countries))
-      .attr("d", d3.geo.path().projection(d3.geo.mercator()));
-});
-
-d3.json("maps/states_provinces/spain.topo.json", function(error, spainJSON) {
-     svg.append("path")
-      .datum(topojson.feature(spainJSON, spainJSON.objects.spain))
-      .attr("d", d3.geo.path().projection(d3.geo.mercator()));
-});
-*/
-
-var width = 1400,
+var width = 2000,
     height = 1160;
 
 var projection = d3.geo.albers()
@@ -68,14 +50,38 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var mapStr = "maps/world-110m2.json";
-//mapStr = "maps/states_provinces/spain.topo.json";
-//mapStr = "maps/lala.json";
-mapStr = "maps/occitania.json"
-d3.json(mapStr, function(error, occitania) {
-  svg.append("path")
+var mapStr = "maps/occitania.json"
+// just gray map
+/*  svg.append("path")
       .datum(topojson.feature(occitania, occitania.objects.subunits))
-      .attr("d", path);
+      .attr("d", path);*/
+
+d3.json(mapStr, function(error, occitania) {
+	svg.selectAll(".subunit")
+		.data(topojson.feature(occitania, occitania.objects.subunits).features)
+		.enter().append("path")
+		.attr("class", function(d) { return "subunit " + d.id; })
+		.attr("d", path);
+
+	svg.append("path")
+		.datum(topojson.mesh(occitania, occitania.objects.states_provinces, function(a, b) { return a !== b; }))
+		.attr("d", path)
+		.attr("class", "subunit-boundary");
+
+	svg.append("path")
+		.datum(topojson.feature(occitania, occitania.objects.places))
+		.attr("d", path)
+		.attr("class", "place");
+
+	svg.selectAll(".place-label")
+		.data(topojson.feature(occitania, occitania.objects.places).features)
+		.enter().append("text")
+		.attr("class", "place-label")
+		.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+		.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+		.attr("dy", ".35em")
+		.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+		.text(function(d) { return d.properties.name; });
 });
 
 </script>
