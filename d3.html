@@ -52,6 +52,13 @@ path {
   fill: #444;
 }
 
+.regionNameContainer
+{
+	position:  absolute;
+	left:  5px;
+	top: 5px;
+}
+
 text {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
@@ -62,8 +69,10 @@ text {
 <body>
 <script src="d3.v3.min.js"></script>
 <script src="topojson.v1.min.js"></script>
-<h2 id="regionName">&nbsp;</h2>
-<h4 id="subRegionName">&nbsp;</h4>
+<div class="regionNameContainer">
+	<h2 id="regionName">&nbsp;</h2>
+	<h4 id="subRegionName">&nbsp;</h4>
+</div>
 <script>
 var width = 1200,
     height = 1160;
