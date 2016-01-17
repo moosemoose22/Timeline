@@ -19,7 +19,7 @@ ogr2ogr \
 topojson \
   -o occitania.json \
   --id-property SU_A3 \
-  --properties name=NAME,regionname=region,region=code_hasc \
+  --properties name=NAME,regionname=region,subregionname=woe_name,region=code_hasc \
   -- \
   subunits.json \
   places.json \
