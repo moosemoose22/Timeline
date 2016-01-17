@@ -62,7 +62,7 @@ text {
 <body>
 <script src="d3.v3.min.js"></script>
 <script src="topojson.v1.min.js"></script>
-<h2 id="regionName"></h2>
+<h2 id="regionName">&nbsp;</h2>
 <script>
 var width = 1200,
     height = 1160;
@@ -128,13 +128,12 @@ svg.selectAll('.region')
 		.enter()
 		.append('path')
 		.attr('class', 'region')
-		.attr('d', path);
-/*		.on('mouseover', function(d){
-			var name = d.properties.regionname;
-			console.log(d);
-		//	return document.getElementById('regionName').innerHTML=d.properties.keys();
+		.attr('d', path)
+		.on('mouseover', function(d){
+			var regionname = d.properties.regionname;
+			return document.getElementById('regionName').innerHTML=regionname;
 		});
-*/
+
 
 });
 </script>
