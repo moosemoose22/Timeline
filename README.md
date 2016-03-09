@@ -1,6 +1,7 @@
-Timeline
+Interactive history of Occitania/south France and north Spain
 ========
 
-Timeline creation software, using D3, backbone.js, PHP, and mySQL
+Interactive history of Occitania/south France and north Spain using D3.
 
-The eventual goal is to show the history of Occitania/Catalonia, a region in southern France and northern Spain. History has put them in different countries, yet for centuries they shared a similar language and similar cultures.
+The goal is to use the web to convey the history Occitania.
+Occitania and Catalonia are regions in southern France and northern Spain. History has put them in different countries, yet for centuries they shared a similar language and similar cultures.
