@@ -24,3 +24,7 @@ topojson \
   subunits.json \
   places.json \
   states_provinces.json
+
+
+ogr2ogr   -f GeoJSON  -where "population is not null" alsace.json places.shp
+topojson -o alsace.topo.json --id-property name --properties population=population -- alsace.geo.json
