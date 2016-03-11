@@ -1,0 +1,98 @@
+path {
+	stroke: white;
+	stroke-width: 0.25px;
+	fill: grey;
+}
+
+/* Area coloring */
+.subunit.ESX { fill: #dcd; }
+.subunit.FXX { fill: #cdd; }
+.subunit.ESI { fill: #666; }
+.subunit.MCO { fill: #666; }
+.subunit.AND { fill: #99b; }
+/*.subunit.ESI { fill: #cdc; }
+.subunit.ENG { fill: #ddc; }
+.subunit.IRL { display: none; }
+*/
+.subunit-label {
+	fill: #777;
+	fill-opacity: .5;
+	font-size: 20px;
+	font-weight: 300;
+	text-anchor: middle;
+}
+
+/*.subunit-boundary {
+  fill: none;
+  stroke: #222;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}*/
+
+.region {
+	fill: #000;
+	fill-opacity: .01;
+	stroke: #222;
+	stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+.region:hover {
+	fill: #000;
+	fill-opacity: .2;
+}
+
+.regionLarge {
+	fill: #009900;
+	fill-opacity: .75;
+	stroke: #222;
+	position: absolute;
+	display: block;
+}
+
+.place,
+.place-label {
+	fill: #444;
+}
+
+.regionNameContainer
+{
+	position: fixed;
+	left: 5px;
+	top: 5px;
+}
+
+text
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	pointer-events: none;
+}
+
+.openWindowStyle
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	background-color: rgba(0,0,0,0.0);
+	transform-origin: top left;
+	-webkit-transition: .75s linear;
+	-moz-transition: .75s linear;
+	-o-transition: .75s linear;
+	transition: .75s linear;
+	overflow-y: scroll;
+}
+
+.closeButton
+{
+	position: fixed;
+	display: none;
+	left: 0px;
+	top: 0x;
+	z-index: 101;
+}
+
+#openWindowGroup
+{
+	position: absolute;
+}

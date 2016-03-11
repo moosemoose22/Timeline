@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Occitania</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="occitaniaStyles.css">
+</head>
+<body>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="topojson.v1.min.js"></script>
+<script src="latinize.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.1.js"></script>
+<script src="occitaniaFuncs.js"></script>
+<script>
+	var width = 1200,
+		height = 1160;
+
+	// Albers equal-area conic projection
+	// From wikipedia: a conic, equal area map projection that uses two standard parallels.
+	// Although scale and shape are not preserved, distortion is minimal between the standard parallels.
+	var projection = d3.geo.albers()
+		.center([0, 43.96])
+		.rotate([1, 0.37])
+		.parallels([50, 60])
+		.scale(1200 * 4)
+		.translate([width / 2, height / 2]);
+
+	var projectionLarge = d3.geo.albers()
+		.center([0, 43.96])
+		.rotate([1, 0.37])
+		.parallels([50, 60])
+		.scale(1200 * 20)
+		.translate([width / 2, height / 2]);
+
+	// Create a new geographic path generator
+	// and set the projection used by the path generator what we specified above.
+	// If projection is not specified, returns the current projection, which defaults to albersUsa.
+	var path = d3.geo.path()
+		.projection(projection);
+
+	// Append default svg
+	var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height)
+		.attr("id", "mainD3Map");
+
+	// Read in the json file with our data, then draw a map from it
+	var mapStr = "maps/occitania.json"
+	d3.json(mapStr, function(error, occitania)
+	{
+		// Color each region based on country
+		// See "Area coloring" in the styles above
+		svg.selectAll(".subunit")
+			.data(topojson.feature(occitania, occitania.objects.subunits).features)
+			.enter().append("path")
+			.attr("class", function(d) { return "subunit " + d.id; })
+			.attr("d", path);
+
+		// Labels on countries
+		svg.selectAll(".subunit-label")
+			.data(topojson.feature(occitania, occitania.objects.subunits).features)
+			.enter().append("text")
+			.attr("class", function(d) { return "subunit-label " + d.id; })
+			.attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+			.attr("dy", ".35em")
+			.text(function(d) { return d.properties.name; });
+
+		/*
+		// just gray map
+		svg.append("path")
+			.datum(topojson.feature(occitania, occitania.objects.subunits))
+			.attr("d", path);
+		
+		svg.append("path")
+			.datum(topojson.mesh(occitania, occitania.objects.states_provinces, function(a, b) { return a !== b; }))
+			.attr("d", path)
+			.attr("class", "subunit-boundary");*/
+
+		// Add little gray dot next to city
+		svg.append("path")
+			.datum(topojson.feature(occitania, occitania.objects.places))
+			.attr("d", path)
+			.attr("class", "place");
+
+		// City names
+		svg.selectAll(".place-label")
+			.data(topojson.feature(occitania, occitania.objects.places).features)
+			.enter().append("text")
+			.attr("class", "place-label")
+			.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+			.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+			.attr("dy", ".35em")
+			.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+			.text(function(d) { return d.properties.name; });
+
+		// Draw borders between regions and create mouseovers
+		svg.selectAll('.region')
+			.data(topojson.feature(occitania, occitania.objects.states_provinces).features)
+			.enter()
+			.append('path')
+			.attr('class', 'region')
+			.attr('d', path)
+			.attr("id", function (d){
+				var id = d.properties.regionname + "_" + d.properties.subregionname;
+				id = convertID(id);
+				return id;
+			})
+			.on('mouseover', function(d){
+				// Put region and subregion name in top corner
+				$('#regionName').html(d.properties.regionname);
+				$('#subRegionName').html(d.properties.subregionname);
+			})
+			.on('click', function(d){
+				openRegionWindow(d);
+			});
+	});
+</script>
+<div class="regionNameContainer">
+	<h2 id="regionName">&nbsp;</h2>
+	<h4 id="subRegionName">&nbsp;</h4>
+</div>
+<img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="closeWindowPrelim()" />
+<svg id="openWindow" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
+	<g id="openWindowGroup"></g>
+</svg>
+</body>
+</html>
