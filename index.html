@@ -11,6 +11,7 @@
 <script src="latinize.js"></script>
 <script src="http://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="occitaniaFuncs.js"></script>
+<script src="occitaniaRegions.js"></script>
 <script>
 	var width = 1200,
 		height = 1160;
@@ -45,7 +46,7 @@
 		.attr("id", "mainD3Map");
 
 	// Read in the json file with our data, then draw a map from it
-	var mapStr = "maps/occitania.json"
+	var mapStr = "maps/occitania.json";
 	d3.json(mapStr, function(error, occitania)
 	{
 		// Color each region based on country
