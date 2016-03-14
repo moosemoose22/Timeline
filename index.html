@@ -39,6 +39,8 @@
 	var path = d3.geo.path()
 		.projection(projection);
 
+	var regionPath = d3.geo.path().projection(projection).pointRadius(.1);
+
 	// Append default svg
 	var svg = d3.select("body").append("svg")
 		.attr("width", width)

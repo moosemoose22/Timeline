@@ -42,12 +42,16 @@ path {
 }
 
 .regionLarge {
-	fill: #009900;
 	fill-opacity: .75;
 	stroke: #222;
 	position: absolute;
 	display: block;
 }
+.regionLarge.ES { fill: #dcd; }
+.regionLarge.FR { fill: #cdd; }
+.regionLarge.MC { fill: #666; }
+.regionLarge.AD { fill: #99b; }
+.regionLarge.ESI { fill: #666; }
 
 .place,
 .place-label {

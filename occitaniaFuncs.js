@@ -1,5 +1,8 @@
 // Variable declarations
-var transitionEndName, calledRegionOpen, calledRegionPrelimClose, calledRegionClose, currentRegion, regionIsOpen;
+var transitionEndName;
+var calledRegionOpen, calledRegionPrelimClose, calledRegionClose, regionIsOpen;
+var currentRegion, currentFullRegion;
+var currentLeftOffset, currentTopOffset, currentScaling;
 
 // Events and variables being set on load
 window.onload = function()
@@ -32,13 +35,14 @@ window.onload = function()
 				calledRegionClose = false;
 				$("#openWindow").css("z-index", "-1");
 				// Hide previously clicked region
-				$( "#" + currentRegion + "_copy" ).remove();
+				$( "#" + currentFullRegion + "_copy" ).remove();
 			}
 			else if (calledRegionOpen)
 			{
 				calledRegionOpen = false;
 				regionIsOpen = true;
 				$("#openWindow").css("background-color", "rgba(0,0,0,0.25)");
+				//console.log(currentFullRegion);
 			}
 		});
 	$(window).scroll(function()
@@ -95,7 +99,11 @@ function openRegionWindow(data)
 	calledRegionOpen = true;
 	var id = data.properties.regionname + "_" + data.properties.subregionname;
 	id = convertID(id);
-	currentRegion = id;
+	currentRegion = data.properties.regionname;
+	currentFullRegion = id;
+
+	if (currentRegion == "Alsace")
+		regionFuncs.init();
 
 	var topleftCoordinates, bottomrightCoordinates;
 
@@ -134,16 +142,24 @@ function openRegionWindow(data)
 	var heightDiff = bottomrightCoordinates[1] - topleftCoordinates[1];
 	var widthDimension = (window.innerWidth / widthDiff);
 	var heightDimension = (window.innerHeight / heightDiff);
-	var finalDimension = (widthDimension > heightDimension) ? heightDimension : widthDimension;
-	var centerRegionExtraPixels = (window.innerWidth - widthDiff) / finalDimension;
+	currentScaling = (widthDimension > heightDimension) ? heightDimension : widthDimension;
+	var centerRegionExtraPixels = (window.innerWidth - widthDiff) / currentScaling;
 	// .1 is quasi-offset for some regions being too large
-	finalDimension = finalDimension - finalDimension * .1;
+	currentScaling = currentScaling - currentScaling * .1;
 
-	$( "#" + currentRegion )
+	var countryAbbrev = data.properties.region;
+	if (countryAbbrev.indexOf(".") !== -1)
+	{
+		var tmp = countryAbbrev.split(".");
+		countryAbbrev = tmp[0];
+	}
+
+	$( "#" + currentFullRegion )
 		.clone()
-		.prop('id', currentRegion + "_copy" )
+		.prop('id', currentFullRegion + "_copy" )
 		.removeClass("region" )
 		.addClass("regionLarge" )
+		.addClass(countryAbbrev)
 		.appendTo( "#openWindowGroup" );
 
 	$("#openWindow")
@@ -156,12 +172,12 @@ function openRegionWindow(data)
 	// Also: we need to use translate below instead of changing css's left and top.
 	// Translate has much faster animations, especially in Chrome
 	// .2 is quasi-offset for stroke-width
-	var leftOffset = topleftCoordinates[0] * finalDimension * -1 + (finalDimension * .2) + centerRegionExtraPixels;
-	var topOffset = topleftCoordinates[1] * finalDimension * -1 + (finalDimension * .2);
+	currentLeftOffset = topleftCoordinates[0] * currentScaling * -1 + (currentScaling * .2) + centerRegionExtraPixels;
+	currentTopOffset = topleftCoordinates[1] * currentScaling * -1 + (currentScaling * .2);
 	$("#openWindow")
 		.css("animation-duration", "1.5s")
 		.css("-webkit-animation-duration", "1.5s")
-		.css("transform", "translate(" + leftOffset + "px," + topOffset + "px) scale(" + finalDimension + ")");
+		.css("transform", "translate(" + currentLeftOffset + "px," + currentTopOffset + "px) scale(" + currentScaling + ")");
 	$("#closeButtonObj").css("display", "inline");
 }
 
