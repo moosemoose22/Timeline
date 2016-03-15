@@ -154,6 +154,8 @@ function openRegionWindow(data)
 		countryAbbrev = tmp[0];
 	}
 
+	$("#openWindow").html('<g id="openWindowGroup"></g>');
+
 	$( "#" + currentFullRegion )
 		.clone()
 		.prop('id', currentFullRegion + "_copy" )
