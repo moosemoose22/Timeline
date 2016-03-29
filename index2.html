@@ -40,19 +40,50 @@
 		.attr("height", height)
 		.attr("id", "mainD3Map");
 
+	var newMapStr = "maps/france_admin2.json";
+	d3.json(newMapStr, function(error, newOccitania)
+	{
+		// Color each region based on country
+		// See "Area coloring" in the styles above
+		svg.selectAll(".subunit")
+			.data(topojson.feature(newOccitania, newOccitania.objects.franceAdmin2).features)
+			.enter().append("path")
+			.attr("class", function(d) { return "subunit FXX"; })
+			.attr("d", path);
+
+		svg.selectAll('.region')
+			.data(topojson.feature(newOccitania, newOccitania.objects.franceAdmin2).features)
+			.enter()
+			.append('path')
+			.attr('class', 'region')
+			.attr('d', path)
+			.attr("id", function (d){
+				var id = d.properties.regionname + "_" + d.properties.subregionname;
+				id = convertID(id);
+				return id;
+			})
+			.on('mouseover', function(d){
+				// Put region and subregion name in top corner
+				$('#regionName').html(d.properties.regionname);
+				$('#subRegionName').html(d.properties.subregionname);
+			})
+			.on('click', function(d){
+				openRegionWindow(d);
+			});
+	});
 	// Read in the json file with our data, then draw a map from it
 	var mapStr = "maps/occitania.json";
 	d3.json(mapStr, function(error, occitania)
 	{
 		// Color each region based on country
 		// See "Area coloring" in the styles above
-		
+		/*
 		svg.selectAll(".subunit")
 			.data(topojson.feature(occitania, occitania.objects.subunits).features)
 			.enter().append("path")
 			.attr("class", function(d) { return "subunit " + d.id; })
 			.attr("d", path);
-		
+		*/
 
 		// Labels on countries
 		svg.selectAll(".subunit-label")
@@ -92,6 +123,7 @@
 			.text(function(d) { return d.properties.name; });
 
 		// Draw borders between regions and create mouseovers
+		/*
 		svg.selectAll('.region')
 			.data(topojson.feature(occitania, occitania.objects.states_provinces).features)
 			.enter()
@@ -111,6 +143,7 @@
 			.on('click', function(d){
 				openRegionWindow(d);
 			});
+		*/
 	});
 </script>
 <div class="regionNameContainer">
