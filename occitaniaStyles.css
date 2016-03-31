@@ -5,11 +5,18 @@ path {
 }
 
 /* Area coloring */
-.subunit.ESX { fill: #dcd; }
-.subunit.FXX { fill: #cdd; }
+.subunit.ESX { fill: #ddccdd; }
+.subunit.FXX { fill: #ccdddd; }
 .subunit.ESI { fill: #666; }
 .subunit.MCO { fill: #666; }
-.subunit.AND { fill: #99b; }
+.subunit.AND { fill: #aaccdd; }
+
+.subunit.spain { fill: #dcd; }
+.subunit.france { fill: #cdd; }
+.subunit.ESI { fill: #666; }
+.subunit.monaco { fill: #666; }
+.subunit.andorra { fill: #aaccdd; }
+
 /*.subunit.ESI { fill: #cdc; }
 .subunit.ENG { fill: #ddc; }
 .subunit.IRL { display: none; }
@@ -50,7 +57,7 @@ path {
 .regionLarge.ES { fill: #dcd; }
 .regionLarge.FR { fill: #cdd; }
 .regionLarge.MC { fill: #666; }
-.regionLarge.AD { fill: #99b; }
+.regionLarge.AND { fill: #aaccdd; }
 .regionLarge.ESI { fill: #666; }
 
 .place,
@@ -72,12 +79,11 @@ text
 	pointer-events: none;
 }
 
-.openWindowStyle
+.openWindowStyle, .openRegionStyle
 {
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: -1;
 	background-color: rgba(0,0,0,0.0);
 	transform-origin: top left;
 	-webkit-transition: .75s linear;
@@ -87,13 +93,23 @@ text
 	overflow-y: scroll;
 }
 
+.openWindowStyle
+{
+	z-index: -1;
+}
+
+.openRegionStyle
+{
+	z-index: -1;
+	visibility: hidden;
+}
+
 .closeButton
 {
 	position: fixed;
 	display: none;
-	left: 0px;
 	top: 0x;
-	z-index: 101;
+	z-index: 1001;
 }
 
 #openWindowGroup

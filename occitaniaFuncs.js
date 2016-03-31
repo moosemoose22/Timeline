@@ -36,12 +36,17 @@ window.onload = function()
 				$("#openWindow").css("z-index", "-1");
 				// Hide previously clicked region
 				$( "#" + currentFullRegion + "_copy" ).remove();
+				$("#regionMap").remove();
+				//$("#openRegion").css("z-index", "-1").css("visibility", "hidden");
 			}
 			else if (calledRegionOpen)
 			{
 				calledRegionOpen = false;
 				regionIsOpen = true;
-				$("#openWindow").css("background-color", "rgba(0,0,0,0.25)");
+				$(".openRegionStyle").css("z-index", "1000").css("visibility", "visible");
+				$("#openWindowGroup").css("visibility", "hidden");
+				$("#openWindow").css("background-color", "rgba(0,0,0,0.5)");
+				//$("#regionMap").css("visibility", "visible");
 				//console.log(currentFullRegion);
 			}
 		});
@@ -94,58 +99,25 @@ function getLargeMapCoords(mapPoints, position)
 }
 
 // Open region detail window when clicking on region on map
-function openRegionWindow(data)
+function openRegionWindow(mapCountry, data)
 {
 	calledRegionOpen = true;
-	var id = data.properties.regionname + "_" + data.properties.subregionname;
+	var id = mapCountry + "_" + data.properties.regionname + "_" + data.properties.subregionname;
 	id = convertID(id);
 	currentRegion = data.properties.regionname;
 	currentFullRegion = id;
 
-	if (currentRegion == "Alsace")
-		regionFuncs.init();
+	// Stolen from http://bl.ocks.org/mbostock/4707858
+	var screenWidth = window.innerWidth - 20;
+	var screenHeight = window.innerHeight - 20;
+	var b = path.bounds(data),
+		s = .95 / Math.max((b[1][0] - b[0][0]) / screenWidth, (b[1][1] - b[0][1]) / screenHeight),
+		t = [(screenWidth - s * (b[1][0] + b[0][0])) / 2, (screenHeight - s * (b[1][1] + b[0][1])) / 2];
+	currentLeftOffset = t[0];
+	currentTopOffset = t[1];
+	currentScaling = s;
 
-	var topleftCoordinates, bottomrightCoordinates;
-
-	if (data.geometry.type == "Polygon")
-	{
-		var topleftCoords = getLargeMapCoords(data.geometry.coordinates[0], "topleft");
-		var bottomrightCoords = getLargeMapCoords(data.geometry.coordinates[0], "bottomright");
-		topleftCoordinates = projection(topleftCoords);
-		bottomrightCoordinates = projection(bottomrightCoords);
-	}
-	else if (data.geometry.type == "MultiPolygon")
-	{
-		var XcoordArrTopleft = [];
-		var YcoordArrTopleft = [];
-		var XcoordArrBottomright = [];
-		var YcoordArrBottomright = [];
-		data.geometry.coordinates.forEach(function(coordArr)
-		{
-			var topleftCoords = getLargeMapCoords(coordArr[0], "topleft");
-			XcoordArrTopleft.push(topleftCoords[0]);
-			YcoordArrTopleft.push(topleftCoords[1]);
-			var bottomrightCoords = getLargeMapCoords(coordArr[0], "bottomright");
-			XcoordArrBottomright.push(bottomrightCoords[0]);
-			YcoordArrBottomright.push(bottomrightCoords[1]);
-		});
-		var XcoordTopleft = d3.min(XcoordArrTopleft);
-		var YcoordTopleft = d3.max(YcoordArrTopleft);
-		var XcoordBottomright = d3.max(XcoordArrBottomright);
-		var YcoordBottomright = d3.min(YcoordArrBottomright);
-		topleftCoordinates = projection([XcoordTopleft, YcoordTopleft]);
-		bottomrightCoordinates = projection([XcoordBottomright, YcoordBottomright]);
-	}
-
-	// Figure out which is the smallest increase that scales the svg to the max width or height of the screen
-	var widthDiff = bottomrightCoordinates[0] - topleftCoordinates[0];
-	var heightDiff = bottomrightCoordinates[1] - topleftCoordinates[1];
-	var widthDimension = (window.innerWidth / widthDiff);
-	var heightDimension = (window.innerHeight / heightDiff);
-	currentScaling = (widthDimension > heightDimension) ? heightDimension : widthDimension;
-	var centerRegionExtraPixels = (window.innerWidth - widthDiff) / currentScaling;
-	// .1 is quasi-offset for some regions being too large
-	currentScaling = currentScaling - currentScaling * .1;
+	regionFuncs.init(mapCountry, data.properties.regionID, data.properties.subregionID);
 
 	var countryAbbrev = data.properties.region;
 	if (countryAbbrev.indexOf(".") !== -1)
@@ -153,7 +125,6 @@ function openRegionWindow(data)
 		var tmp = countryAbbrev.split(".");
 		countryAbbrev = tmp[0];
 	}
-
 	$("#openWindow").html('<g id="openWindowGroup"></g>');
 
 	$( "#" + currentFullRegion )
@@ -174,13 +145,12 @@ function openRegionWindow(data)
 	// Also: we need to use translate below instead of changing css's left and top.
 	// Translate has much faster animations, especially in Chrome
 	// .2 is quasi-offset for stroke-width
-	currentLeftOffset = topleftCoordinates[0] * currentScaling * -1 + (currentScaling * .2) + centerRegionExtraPixels;
-	currentTopOffset = topleftCoordinates[1] * currentScaling * -1 + (currentScaling * .2);
 	$("#openWindow")
 		.css("animation-duration", "1.5s")
 		.css("-webkit-animation-duration", "1.5s")
 		.css("transform", "translate(" + currentLeftOffset + "px," + currentTopOffset + "px) scale(" + currentScaling + ")");
-	$("#closeButtonObj").css("display", "inline");
+	var closeButtonWidth = $("#closeButtonObj").width();
+	$("#closeButtonObj").css("display", "inline").css("right", closeButtonWidth);
 }
 
 // Called when user clicks on close button on top right
@@ -188,7 +158,10 @@ function openRegionWindow(data)
 function closeWindowPrelim()
 {
 	calledRegionPrelimClose = true;
+	$(".openRegionStyle").css("z-index", "-1").css("visibility", "hidden");
+	$("#openWindowGroup").css("visibility", "visible");
 	$("#openWindow").css("background-color", "rgba(0,0,0,0.0)");
+	$("#closeButtonObj").css("display", "none");
 }
 function closeWindow()
 {

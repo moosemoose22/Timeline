@@ -1,15 +1,80 @@
 var regionFuncs = new function()
 {
-	var mapStr = "maps/france/alsace.topo.json";
-	this.init = function()
+	this.init = function(mapCountry, regionID, subregionID)
 	{
+		var mapStr = "maps/" + mapCountry + "/regions/" + mapCountry + "." + subregionID + ".topo.json";
+		console.log(mapStr);
 		d3.json(mapStr, function(error, regionTopoJson)
 		{
+			var regions = topojson.feature(regionTopoJson, regionTopoJson.objects.region);
+
+			//var center = path.centroid(regions);
+			var newProjection = d3.geo.albers()
+				.center([0, 43.96])
+				.rotate([1, 0.37])
+				.parallels([50, 60])
+				.scale(1200 * 4)
+				.translate([600, 630]);
+
+			var newPath = d3.geo.path().projection(newProjection);
+			newProjection
+				.scale(1)
+				.translate([0, 0]);
+
+			var windowWidth = window.innerWidth - 20,
+			windowHeight = window.innerHeight - 20;
+			var b = newPath.bounds(regions),
+				s = .95 / Math.max((b[1][0] - b[0][0]) / windowWidth, (b[1][1] - b[0][1]) / windowHeight),
+				t = [(windowWidth - s * (b[1][0] + b[0][0])) / 2, (windowHeight - s * (b[1][1] + b[0][1])) / 2];
+
+			newProjection
+				.scale(s)
+				.translate(t);
+			//console.log(d3.geo.centroid(regionTopoJson));
+			//http://bl.ocks.org/mbostock/4707858
+
+
+			// Color each region based on country
+			// See "Area coloring" in the styles above
+			var regionSVG = d3.select("#openRegion").append("svg")
+				.attr("width", windowWidth)
+				.attr("height", windowHeight)
+				.attr("id", "regionMap");
+			//.attr("visibility", "hidden");
+
+			regionSVG.selectAll(".subsubregionColor")
+				.data(topojson.feature(regionTopoJson, regionTopoJson.objects.region).features)
+				.enter().append("path")
+				.attr("class", function(d) { return "subunit " + mapCountry; })
+				.attr("d", newPath);
+
+			regionSVG.selectAll('.subsubregionArea')
+				.data(topojson.feature(regionTopoJson, regionTopoJson.objects.region).features)
+				.enter()
+				.append('path')
+				.attr('class', 'region')
+				.attr('d', newPath)
+				.attr("id", function (d){
+					var id = d.properties.regionname + "_" + d.properties.subregionname;
+					id = convertID(id);
+					return id;
+				})
+				.on('mouseover', function(d){
+					// Put region and subregion name in top corner
+					$('#regionName').html(d.properties.regionname);
+					$('#subRegionName').html(d.properties.subregionname);
+					// Andorra, and possibly other small countries, don't have admin3
+					if ("admin3name" in d.properties)
+						$('#subSubRegionName').html(d.properties.admin3name);
+				})
+				.on('click', function(d){
+					;
+				});
 			//console.log(regionTopoJson);
 			//svg.append("path")
 			//var regionSvg = d3.select("#" + currentFullRegion);
-			var regionSvg = d3.select("#openWindow");
-		/*	regionSvg.append("path")
+		/*	var regionSvg = d3.select("#openWindow");
+			regionSvg.append("path")
 				.datum(topojson.feature(regionTopoJson, regionTopoJson.objects.alsace))
 				.attr("d", regionPath)
 				.attr("class", "place");
@@ -17,16 +82,16 @@ var regionFuncs = new function()
 			.enter().append("path")
 			.attr("class", function(d) { return "subunit " + d.id; })
 			.attr("d", path);
-*/
-		regionSvg.selectAll(".alsaceCity")
-			.data(topojson.feature(regionTopoJson, regionTopoJson.objects.alsace).features)
+
+		regionSvg.selectAll(".region")
+			.data(topojson.feature(regionTopoJson, regionTopoJson.objects.region).features)
 			.enter()
 			.append("path")
 			.filter(function(d) { return d.properties.population > 5000 })
 			.attr("class", "place")
 			.attr("d", regionPath);
 
-/*			regionSvg.append("path")
+			regionSvg.append("path")
 				.datum(topojson.feature(regionTopoJson, regionTopoJson.objects.alsace))
 				.filter(function(d) { console.log(d); return d.properties.population > 10000 })
 				.attr("d", regionPath)
