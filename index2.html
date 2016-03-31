@@ -13,53 +13,6 @@
 <script src="occitaniaFuncs.js"></script>
 <script src="occitaniaRegions.js"></script>
 <script>
-	function writeMap(mapCountry)
-	{
-		console.log(mapCountry);
-		var mapLoc;
-		if (mapCountry == "andorra" || mapCountry == "monaco")
-			mapLoc = "maps/" + mapCountry + "/" + mapCountry + ".adm0.topo.json";
-		else
-			mapLoc = "maps/" + mapCountry + "/" + mapCountry + ".adm2.topo.json";
-		d3.json(mapLoc, function(error, newOccitania)
-		{
-			// Color each region based on country
-			// See "Area coloring" in the styles above
-			var topojsonObj;
-			if ("admin2" in newOccitania.objects)
-				topojsonObj = newOccitania.objects.admin2;
-			else if ("admin1" in newOccitania.objects)
-				topojsonObj = newOccitania.objects.admin1;
-			else if ("admin0" in newOccitania.objects)
-				topojsonObj = newOccitania.objects.admin0;
-			svg.selectAll(".subunit" + mapCountry)
-				.data(topojson.feature(newOccitania, topojsonObj).features)
-				.enter().append("path")
-				.attr("class", function(d) { return "subunit " + mapCountry; })
-				.attr("d", path);
-
-			svg.selectAll('.region' + mapCountry)
-				.data(topojson.feature(newOccitania, topojsonObj).features)
-				.enter()
-				.append('path')
-				.attr('class', 'region')
-				.attr('d', path)
-				.attr("id", function (d){
-					var id = mapCountry + "_" + d.properties.regionname + "_" + d.properties.subregionname;
-					id = convertID(id);
-					return id;
-				})
-				.on('mouseover', function(d){
-					// Put region and subregion name in top corner
-					$('#regionName').html(d.properties.regionname);
-					$('#subRegionName').html(d.properties.subregionname);
-				})
-				.on('click', function(d){
-					openRegionWindow(mapCountry, d);
-				});
-		});
-	}
-
 	var width = 1200,
 		height = 1300;
 
@@ -87,21 +40,85 @@
 		.attr("height", height)
 		.attr("id", "mainD3Map");
 
-	writeMap("france");
-	writeMap("spain");
-	writeMap("andorra");
-	writeMap("monaco");
-	//writeMap("maps/spain/spain.adm2.topo.json");
+	// Read in the json file with our data, then draw a map from it
+	var mapStr = "maps/occitania.json";
+	d3.json(mapStr, function(error, occitania)
+	{
+		// Color each region based on country
+		// See "Area coloring" in the styles above
+		
+		svg.selectAll(".subunit")
+			.data(topojson.feature(occitania, occitania.objects.subunits).features)
+			.enter().append("path")
+			.attr("class", function(d) { return "subunit " + d.id; })
+			.attr("d", path);
+		
+
+		// Labels on countries
+		svg.selectAll(".subunit-label")
+			.data(topojson.feature(occitania, occitania.objects.subunits).features)
+			.enter().append("text")
+			.attr("class", function(d) { return "subunit-label " + d.id; })
+			.attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+			.attr("dy", ".35em")
+			.text(function(d) { return d.properties.name; });
+
+		/*
+		// just gray map
+		svg.append("path")
+			.datum(topojson.feature(occitania, occitania.objects.subunits))
+			.attr("d", path);
+		
+		svg.append("path")
+			.datum(topojson.mesh(occitania, occitania.objects.states_provinces, function(a, b) { return a !== b; }))
+			.attr("d", path)
+			.attr("class", "subunit-boundary");*/
+
+		// Add little gray dot next to city
+		svg.append("path")
+			.datum(topojson.feature(occitania, occitania.objects.places))
+			.attr("d", path)
+			.attr("class", "place");
+
+		// City names
+		svg.selectAll(".place-label")
+			.data(topojson.feature(occitania, occitania.objects.places).features)
+			.enter().append("text")
+			.attr("class", "place-label")
+			.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+			.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+			.attr("dy", ".35em")
+			.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+			.text(function(d) { return d.properties.name; });
+
+		// Draw borders between regions and create mouseovers
+		svg.selectAll('.region')
+			.data(topojson.feature(occitania, occitania.objects.states_provinces).features)
+			.enter()
+			.append('path')
+			.attr('class', 'region')
+			.attr('d', path)
+			.attr("id", function (d){
+				var id = d.properties.regionname + "_" + d.properties.subregionname;
+				id = convertID(id);
+				return id;
+			})
+			.on('mouseover', function(d){
+				// Put region and subregion name in top corner
+				$('#regionName').html(d.properties.regionname);
+				$('#subRegionName').html(d.properties.subregionname);
+			})
+			.on('click', function(d){
+				openRegionWindow(d);
+			});
+	});
 </script>
 <div class="regionNameContainer">
 	<h2 id="regionName">&nbsp;</h2>
 	<h4 id="subRegionName">&nbsp;</h4>
-	<h5 id="subSubRegionName">&nbsp;</h5>
 </div>
 <img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="closeWindowPrelim()" />
 <svg id="openWindow" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
-</svg>
-<svg id="openRegion" class="openRegionStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
 </svg>
 </body>
 </html>
