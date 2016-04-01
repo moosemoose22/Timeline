@@ -53,10 +53,74 @@
 					// Put region and subregion name in top corner
 					$('#regionName').html(d.properties.regionname);
 					$('#subRegionName').html(d.properties.subregionname);
+					$('#subSubRegionName').html("");
 				})
 				.on('click', function(d){
 					openRegionWindow(mapCountry, d);
 				});
+		});
+	}
+	
+	function filterPopulation(population)
+	{
+		return (population > 300000);
+	}
+
+	function writeCities(mapCountry)
+	{
+		var mapLoc = "maps/" + mapCountry + "/" + mapCountry + ".population.topo.json";
+		d3.json(mapLoc, function(error, occitania)
+		{
+			// Add little gray dot next to city
+			// Add little gray dot next to city
+			svg.selectAll(".cityDot")
+				.data(topojson.feature(occitania, occitania.objects.population).features)
+				.enter()
+				.append("path")
+				.filter(function(d) { return filterPopulation(d.properties.population); })
+				.attr("d", path)
+				.attr("class", "place");
+
+			svg.selectAll(".place-label")
+				.data(topojson.feature(occitania, occitania.objects.population).features)
+				.enter()
+				.append("text")
+				.filter(function(d) { return filterPopulation(d.properties.population); })
+				.attr("class", "place-label")
+				.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+				.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+				.attr("dy", ".35em")
+				.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+				.text(function(d) { return d.properties.city; });
+		/*
+			svg.append("path")
+				.datum(topojson.feature(occitania, occitania.objects.population).features)
+				.filter(function(d) { console.log(d); return properties.population > 100000 })
+				.attr("d", path)
+				.attr("class", "place");
+			
+
+			// Add little gray dot next to city
+			svg.append("path")
+				.data(topojson.feature(occitania, occitania.objects.population).features)
+				.enter().append("circle")
+				.filter(function(d) { return d.properties.population > 10000 })
+				.attr("cx", function (d) { console.log(projection(d.geometry.coordinates)); return projection(d.geometry.coordinates)[0]; })
+				.attr("cy", function (d) { return projection(d.geometry.coordinates)[1]; })
+				.attr("d", path)
+				.attr("class", "place");
+
+			// City names
+			svg.selectAll(".place-label")
+				.data(topojson.feature(occitania, occitania.objects.population).features)
+				.enter().append("text")
+				.attr("class", "place-label")
+				.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+				.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+				.attr("dy", ".35em")
+				.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+				.text(function(d) { return d.properties.name; });
+*/
 		});
 	}
 
@@ -91,6 +155,8 @@
 	writeMap("spain");
 	writeMap("andorra");
 	writeMap("monaco");
+	writeCities("france");
+	writeCities("spain");
 	//writeMap("maps/spain/spain.adm2.topo.json");
 </script>
 <div class="regionNameContainer">

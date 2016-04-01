@@ -1,0 +1,4394 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7037902,40.4167754 ]
+    },
+    "properties": {
+    "City":"Madrid",
+    "Population":3141991
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1734035,41.3850639 ]
+    },
+    "properties": {
+    "City":"Barcelona",
+    "Population":1604555
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3762881,39.4699075 ]
+    },
+    "properties": {
+    "City":"Valencia",
+    "Population":786189
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9844589,37.3890924 ]
+    },
+    "properties": {
+    "City":"Sevilla",
+    "Population":693878
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.8890853,41.6488226 ]
+    },
+    "properties": {
+    "City":"Zaragoza",
+    "Population":664953
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4212655,36.721261 ]
+    },
+    "properties": {
+    "City":"Málaga",
+    "Population":56913
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1306544,37.9922399 ]
+    },
+    "properties": {
+    "City":"Murcia",
+    "Population":439889
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.6501603,39.5696005 ]
+    },
+    "properties": {
+    "City":"Palma de Mallorca",
+    "Population":400578
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.4362574,28.1235459 ]
+    },
+    "properties": {
+    "City":"Las Palmas de Gran Canaria",
+    "Population":379766
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9349852,43.2630126 ]
+    },
+    "properties": {
+    "City":"Bilbao",
+    "Population":345141
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4906855,38.3459963 ]
+    },
+    "properties": {
+    "City":"Alicante",
+    "Population":328648
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.7793835,37.8881751 ]
+    },
+    "properties": {
+    "City":"Córdoba",
+    "Population":327362
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.724532099999999,41.652251 ]
+    },
+    "properties": {
+    "City":"Valladolid",
+    "Population":303905
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.7207268,42.24059889999999 ]
+    },
+    "properties": {
+    "City":"Vigo",
+    "Population":294098
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.6611195,43.5322015 ]
+    },
+    "properties": {
+    "City":"Gijón",
+    "Population":27429
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1164942,41.3661865 ]
+    },
+    "properties": {
+    "City":"Hospitalet de Llobregat",
+    "Population":252171
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.681791800000001,42.8591656 ]
+    },
+    "properties": {
+    "City":"Vitoria",
+    "Population":243918
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4115401,43.3623436 ]
+    },
+    "properties": {
+    "City":"La Coruña",
+    "Population":24387
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5985571,37.1773363 ]
+    },
+    "properties": {
+    "City":"Granada",
+    "Population":23754
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7125608,38.2699329 ]
+    },
+    "properties": {
+    "City":"Elche",
+    "Population":227312
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.8493887,43.3619145 ]
+    },
+    "properties": {
+    "City":"Oviedo",
+    "Population":22187
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9965839,37.6256827 ]
+    },
+    "properties": {
+    "City":"Cartagena",
+    "Population":216301
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2450325,41.4469883 ]
+    },
+    "properties": {
+    "City":"Badalona",
+    "Population":215654
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0088747,41.563211 ]
+    },
+    "properties": {
+    "City":"Tarrasa",
+    "Population":215214
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.126074399999999,36.6850064 ]
+    },
+    "properties": {
+    "City":"Jerez de la Frontera",
+    "Population":212876
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1086131,41.5462745 ]
+    },
+    "properties": {
+    "City":"Sabadell",
+    "Population":207814
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8676291,40.3232129 ]
+    },
+    "properties": {
+    "City":"Móstoles",
+    "Population":206263
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.2518467,28.4636296 ]
+    },
+    "properties": {
+    "City":"Santa Cruz de Tenerife",
+    "Population":203811
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.3635421,40.4819791 ]
+    },
+    "properties": {
+    "City":"Alcalá de Henares",
+    "Population":19875
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6457745,42.812526 ]
+    },
+    "properties": {
+    "City":"Pamplona",
+    "Population":195853
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8035477,40.2902056 ]
+    },
+    "properties": {
+    "City":"Fuenlabrada",
+    "Population":19518
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4637136,36.834047 ]
+    },
+    "properties": {
+    "City":"Almería",
+    "Population":194203
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7686545,40.3319506 ]
+    },
+    "properties": {
+    "City":"Leganés",
+    "Population":186907
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.9812313,43.318334 ]
+    },
+    "properties": {
+    "City":"San Sebastián",
+    "Population":186095
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.696906,42.3439925 ]
+    },
+    "properties": {
+    "City":"Burgos",
+    "Population":1771
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7323934,40.3082504 ]
+    },
+    "properties": {
+    "City":"Getafe",
+    "Population":174921
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8099803,43.46230569999999 ]
+    },
+    "properties": {
+    "City":"Santander",
+    "Population":173957
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8585424,38.994349 ]
+    },
+    "properties": {
+    "City":"Albacete",
+    "Population":172121
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0513246,39.9863563 ]
+    },
+    "properties": {
+    "City":"Castellón de la Plana",
+    "Population":171669
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8278443,40.3468454 ]
+    },
+    "properties": {
+    "City":"Alcorcón",
+    "Population":167136
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.3159061,28.4874009 ]
+    },
+    "properties": {
+    "City":"San Cristóbal de la Laguna",
+    "Population":152843
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4449852,42.4627195 ]
+    },
+    "properties": {
+    "City":"Logroño",
+    "Population":151344
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9706535,38.8794495 ]
+    },
+    "properties": {
+    "City":"Badajoz",
+    "Population":149892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.663539699999999,40.9701039 ]
+    },
+    "properties": {
+    "City":"Salamanca",
+    "Population":146438
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.9447224,37.261421 ]
+    },
+    "properties": {
+    "City":"Huelva",
+    "Population":146318
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.8824474,36.510071 ]
+    },
+    "properties": {
+    "City":"Marbella",
+    "Population":139537
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.6200146,41.6175899 ]
+    },
+    "properties": {
+    "City":"Lérida",
+    "Population":138542
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.924239099999999,37.2865803 ]
+    },
+    "properties": {
+    "City":"Dos Hermanas",
+    "Population":131317
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.2444909,41.1188827 ]
+    },
+    "properties": {
+    "City":"Tarragona",
+    "Population":131255
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5670959,42.5987263 ]
+    },
+    "properties": {
+    "City":"León",
+    "Population":127817
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.4754967,40.4567552 ]
+    },
+    "properties": {
+    "City":"Torrejón de Ardoz",
+    "Population":126934
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.768906,40.232367 ]
+    },
+    "properties": {
+    "City":"Parla",
+    "Population":125056
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4447406,41.5381124 ]
+    },
+    "properties": {
+    "City":"Mataró",
+    "Population":124867
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2885962,36.5270612 ]
+    },
+    "properties": {
+    "City":"Cádiz",
+    "Population":120468
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.456233,36.1407591 ]
+    },
+    "properties": {
+    "City":"Algeciras",
+    "Population":11892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2103217,41.44458789999999 ]
+    },
+    "properties": {
+    "City":"Santa Coloma de Gramanet",
+    "Population":11695
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.784905699999999,37.7795941 ]
+    },
+    "properties": {
+    "City":"Jaén",
+    "Population":115395
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.637224499999999,40.5372512 ]
+    },
+    "properties": {
+    "City":"Alcobendas",
+    "Population":113055
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.863880999999998,42.33578929999999 ]
+    },
+    "properties": {
+    "City":"Orense",
+    "Population":106231
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1055321,41.1498259 ]
+    },
+    "properties": {
+    "City":"Reus",
+    "Population":103194
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.4173726,27.9955313 ]
+    },
+    "properties": {
+    "City":"Telde",
+    "Population":102078
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9862029,43.2969875 ]
+    },
+    "properties": {
+    "City":"Baracaldo",
+    "Population":100228
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.5567582,43.0097384 ]
+    },
+    "properties": {
+    "City":"Lugo",
+    "Population":9856
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8214264,41.9794005 ]
+    },
+    "properties": {
+    "City":"Gerona",
+    "Population":97227
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.196594800000001,36.4718646 ]
+    },
+    "properties": {
+    "City":"San Fernando",
+    "Population":96335
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3724247,39.4752765 ]
+    },
+    "properties": {
+    "City":"Cáceres",
+    "Population":95855
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5448445,42.8782132 ]
+    },
+    "properties": {
+    "City":"Santiago de Compostela",
+    "Population":958
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8757916,40.4935329 ]
+    },
+    "properties": {
+    "City":"Las Rozas de Madrid",
+    "Population":92784
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6968357,37.6735925 ]
+    },
+    "properties": {
+    "City":"Lorca",
+    "Population":91759
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.6154266,36.7636819 ]
+    },
+    "properties": {
+    "City":"Roquetas de Mar",
+    "Population":91682
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.6808233,37.9847003 ]
+    },
+    "properties": {
+    "City":"Torrevieja",
+    "Population":91415
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5651646,40.4260459 ]
+    },
+    "properties": {
+    "City":"Coslada",
+    "Population":88847
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.2329094,36.600595 ]
+    },
+    "properties": {
+    "City":"El Puerto de Santa María",
+    "Population":887
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0763253,41.4526016 ]
+    },
+    "properties": {
+    "City":"San Cugat del Vallés",
+    "Population":87118
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.830453599999999,39.962884 ]
+    },
+    "properties": {
+    "City":"Talavera de la Reina",
+    "Population":86779
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0707159,41.3573827 ]
+    },
+    "properties": {
+    "City":"Cornellá de Llobregat",
+    "Population":86234
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.3213455,35.8893874 ]
+    },
+    "properties": {
+    "City":"Ceuta",
+    "Population":84963
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9380973,35.2922775 ]
+    },
+    "properties": {
+    "City":"Melilla",
+    "Population":84509
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8074152,40.4475272 ]
+    },
+    "properties": {
+    "City":"Pozuelo de Alarcón",
+    "Population":8436
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.8103551,36.7731148 ]
+    },
+    "properties": {
+    "City":"El Ejido",
+    "Population":84144
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.16017,40.632489 ]
+    },
+    "properties": {
+    "City":"Guadalajara",
+    "Population":8372
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9480050999999999,38.08555279999999 ]
+    },
+    "properties": {
+    "City":"Orihuela",
+    "Population":83417
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.027323099999999,39.8628316 ]
+    },
+    "properties": {
+    "City":"Toledo",
+    "Population":83334
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6261976,40.5589672 ]
+    },
+    "properties": {
+    "City":"San Sebastián de los Reyes",
+    "Population":83329
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0350751,41.3458447 ]
+    },
+    "properties": {
+    "City":"San Baudilio de Llobregat",
+    "Population":83107
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.6446202,42.4298846 ]
+    },
+    "properties": {
+    "City":"Pontevedra",
+    "Population":82946
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1461102,36.4165052 ]
+    },
+    "properties": {
+    "City":"Chiclana de la Frontera",
+    "Population":82298
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9246653,43.5579523 ]
+    },
+    "properties": {
+    "City":"Avilés",
+    "Population":81659
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.472373,39.4322368 ]
+    },
+    "properties": {
+    "City":"Torrente",
+    "Population":80551
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5357334,40.3519065 ]
+    },
+    "properties": {
+    "City":"Rivas-Vaciamadrid",
+    "Population":80483
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.5288016,42.0096857 ]
+    },
+    "properties": {
+    "City":"Palencia",
+    "Population":80178
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.679977,28.0999496 ]
+    },
+    "properties": {
+    "City":"Arona",
+    "Population":7989
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0125674,43.3622858 ]
+    },
+    "properties": {
+    "City":"Guecho",
+    "Population":79544
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1005589,36.7799228 ]
+    },
+    "properties": {
+    "City":"Vélez-Málaga",
+    "Population":77808
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.6323067,36.5967755 ]
+    },
+    "properties": {
+    "City":"Mijas",
+    "Population":77521
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1844671,38.968032 ]
+    },
+    "properties": {
+    "City":"Gandía",
+    "Population":76497
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.624943900000001,36.544148 ]
+    },
+    "properties": {
+    "City":"Fuengirola",
+    "Population":75856
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.8225154,41.7292826 ]
+    },
+    "properties": {
+    "City":"Manresa",
+    "Population":75297
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.927377799999999,38.9848295 ]
+    },
+    "properties": {
+    "City":"Ciudad Real",
+    "Population":7496
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.8416716,37.3397234 ]
+    },
+    "properties": {
+    "City":"Alcalá de Guadaíra",
+    "Population":74404
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0349243,41.4971174 ]
+    },
+    "properties": {
+    "City":"Rubí",
+    "Population":74353
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6740182,40.1912403 ]
+    },
+    "properties": {
+    "City":"Valdemoro",
+    "Population":72265
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2193451,43.48964600000001 ]
+    },
+    "properties": {
+    "City":"Ferrol",
+    "Population":70389
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8683123,40.4737586 ]
+    },
+    "properties": {
+    "City":"Majadahonda",
+    "Population":70359
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1224937,38.5410566 ]
+    },
+    "properties": {
+    "City":"Benidorm",
+    "Population":6901
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2073261,38.05168099999999 ]
+    },
+    "properties": {
+    "City":"Molina de Segura",
+    "Population":68775
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.5401365,27.9101389 ]
+    },
+    "properties": {
+    "City":"Santa Lucía de Tirajana",
+    "Population":68544
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3529689,36.7725774 ]
+    },
+    "properties": {
+    "City":"Sanlúcar de Barrameda",
+    "Population":67385
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.598259000000001,42.5499958 ]
+    },
+    "properties": {
+    "City":"Ponferrada",
+    "Population":67367
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4994767,36.6225541 ]
+    },
+    "properties": {
+    "City":"Torremolinos",
+    "Population":67353
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4431618,39.5037093 ]
+    },
+    "properties": {
+    "City":"Paterna",
+    "Population":67156
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.5168056,36.5987966 ]
+    },
+    "properties": {
+    "City":"Benalmádena",
+    "Population":66939
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.1510261,36.4256345 ]
+    },
+    "properties": {
+    "City":"Estepona",
+    "Population":66566
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.727446,41.2151504 ]
+    },
+    "properties": {
+    "City":"Villanueva y Geltrú",
+    "Population":65941
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0133208,41.315296 ]
+    },
+    "properties": {
+    "City":"Viladecans",
+    "Population":65358
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.2784385,39.6798633 ]
+    },
+    "properties": {
+    "City":"Sagunto",
+    "Population":65003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.7467879,41.5034712 ]
+    },
+    "properties": {
+    "City":"Zamora",
+    "Population":64423
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.9734743,41.2790599 ]
+    },
+    "properties": {
+    "City":"Casteldefels",
+    "Population":63255
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.3468563,36.1927346 ]
+    },
+    "properties": {
+    "City":"La Línea de la Concepción",
+    "Population":63132
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0934902,41.3245953 ]
+    },
+    "properties": {
+    "City":"El Prat de Llobregat",
+    "Population":62866
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0055605,40.6308775 ]
+    },
+    "properties": {
+    "City":"Collado Villalba",
+    "Population":62587
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.7888495,43.3381465 ]
+    },
+    "properties": {
+    "City":"Irún",
+    "Population":61195
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5180363,36.7489747 ]
+    },
+    "properties": {
+    "City":"Motril",
+    "Population":6087
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6369803,38.09690980000001 ]
+    },
+    "properties": {
+    "City":"Linares",
+    "Population":6029
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2870889,41.60619270000001 ]
+    },
+    "properties": {
+    "City":"Granollers",
+    "Population":5993
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4810937,38.6987066 ]
+    },
+    "properties": {
+    "City":"Alcoy",
+    "Population":59675
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3408055,38.9191439 ]
+    },
+    "properties": {
+    "City":"Mérida",
+    "Population":58985
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.6812086,40.656685 ]
+    },
+    "properties": {
+    "City":"Ávila",
+    "Population":58933
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6040527,40.0305018 ]
+    },
+    "properties": {
+    "City":"Aranjuez",
+    "Population":57792
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1396748,41.4900419 ]
+    },
+    "properties": {
+    "City":"Sardañola del Vallés",
+    "Population":57402
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -13.5550363,28.9651694 ]
+    },
+    "properties": {
+    "City":"Arrecife",
+    "Population":5688
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5248710999999999,38.3964181 ]
+    },
+    "properties": {
+    "City":"San Vicente del Raspeig",
+    "Population":55946
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.1374162,40.0703925 ]
+    },
+    "properties": {
+    "City":"Cuenca",
+    "Population":55738
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.4479063,40.3064463 ]
+    },
+    "properties": {
+    "City":"Arganda del Rey",
+    "Population":55307
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.5730295,27.9249459 ]
+    },
+    "properties": {
+    "City":"S. Bartolomé de Tirajana",
+    "Population":54377
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.050150500000001,43.3488503 ]
+    },
+    "properties": {
+    "City":"Torrelavega",
+    "Population":54196
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7964597,38.4765073 ]
+    },
+    "properties": {
+    "City":"Elda",
+    "Population":5354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.108806899999999,40.9429032 ]
+    },
+    "properties": {
+    "City":"Segovia",
+    "Population":5326
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4078058,42.131845 ]
+    },
+    "properties": {
+    "City":"Huesca",
+    "Population":52555
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.7795147,37.1848134 ]
+    },
+    "properties": {
+    "City":"Utrera",
+    "Population":52437
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.6608158,43.3915032 ]
+    },
+    "properties": {
+    "City":"Siero",
+    "Population":5238
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2113698,41.542551 ]
+    },
+    "properties": {
+    "City":"Mollet del Vallés",
+    "Population":51719
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1005932,39.9397706 ]
+    },
+    "properties": {
+    "City":"Villarreal",
+    "Population":50755
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1078877,38.6884458 ]
+    },
+    "properties": {
+    "City":"Puertollano",
+    "Population":50608
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.5197932,39.5626346 ]
+    },
+    "properties": {
+    "City":"Calviá",
+    "Population":50363
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.4205983,38.9067339 ]
+    },
+    "properties": {
+    "City":"Ibiza",
+    "Population":49693
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8887699,40.4122794 ]
+    },
+    "properties": {
+    "City":"Boadilla del Monte",
+    "Population":47852
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6967718,40.2375052 ]
+    },
+    "properties": {
+    "City":"Pinto",
+    "Population":47594
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7710457,40.6626481 ]
+    },
+    "properties": {
+    "City":"Colmenar Viejo",
+    "Population":47445
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0211969,43.3182479 ]
+    },
+    "properties": {
+    "City":"Portugalete",
+    "Population":47117
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.7338211,28.1220604 ]
+    },
+    "properties": {
+    "City":"Adeje",
+    "Population":46667
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0336586,43.328128 ]
+    },
+    "properties": {
+    "City":"Santurce",
+    "Population":46651
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.9930466,41.2987914 ]
+    },
+    "properties": {
+    "City":"Gavá",
+    "Population":46326
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0910377,41.3772561 ]
+    },
+    "properties": {
+    "City":"Esplugas de Llobregat",
+    "Population":46133
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.9581046,42.26550659999999 ]
+    },
+    "properties": {
+    "City":"Figueras",
+    "Population":45444
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4333643,39.1511854 ]
+    },
+    "properties": {
+    "City":"Alcira",
+    "Population":44518
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1050557,38.8387992 ]
+    },
+    "properties": {
+    "City":"Denia",
+    "Population":44455
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4184093,39.4766346 ]
+    },
+    "properties": {
+    "City":"Mislata",
+    "Population":438
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0518154,41.3979911 ]
+    },
+    "properties": {
+    "City":"San Feliú de Llobregat",
+    "Population":43671
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.6960562,43.3081128 ]
+    },
+    "properties": {
+    "City":"Langreo",
+    "Population":43647
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0520363,37.350923 ]
+    },
+    "properties": {
+    "City":"Mairena del Aljarafe",
+    "Population":42784
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4961008,37.4129332 ]
+    },
+    "properties": {
+    "City":"Lucena",
+    "Population":42592
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.5768911,28.1222699 ]
+    },
+    "properties": {
+    "City":"Granadilla de Abona",
+    "Population":42545
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.778528199999999,43.24971900000001 ]
+    },
+    "properties": {
+    "City":"Mieres",
+    "Population":42421
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.8912652,43.2353175 ]
+    },
+    "properties": {
+    "City":"Basauri",
+    "Population":41971
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.5593676,37.020001 ]
+    },
+    "properties": {
+    "City":"Antequera",
+    "Population":41827
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.5238744,28.3913534 ]
+    },
+    "properties": {
+    "City":"La Orotava",
+    "Population":41726
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2193422,37.9695167 ]
+    },
+    "properties": {
+    "City":"Alcantarilla",
+    "Population":41381
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5318722,40.4256038 ]
+    },
+    "properties": {
+    "City":"San Fernando de Henares",
+    "Population":41376
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.1831947,36.5316485 ]
+    },
+    "properties": {
+    "City":"Puerto Real",
+    "Population":41364
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7079745,40.600727 ]
+    },
+    "properties": {
+    "City":"Tres Cantos",
+    "Population":41302
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.280396,36.7176779 ]
+    },
+    "properties": {
+    "City":"Rincón de la Victoria",
+    "Population":41216
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2544335,41.9304373 ]
+    },
+    "properties": {
+    "City":"Vich",
+    "Population":41191
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0838065,40.04209549999999 ]
+    },
+    "properties": {
+    "City":"Plasencia",
+    "Population":41002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8398194,41.7005989 ]
+    },
+    "properties": {
+    "City":"Lloret de Mar",
+    "Population":40837
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.2095318,39.5697165 ]
+    },
+    "properties": {
+    "City":"Manacor",
+    "Population":40831
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.0826742,37.5414656 ]
+    },
+    "properties": {
+    "City":"Écija",
+    "Population":40683
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4790306,41.7665972 ]
+    },
+    "properties": {
+    "City":"Soria",
+    "Population":40147
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.7902289,41.6759954 ]
+    },
+    "properties": {
+    "City":"Blanes",
+    "Population":39785
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8912823,43.3081107 ]
+    },
+    "properties": {
+    "City":"Rentería",
+    "Population":39324
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.192374299999999,43.5012892 ]
+    },
+    "properties": {
+    "City":"Narón",
+    "Population":39238
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.6226538,41.5847817 ]
+    },
+    "properties": {
+    "City":"Igualada",
+    "Population":39198
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0214475,39.15837450000001 ]
+    },
+    "properties": {
+    "City":"Tomelloso",
+    "Population":39093
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.6979398,41.3461265 ]
+    },
+    "properties": {
+    "City":"Villafranca del Panadés",
+    "Population":39035
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0516619,38.03849 ]
+    },
+    "properties": {
+    "City":"Andújar",
+    "Population":39008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.945068,42.6869753 ]
+    },
+    "properties": {
+    "City":"Miranda de Ebro",
+    "Population":384
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4135963,39.5096699 ]
+    },
+    "properties": {
+    "City":"Burjasot",
+    "Population":38175
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.5841956,28.3854734 ]
+    },
+    "properties": {
+    "City":"Los Realejos",
+    "Population":38028
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9244808,37.1584636 ]
+    },
+    "properties": {
+    "City":"Los Palacios y Villafranca",
+    "Population":37741
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.7659082,42.5953513 ]
+    },
+    "properties": {
+    "City":"Villagarcía de Arosa",
+    "Population":37621
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9816424,37.4872681 ]
+    },
+    "properties": {
+    "City":"La Rinconada",
+    "Population":3758
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.6063927,38.8220593 ]
+    },
+    "properties": {
+    "City":"Onteniente",
+    "Population":3754
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1569325,41.49845 ]
+    },
+    "properties": {
+    "City":"Ripollet",
+    "Population":37348
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8916657,39.49084390000001 ]
+    },
+    "properties": {
+    "City":"Lluchmayor",
+    "Population":36959
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.5210607,28.1201412 ]
+    },
+    "properties": {
+    "City":"Arucas",
+    "Population":36872
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.161225099999999,36.746209 ]
+    },
+    "properties": {
+    "City":"Ronda",
+    "Population":36793
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.5598636,36.6598945 ]
+    },
+    "properties": {
+    "City":"Alhaurín de la Torre",
+    "Population":3673
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.8618982,38.954463 ]
+    },
+    "properties": {
+    "City":"Don Benito",
+    "Population":3648
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.5111806,41.2006621 ]
+    },
+    "properties": {
+    "City":"Vendrell",
+    "Population":36453
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.3712457,38.0114236 ]
+    },
+    "properties": {
+    "City":"Úbeda",
+    "Population":35866
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -13.8628367,28.500821 ]
+    },
+    "properties": {
+    "City":"Puerto del Rosario",
+    "Population":35664
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.3147353,37.5958175 ]
+    },
+    "properties": {
+    "City":"Mazarrón",
+    "Population":35473
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0848302,39.8895925 ]
+    },
+    "properties": {
+    "City":"Burriana",
+    "Population":35433
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6063169,42.0613816 ]
+    },
+    "properties": {
+    "City":"Tudela",
+    "Population":35429
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4217274,38.2420912 ]
+    },
+    "properties": {
+    "City":"Cieza",
+    "Population":35425
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1064345,40.3456879 ]
+    },
+    "properties": {
+    "City":"Teruel",
+    "Population":35288
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.5827678,37.4117554 ]
+    },
+    "properties": {
+    "City":"Águilas",
+    "Population":3499
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.8612206,38.6318196 ]
+    },
+    "properties": {
+    "City":"Villena",
+    "Population":34966
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.110112,38.6122134 ]
+    },
+    "properties": {
+    "City":"Yecla",
+    "Population":34813
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7719037,38.4807333 ]
+    },
+    "properties": {
+    "City":"Petrel",
+    "Population":34726
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.5214423,40.8125777 ]
+    },
+    "properties": {
+    "City":"Tortosa",
+    "Population":34432
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.7572077,39.627193 ]
+    },
+    "properties": {
+    "City":"Marrachí",
+    "Population":34385
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.4058423,38.6914575 ]
+    },
+    "properties": {
+    "City":"Almendralejo",
+    "Population":35014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.181871000000001,41.4931546 ]
+    },
+    "properties": {
+    "City":"Moncada y Reixach",
+    "Population":34232
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.2680616,40.5648765 ]
+    },
+    "properties": {
+    "City":"Azuqueca de Henares",
+    "Population":34195
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2212071,41.4223872 ]
+    },
+    "properties": {
+    "City":"San Adrián de Besós",
+    "Population":34157
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.3157003,43.33270590000001 ]
+    },
+    "properties": {
+    "City":"Oleiros",
+    "Population":34133
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.516667,38.98333299999999 ]
+    },
+    "properties": {
+    "City":"Santa Eulalia del Río",
+    "Population":33734
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4880242,42.18220780000001 ]
+    },
+    "properties": {
+    "City":"Olot",
+    "Population":33725
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5612438,38.1965614 ]
+    },
+    "properties": {
+    "City":"Santa Pola",
+    "Population":33372
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6902166,41.6692282 ]
+    },
+    "properties": {
+    "City":"Aranda de Duero",
+    "Population":33229
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9536260999999998,37.7442385 ]
+    },
+    "properties": {
+    "City":"Torre Pacheco",
+    "Population":33218
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.0603606,41.0666754 ]
+    },
+    "properties": {
+    "City":"Cambrils",
+    "Population":33008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.2315018,39.8242386 ]
+    },
+    "properties": {
+    "City":"Vall de Uxó",
+    "Population":32864
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.5449611,28.411413 ]
+    },
+    "properties": {
+    "City":"Puerto de la Cruz",
+    "Population":32817
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.2285807,38.5079606 ]
+    },
+    "properties": {
+    "City":"Villajoyosa",
+    "Population":32733
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.005802699999999,40.5768377 ]
+    },
+    "properties": {
+    "City":"Galapagar",
+    "Population":32575
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1660813,38.7890109 ]
+    },
+    "properties": {
+    "City":"Jávea",
+    "Population":32469
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0542658,41.365393 ]
+    },
+    "properties": {
+    "City":"San Juan Despí",
+    "Population":32406
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.2156354,43.3688221 ]
+    },
+    "properties": {
+    "City":"Castro-Urdiales",
+    "Population":32374
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.8379313,37.8054749 ]
+    },
+    "properties": {
+    "City":"San Javier",
+    "Population":32366
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1255553,41.5136208 ]
+    },
+    "properties": {
+    "City":"Barberá del Vallés",
+    "Population":32033
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.2100984,39.3900748 ]
+    },
+    "properties": {
+    "City":"Alcázar de San Juan",
+    "Population":31652
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.617545000000001,42.6112686 ]
+    },
+    "properties": {
+    "City":"San Andrés del Rabanedo",
+    "Population":31562
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8846224,43.4047027 ]
+    },
+    "properties": {
+    "City":"Camargo",
+    "Population":31556
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.8116522,36.7560042 ]
+    },
+    "properties": {
+    "City":"Arcos de la Frontera",
+    "Population":31496
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.691526399999999,43.2128217 ]
+    },
+    "properties": {
+    "City":"Carballo",
+    "Population":31303
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6979398,38.5068902 ]
+    },
+    "properties": {
+    "City":"Hellín",
+    "Population":31199
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.3876074,38.760524 ]
+    },
+    "properties": {
+    "City":"Valdepeñas",
+    "Population":31141
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4635382999999999,39.4937868 ]
+    },
+    "properties": {
+    "City":"Manises",
+    "Population":30747
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4927134,39.4595217 ]
+    },
+    "properties": {
+    "City":"Aldaya",
+    "Population":30645
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5102275,43.303707 ]
+    },
+    "properties": {
+    "City":"Arteijo",
+    "Population":30482
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.990057,43.32670359999999 ]
+    },
+    "properties": {
+    "City":"Lejona",
+    "Population":30454
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.7665698,37.3909975 ]
+    },
+    "properties": {
+    "City":"Puente Genil",
+    "Population":30424
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4266584,39.4597817 ]
+    },
+    "properties": {
+    "City":"Chirivella",
+    "Population":30405
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.791944,41.9726971 ]
+    },
+    "properties": {
+    "City":"Salt",
+    "Population":30389
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4714694,39.4518434 ]
+    },
+    "properties": {
+    "City":"Alacuás",
+    "Population":30235
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0533598,37.2882628 ]
+    },
+    "properties": {
+    "City":"Coria del Río",
+    "Population":30208
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.609170299999999,42.2818519 ]
+    },
+    "properties": {
+    "City":"Redondela",
+    "Population":30006
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.9075475,39.71777429999999 ]
+    },
+    "properties": {
+    "City":"Inca",
+    "Population":29966
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.384431699999999,36.2104615 ]
+    },
+    "properties": {
+    "City":"San Roque",
+    "Population":29965
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.4990814,37.7700655 ]
+    },
+    "properties": {
+    "City":"Totana",
+    "Population":29961
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.4331746,27.9182821 ]
+    },
+    "properties": {
+    "City":"Ingenio",
+    "Population":29871
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.4463485,27.9018327 ]
+    },
+    "properties": {
+    "City":"Agüimes",
+    "Population":29767
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.04568759999999999,38.6436469 ]
+    },
+    "properties": {
+    "City":"Calpe",
+    "Population":29718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5235474,38.9899566 ]
+    },
+    "properties": {
+    "City":"Játiva",
+    "Population":29469
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.809256999999999,40.01987099999999 ]
+    },
+    "properties": {
+    "City":"Ciudadela",
+    "Population":29315
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2067723,36.96593060000001 ]
+    },
+    "properties": {
+    "City":"Níjar",
+    "Population":29284
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.389602,43.2882033 ]
+    },
+    "properties": {
+    "City":"Culleredo",
+    "Population":29207
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.3601441,36.6236874 ]
+    },
+    "properties": {
+    "City":"Rota",
+    "Population":29125
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.8447524,43.2313783 ]
+    },
+    "properties": {
+    "City":"Galdácano",
+    "Population":29049
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3113278,39.2033565 ]
+    },
+    "properties": {
+    "City":"Sueca",
+    "Population":28986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0072372,43.3093903 ]
+    },
+    "properties": {
+    "City":"Sestao",
+    "Population":28959
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.259619499999999,39.8873296 ]
+    },
+    "properties": {
+    "City":"Mahón",
+    "Population":28942
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.6583677,42.9038027 ]
+    },
+    "properties": {
+    "City":"Ames",
+    "Population":28852
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.7830973,41.2570604 ]
+    },
+    "properties": {
+    "City":"San Pedro de Ribas",
+    "Population":28783
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.6418214,37.471274 ]
+    },
+    "properties": {
+    "City":"Carmona",
+    "Population":28679
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.805886,41.2371851 ]
+    },
+    "properties": {
+    "City":"Sitges",
+    "Population":28617
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.4747301,40.4679855 ]
+    },
+    "properties": {
+    "City":"Vinaroz",
+    "Population":28508
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.4541928,37.1211901 ]
+    },
+    "properties": {
+    "City":"Morón de la Frontera",
+    "Population":28489
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.1237623,38.9223758 ]
+    },
+    "properties": {
+    "City":"Oliva",
+    "Population":284
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.8113636,38.2446844 ]
+    },
+    "properties": {
+    "City":"Crevillente",
+    "Population":28362
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3591531,41.4946642 ]
+    },
+    "properties": {
+    "City":"Premiá de Mar",
+    "Population":2831
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4337304,39.1925693 ]
+    },
+    "properties": {
+    "City":"Algemesí",
+    "Population":28293
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.6313339,43.1711864 ]
+    },
+    "properties": {
+    "City":"Durango",
+    "Population":28226
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0035906,41.3898442 ]
+    },
+    "properties": {
+    "City":"San Vicente dels Horts",
+    "Population":28137
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6890198,36.734473 ]
+    },
+    "properties": {
+    "City":"Almuñécar",
+    "Population":27754
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.9922481,42.5540645 ]
+    },
+    "properties": {
+    "City":"Riveira",
+    "Population":27699
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.923048,41.4795041 ]
+    },
+    "properties": {
+    "City":"Martorell",
+    "Population":27457
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4703057,43.1965437 ]
+    },
+    "properties": {
+    "City":"Éibar",
+    "Population":27396
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.09999999999999999,40.516667 ]
+    },
+    "properties": {
+    "City":"Campello",
+    "Population":27345
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4034584,39.4038783 ]
+    },
+    "properties": {
+    "City":"Catarroja",
+    "Population":2733
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.2032754,37.2571539 ]
+    },
+    "properties": {
+    "City":"Lepe",
+    "Population":27241
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.9728289,41.4470397 ]
+    },
+    "properties": {
+    "City":"San Andrés de la Barca",
+    "Population":27094
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0758624,36.9197889 ]
+    },
+    "properties": {
+    "City":"Lebrija",
+    "Population":27029
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7668469,38.3841032 ]
+    },
+    "properties": {
+    "City":"Novelda",
+    "Population":26873
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.9139109,40.3626807 ]
+    },
+    "properties": {
+    "City":"Villaviciosa de Odón",
+    "Population":26646
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.4243013,40.4126493 ]
+    },
+    "properties": {
+    "City":"Benicarló",
+    "Population":26553
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.6015635,39.2683154 ]
+    },
+    "properties": {
+    "City":"Villarrobledo",
+    "Population":26485
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.8609152,38.1041892 ]
+    },
+    "properties": {
+    "City":"Caravaca de la Cruz",
+    "Population":26438
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0321884,37.401173 ]
+    },
+    "properties": {
+    "City":"Camas",
+    "Population":26292
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1315203,41.0777581 ]
+    },
+    "properties": {
+    "City":"Salou",
+    "Population":26193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.7809282,42.2645845 ]
+    },
+    "properties": {
+    "City":"Cangas de Morrazo",
+    "Population":26121
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.7997323,38.97357520000001 ]
+    },
+    "properties": {
+    "City":"Villanueva de la Serena",
+    "Population":26071
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.6827579,41.62451009999999 ]
+    },
+    "properties": {
+    "City":"Pineda de Mar",
+    "Population":2604
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.3717183,28.3556768 ]
+    },
+    "properties": {
+    "City":"Candelaria",
+    "Population":25957
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0629989,39.9478425 ]
+    },
+    "properties": {
+    "City":"Almazora",
+    "Population":25945
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.3221865,38.4763532 ]
+    },
+    "properties": {
+    "City":"Jumilla",
+    "Population":25926
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.7020824,42.3914848 ]
+    },
+    "properties": {
+    "City":"Marín",
+    "Population":25864
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.2625949,39.96512999999999 ]
+    },
+    "properties": {
+    "City":"Onda",
+    "Population":25704
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5116066,39.4697936 ]
+    },
+    "properties": {
+    "City":"Cuart de Poblet",
+    "Population":25449
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0993366,38.8702789 ]
+    },
+    "properties": {
+    "City":"Almansa",
+    "Population":25432
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1794136,41.5356682 ]
+    },
+    "properties": {
+    "City":"Santa Perpetua de Moguda",
+    "Population":25331
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.2494589,41.2854449 ]
+    },
+    "properties": {
+    "City":"Valls",
+    "Population":25016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.5664556,41.1938386 ]
+    },
+    "properties": {
+    "City":"Calafell",
+    "Population":24984
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.9673133,42.3073551 ]
+    },
+    "properties": {
+    "City":"Calahorra",
+    "Population":24839
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.9699874,37.7182399 ]
+    },
+    "properties": {
+    "City":"Martos",
+    "Population":24739
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.0166526,40.285599 ]
+    },
+    "properties": {
+    "City":"Navalcarnero",
+    "Population":24613
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0182425,41.4134488 ]
+    },
+    "properties": {
+    "City":"Molins de Rey",
+    "Population":24572
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.0163202,36.7479022 ]
+    },
+    "properties": {
+    "City":"Adra",
+    "Population":24512
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4184093,39.4274468 ]
+    },
+    "properties": {
+    "City":"Paiporta",
+    "Population":24506
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.6515167,28.1463501 ]
+    },
+    "properties": {
+    "City":"Gáldar",
+    "Population":24361
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.9756534,43.3028593 ]
+    },
+    "properties": {
+    "City":"Erandio",
+    "Population":24262
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.7137571,28.3671432 ]
+    },
+    "properties": {
+    "City":"Icod de los Vinos",
+    "Population":24147
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7913131,37.8354703 ]
+    },
+    "properties": {
+    "City":"San Pedro del Pinatar",
+    "Population":24093
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.0450666,38.6029075 ]
+    },
+    "properties": {
+    "City":"Altea",
+    "Population":24056
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.8913371,41.5451695 ]
+    },
+    "properties": {
+    "City":"Olesa de Montserrat",
+    "Population":23924
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.637286599999999,37.5877237 ]
+    },
+    "properties": {
+    "City":"Montilla",
+    "Population":2387
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.6876707,36.6428298 ]
+    },
+    "properties": {
+    "City":"Alhaurín el Grande",
+    "Population":23807
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.4133213,28.4797948 ]
+    },
+    "properties": {
+    "City":"Tacoronte",
+    "Population":23699
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.109435,36.7619796 ]
+    },
+    "properties": {
+    "City":"San José",
+    "Population":23688
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5776167,38.6212635 ]
+    },
+    "properties": {
+    "City":"Ibi",
+    "Population":23683
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.9368439,43.38727189999999 ]
+    },
+    "properties": {
+    "City":"Piélagos",
+    "Population":23672
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0450059,37.375855 ]
+    },
+    "properties": {
+    "City":"Tomares",
+    "Population":23661
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.6418821,36.8314423 ]
+    },
+    "properties": {
+    "City":"Vícar",
+    "Population":23656
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.3422786,43.2926146 ]
+    },
+    "properties": {
+    "City":"Cambre",
+    "Population":23649
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8489895,40.1262812 ]
+    },
+    "properties": {
+    "City":"Illescas",
+    "Population":23627
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.5064757,42.1756174 ]
+    },
+    "properties": {
+    "City":"Puenteareas",
+    "Population":23561
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.1987434,37.437791 ]
+    },
+    "properties": {
+    "City":"Priego de Córdoba",
+    "Population":23528
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4471011,38.419735 ]
+    },
+    "properties": {
+    "City":"Muchamiel",
+    "Population":23522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.723279,27.8839292 ]
+    },
+    "properties": {
+    "City":"Mogán",
+    "Population":23476
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5967222999999999,39.62723039999999 ]
+    },
+    "properties": {
+    "City":"Liria",
+    "Population":23397
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6192473,40.157955 ]
+    },
+    "properties": {
+    "City":"Ciempozuelos",
+    "Population":23354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.2537897,39.1631959 ]
+    },
+    "properties": {
+    "City":"Cullera",
+    "Population":23304
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0873256,41.6172338 ]
+    },
+    "properties": {
+    "City":"Castellar del Vallés",
+    "Population":23238
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7901334,37.8631809 ]
+    },
+    "properties": {
+    "City":"Pilar de la Horadada",
+    "Population":22967
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -13.9267252,28.6100767 ]
+    },
+    "properties": {
+    "City":"La Oliva",
+    "Population":22953
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.9224799,36.1900204 ]
+    },
+    "properties": {
+    "City":"Barbate",
+    "Population":22928
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.7450973,43.2044772 ]
+    },
+    "properties": {
+    "City":"Castrillón",
+    "Population":22893
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.629873,36.7121567 ]
+    },
+    "properties": {
+    "City":"Cártama",
+    "Population":22867
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.4925573,36.1850645 ]
+    },
+    "properties": {
+    "City":"Los Barrios",
+    "Population":22853
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.1629611,41.9179112 ]
+    },
+    "properties": {
+    "City":"Palafrugell",
+    "Population":22816
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.9241021,37.4645203 ]
+    },
+    "properties": {
+    "City":"Alcalá la Real",
+    "Population":22758
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.1713967,43.284771 ]
+    },
+    "properties": {
+    "City":"Zarauz",
+    "Population":22697
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.4877129,40.396654 ]
+    },
+    "properties": {
+    "City":"Mejorada del Campo",
+    "Population":22677
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3510141,39.4989552 ]
+    },
+    "properties": {
+    "City":"Alboraya",
+    "Population":22563
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4360296,38.4020456 ]
+    },
+    "properties": {
+    "City":"San Juan de Alicante",
+    "Population":22554
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.516975299999999,37.2596578 ]
+    },
+    "properties": {
+    "City":"Almonte",
+    "Population":22525
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3114706,41.4826455 ]
+    },
+    "properties": {
+    "City":"El Masnou",
+    "Population":22523
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.9293646,40.5766078 ]
+    },
+    "properties": {
+    "City":"Torrelodones",
+    "Population":22354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.7215266,41.5823975 ]
+    },
+    "properties": {
+    "City":"Laguna de Duero",
+    "Population":22334
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.3015192,38.9826357 ]
+    },
+    "properties": {
+    "City":"San Antonio Abad",
+    "Population":22299
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8724658,36.7565204 ]
+    },
+    "properties": {
+    "City":"Nerja",
+    "Population":22294
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6254529,37.1439159 ]
+    },
+    "properties": {
+    "City":"Armilla",
+    "Population":22283
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.75751,36.661601 ]
+    },
+    "properties": {
+    "City":"Coín",
+    "Population":22159
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.7769904,37.4862228 ]
+    },
+    "properties": {
+    "City":"Baza",
+    "Population":22092
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.870725,41.5389334 ]
+    },
+    "properties": {
+    "City":"Esparraguera",
+    "Population":21986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.4902081,43.0648865 ]
+    },
+    "properties": {
+    "City":"Mondragón",
+    "Population":21972
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.323303500000001,37.2005266 ]
+    },
+    "properties": {
+    "City":"Isla Cristina",
+    "Population":21903
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.3960275,39.5452518 ]
+    },
+    "properties": {
+    "City":"Moncada",
+    "Population":2186
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.1457729,41.1089174 ]
+    },
+    "properties": {
+    "City":"Vilaseca",
+    "Population":21839
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.031659,41.7850237 ]
+    },
+    "properties": {
+    "City":"San Felíu de Guixols",
+    "Population":21814
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.4909406,42.6898968 ]
+    },
+    "properties": {
+    "City":"La Estrada",
+    "Population":21759
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5302108,40.5056034 ]
+    },
+    "properties": {
+    "City":"Paracuellos de Jarama",
+    "Population":21718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5352355999999999,39.5989564 ]
+    },
+    "properties": {
+    "City":"Puebla de Vallbona",
+    "Population":21708
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.100481,38.575398 ]
+    },
+    "properties": {
+    "City":"Alfaz del Pi",
+    "Population":2167
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.086207099999999,36.2780988 ]
+    },
+    "properties": {
+    "City":"Conil de la Frontera",
+    "Population":21664
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.149075,37.1661897 ]
+    },
+    "properties": {
+    "City":"Loja",
+    "Population":21618
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.9154767,41.3081627 ]
+    },
+    "properties": {
+    "City":"Medina del Campo",
+    "Population":21607
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7235857,38.0860483 ]
+    },
+    "properties": {
+    "City":"Rojales",
+    "Population":21583
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.7484139,37.3740447 ]
+    },
+    "properties": {
+    "City":"Mairena del Alcor",
+    "Population":2156
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6846077,42.8041023 ]
+    },
+    "properties": {
+    "City":"Barañáin",
+    "Population":21552
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.2801691,37.69821710000001 ]
+    },
+    "properties": {
+    "City":"Palma del Río",
+    "Population":21537
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4620313,39.5915208 ]
+    },
+    "properties": {
+    "City":"Bétera",
+    "Population":21512
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.5801695,40.7067997 ]
+    },
+    "properties": {
+    "City":"Amposta",
+    "Population":21445
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.2433848,38.0274986 ]
+    },
+    "properties": {
+    "City":"Las Torres de Cotillas",
+    "Population":21443
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.0343054,37.3592432 ]
+    },
+    "properties": {
+    "City":"San Juan de Aznalfarache",
+    "Population":21439
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0993366,39.4890265 ]
+    },
+    "properties": {
+    "City":"Requena",
+    "Population":21394
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6329196,37.2078659 ]
+    },
+    "properties": {
+    "City":"Maracena",
+    "Population":21264
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.4425169,37.4733595 ]
+    },
+    "properties": {
+    "City":"Cabra",
+    "Population":21188
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -17.9122017,28.6577222 ]
+    },
+    "properties": {
+    "City":"Los Llanos de Aridane",
+    "Population":21145
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.1110256,42.6611505 ]
+    },
+    "properties": {
+    "City":"Lalín",
+    "Population":21127
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5712724,39.5455701 ]
+    },
+    "properties": {
+    "City":"Ribarroja del Turia",
+    "Population":21094
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.3244513,37.617362 ]
+    },
+    "properties": {
+    "City":"Baena",
+    "Population":21028
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6468455,41.3531678 ]
+    },
+    "properties": {
+    "City":"Calatayud",
+    "Population":20837
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -13.5595989,29.0599533 ]
+    },
+    "properties": {
+    "City":"Teguise",
+    "Population":20788
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.4043413,37.2141237 ]
+    },
+    "properties": {
+    "City":"Ayamonte",
+    "Population":20763
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4000294,39.4169604 ]
+    },
+    "properties": {
+    "City":"Alfafar",
+    "Population":20728
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.422935,37.8493011 ]
+    },
+    "properties": {
+    "City":"Alhama de Murcia",
+    "Population":20725
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.5016452,40.5964617 ]
+    },
+    "properties": {
+    "City":"Algete",
+    "Population":20701
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4219444,39.1015624 ]
+    },
+    "properties": {
+    "City":"Carcagente",
+    "Population":20687
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -14.1081189,28.3508903 ]
+    },
+    "properties": {
+    "City":"Pájara",
+    "Population":20565
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2852014,42.0035444 ]
+    },
+    "properties": {
+    "City":"Manlleu",
+    "Population":20445
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.8369079,37.27464 ]
+    },
+    "properties": {
+    "City":"Moguer",
+    "Population":20418
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -16.7787562,28.2111121 ]
+    },
+    "properties": {
+    "City":"Guía de Isora",
+    "Population":20396
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.1403256,37.3011351 ]
+    },
+    "properties": {
+    "City":"Guadix",
+    "Population":20375
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7704126,38.3435941 ]
+    },
+    "properties": {
+    "City":"Aspe",
+    "Population":20292
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -13.6507431,28.9578494 ]
+    },
+    "properties": {
+    "City":"Tías",
+    "Population":20102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4620313,39.3637987 ]
+    },
+    "properties": {
+    "City":"Picasent",
+    "Population":20087
+    }
+  }
+]
+}

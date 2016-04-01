@@ -1,0 +1,4779 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3522219,48.856614 ]
+    },
+    "properties": {
+    "City":"Paris",
+    "Population":2229621
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.36978,43.296482 ]
+    },
+    "properties": {
+    "City":"Marseille",
+    "Population":855393
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.835659,45.764043 ]
+    },
+    "properties": {
+    "City":"Lyon",
+    "Population":500715
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.444209,43.604652 ]
+    },
+    "properties": {
+    "City":"Toulouse",
+    "Population":458298
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.261953200000001,43.7101728 ]
+    },
+    "properties": {
+    "City":"Nice",
+    "Population":342295
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.553621,47.218371 ]
+    },
+    "properties": {
+    "City":"Nantes",
+    "Population":292718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.752111299999999,48.5734053 ]
+    },
+    "properties": {
+    "City":"Strasbourg",
+    "Population":275718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.876716,43.610769 ]
+    },
+    "properties": {
+    "City":"Montpellier",
+    "Population":272084
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.57918,44.837789 ]
+    },
+    "properties": {
+    "City":"Bordeaux",
+    "Population":243626
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.057256,50.62925 ]
+    },
+    "properties": {
+    "City":"Lille",
+    "Population":231491
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6777926,48.117266 ]
+    },
+    "properties": {
+    "City":"Rennes",
+    "Population":211373
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.031696,49.258329 ]
+    },
+    "properties": {
+    "City":"Reims",
+    "Population":182592
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.107929,49.49437 ]
+    },
+    "properties": {
+    "City":"Le Havre",
+    "Population":172074
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.3871779,45.439695 ]
+    },
+    "properties": {
+    "City":"Saint-Étienne",
+    "Population":172023
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.928,43.124228 ]
+    },
+    "properties": {
+    "City":"Toulon",
+    "Population":163760
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.724524,45.188529 ]
+    },
+    "properties": {
+    "City":"Grenoble",
+    "Population":160215
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.04148,47.322047 ]
+    },
+    "properties": {
+    "City":"Dijon",
+    "Population":153003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.360054,43.836699 ]
+    },
+    "properties": {
+    "City":"Nîmes",
+    "Population":150564
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5631659999999999,47.478419 ]
+    },
+    "properties": {
+    "City":"Angers",
+    "Population":150125
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.8901709,45.771944 ]
+    },
+    "properties": {
+    "City":"Villeurbanne",
+    "Population":147192
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.199556,48.00611000000001 ]
+    },
+    "properties": {
+    "City":"Le Mans",
+    "Population":144244
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.357443,48.936181 ]
+    },
+    "properties": {
+    "City":"Saint-Denis",
+    "Population":142442
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.447426999999999,43.529742 ]
+    },
+    "properties": {
+    "City":"Aix-en-Provence",
+    "Population":141545
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.087025,45.77722199999999 ]
+    },
+    "properties": {
+    "City":"Clermont-Ferrand",
+    "Population":141463
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.486076,48.390394 ]
+    },
+    "properties": {
+    "City":"Brest",
+    "Population":139386
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.261105,45.83361900000001 ]
+    },
+    "properties": {
+    "City":"Limoges",
+    "Population":135098
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.68484,47.394144 ]
+    },
+    "properties": {
+    "City":"Tours",
+    "Population":134803
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.295753,49.894067 ]
+    },
+    "properties": {
+    "City":"Amiens",
+    "Population":132699
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8948332,42.6886591 ]
+    },
+    "properties": {
+    "City":"Perpignan",
+    "Population":120959
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.175715599999999,49.1193089 ]
+    },
+    "properties": {
+    "City":"Metz",
+    "Population":118634
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.024053899999999,47.237829 ]
+    },
+    "properties": {
+    "City":"Besançon",
+    "Population":116952
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2399123,48.8396952 ]
+    },
+    "properties": {
+    "City":"Boulogne-Billancourt",
+    "Population":116794
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.909251,47.902964 ]
+    },
+    "properties": {
+    "City":"Orléans",
+    "Population":114375
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.335888,47.750839 ]
+    },
+    "properties": {
+    "City":"Mulhouse",
+    "Population":112063
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.099971,49.44323199999999 ]
+    },
+    "properties": {
+    "City":"Rouen",
+    "Population":110755
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.357443,48.936181 ]
+    },
+    "properties": {
+    "City":"Saint-Denis",
+    "Population":109343
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.370679,49.182863 ]
+    },
+    "properties": {
+    "City":"Caen",
+    "Population":107229
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2466847,48.9472096 ]
+    },
+    "properties": {
+    "City":"Argenteuil",
+    "Population":106817
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.122138,43.696973 ]
+    },
+    "properties": {
+    "City":"Saint-Paul",
+    "Population":104332
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.448451,48.863812 ]
+    },
+    "properties": {
+    "City":"Montreuil",
+    "Population":104139
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.184417,48.692054 ]
+    },
+    "properties": {
+    "City":"Nancy",
+    "Population":104072
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.177847,50.6927049 ]
+    },
+    "properties": {
+    "City":"Roubaix",
+    "Population":95866
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.16207,50.724993 ]
+    },
+    "properties": {
+    "City":"Tourcoing",
+    "Population":93974
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.215331,48.892423 ]
+    },
+    "properties": {
+    "City":"Nanterre",
+    "Population":92227
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.805528,43.94931700000001 ]
+    },
+    "properties": {
+    "City":"Avignon",
+    "Population":90305
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.39851,48.792001 ]
+    },
+    "properties": {
+    "City":"Vitry-sur-Seine",
+    "Population":90075
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.455572,48.790367 ]
+    },
+    "properties": {
+    "City":"Créteil",
+    "Population":89989
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3767763,51.0343684 ]
+    },
+    "properties": {
+    "City":"Dunkirk",
+    "Population":89882
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.340375,46.58022400000001 ]
+    },
+    "properties": {
+    "City":"Poitiers",
+    "Population":87427
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.285369,48.914155 ]
+    },
+    "properties": {
+    "City":"Asnières-sur-Seine",
+    "Population":86020
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.25929,48.900552 ]
+    },
+    "properties": {
+    "City":"Courbevoie",
+    "Population":85523
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.130122,48.801408 ]
+    },
+    "properties": {
+    "City":"Versailles",
+    "Population":85272
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2533313,48.9220615 ]
+    },
+    "properties": {
+    "City":"Colombes",
+    "Population":84577
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.0587804,14.6160647 ]
+    },
+    "properties": {
+    "City":"Fort-de-France",
+    "Population":84174
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4970711,48.9412151 ]
+    },
+    "properties": {
+    "City":"Aulnay-sous-Bois",
+    "Population":82634
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.610155,49.18035 ]
+    },
+    "properties": {
+    "City":"Saint-Pierre",
+    "Population":81415
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.17693,48.882767 ]
+    },
+    "properties": {
+    "City":"Rueil-Malmaison",
+    "Population":79762
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.370797,43.2951 ]
+    },
+    "properties": {
+    "City":"Pau",
+    "Population":77575
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.384049,48.912259 ]
+    },
+    "properties": {
+    "City":"Aubervilliers",
+    "Population":77452
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.1275858,45.7016952 ]
+    },
+    "properties": {
+    "City":"Le Tampon",
+    "Population":76090
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.515556,48.817049 ]
+    },
+    "properties": {
+    "City":"Champigny-sur-Marne",
+    "Population":75961
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.125102,43.58041799999999 ]
+    },
+    "properties": {
+    "City":"Antibes",
+    "Population":75456
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.215795,43.344233 ]
+    },
+    "properties": {
+    "City":"Béziers",
+    "Population":74811
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.151139,46.160329 ]
+    },
+    "properties": {
+    "City":"La Rochelle",
+    "Population":74344
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.485429,48.8029439 ]
+    },
+    "properties": {
+    "City":"Saint-Maur-des-Fossés",
+    "Population":74133
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.017369,43.552847 ]
+    },
+    "properties": {
+    "City":"Cannes",
+    "Population":73325
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.858686,50.95129000000001 ]
+    },
+    "properties": {
+    "City":"Calais",
+    "Population":72520
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.213848,47.2734979 ]
+    },
+    "properties": {
+    "City":"Saint-Nazaire",
+    "Population":68513
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.656358,44.8448769 ]
+    },
+    "properties": {
+    "City":"Mérignac",
+    "Population":68386
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.445676,48.924298 ]
+    },
+    "properties": {
+    "City":"Drancy",
+    "Population":68241
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.358511999999999,48.0793589 ]
+    },
+    "properties": {
+    "City":"Colmar",
+    "Population":67956
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.738635,41.919229 ]
+    },
+    "properties": {
+    "City":"Ajaccio",
+    "Population":67507
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.398782,47.081012 ]
+    },
+    "properties": {
+    "City":"Bourges",
+    "Population":67189
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2743419,48.8245306 ]
+    },
+    "properties": {
+    "City":"Issy-les-Moulineaux",
+    "Population":65662
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.287864,48.89321700000001 ]
+    },
+    "properties": {
+    "City":"Levallois-Perret",
+    "Population":65264
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.878219,43.102976 ]
+    },
+    "properties": {
+    "City":"La Seyne-sur-Mer",
+    "Population":64523
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.097899,47.997542 ]
+    },
+    "properties": {
+    "City":"Quimper",
+    "Population":63532
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.55261,48.848579 ]
+    },
+    "properties": {
+    "City":"Noisy-le-Grand",
+    "Population":62834
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.1442651,50.6232523 ]
+    },
+    "properties": {
+    "City":"Villeneuve-d'Ascq",
+    "Population":62616
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.26851,48.884831 ]
+    },
+    "properties": {
+    "City":"Neuilly-sur-Seine",
+    "Population":62346
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.89236,44.933393 ]
+    },
+    "properties": {
+    "City":"Valence",
+    "Population":61767
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.302553,48.759255 ]
+    },
+    "properties": {
+    "City":"Antony",
+    "Population":61727
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.060325,49.03561699999999 ]
+    },
+    "properties": {
+    "City":"Cergy",
+    "Population":61708
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.8844649,45.699594 ]
+    },
+    "properties": {
+    "City":"Vénissieux",
+    "Population":61636
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.630386,44.80583 ]
+    },
+    "properties": {
+    "City":"Pessac",
+    "Population":60763
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.0744009,48.2973451 ]
+    },
+    "properties": {
+    "City":"Troyes",
+    "Population":59671
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.304768,48.904526 ]
+    },
+    "properties": {
+    "City":"Clichy",
+    "Population":59255
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.38822,48.813055 ]
+    },
+    "properties": {
+    "City":"Ivry-sur-Seine",
+    "Population":58933
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.917781,45.564601 ]
+    },
+    "properties": {
+    "City":"Chambéry",
+    "Population":58653
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.3702449,47.7482524 ]
+    },
+    "properties": {
+    "City":"Lorient",
+    "Population":57961
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.694777,47.0201909 ]
+    },
+    "properties": {
+    "City":"Les Abymes",
+    "Population":57960
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.3529599,44.0221252 ]
+    },
+    "properties": {
+    "City":"Montauban",
+    "Population":57921
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.378493,48.997347 ]
+    },
+    "properties": {
+    "City":"Sarcelles",
+    "Population":57533
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4647769999999999,46.323716 ]
+    },
+    "properties": {
+    "City":"Niort",
+    "Population":57393
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.359279,48.792716 ]
+    },
+    "properties": {
+    "City":"Villejuif",
+    "Population":57184
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.970853,42.551997 ]
+    },
+    "properties": {
+    "City":"Saint-André",
+    "Population":56156
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.128639,43.120541 ]
+    },
+    "properties": {
+    "City":"Hyères",
+    "Population":55713
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.2874,49.847066 ]
+    },
+    "properties": {
+    "City":"Saint-Quentin",
+    "Population":55698
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0807123,49.42953869999999 ]
+    },
+    "properties": {
+    "City":"Beauvais",
+    "Population":55252
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.314739,48.955735 ]
+    },
+    "properties": {
+    "City":"Épinay-sur-Seine",
+    "Population":54857
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.002211,48.748573 ]
+    },
+    "properties": {
+    "City":"Cayenne",
+    "Population":54709
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.429443,48.801148 ]
+    },
+    "properties": {
+    "City":"Maisons-Alfort",
+    "Population":54470
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.879787,47.059407 ]
+    },
+    "properties": {
+    "City":"Cholet",
+    "Population":53890
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8884657,48.9562018 ]
+    },
+    "properties": {
+    "City":"Meaux",
+    "Population":53766
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.59016,48.87753499999999 ]
+    },
+    "properties": {
+    "City":"Chelles",
+    "Population":53569
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.40963,48.894533 ]
+    },
+    "properties": {
+    "City":"Pantin",
+    "Population":53471
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.441782,48.629828 ]
+    },
+    "properties": {
+    "City":"Évry",
+    "Population":53237
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.475907,48.851542 ]
+    },
+    "properties": {
+    "City":"Fontenay-sous-Bois",
+    "Population":53124
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.737034,43.43315200000001 ]
+    },
+    "properties": {
+    "City":"Fréjus",
+    "Population":53039
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.760847,47.658236 ]
+    },
+    "properties": {
+    "City":"Vannes",
+    "Population":53032
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.481875,48.906008 ]
+    },
+    "properties": {
+    "City":"Bondy",
+    "Population":52865
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.46436,48.941345 ]
+    },
+    "properties": {
+    "City":"Le Blanc-Mesnil",
+    "Population":52797
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.426442,46.670511 ]
+    },
+    "properties": {
+    "City":"La Roche-sur-Yon",
+    "Population":52732
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.563934,47.5859949 ]
+    },
+    "properties": {
+    "City":"Saint-Louis",
+    "Population":52656
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6277769,43.676647 ]
+    },
+    "properties": {
+    "City":"Arles",
+    "Population":52566
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.257289,48.799815 ]
+    },
+    "properties": {
+    "City":"Clamart",
+    "Population":52203
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.003078,43.184277 ]
+    },
+    "properties": {
+    "City":"Narbonne",
+    "Population":52082
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.129384,45.899247 ]
+    },
+    "properties": {
+    "City":"Annecy",
+    "Population":52029
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.158431,48.941106 ]
+    },
+    "properties": {
+    "City":"Sartrouville",
+    "Population":51599
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.926492,43.660153 ]
+    },
+    "properties": {
+    "City":"Grasse",
+    "Population":50916
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7669906000000001,48.0785146 ]
+    },
+    "properties": {
+    "City":"Laval",
+    "Population":50479
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.863849,47.63967400000001 ]
+    },
+    "properties": {
+    "City":"Belfort",
+    "Population":50196
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.439712,48.908612 ]
+    },
+    "properties": {
+    "City":"Bobigny",
+    "Population":49802
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.151361,49.0270129 ]
+    },
+    "properties": {
+    "City":"Évreux",
+    "Population":49722
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4394969,48.847759 ]
+    },
+    "properties": {
+    "City":"Vincennes",
+    "Population":49695
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.317384,48.816363 ]
+    },
+    "properties": {
+    "City":"Montrouge",
+    "Population":49656
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.538716,48.93897 ]
+    },
+    "properties": {
+    "City":"Sevran",
+    "Population":49465
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1486413,43.9250853 ]
+    },
+    "properties": {
+    "City":"Albi",
+    "Population":49432
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.726096,49.76208500000001 ]
+    },
+    "properties": {
+    "City":"Charleville-Mézières",
+    "Population":48991
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.219033,48.869798 ]
+    },
+    "properties": {
+    "City":"Suresnes",
+    "Population":48066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.053728,43.404811 ]
+    },
+    "properties": {
+    "City":"Martigues",
+    "Population":47904
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.474805,48.6102599 ]
+    },
+    "properties": {
+    "City":"Corbeil-Essonnes",
+    "Population":47632
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.333764,48.911856 ]
+    },
+    "properties": {
+    "City":"Saint-Ouen",
+    "Population":47534
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.474841,43.492949 ]
+    },
+    "properties": {
+    "City":"Bayonne",
+    "Population":47492
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.14882,43.663739 ]
+    },
+    "properties": {
+    "City":"Cagnes-sur-Mer",
+    "Population":46940
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.533937,45.159555 ]
+    },
+    "properties": {
+    "City":"Brive-la-Gaillarde",
+    "Population":46794
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.353663,43.212161 ]
+    },
+    "properties": {
+    "City":"Carcassonne",
+    "Population":46724
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.27137,48.730756 ]
+    },
+    "properties": {
+    "City":"Massy",
+    "Population":45902
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.3359475,47.58609209999999 ]
+    },
+    "properties": {
+    "City":"Blois",
+    "Population":45539
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.5676425,43.2926781 ]
+    },
+    "properties": {
+    "City":"Aubagne",
+    "Population":45303
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.765835,48.51418 ]
+    },
+    "properties": {
+    "City":"Saint-Brieuc",
+    "Population":45331
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.686779,46.811434 ]
+    },
+    "properties": {
+    "City":"Châteauroux",
+    "Population":45209
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.853947,46.780764 ]
+    },
+    "properties": {
+    "City":"Chalon-sur-Saône",
+    "Population":45166
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.714958,48.989323 ]
+    },
+    "properties": {
+    "City":"Mantes-la-Jolie",
+    "Population":45052
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.23847,48.812995 ]
+    },
+    "properties": {
+    "City":"Meudon",
+    "Population":45043
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.025674,48.649337 ]
+    },
+    "properties": {
+    "City":"Saint-Malo",
+    "Population":44919
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.363073,48.956682 ]
+    },
+    "properties": {
+    "City":"Châlons-en-Champagne",
+    "Population":44899
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.422317,48.80093 ]
+    },
+    "properties": {
+    "City":"Alfortville",
+    "Population":44818
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.7008219,43.4078758 ]
+    },
+    "properties": {
+    "City":"Sète",
+    "Population":44270
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.097022,43.640199 ]
+    },
+    "properties": {
+    "City":"Salon-de-Provence",
+    "Population":44263
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.922661,45.782029 ]
+    },
+    "properties": {
+    "City":"Vaulx-en-Velin",
+    "Population":44087
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.23964,48.88474799999999 ]
+    },
+    "properties": {
+    "City":"Puteaux",
+    "Population":43891
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.485932,48.875661 ]
+    },
+    "properties": {
+    "City":"Rosny-sous-Bois",
+    "Population":43802
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.651444,47.210335 ]
+    },
+    "properties": {
+    "City":"Saint-Herblain",
+    "Population":43784
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.293275,48.925525 ]
+    },
+    "properties": {
+    "City":"Gennevilliers",
+    "Population":43219
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.019019999999999,43.57655099999999 ]
+    },
+    "properties": {
+    "City":"Le Cannet",
+    "Population":43187
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.536118,48.91923 ]
+    },
+    "properties": {
+    "City":"Livry-Gargan",
+    "Population":43099
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.947071,45.698938 ]
+    },
+    "properties": {
+    "City":"Saint-Priest",
+    "Population":42950
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.987968,43.513006 ]
+    },
+    "properties": {
+    "City":"Istres",
+    "Population":42937
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.518332,50.357113 ]
+    },
+    "properties": {
+    "City":"Valenciennes",
+    "Population":42851
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4088759,48.762541 ]
+    },
+    "properties": {
+    "City":"Choisy-le-Roi",
+    "Population":42769
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.842426,45.79681 ]
+    },
+    "properties": {
+    "City":"Caluire-et-Cuire",
+    "Population":42581
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.613334,50.725231 ]
+    },
+    "properties": {
+    "City":"Boulogne-sur-Mer",
+    "Population":42537
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.450880999999999,42.697283 ]
+    },
+    "properties": {
+    "City":"Bastia",
+    "Population":42254
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.1562369,45.648377 ]
+    },
+    "properties": {
+    "City":"Angoulême",
+    "Population":41970
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.400724,48.97178 ]
+    },
+    "properties": {
+    "City":"Garges-lès-Gonesse",
+    "Population":41782
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.241295,43.606214 ]
+    },
+    "properties": {
+    "City":"Castres",
+    "Population":41636
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.168425999999999,49.357571 ]
+    },
+    "properties": {
+    "City":"Thionville",
+    "Population":41627
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.215007,50.70117399999999 ]
+    },
+    "properties": {
+    "City":"Wattrelos",
+    "Population":41522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588054,44.802614 ]
+    },
+    "properties": {
+    "City":"Talence",
+    "Population":41517
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1890164,47.2881884 ]
+    },
+    "properties": {
+    "City":"Saint-Laurent-du-Maroni",
+    "Population":41515
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.080602,50.367874 ]
+    },
+    "properties": {
+    "City":"Douai",
+    "Population":41189
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.458625,48.892489 ]
+    },
+    "properties": {
+    "City":"Noisy-le-Sec",
+    "Population":41125
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.078082,43.23295100000001 ]
+    },
+    "properties": {
+    "City":"Tarbes",
+    "Population":41062
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.777535,50.291002 ]
+    },
+    "properties": {
+    "City":"Arras",
+    "Population":40830
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.083352,44.127204 ]
+    },
+    "properties": {
+    "City":"Alès",
+    "Population":40711
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3990819,48.9320252 ]
+    },
+    "properties": {
+    "City":"La Courneuve",
+    "Population":40678
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2255007,46.20516749999999 ]
+    },
+    "properties": {
+    "City":"Bourg-en-Bresse",
+    "Population":40490
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.826145,49.41781599999999 ]
+    },
+    "properties": {
+    "City":"Compiègne",
+    "Population":40430
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.079758,44.559638 ]
+    },
+    "properties": {
+    "City":"Gap",
+    "Population":40255
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.6554,48.542105 ]
+    },
+    "properties": {
+    "City":"Melun",
+    "Population":40066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.98892379999999,14.6276432 ]
+    },
+    "properties": {
+    "City":"Le Lamentin",
+    "Population":40040
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.569382,47.190616 ]
+    },
+    "properties": {
+    "City":"Rezé",
+    "Population":39568
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.093761,48.898908 ]
+    },
+    "properties": {
+    "City":"Saint-Germain-en-Laye",
+    "Population":39547
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.096267,50.670368 ]
+    },
+    "properties": {
+    "City":"Marcq-en-Barœul",
+    "Population":38392
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.536518,48.8849159 ]
+    },
+    "properties": {
+    "City":"Gagny",
+    "Population":39276
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.514699,43.481402 ]
+    },
+    "properties": {
+    "City":"Anglet",
+    "Population":39184
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.464993,43.5377269 ]
+    },
+    "properties": {
+    "City":"Draguignan",
+    "Population":39174
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.489012,48.44385399999999 ]
+    },
+    "properties": {
+    "City":"Chartres",
+    "Population":38840
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.911926999999999,45.73331599999999 ]
+    },
+    "properties": {
+    "City":"Bron",
+    "Population":38746
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.31002,48.796696 ]
+    },
+    "properties": {
+    "City":"Bagneux",
+    "Population":38520
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.336579,43.612189 ]
+    },
+    "properties": {
+    "City":"Colomiers",
+    "Population":38302
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.767761,45.165133 ]
+    },
+    "properties": {
+    "City":"Saint-Martin-d'Hères",
+    "Population":38019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.607598,48.801255 ]
+    },
+    "properties": {
+    "City":"Pontault-Combault",
+    "Population":37847
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.6019912,46.3415466 ]
+    },
+    "properties": {
+    "City":"Montluçon",
+    "Population":37839
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.6613099,47.351861 ]
+    },
+    "properties": {
+    "City":"Joué-lès-Tours",
+    "Population":37703
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.519935,49.528928 ]
+    },
+    "properties": {
+    "City":"Saint-Joseph",
+    "Population":37550
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.046982,48.929584 ]
+    },
+    "properties": {
+    "City":"Poissy",
+    "Population":37461
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.349282,48.6851259 ]
+    },
+    "properties": {
+    "City":"Savigny-sur-Orge",
+    "Population":37206
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.622137,49.6337308 ]
+    },
+    "properties": {
+    "City":"Cherbourg-Octeville",
+    "Population":37055
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.749496,44.556944 ]
+    },
+    "properties": {
+    "City":"Montélimar",
+    "Population":36643
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.718821,45.991471 ]
+    },
+    "properties": {
+    "City":"Villefranche-sur-Saône",
+    "Population":36531
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.384703,48.95538699999999 ]
+    },
+    "properties": {
+    "City":"Stains",
+    "Population":36365
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.339989,46.549591 ]
+    },
+    "properties": {
+    "City":"Saint-Benoît",
+    "Population":36131
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4234589,48.870364 ]
+    },
+    "properties": {
+    "City":"Bagnolet",
+    "Population":35984
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.131439,46.471854 ]
+    },
+    "properties": {
+    "City":"Châtillon",
+    "Population":35964
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.9705283,47.1125014 ]
+    },
+    "properties": {
+    "City":"Le Port",
+    "Population":35881
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.325921300000001,48.64084159999999 ]
+    },
+    "properties": {
+    "City":"Sainte-Geneviève-des-Bois",
+    "Population":35868
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.718033999999999,45.142151 ]
+    },
+    "properties": {
+    "City":"Échirolles",
+    "Population":35684
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.072695,46.034432 ]
+    },
+    "properties": {
+    "City":"Roanne",
+    "Population":35507
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.542867,48.960226 ]
+    },
+    "properties": {
+    "City":"Villepinte",
+    "Population":35329
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.5127119,45.476088 ]
+    },
+    "properties": {
+    "City":"Saint-Chamond",
+    "Population":35308
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.09178,49.000275 ]
+    },
+    "properties": {
+    "City":"Conflans-Sainte-Honorine",
+    "Population":35213
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.573781,47.798202 ]
+    },
+    "properties": {
+    "City":"Auxerre",
+    "Population":34869
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.162845,46.99089600000001 ]
+    },
+    "properties": {
+    "City":"Nevers",
+    "Population":34841
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.528373,48.856898 ]
+    },
+    "properties": {
+    "City":"Neuilly-sur-Marne",
+    "Population":34756
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.605155,43.17365299999999 ]
+    },
+    "properties": {
+    "City":"La Ciotat",
+    "Population":34655
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.557211,48.979952 ]
+    },
+    "properties": {
+    "City":"Tremblay-en-France",
+    "Population":34614
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.477634999999999,46.373565 ]
+    },
+    "properties": {
+    "City":"Thonon-les-Bains",
+    "Population":34610
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.249702999999999,43.45859799999999 ]
+    },
+    "properties": {
+    "City":"Vitrolles",
+    "Population":34493
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.791250000000001,48.813288 ]
+    },
+    "properties": {
+    "City":"Haguenau",
+    "Population":34419
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.839225,43.093062 ]
+    },
+    "properties": {
+    "City":"Six-Fours-les-Plages",
+    "Population":34387
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.616363,44.203142 ]
+    },
+    "properties": {
+    "City":"Agen",
+    "Population":34344
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4783913,49.2576872 ]
+    },
+    "properties": {
+    "City":"Creil",
+    "Population":34262
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.234158,46.19325300000001 ]
+    },
+    "properties": {
+    "City":"Annemasse",
+    "Population":34261
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.76837,43.42519 ]
+    },
+    "properties": {
+    "City":"Saint-Raphaël",
+    "Population":34005
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.218332,43.4212739 ]
+    },
+    "properties": {
+    "City":"Marignane",
+    "Population":33986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.052735,45.044236 ]
+    },
+    "properties": {
+    "City":"Romans-sur-Isère",
+    "Population":33632
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.0360157,48.7738734 ]
+    },
+    "properties": {
+    "City":"Montigny-le-Bretonneux",
+    "Population":33625
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.504038,48.841386 ]
+    },
+    "properties": {
+    "City":"Le Perreux-sur-Marne",
+    "Population":33480
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.229632,48.986011 ]
+    },
+    "properties": {
+    "City":"Franconville",
+    "Population":33375
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.828730999999999,46.3068839 ]
+    },
+    "properties": {
+    "City":"Mâcon",
+    "Population":33350
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.582747,48.55490899999999 ]
+    },
+    "properties": {
+    "City":"Saint-Leu",
+    "Population":33154
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.236633,50.173538 ]
+    },
+    "properties": {
+    "City":"Cambrai",
+    "Population":32852
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.270748,48.771896 ]
+    },
+    "properties": {
+    "City":"Châtenay-Malabry",
+    "Population":32623
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.014911,42.728548 ]
+    },
+    "properties": {
+    "City":"Sainte-Marie",
+    "Population":32605
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.447488,48.7305769 ]
+    },
+    "properties": {
+    "City":"Villeneuve-Saint-Georges",
+    "Population":32575
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.18888,48.926916 ]
+    },
+    "properties": {
+    "City":"Houilles",
+    "Population":32287
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.449403,48.172402 ]
+    },
+    "properties": {
+    "City":"Épinal",
+    "Population":32188
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.83183,50.42893000000001 ]
+    },
+    "properties": {
+    "City":"Lens",
+    "Population":31647
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.775222,50.417921 ]
+    },
+    "properties": {
+    "City":"Liévin",
+    "Population":31517
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.912178,48.990181 ]
+    },
+    "properties": {
+    "City":"Les Mureaux",
+    "Population":31487
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.748453,48.60522599999999 ]
+    },
+    "properties": {
+    "City":"Schiltigheim",
+    "Population":31450
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.869908,44.6986 ]
+    },
+    "properties": {
+    "City":"La Possession",
+    "Population":31439
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.003658,45.766821 ]
+    },
+    "properties": {
+    "City":"Meyzieu",
+    "Population":31438
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.370889,48.736134 ]
+    },
+    "properties": {
+    "City":"Dreux",
+    "Population":31373
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.481699,48.83763099999999 ]
+    },
+    "properties": {
+    "City":"Nogent-sur-Marne",
+    "Population":31367
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.949075,48.817223 ]
+    },
+    "properties": {
+    "City":"Plaisir",
+    "Population":31342
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.4997819999999999,43.893485 ]
+    },
+    "properties": {
+    "City":"Mont-de-Marsan",
+    "Population":31334
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.245748,48.714509 ]
+    },
+    "properties": {
+    "City":"Palaiseau",
+    "Population":31264
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.548146,46.816487 ]
+    },
+    "properties": {
+    "City":"Châtellerault",
+    "Population":31262
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.471236,49.03046699999999 ]
+    },
+    "properties": {
+    "City":"Goussainville",
+    "Population":31212
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.338084,48.7789659 ]
+    },
+    "properties": {
+    "City":"L'Haÿ-les-Roses",
+    "Population":31201
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.375902,48.666218 ]
+    },
+    "properties": {
+    "City":"Viry-Châtillon",
+    "Population":31132
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.416924,48.700094 ]
+    },
+    "properties": {
+    "City":"Vigneux-sur-Seine",
+    "Population":31126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.160098,48.896391 ]
+    },
+    "properties": {
+    "City":"Chatou",
+    "Population":30809
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.001844,48.776731 ]
+    },
+    "properties": {
+    "City":"Trappes",
+    "Population":30979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.546147,48.910899 ]
+    },
+    "properties": {
+    "City":"Clichy-sous-Bois",
+    "Population":30725
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.897126,45.819655 ]
+    },
+    "properties": {
+    "City":"Rillieux-la-Pape",
+    "Population":30645
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5672574,44.7799813 ]
+    },
+    "properties": {
+    "City":"Villenave-d'Ornon",
+    "Population":30633
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.9674,50.280228 ]
+    },
+    "properties": {
+    "City":"Maubeuge",
+    "Population":30567
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4162805,48.8193107 ]
+    },
+    "properties": {
+    "City":"Charenton-le-Pont",
+    "Population":30408
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2977599,48.817275 ]
+    },
+    "properties": {
+    "City":"Malakoff",
+    "Population":30304
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.9031459,47.8507532 ]
+    },
+    "properties": {
+    "City":"Matoury",
+    "Population":30244
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.077483,49.922992 ]
+    },
+    "properties": {
+    "City":"Dieppe",
+    "Population":30214
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.38479,48.7092979 ]
+    },
+    "properties": {
+    "City":"Athis-Mons",
+    "Population":30094
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.580987,48.59585999999999 ]
+    },
+    "properties": {
+    "City":"Savigny-le-Temple",
+    "Population":30068
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.7211149,45.184029 ]
+    },
+    "properties": {
+    "City":"Périgueux",
+    "Population":30036
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.6481441,16.2073497 ]
+    },
+    "properties": {
+    "City":"Baie-Mahault",
+    "Population":30015
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.17376,48.66111799999999 ]
+    },
+    "properties": {
+    "City":"Vandoeuvre-lès-Nancy",
+    "Population":29836
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.100645,49.050966 ]
+    },
+    "properties": {
+    "City":"Pontoise",
+    "Population":29826
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.908998,45.692341 ]
+    },
+    "properties": {
+    "City":"Aix-les-Bains",
+    "Population":29580
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.331433,48.791855 ]
+    },
+    "properties": {
+    "City":"Cachan",
+    "Population":29462
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.874339,45.525587 ]
+    },
+    "properties": {
+    "City":"Vienne",
+    "Population":29325
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.387405,48.760344 ]
+    },
+    "properties": {
+    "City":"Thiais",
+    "Population":29280
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.807511,44.1380989 ]
+    },
+    "properties": {
+    "City":"Orange",
+    "Population":29193
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.7181,44.895295 ]
+    },
+    "properties": {
+    "City":"Saint-Médard-en-Jalles",
+    "Population":29178
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.505069,48.886727 ]
+    },
+    "properties": {
+    "City":"Villemomble",
+    "Population":29165
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.208115,48.84764699999999 ]
+    },
+    "properties": {
+    "City":"Saint-Cloud",
+    "Population":29109
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.189811,43.673417 ]
+    },
+    "properties": {
+    "City":"Saint-Laurent-du-Var",
+    "Population":28991
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.490967,48.712858 ]
+    },
+    "properties": {
+    "City":"Yerres",
+    "Population":28797
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.108209,49.380305 ]
+    },
+    "properties": {
+    "City":"Saint-Étienne-du-Rouvray",
+    "Population":28738
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.095407,49.41725 ]
+    },
+    "properties": {
+    "City":"Sotteville-lès-Rouen",
+    "Population":28704
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.408154,48.685388 ]
+    },
+    "properties": {
+    "City":"Draveil",
+    "Population":28687
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.130544,48.82541500000001 ]
+    },
+    "properties": {
+    "City":"Le Chesnay",
+    "Population":28640
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.269675,48.917402 ]
+    },
+    "properties": {
+    "City":"Bois-Colombes",
+    "Population":28561
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.266257,48.780426 ]
+    },
+    "properties": {
+    "City":"Le Plessis-Robinson",
+    "Population":28500
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.244085,48.906535 ]
+    },
+    "properties": {
+    "City":"La Garenne-Colombes",
+    "Population":28498
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.026676,50.652468 ]
+    },
+    "properties": {
+    "City":"Lambersart",
+    "Population":28491
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.32342,49.376636 ]
+    },
+    "properties": {
+    "City":"Soissons",
+    "Population":28472
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.364077,48.967903 ]
+    },
+    "properties": {
+    "City":"Pierrefitte-sur-Seine",
+    "Population":28459
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.048722,44.0555639 ]
+    },
+    "properties": {
+    "City":"Carpentras",
+    "Population":28422
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.546798,48.825787 ]
+    },
+    "properties": {
+    "City":"Villiers-sur-Marne",
+    "Population":28190
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.288405,48.822484 ]
+    },
+    "properties": {
+    "City":"Vanves",
+    "Population":28170
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.497540000000001,43.774481 ]
+    },
+    "properties": {
+    "City":"Menton",
+    "Population":28100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.483392,44.853806 ]
+    },
+    "properties": {
+    "City":"Bergerac",
+    "Population":28063
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.258451,48.989071 ]
+    },
+    "properties": {
+    "City":"Ermont",
+    "Population":28021
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.215847,48.925687 ]
+    },
+    "properties": {
+    "City":"Bezons",
+    "Population":27855
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.385166,48.656473 ]
+    },
+    "properties": {
+    "City":"Grigny",
+    "Population":27716
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.075323,48.762895 ]
+    },
+    "properties": {
+    "City":"Guyancourt",
+    "Population":27546
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.08089299999999999,47.260135 ]
+    },
+    "properties": {
+    "City":"Saumur",
+    "Population":27413
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.165493,48.990006 ]
+    },
+    "properties": {
+    "City":"Herblay",
+    "Population":27378
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.410451,48.64566300000001 ]
+    },
+    "properties": {
+    "City":"Ris-Orangis",
+    "Population":27312
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.387981,49.007379 ]
+    },
+    "properties": {
+    "City":"Villiers-le-Bel",
+    "Population":27312
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.27212,45.597108 ]
+    },
+    "properties": {
+    "City":"Bourgoin-Jallieu",
+    "Population":27163
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.069791,47.221438 ]
+    },
+    "properties": {
+    "City":"Vierzon",
+    "Population":27113
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.8446469999999999,48.571154 ]
+    },
+    "properties": {
+    "City":"Le Gosier",
+    "Population":26900
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.957024000000001,45.7674499 ]
+    },
+    "properties": {
+    "City":"Décines-Charpieu",
+    "Population":26826
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.94728,50.420087 ]
+    },
+    "properties": {
+    "City":"Hénin-Beaumont",
+    "Population":26748
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.326243,48.757205 ]
+    },
+    "properties": {
+    "City":"Fresnes",
+    "Population":26645
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.444997,44.930953 ]
+    },
+    "properties": {
+    "City":"Aurillac",
+    "Population":26572
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.256869,48.970782 ]
+    },
+    "properties": {
+    "City":"Sannois",
+    "Population":26557
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.055041,43.577244 ]
+    },
+    "properties": {
+    "City":"Vallauris",
+    "Population":26465
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.711011,48.52854 ]
+    },
+    "properties": {
+    "City":"Illkirch-Graffenstaden",
+    "Population":26455
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.091266,48.432856 ]
+    },
+    "properties": {
+    "City":"Alençon",
+    "Population":26350
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.960077,48.78290699999999 ]
+    },
+    "properties": {
+    "City":"Élancourt",
+    "Population":26290
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.346834,43.5829 ]
+    },
+    "properties": {
+    "City":"Tournefeuille",
+    "Population":26206
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5437839999999999,44.812023 ]
+    },
+    "properties": {
+    "City":"Bègles",
+    "Population":26104
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4497721,48.9864632 ]
+    },
+    "properties": {
+    "City":"Gonesse",
+    "Population":26075
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.80066,45.711926 ]
+    },
+    "properties": {
+    "City":"Oullins",
+    "Population":26072
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.504543,48.698071 ]
+    },
+    "properties": {
+    "City":"Brunoy",
+    "Population":26066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.223507,49.027441 ]
+    },
+    "properties": {
+    "City":"Taverny",
+    "Population":25998
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.884218,50.691652 ]
+    },
+    "properties": {
+    "City":"Armentières",
+    "Population":25978
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.570773,48.902029 ]
+    },
+    "properties": {
+    "City":"Montfermeil",
+    "Population":25945
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.829079,48.643868 ]
+    },
+    "properties": {
+    "City":"Rambouillet",
+    "Population":25926
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.614385,48.938315 ]
+    },
+    "properties": {
+    "City":"Villeparisis",
+    "Population":25889
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.356972,48.810108 ]
+    },
+    "properties": {
+    "City":"Le Kremlin-Bicêtre",
+    "Population":25863
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.5221629,48.7708784 ]
+    },
+    "properties": {
+    "City":"Sucy-en-Brie",
+    "Population":25849
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.6441492,5.1660547 ]
+    },
+    "properties": {
+    "City":"Kourou",
+    "Population":25793
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.798466,47.510356 ]
+    },
+    "properties": {
+    "City":"Montbéliard",
+    "Population":25697
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.435048,48.886112 ]
+    },
+    "properties": {
+    "City":"Romainville",
+    "Population":25657
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.0407814,43.8366045 ]
+    },
+    "properties": {
+    "City":"Cavaillon",
+    "Population":25636
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.947418,48.637692 ]
+    },
+    "properties": {
+    "City":"Saint-Dizier",
+    "Population":25626
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.30604,48.611486 ]
+    },
+    "properties": {
+    "City":"Brétigny-sur-Orge",
+    "Population":25624
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.503103,47.205376 ]
+    },
+    "properties": {
+    "City":"Saint-Sébastien-sur-Loire",
+    "Population":25610
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.633389,45.744175 ]
+    },
+    "properties": {
+    "City":"Saintes",
+    "Population":25601
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.148224,44.631077 ]
+    },
+    "properties": {
+    "City":"La Teste-de-Buch",
+    "Population":25587
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.324789,48.936616 ]
+    },
+    "properties": {
+    "City":"Villeneuve-la-Garenne",
+    "Population":25466
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.63926,50.531036 ]
+    },
+    "properties": {
+    "City":"Béthune",
+    "Population":25463
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.69802,48.842205 ]
+    },
+    "properties": {
+    "City":"Bussy-Saint-Georges",
+    "Population":25419
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.425488,46.131859 ]
+    },
+    "properties": {
+    "City":"Vichy",
+    "Population":25325
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.017199,43.128777 ]
+    },
+    "properties": {
+    "City":"La Garde",
+    "Population":25298
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.4768109,43.3088031 ]
+    },
+    "properties": {
+    "City":"Agde",
+    "Population":25253
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.61989,49.564133 ]
+    },
+    "properties": {
+    "City":"Laon",
+    "Population":25219
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.28268,48.20065 ]
+    },
+    "properties": {
+    "City":"Sens",
+    "Population":25018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.135365999999999,43.67445 ]
+    },
+    "properties": {
+    "City":"Lunel",
+    "Population":25006
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.002136,43.588896 ]
+    },
+    "properties": {
+    "City":"Miramas",
+    "Population":25002
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.558626,43.4831519 ]
+    },
+    "properties": {
+    "City":"Biarritz",
+    "Population":24993
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.041384,49.411811 ]
+    },
+    "properties": {
+    "City":"Le Grand-Quevilly",
+    "Population":24967
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.619405,47.274344 ]
+    },
+    "properties": {
+    "City":"Orvault",
+    "Population":24922
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.16647,48.6792779 ]
+    },
+    "properties": {
+    "City":"Les Ulis",
+    "Population":24914
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.602651,48.852775 ]
+    },
+    "properties": {
+    "City":"Champs-sur-Marne",
+    "Population":24913
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.9616969999999999,45.936698 ]
+    },
+    "properties": {
+    "City":"Rochefort",
+    "Population":24761
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.33071,43.46157400000001 ]
+    },
+    "properties": {
+    "City":"Muret",
+    "Population":24725
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.080619,47.756791 ]
+    },
+    "properties": {
+    "City":"Sainte-Anne",
+    "Population":24653
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2779189,48.992128 ]
+    },
+    "properties": {
+    "City":"Eaubonne",
+    "Population":24606
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.16142,48.43441600000001 ]
+    },
+    "properties": {
+    "City":"Étampes",
+    "Population":24502
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.618945,44.77426699999999 ]
+    },
+    "properties": {
+    "City":"Gradignan",
+    "Population":24439
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.488107,49.091958 ]
+    },
+    "properties": {
+    "City":"Vernon",
+    "Population":24064
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.117283,44.775483 ]
+    },
+    "properties": {
+    "City":"Petit-Bourg",
+    "Population":24039
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.243985,44.91299799999999 ]
+    },
+    "properties": {
+    "City":"Libourne",
+    "Population":23947
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.836833,50.105467 ]
+    },
+    "properties": {
+    "City":"Abbeville",
+    "Population":23821
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.575986,44.349389 ]
+    },
+    "properties": {
+    "City":"Rodez",
+    "Population":23741
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.105287,49.04313 ]
+    },
+    "properties": {
+    "City":"Saint-Ouen-l'Aumône",
+    "Population":23702
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.654472,48.850572 ]
+    },
+    "properties": {
+    "City":"Torcy",
+    "Population":23669
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.1423899,48.947545 ]
+    },
+    "properties": {
+    "City":"Maisons-Laffitte",
+    "Population":23565
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4604529,48.703859 ]
+    },
+    "properties": {
+    "City":"Montgeron",
+    "Population":23565
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.7072568,44.4082053 ]
+    },
+    "properties": {
+    "City":"Villeneuve-sur-Lot",
+    "Population":23462
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.201292,48.973526 ]
+    },
+    "properties": {
+    "City":"Cormeilles-en-Parisis",
+    "Population":23419
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.956242,49.043411 ]
+    },
+    "properties": {
+    "City":"Épernay",
+    "Population":23413
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2109771,48.8212407 ]
+    },
+    "properties": {
+    "City":"Sèvres",
+    "Population":23404
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.49081,47.09534 ]
+    },
+    "properties": {
+    "City":"Dole",
+    "Population":23312
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.227126,45.657669 ]
+    },
+    "properties": {
+    "City":"Le Robert",
+    "Population":23296
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.59944,44.865164 ]
+    },
+    "properties": {
+    "City":"Le Bouscat",
+    "Population":23207
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.39703,43.63508700000001 ]
+    },
+    "properties": {
+    "City":"Blagnac",
+    "Population":22969
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.755999,43.444815 ]
+    },
+    "properties": {
+    "City":"Frontignan",
+    "Population":22942
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.530906,44.857738 ]
+    },
+    "properties": {
+    "City":"Cenon",
+    "Population":22882
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.938308999999999,43.546232 ]
+    },
+    "properties": {
+    "City":"Mandelieu-la-Napoule",
+    "Population":22864
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.473378,47.168194 ]
+    },
+    "properties": {
+    "City":"Vertou",
+    "Population":22820
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.419452,48.881935 ]
+    },
+    "properties": {
+    "City":"Les Lilas",
+    "Population":22819
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.543206,50.483113 ]
+    },
+    "properties": {
+    "City":"Bruay-la-Buissière",
+    "Population":22802
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.504403,48.90852 ]
+    },
+    "properties": {
+    "City":"Les Pavillons-sous-Bois",
+    "Population":22680
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.1392559,48.113748 ]
+    },
+    "properties": {
+    "City":"Chaumont",
+    "Population":22560
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.656802,48.7904005 ]
+    },
+    "properties": {
+    "City":"Roissy-en-Brie",
+    "Population":22559
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.255952,45.548597 ]
+    },
+    "properties": {
+    "City":"Le Moule",
+    "Population":22456
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.054325,49.42989499999999 ]
+    },
+    "properties": {
+    "City":"Le Petit-Quevilly",
+    "Population":22426
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.790916,43.835744 ]
+    },
+    "properties": {
+    "City":"Manosque",
+    "Population":22412
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.4178639,48.84283199999999 ]
+    },
+    "properties": {
+    "City":"Saint-Mandé",
+    "Population":22398
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.287181,48.789776 ]
+    },
+    "properties": {
+    "City":"Fontenay-aux-Roses",
+    "Population":22378
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.401373,48.745193 ]
+    },
+    "properties": {
+    "City":"Orly",
+    "Population":22377
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4278,46.80535099999999 ]
+    },
+    "properties": {
+    "City":"Le Creusot",
+    "Population":22308
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.655335,46.257773 ]
+    },
+    "properties": {
+    "City":"Oyonnax",
+    "Population":22258
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.073511,50.654836 ]
+    },
+    "properties": {
+    "City":"La Madeleine",
+    "Population":22243
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.349277,48.097456 ]
+    },
+    "properties": {
+    "City":"Sainte-Suzanne",
+    "Population":22209
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.077801,44.100575 ]
+    },
+    "properties": {
+    "City":"Millau",
+    "Population":22205
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.55769,48.66602 ]
+    },
+    "properties": {
+    "City":"Combs-la-Ville",
+    "Population":22086
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.688211,45.192754 ]
+    },
+    "properties": {
+    "City":"Fontaine",
+    "Population":22066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3272339,48.975751 ]
+    },
+    "properties": {
+    "City":"Deuil-la-Barre",
+    "Population":22031
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.397046,51.015681 ]
+    },
+    "properties": {
+    "City":"Coudekerque-Branche",
+    "Population":22015
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.5867089999999999,43.64638 ]
+    },
+    "properties": {
+    "City":"Auch",
+    "Population":21962
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.347354,47.76349399999999 ]
+    },
+    "properties": {
+    "City":"Lanester",
+    "Population":21874
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.840004,47.02603000000001 ]
+    },
+    "properties": {
+    "City":"Beaune",
+    "Population":21838
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.147806999999999,49.099068 ]
+    },
+    "properties": {
+    "City":"Montigny-lès-Metz",
+    "Population":21831
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.542555,50.72748 ]
+    },
+    "properties": {
+    "City":"Hazebrouck",
+    "Population":21737
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2947615,48.6930642 ]
+    },
+    "properties": {
+    "City":"Longjumeau",
+    "Population":21657
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.804827,45.735237 ]
+    },
+    "properties": {
+    "City":"Sainte-Foy-lès-Lyon",
+    "Population":21646
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.895295000000001,49.186515 ]
+    },
+    "properties": {
+    "City":"Forbach",
+    "Population":21596
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.070862,49.106031 ]
+    },
+    "properties": {
+    "City":"Sarreguemines",
+    "Population":21572
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.107673,50.64200599999999 ]
+    },
+    "properties": {
+    "City":"Mons-en-Barœul",
+    "Population":21513
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.987584399999999,43.13824 ]
+    },
+    "properties": {
+    "City":"La Valette-du-Var",
+    "Population":21463
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.333655,49.20358 ]
+    },
+    "properties": {
+    "City":"Hérouville-Saint-Clair",
+    "Population":21393
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.345709,48.661766 ]
+    },
+    "properties": {
+    "City":"Morsang-sur-Orge",
+    "Population":21377
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.302577,51.013547 ]
+    },
+    "properties": {
+    "City":"Grande-Synthe",
+    "Population":21364
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.132504,48.849766 ]
+    },
+    "properties": {
+    "City":"La Celle-Saint-Cloud",
+    "Population":21264
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.227849,49.145922 ]
+    },
+    "properties": {
+    "City":"Lisieux",
+    "Population":21132
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.148719,50.67731999999999 ]
+    },
+    "properties": {
+    "City":"Croix",
+    "Population":21114
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.634831,48.515451 ]
+    },
+    "properties": {
+    "City":"Dammarie-les-Lys",
+    "Population":21094
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.190408,48.787899 ]
+    },
+    "properties": {
+    "City":"Vélizy-Villacoublay",
+    "Population":20997
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.130782,50.669276 ]
+    },
+    "properties": {
+    "City":"Wasquehal",
+    "Population":20990
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.286571,48.970259 ]
+    },
+    "properties": {
+    "City":"Saint-Gratien",
+    "Population":20933
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.127845,50.782824 ]
+    },
+    "properties": {
+    "City":"Halluin",
+    "Population":20915
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.509142,48.865205 ]
+    },
+    "properties": {
+    "City":"Neuilly-Plaisance",
+    "Population":20840
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.321878,48.989778 ]
+    },
+    "properties": {
+    "City":"Montmorency",
+    "Population":20796
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.051945,43.708608 ]
+    },
+    "properties": {
+    "City":"Dax",
+    "Population":20776
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.713016,48.87296 ]
+    },
+    "properties": {
+    "City":"Lagny-sur-Marne",
+    "Population":20718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.632122,48.534031 ]
+    },
+    "properties": {
+    "City":"Le Mée-sur-Seine",
+    "Population":20713
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.792768,45.691999 ]
+    },
+    "properties": {
+    "City":"Saint-Genis-Laval",
+    "Population":20696
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.920754,47.931513 ]
+    },
+    "properties": {
+    "City":"Fleury-les-Aubrais",
+    "Population":20677
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.017729,50.61513900000001 ]
+    },
+    "properties": {
+    "City":"Loos",
+    "Population":20650
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.134078,48.701844 ]
+    },
+    "properties": {
+    "City":"Gif-sur-Yvette",
+    "Population":20631
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.397325,50.328225 ]
+    },
+    "properties": {
+    "City":"Denain",
+    "Population":20549
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.947767,48.2874679 ]
+    },
+    "properties": {
+    "City":"Saint-Dié-des-Vosges",
+    "Population":20471
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0.9870279999999999,44.091764 ]
+    },
+    "properties": {
+    "City":"Sainte-Rose",
+    "Population":20144
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.312884,48.63263999999999 ]
+    },
+    "properties": {
+    "City":"Saint-Michel-sur-Orge",
+    "Population":20057
+    }
+  }
+]
+}

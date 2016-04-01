@@ -6,27 +6,135 @@ var regionFuncs = new function()
 		console.log(mapStr);
 		d3.json(mapStr, function(error, regionTopoJson)
 		{
+			var windowWidth = window.innerWidth - 20,
+			windowHeight = window.innerHeight - 20;
+
 			var regions = topojson.feature(regionTopoJson, regionTopoJson.objects.region);
+
+			var scaleOverride, finaTopOffset;
+			if (mapCountry == "spain" && (subregionID == 1 || subregionID == 31))
+			{
+				var topleftCoordinates, bottomrightCoordinates;
+
+				regions.features.forEach(function(element, index, array)
+				{
+					if (element.geometry.type == "Polygon")
+					{
+						var topleftCoords = getLargeMapCoords(element.geometry.coordinates[0], "topleft");
+						var bottomrightCoords = getLargeMapCoords(element.geometry.coordinates[0], "bottomright");
+						topleftCoordinates = projection(topleftCoords);
+						bottomrightCoordinates = projection(bottomrightCoords);
+					}
+					else if (element.geometry.type == "MultiPolygon")
+					{
+						var XcoordArrTopleft = [];
+						var YcoordArrTopleft = [];
+						var XcoordArrBottomright = [];
+						var YcoordArrBottomright = [];
+						element.geometry.coordinates.forEach(function(coordArr)
+						{
+							var topleftCoords = getLargeMapCoords(coordArr[0], "topleft");
+							XcoordArrTopleft.push(topleftCoords[0]);
+							YcoordArrTopleft.push(topleftCoords[1]);
+							var bottomrightCoords = getLargeMapCoords(coordArr[0], "bottomright");
+							XcoordArrBottomright.push(bottomrightCoords[0]);
+							YcoordArrBottomright.push(bottomrightCoords[1]);
+						});
+						var XcoordTopleft = d3.min(XcoordArrTopleft);
+						var YcoordTopleft = d3.max(YcoordArrTopleft);
+						var XcoordBottomright = d3.max(XcoordArrBottomright);
+						var YcoordBottomright = d3.min(YcoordArrBottomright);
+						topleftCoordinates = projection([XcoordTopleft, YcoordTopleft]);
+						bottomrightCoordinates = projection([XcoordBottomright, YcoordBottomright]);
+					}
+
+					// Figure out which is the smallest increase that scales the svg to the max width or height of the screen
+					var widthDiff = bottomrightCoordinates[0] - topleftCoordinates[0];
+					var heightDiff = bottomrightCoordinates[1] - topleftCoordinates[1];
+					var widthDimension = (windowWidth / widthDiff);
+					var heightDimension = (windowHeight / heightDiff);
+					var tempFinalDimension = (widthDimension > heightDimension) ? heightDimension : widthDimension;
+					if (typeof scaleOverride == "undefined")
+						scaleOverride = tempFinalDimension;
+					else
+						scaleOverride = (scaleOverride > tempFinalDimension) ? tempFinalDimension : scaleOverride;
+					var centerRegionExtraPixels = (window.innerWidth - widthDiff) / tempFinalDimension;
+					var centerRegionExtraPixels = (window.innerWidth - widthDiff) / currentScaling;
+					// .1 is quasi-offset for some regions being too large
+				//	currentScaling = currentScaling - currentScaling * .1;
+
+					// Here we simultaneously scale and move the region
+					// so that the most western and northern points are near 0,0.
+					// Note that the animation happens because of the openWindowStyle animation CSS
+					// defined in occitaniaStyles.css
+					// Also: we need to use translate below instead of changing css's left and top.
+					// Translate has much faster animations, especially in Chrome
+					// .2 is quasi-offset for stroke-width
+					//currentLeftOffset = topleftCoordinates[0] * currentScaling * -1 + (currentScaling * .2) + centerRegionExtraPixels;
+					//currentTopOffset = topleftCoordinates[1] * currentScaling * -1 + (currentScaling * .2);
+					if (typeof finaTopOffset == "undefined")
+						finaTopOffset = topleftCoordinates[1];
+					else
+						finaTopOffset = (topleftCoordinates[1] < finaTopOffset) ? topleftCoordinates[1] : finaTopOffset;
+				});
+			/*
+				regionTopoJson.objects.region.geometries.forEach(function(element, index, array)
+				{
+					element.arcs.forEach(function(subelement, subindex, subarray)
+					{
+						;//subelement.reverse();
+					});
+				});
+				
+				regions.features.forEach(function(element, index, array)
+				{
+					console.log(d3.geo.area(element));
+					if (d3.geo.area(element) == 0)
+						console.log("Found one!!");
+					/*element.geometry.coordinates.forEach(function(subelement, subindex, subarray)
+					{
+						subelement.reverse();
+					});
+				});
+			*/
+			}
 
 			//var center = path.centroid(regions);
 			var newProjection = d3.geo.albers()
 				.center([0, 43.96])
 				.rotate([1, 0.37])
-				.parallels([50, 60])
-				.scale(1200 * 4)
-				.translate([600, 630]);
+				.parallels([50, 60]);
 
 			var newPath = d3.geo.path().projection(newProjection);
 			newProjection
 				.scale(1)
 				.translate([0, 0]);
 
-			var windowWidth = window.innerWidth - 20,
-			windowHeight = window.innerHeight - 20;
-			var b = newPath.bounds(regions),
-				s = .95 / Math.max((b[1][0] - b[0][0]) / windowWidth, (b[1][1] - b[0][1]) / windowHeight),
+			var b = newPath.bounds(regions);
+			if (typeof scaleOverride != "undefined")
+				s = (scaleOverride * 1000 * 4); // Why do these magic numbers work for Almeria? They don't work for Ceuta, probably because it includes Melilla.
+			else
+				s = .95 / Math.max((b[1][0] - b[0][0]) / windowWidth, (b[1][1] - b[0][1]) / windowHeight);
+			if (typeof scaleOverride != "undefined")
+			{
+				//console.log(currentScaling);
+				var theirS = .95 / Math.max((b[1][0] - b[0][0]) / windowWidth, (b[1][1] - b[0][1]) / windowHeight);
+				t = [(windowWidth - s * (b[1][0] + b[0][0])) / 2, (windowHeight * ( s / theirS) - s * (b[1][1] + b[0][1])) / 2];
+			}
+			else
 				t = [(windowWidth - s * (b[1][0] + b[0][0])) / 2, (windowHeight - s * (b[1][1] + b[0][1])) / 2];
 
+			/*
+			console.log(b[1][1]);
+			console.log(b[0][1]);
+			console.log((b[1][1] - b[0][1]) / windowHeight);
+			console.log(.95 / ((b[1][1] - b[0][1]) / windowHeight));
+			console.log(s);
+			console.log(b[1][0] + b[0][0]);
+			console.log(b[1][1] + b[0][1]);
+			console.log(b);
+			console.log(s);
+			*/
 			newProjection
 				.scale(s)
 				.translate(t);
@@ -66,6 +174,8 @@ var regionFuncs = new function()
 					// Andorra, and possibly other small countries, don't have admin3
 					if ("admin3name" in d.properties)
 						$('#subSubRegionName').html(d.properties.admin3name);
+					else
+						$('#subSubRegionName').html("");
 				})
 				.on('click', function(d){
 					;

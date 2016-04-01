@@ -141,3 +141,13 @@ topojson -o monaco.adm0.topo.json  \
 topojson -o monaco.0.topo.json  \
   --properties Cntry=ISO,regionname=NAME_0,subregionname=NAME_1,region=ISO \
   region=MCO_adm0.json
+
+  
+Population geoJSON
+topojson -o france.population.topo.json \
+  --properties city=City,population=Population \
+  population=france.population.geo.json
+
+topojson -o spain.population.topo.json \
+  --properties city=City,population=Population \
+  population=spain.population.geo.json
