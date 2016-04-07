@@ -5,27 +5,32 @@
 import csv, time, urllib.request, urllib.parse, json, sys
 france_cities_list = []
 
-with open('outputFrance.csv', 'r') as data_file:
+with open('outputFranceInseeWithLatLng.csv', 'r') as data_file:
 	reader = csv.reader(data_file)
 	for row in reader:
 		france_cities_list.append(row)
 
-#    print data_file
-#    writer = csv.writer(data_file, delimiter=',')
-#    print writer
-#    writer.writerows(france_cities_list)
-#      france_cities_list.append(line.strip().split(','))
+myDict = {}
 
-#with open('franceCities.csv', 'rb') as f:
-#    reader = csv.reader(f)
-#    france_cities_list = list(reader)
+counter = 0
+for i in france_cities_list:
+	admin2name = i[3]
+	rowIndex = myDict.get(admin2name, "Never")
+	if (rowIndex == "Never"):
+		myDict[admin2name] = counter
+	else:
+		rowObj = france_cities_list[rowIndex]
+		if (int(i[7]) > int(rowObj[7])):
+			myDict[admin2name] = counter
+	counter += 1
 
 france_cities_list_smaller = list()
 counter = 0
 for i in france_cities_list:
+	admin2name = i[3]
+	if (myDict[admin2name] == counter):
+		france_cities_list_smaller.append(i)
 	counter += 1
-	g = [i[0], i[3], i[5], i[6]]
-	france_cities_list_smaller.append(g)
 	#{'lng': 0.107929, 'lat': 49.49437}
 
 with open("outputFranceSmaller.csv", "w") as f:

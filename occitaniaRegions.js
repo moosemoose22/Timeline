@@ -10,6 +10,9 @@ var regionFuncs = new function()
 			windowHeight = window.innerHeight - 20;
 
 			var regions = topojson.feature(regionTopoJson, regionTopoJson.objects.region);
+			var population;
+			if ("population" in regionTopoJson.objects)
+				population = topojson.feature(regionTopoJson, regionTopoJson.objects.population);
 
 			var scaleOverride, finaTopOffset;
 			if (mapCountry == "spain" && (subregionID == 1 || subregionID == 31))
@@ -124,17 +127,6 @@ var regionFuncs = new function()
 			else
 				t = [(windowWidth - s * (b[1][0] + b[0][0])) / 2, (windowHeight - s * (b[1][1] + b[0][1])) / 2];
 
-			/*
-			console.log(b[1][1]);
-			console.log(b[0][1]);
-			console.log((b[1][1] - b[0][1]) / windowHeight);
-			console.log(.95 / ((b[1][1] - b[0][1]) / windowHeight));
-			console.log(s);
-			console.log(b[1][0] + b[0][0]);
-			console.log(b[1][1] + b[0][1]);
-			console.log(b);
-			console.log(s);
-			*/
 			newProjection
 				.scale(s)
 				.translate(t);
@@ -180,6 +172,28 @@ var regionFuncs = new function()
 				.on('click', function(d){
 					;
 				});
+				
+			if (population)
+			{
+				// Add little gray dot next to city
+				regionSVG.selectAll(".regionCityDot")
+					.data(topojson.feature(regionTopoJson, regionTopoJson.objects.population).features)
+					.enter()
+					.append("path")
+					.attr("d", newPath)
+					.attr("class", "place");
+
+				regionSVG.selectAll(".region-place-label")
+					.data(topojson.feature(regionTopoJson, regionTopoJson.objects.population).features)
+					.enter()
+					.append("text")
+					.attr("class", "place-label")
+					.attr("transform", function(d) { return "translate(" + newProjection(d.geometry.coordinates) + ")"; })
+					.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+					.attr("dy", ".35em")
+					.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+					.text(function(d) { return d.properties.cityname; });
+			}
 			//console.log(regionTopoJson);
 			//svg.append("path")
 			//var regionSvg = d3.select("#" + currentFullRegion);

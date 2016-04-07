@@ -151,3 +151,33 @@ topojson -o france.population.topo.json \
 topojson -o spain.population.topo.json \
   --properties city=City,population=Population \
   population=spain.population.geo.json
+
+topojson -o occitania.population.topo.json \
+  --properties city=City,population=Population,admin1=Admin1,admin2=Admin2 \
+  population=occitania.population.geo.json
+
+topojson -o occitania.population.direct.topo.json \
+  --properties city=CityName,population=Population,admin1=RegionName,admin2=DeptName \
+  population=occitania.direct.geo.json
+  
+
+ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '_', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./makeTopojson.sh {}
+#ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '_', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./combineIndividuals.sh {}
+ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '**', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./combineIndividuals.sh {}
+
+
+
+topojson \
+  -o occitania.json \
+  --properties Cntry=ISO,regionname=NAME_1,subregionname=NAME_2,region=HASC_2,admin3name=NAME_3,regionname=RegionName,subregionname=DeptName,cityname=CityName,numsubareas=NumSubAreas,population=Population \
+  -- \
+  subunits.json \
+  places.json \
+  states_provinces.json
+
+"RegionCode": 42, "RegionName": "Alsace", "DeptCode": "67", "DeptName": "Bas-Rhin", "CityCode": 2, "CityName": "Haguenau-Wissembourg", "NumSubAreas": 144, "Population": 239965
+regionname=RegionName,subregionname=DeptName,cityname=CityName,numsubareas=NumSubAreas,population=Population
+
+
+ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '_', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./makeTopojson.sh {}
+ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '**', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./combineIndividuals.sh {}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Lot", "CityName": "Cahors", "Population": 19616 }, "geometry": { "type": "Point", "coordinates": [ 1.441989, 44.4475229 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Landes", "CityName": "Biscarrosse", "Population": 13983 }, "geometry": { "type": "Point", "coordinates": [ -1.164218, 44.3946602 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Landes", "CityName": "Dax", "Population": 20776 }, "geometry": { "type": "Point", "coordinates": [ -1.051945, 43.708608 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Landes", "CityName": "Mont-de-Marsan", "Population": 31334 }, "geometry": { "type": "Point", "coordinates": [ -0.499782, 43.893485 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Landes", "CityName": "Saint-Paul-lès-Dax", "Population": 12956 }, "geometry": { "type": "Point", "coordinates": [ -1.051409, 43.724934 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Landes", "CityName": "Tarnos", "Population": 12269 }, "geometry": { "type": "Point", "coordinates": [ -1.461038, 43.5408 ] } }
+]
+}

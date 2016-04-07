@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Alès", "Population": 40711 }, "geometry": { "type": "Point", "coordinates": [ 4.083352, 44.127204 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Bagnols-sur-Cèze", "Population": 18218 }, "geometry": { "type": "Point", "coordinates": [ 4.620075, 44.16252 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Beaucaire", "Population": 16036 }, "geometry": { "type": "Point", "coordinates": [ 4.644269, 43.807235 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Nîmes", "Population": 150564 }, "geometry": { "type": "Point", "coordinates": [ 4.360054, 43.836699 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Pont-Saint-Esprit", "Population": 10393 }, "geometry": { "type": "Point", "coordinates": [ 4.648079, 44.261034 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Vauvert", "Population": 11195 }, "geometry": { "type": "Point", "coordinates": [ 4.278326, 43.692984 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Villeneuve-lès-Avignon", "Population": 11833 }, "geometry": { "type": "Point", "coordinates": [ 4.796959, 43.96341 ] } }
+]
+}

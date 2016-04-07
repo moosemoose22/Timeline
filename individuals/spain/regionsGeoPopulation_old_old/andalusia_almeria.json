@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalusia", "DeptCode": 4, "DeptName": "Almería", "CityCode": 13, "CityName": "Almería", "NumSubAreas": "", "Population": 194203 }, "geometry": { "type": "Point", "coordinates": [ -2.4637136, 36.834047 ] } }
+]
+}

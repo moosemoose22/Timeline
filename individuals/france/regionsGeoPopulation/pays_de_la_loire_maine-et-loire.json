@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Angers", "Population": 150125 }, "geometry": { "type": "Point", "coordinates": [ -0.563166, 47.478419 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Avrillé", "Population": 12972 }, "geometry": { "type": "Point", "coordinates": [ -0.590629, 47.505335 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Cholet", "Population": 53890 }, "geometry": { "type": "Point", "coordinates": [ -0.879787, 47.059407 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Les Ponts-de-Cé", "Population": 12112 }, "geometry": { "type": "Point", "coordinates": [ -0.524654, 47.424616 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Saumur", "Population": 27413 }, "geometry": { "type": "Point", "coordinates": [ -0.080893, 47.260135 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Maine-et-Loire", "CityName": "Trélazé", "Population": 13125 }, "geometry": { "type": "Point", "coordinates": [ -0.466795, 47.445879 ] } }
+]
+}

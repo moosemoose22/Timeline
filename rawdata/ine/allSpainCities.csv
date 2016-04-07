@@ -1,0 +1,731 @@
+01 Araba/Álava,002 Amurrio,10263
+01 Araba/Álava,036 Laudio/Llodio,18300
+01 Araba/Álava,059 Vitoria-Gasteiz,243918
+02 Albacete,003 Albacete,172121
+02 Albacete,009 Almansa,24837
+02 Albacete,025 Caudete,10163
+02 Albacete,037 Hellín,30592
+02 Albacete,069 La Roda,15868
+02 Albacete,081 Villarrobledo,25989
+03 Alicante/Alacant,005 Albatera,11780
+03 Alicante/Alacant,009 Alcoy/Alcoi,59567
+03 Alicante/Alacant,011 L'Alfàs del Pi,21700
+03 Alicante/Alacant,014 Alicante/Alacant,328648
+03 Alicante/Alacant,015 Almoradí,19955
+03 Alicante/Alacant,018 Altea,22385
+03 Alicante/Alacant,019 Aspe,20406
+03 Alicante/Alacant,031 Benidorm,69045
+03 Alicante/Alacant,041 Benissa,11598
+03 Alicante/Alacant,047 Calp,21540
+03 Alicante/Alacant,049 Callosa de Segura,18200
+03 Alicante/Alacant,050 El Campello,27356
+03 Alicante/Alacant,056 Cocentaina,11406
+03 Alicante/Alacant,059 Crevillent,28465
+03 Alicante/Alacant,063 Dénia,41553
+03 Alicante/Alacant,065 Elche/Elx,227312
+03 Alicante/Alacant,066 Elda,53248
+03 Alicante/Alacant,076 Guardamar del Segura,15589
+03 Alicante/Alacant,079 Ibi,23321
+03 Alicante/Alacant,082 Jávea/Xàbia,27681
+03 Alicante/Alacant,089 Monóvar/Monòver,12381
+03 Alicante/Alacant,090 Mutxamel,24256
+03 Alicante/Alacant,093 Novelda,26146
+03 Alicante/Alacant,094 La Nucia,20039
+03 Alicante/Alacant,099 Orihuela,82675
+03 Alicante/Alacant,102 Pego,10331
+03 Alicante/Alacant,104 Petrer,34586
+03 Alicante/Alacant,113 Rojales,18127
+03 Alicante/Alacant,119 Sant Joan d'Alacant,22825
+03 Alicante/Alacant,121 Santa Pola,31657
+03 Alicante/Alacant,122 San Vicente del Raspeig/Sant Vicent del Raspeig,56302
+03 Alicante/Alacant,128 Teulada,11460
+03 Alicante/Alacant,133 Torrevieja,88447
+03 Alicante/Alacant,139 Villajoyosa/La Vila Joiosa,33878
+03 Alicante/Alacant,140 Villena,34361
+03 Alicante/Alacant,902 Pilar de la Horadada,21629
+04 Almería,003 Adra,24670
+04 Almería,006 Albox,11429
+04 Almería,013 Almería,194203
+04 Almería,029 Berja,15174
+04 Almería,035 Cuevas del Almanzora,13292
+04 Almería,052 Huércal de Almería,16823
+04 Almería,053 Huércal-Overa,18530
+04 Almería,066 Níjar,28056
+04 Almería,079 Roquetas de Mar,90623
+04 Almería,100 Vera,15108
+04 Almería,102 Vícar,24571
+04 Almería,902 El Ejido,85961
+05 Ávila,019 Ávila,58358
+06 Badajoz,011 Almendralejo,34265
+06 Badajoz,015 Badajoz,149892
+06 Badajoz,044 Don Benito,36971
+06 Badajoz,083 Mérida,58971
+06 Badajoz,088 Montijo,15789
+06 Badajoz,095 Olivenza,12090
+06 Badajoz,149 Villafranca de los Barros,13289
+06 Badajoz,153 Villanueva de la Serena,26021
+06 Badajoz,158 Zafra,16857
+07 Illes Balears,003 Alcúdia,19763
+07 Illes Balears,005 Andratx,11093
+07 Illes Balears,011 Calvià,50328
+07 Illes Balears,014 Capdepera,11420
+07 Illes Balears,015 Ciutadella de Menorca,29098
+07 Illes Balears,022 Felanitx,17412
+07 Illes Balears,024 Formentera,11878
+07 Illes Balears,026 Eivissa,49975
+07 Illes Balears,027 Inca,30651
+07 Illes Balears,031 Llucmajor,34618
+07 Illes Balears,032 Maó-Mahón,28006
+07 Illes Balears,033 Manacor,40170
+07 Illes Balears,036 Marratxí,35726
+07 Illes Balears,040 Palma de Mallorca,400578
+07 Illes Balears,042 Pollença,16115
+07 Illes Balears,044 Sa Pobla,12694
+07 Illes Balears,046 Sant Antoni de Portmany,23631
+07 Illes Balears,048 Sant Josep de sa Talaia,25674
+07 Illes Balears,054 Santa Eulària des Riu,35812
+07 Illes Balears,055 Santa Margalida,11672
+07 Illes Balears,057 Santanyí,11316
+07 Illes Balears,061 Sóller,13648
+07 Illes Balears,062 Son Servera,11449
+08 Barcelona,001 Abrera,12071
+08 Barcelona,006 Arenys de Mar,15289
+08 Barcelona,009 Argentona,11978
+08 Barcelona,015 Badalona,215654
+08 Barcelona,019 Barcelona,1604555
+08 Barcelona,022 Berga,16238
+08 Barcelona,033 Caldes de Montbui,17098
+08 Barcelona,035 Calella,18226
+08 Barcelona,040 Canet de Mar,14177
+08 Barcelona,041 Canovelles,15906
+08 Barcelona,046 Cardedeu,17938
+08 Barcelona,051 Castellar del Vallès,23442
+08 Barcelona,054 Castellbisbal,12364
+08 Barcelona,056 Castelldefels,63891
+08 Barcelona,072 Corbera de Llobregat,14240
+08 Barcelona,073 Cornellà de Llobregat,86376
+08 Barcelona,074 Cubelles,14420
+08 Barcelona,076 Esparreguera,21701
+08 Barcelona,077 Esplugues de Llobregat,45626
+08 Barcelona,086 Les Franqueses del Vallès,19446
+08 Barcelona,088 La Garriga,15740
+08 Barcelona,089 Gavà,46405
+08 Barcelona,096 Granollers,60101
+08 Barcelona,101 L'Hospitalet de Llobregat,252171
+08 Barcelona,102 Igualada,38751
+08 Barcelona,105 La Llagosta,13252
+08 Barcelona,107 Lliçà d'Amunt,14742
+08 Barcelona,110 Malgrat de Mar,18371
+08 Barcelona,112 Manlleu,20228
+08 Barcelona,113 Manresa,74655
+08 Barcelona,114 Martorell,27694
+08 Barcelona,118 Al Masnou,22923
+08 Barcelona,121 Mataró,124867
+08 Barcelona,123 Molins de Rei,25155
+08 Barcelona,124 Mollet del Vallès,51650
+08 Barcelona,125 Montcada i Reixac,34377
+08 Barcelona,126 Montgat,11501
+08 Barcelona,136 Montornès del Vallès,16172
+08 Barcelona,147 Olesa de Montserrat,23536
+08 Barcelona,156 Palau-solità i Plegamans,14457
+08 Barcelona,157 Pallejà,11298
+08 Barcelona,159 Parets del Vallès,18901
+08 Barcelona,161 Piera,14991
+08 Barcelona,163 Pineda de Mar,25968
+08 Barcelona,169 El Prat de Llobregat,63014
+08 Barcelona,172 Premià de Mar,27944
+08 Barcelona,180 Ripollet,37445
+08 Barcelona,181 La Roca del Vallès,10504
+08 Barcelona,184 Rubí,74536
+08 Barcelona,187 Sabadell,207814
+08 Barcelona,194 Sant Adrià de Besòs,35814
+08 Barcelona,196 Sant Andreu de la Barca,27340
+08 Barcelona,197 Sant Andreu de Llavaneres,10493
+08 Barcelona,200 Sant Boi de Llobregat,82195
+08 Barcelona,202 Sant Celoni,17317
+08 Barcelona,205 Sant Cugat del Vallès,87830
+08 Barcelona,211 Sant Feliu de Llobregat,43800
+08 Barcelona,217 Sant Joan Despí,33264
+08 Barcelona,218 Sant Joan de Vilatorrada,10768
+08 Barcelona,219 Vilassar de Mar,20447
+08 Barcelona,221 Sant Just Desvern,16631
+08 Barcelona,230 Premià de Dalt,10392
+08 Barcelona,231 Sant Pere de Ribes,29666
+08 Barcelona,238 Sant Quirze del Vallès,19602
+08 Barcelona,240 Sant Sadurní d'Anoia,12689
+08 Barcelona,245 Santa Coloma de Gramenet,116950
+08 Barcelona,252 Barberà del Vallès,32545
+08 Barcelona,260 Santa Perpètua de Mogoda,25466
+08 Barcelona,263 Sant Vicenç dels Horts,27983
+08 Barcelona,266 Cerdanyola del Vallès,57413
+08 Barcelona,270 Sitges,28269
+08 Barcelona,279 Terrassa,215214
+08 Barcelona,284 Tordera,16433
+08 Barcelona,285 Torelló,13881
+08 Barcelona,295 Vallirana,14633
+08 Barcelona,298 Vic,42498
+08 Barcelona,301 Viladecans,65549
+08 Barcelona,302 Vilanova del Camí,12452
+08 Barcelona,305 Vilafranca del Penedès,39224
+08 Barcelona,307 Vilanova i la Geltrú,65684
+08 Barcelona,904 Badia del Vallès,13502
+09 Burgos,018 Aranda de Duero,32880
+09 Burgos,059 Burgos,177100
+09 Burgos,219 Miranda de Ebro,36173
+10 Cáceres,037 Cáceres,95617
+10 Cáceres,067 Coria,12930
+10 Cáceres,131 Navalmoral de la Mata,17156
+10 Cáceres,148 Plasencia,40755
+11 Cádiz,004 Algeciras,118920
+11 Cádiz,006 Arcos de la Frontera,31193
+11 Cádiz,007 Barbate,22808
+11 Cádiz,008 Los Barrios,23167
+11 Cádiz,012 Cádiz,120468
+11 Cádiz,014 Conil de la Frontera,22136
+11 Cádiz,015 Chiclana de la Frontera,82777
+11 Cádiz,016 Chipiona,19062
+11 Cádiz,020 Jerez de la Frontera,212876
+11 Cádiz,022 La Línea de la Concepción,63352
+11 Cádiz,023 Medina-Sidonia,11749
+11 Cádiz,027 El Puerto de Santa María,88335
+11 Cádiz,028 Puerto Real,41509
+11 Cádiz,030 Rota,29123
+11 Cádiz,031 San Fernando,96131
+11 Cádiz,032 Sanlúcar de Barrameda,67433
+11 Cádiz,033 San Roque,29373
+11 Cádiz,035 Tarifa,18011
+11 Cádiz,038 Ubrique,16836
+11 Cádiz,039 Vejer de la Frontera,12812
+11 Cádiz,041 Villamartín,12271
+12 Castellón/Castelló,005 L'Alcora,10591
+12 Castellón/Castelló,009 Almazora/Almassora,25488
+12 Castellón/Castelló,027 Benicarló,26403
+12 Castellón/Castelló,028 Benicasim/Benicàssim,18098
+12 Castellón/Castelló,032 Borriana/Burriana,34708
+12 Castellón/Castelló,040 Castellón de la Plana/Castelló de la Plana,171669
+12 Castellón/Castelló,082 Nules,13442
+12 Castellón/Castelló,084 Onda,24963
+12 Castellón/Castelló,126 La Vall d'Uixó,31671
+12 Castellón/Castelló,135 Vila-real,50580
+12 Castellón/Castelló,138 Vinaròs,28190
+13 Ciudad Real,005 Alcázar de San Juan,31269
+13 Ciudad Real,023 Bolaños de Calatrava,12001
+13 Ciudad Real,028 Campo de Criptana,14126
+13 Ciudad Real,034 Ciudad Real,74427
+13 Ciudad Real,039 Daimiel,18577
+13 Ciudad Real,053 Manzanares,18642
+13 Ciudad Real,056 Miguelturra,15032
+13 Ciudad Real,071 Puertollano,50035
+13 Ciudad Real,078 Socuéllamos,12721
+13 Ciudad Real,079 La Solana,15979
+13 Ciudad Real,082 Tomelloso,37645
+13 Ciudad Real,087 Valdepeñas,30514
+13 Ciudad Real,096 Villarrubia de los Ojos,10494
+14 Córdoba,002 Aguilar de la Frontera,13551
+14 Córdoba,007 Baena,19802
+14 Córdoba,013 Cabra,20837
+14 Córdoba,017 La Carlota,13929
+14 Córdoba,021 Córdoba,327362
+14 Córdoba,030 Fuente Palmera,10895
+14 Córdoba,038 Lucena,42697
+14 Córdoba,042 Montilla,23519
+14 Córdoba,049 Palma del Río,21522
+14 Córdoba,052 Peñarroya-Pueblonuevo,11300
+14 Córdoba,054 Pozoblanco,17380
+14 Córdoba,055 Priego de Córdoba,22936
+14 Córdoba,056 Puente Genil,30167
+14 Córdoba,058 Rute,10269
+15 A Coruña,002 Ames,30267
+15 A Coruña,005 Arteixo,30950
+15 A Coruña,009 Betanzos,13202
+15 A Coruña,011 Boiro,18950
+15 A Coruña,017 Cambre,24076
+15 A Coruña,019 Carballo,31283
+15 A Coruña,030 A Coruña,243870
+15 A Coruña,031 Culleredo,29593
+15 A Coruña,035 Fene,13385
+15 A Coruña,036 Ferrol,69452
+15 A Coruña,041 A Laracha,11402
+15 A Coruña,054 Narón,39565
+15 A Coruña,057 Noia,14472
+15 A Coruña,058 Oleiros,34693
+15 A Coruña,059 Ordes,12776
+15 A Coruña,070 As Pontes de García Rodríguez,10503
+15 A Coruña,072 Rianxo,11386
+15 A Coruña,073 Ribeira,27372
+15 A Coruña,075 Sada,15080
+15 A Coruña,078 Santiago de Compostela,95612
+15 A Coruña,082 Teo,18505
+16 Cuenca,078 Cuenca,55428
+16 Cuenca,203 Tarancón,14922
+17 Girona,015 Banyoles,19299
+17 Girona,022 La Bisbal d'Empordà,10759
+17 Girona,023 Blanes,39132
+17 Girona,034 Calonge,10520
+17 Girona,044 Cassà de la Selva,10030
+17 Girona,047 Castelló d'Empúries,10870
+17 Girona,048 Castell-Platja d'Aro,10589
+17 Girona,062 L'Escala,10276
+17 Girona,066 Figueres,45346
+17 Girona,079 Girona,97586
+17 Girona,095 Lloret de Mar,37618
+17 Girona,114 Olot,33944
+17 Girona,117 Palafrugell,22733
+17 Girona,118 Palamós,17911
+17 Girona,147 Ripoll,10632
+17 Girona,152 Roses,19575
+17 Girona,155 Salt,29342
+17 Girona,160 Sant Feliu de Guíxols,21586
+17 Girona,180 Santa Coloma de Farners,12681
+17 Girona,199 Torroella de Montgrí,11388
+18 Granada,003 Albolote,18464
+18 Granada,017 Almuñécar,27391
+18 Granada,021 Armilla,23623
+18 Granada,022 Atarfe,17792
+18 Granada,023 Baza,20668
+18 Granada,062 Churriana de la Vega,13907
+18 Granada,087 Granada,235800
+18 Granada,089 Guadix,18928
+18 Granada,100 Huétor Tájar,10147
+18 Granada,101 Huétor Vega,11849
+18 Granada,102 Illora,10423
+18 Granada,122 Loja,20893
+18 Granada,127 Maracena,21816
+18 Granada,140 Motril,60777
+18 Granada,145 Ogíjares,13719
+18 Granada,153 Peligros,11154
+18 Granada,158 Pinos Puente,10605
+18 Granada,173 Salobreña,12429
+18 Granada,175 Santa Fe,15067
+18 Granada,193 La Zubia,18675
+18 Granada,905 Las Gabias,19603
+18 Granada,911 Vegas del Genil,10423
+19 Guadalajara,024 Alovera,12247
+19 Guadalajara,046 Azuqueca de Henares,34896
+19 Guadalajara,071 El Casar,11606
+19 Guadalajara,130 Guadalajara,83391
+20 Gipuzkoa,009 Andoain,14668
+20 Gipuzkoa,017 Azkoitia,11566
+20 Gipuzkoa,018 Azpeitia,14675
+20 Gipuzkoa,019 Beasain,13980
+20 Gipuzkoa,030 Eibar,27414
+20 Gipuzkoa,032 Elgoibar,11589
+20 Gipuzkoa,036 Hondarribia,16945
+20 Gipuzkoa,040 Hernani,19600
+20 Gipuzkoa,045 Irun,61481
+20 Gipuzkoa,055 Arrasate/Mondragón,22055
+20 Gipuzkoa,059 Oñati,11276
+20 Gipuzkoa,063 Oiartzun,10148
+20 Gipuzkoa,064 Pasaia,16012
+20 Gipuzkoa,067 Errenteria,39276
+20 Gipuzkoa,069 Donostia/San Sebastián,186095
+20 Gipuzkoa,071 Tolosa,19113
+20 Gipuzkoa,074 Bergara,14780
+20 Gipuzkoa,079 Zarautz,22988
+20 Gipuzkoa,902 Lasarte-Oria,18093
+21 Huelva,002 Aljaraque,20357
+21 Huelva,005 Almonte,23254
+21 Huelva,010 Ayamonte,20357
+21 Huelva,013 Bollullos Par del Condado,14324
+21 Huelva,021 Cartaya,19164
+21 Huelva,035 Gibraleón,12508
+21 Huelva,041 Huelva,146318
+21 Huelva,042 Isla Cristina,21193
+21 Huelva,044 Lepe,27675
+21 Huelva,050 Moguer,21383
+21 Huelva,054 La Palma del Condado,10662
+21 Huelva,055 Palos de la Frontera,10365
+21 Huelva,060 Punta Umbría,14996
+21 Huelva,072 Valverde del Camino,12766
+22 Huesca,048 Barbastro,17020
+22 Huesca,112 Fraga,14921
+22 Huesca,125 Huesca,52239
+22 Huesca,130 Jaca,13088
+22 Huesca,158 Monzón,17260
+23 Jaén,002 Alcalá la Real,22036
+23 Jaén,003 Alcaudete,10779
+23 Jaén,005 Andújar,38246
+23 Jaén,009 Baeza,16163
+23 Jaén,010 Bailén,18243
+23 Jaén,024 La Carolina,15673
+23 Jaén,050 Jaén,115395
+23 Jaén,053 Jódar,12022
+23 Jaén,055 Linares,59737
+23 Jaén,058 Mancha Real,11212
+23 Jaén,060 Martos,24398
+23 Jaén,086 Torredelcampo,14605
+23 Jaén,087 Torredonjimeno,14011
+23 Jaén,092 Úbeda,34930
+23 Jaén,095 Villacarrillo,11040
+24 León,008 Astorga,11387
+24 León,010 La Bañeza,10443
+24 León,089 León,127817
+24 León,115 Ponferrada,66884
+24 León,142 San Andrés del Rabanedo,31745
+24 León,222 Villaquilambre,18615
+25 Lleida,040 Balaguer,16479
+25 Lleida,120 Lleida,138542
+25 Lleida,137 Mollerussa,14900
+25 Lleida,203 La Seu d'Urgell,12249
+25 Lleida,217 Tàrrega,16444
+26 La Rioja,018 Arnedo,14597
+26 La Rioja,036 Calahorra,23955
+26 La Rioja,071 Haro,11414
+26 La Rioja,089 Logroño,151344
+27 Lugo,028 Lugo,98134
+27 Lugo,031 Monforte de Lemos,19061
+27 Lugo,057 Sarria,13393
+27 Lugo,065 Vilalba,14645
+27 Lugo,066 Viveiro,15735
+28 Madrid,005 Alcalá de Henares,198750
+28 Madrid,006 Alcobendas,113055
+28 Madrid,007 Alcorcón,167136
+28 Madrid,009 Algete,20148
+28 Madrid,010 Alpedrete,14248
+28 Madrid,013 Aranjuez,58168
+28 Madrid,014 Arganda del Rey,54533
+28 Madrid,015 Arroyomolinos,26846
+28 Madrid,022 Boadilla del Monte,48775
+28 Madrid,026 Brunete,10398
+28 Madrid,040 Ciempozuelos,23696
+28 Madrid,045 Colmenar Viejo,47601
+28 Madrid,047 Collado Villalba,62056
+28 Madrid,049 Coslada,86919
+28 Madrid,054 El Escorial,15342
+28 Madrid,058 Fuenlabrada,195180
+28 Madrid,061 Galapagar,32294
+28 Madrid,065 Getafe,174921
+28 Madrid,068 Guadarrama,15538
+28 Madrid,073 Humanes de Madrid,19413
+28 Madrid,074 Leganés,186907
+28 Madrid,079 Madrid,3141991
+28 Madrid,080 Majadahonda,70800
+28 Madrid,083 Meco,13269
+28 Madrid,084 Mejorada del Campo,22902
+28 Madrid,090 Moralzarzal,12213
+28 Madrid,092 Móstoles,206263
+28 Madrid,096 Navalcarnero,26672
+28 Madrid,104 Paracuellos de Jarama,22293
+28 Madrid,106 Parla,125056
+28 Madrid,113 Pinto,48660
+28 Madrid,115 Pozuelo de Alarcón,84558
+28 Madrid,123 Rivas-Vaciamadrid,81473
+28 Madrid,127 Las Rozas de Madrid,93520
+28 Madrid,129 San Agustín del Guadalix,12982
+28 Madrid,130 San Fernando de Henares,40188
+28 Madrid,131 San Lorenzo de El Escorial,18191
+28 Madrid,132 San Martín de la Vega,18835
+28 Madrid,134 San Sebastián de los Reyes,84944
+28 Madrid,148 Torrejón de Ardoz,126934
+28 Madrid,152 Torrelodones,23117
+28 Madrid,160 Valdemorillo,12173
+28 Madrid,161 Valdemoro,72854
+28 Madrid,167 Velilla de San Antonio,12382
+28 Madrid,172 Villalbilla,12351
+28 Madrid,176 Villanueva de la Cañada,19250
+28 Madrid,177 Villanueva del Pardillo,16797
+28 Madrid,181 Villaviciosa de Odón,27075
+28 Madrid,903 Tres Cantos,43309
+29 Málaga,007 Alhaurín de la Torre,38523
+29 Málaga,008 Alhaurín el Grande,24338
+29 Málaga,012 Álora,13003
+29 Málaga,015 Antequera,41141
+29 Málaga,025 Benalmádena,66598
+29 Málaga,038 Cártama,24592
+29 Málaga,042 Coín,21561
+29 Málaga,051 Estepona,67080
+29 Málaga,054 Fuengirola,77525
+29 Málaga,067 Málaga,569130
+29 Málaga,068 Manilva,14587
+29 Málaga,069 Marbella,139537
+29 Málaga,070 Mijas,79483
+29 Málaga,075 Nerja,21185
+29 Málaga,082 Rincón de la Victoria,43135
+29 Málaga,084 Ronda,35676
+29 Málaga,091 Torrox,15117
+29 Málaga,094 Vélez-Málaga,78166
+29 Málaga,901 Torremolinos,67492
+30 Murcia,002 Abarán,13179
+30 Murcia,003 Águilas,34772
+30 Murcia,005 Alcantarilla,41021
+30 Murcia,008 Alhama de Murcia,21351
+30 Murcia,009 Archena,18559
+30 Murcia,010 Beniel,11096
+30 Murcia,012 Bullas,11753
+30 Murcia,013 Calasparra,10423
+30 Murcia,015 Caravaca de la Cruz,25851
+30 Murcia,016 Cartagena,216301
+30 Murcia,017 Cehegín,15794
+30 Murcia,018 Ceutí,11227
+30 Murcia,019 Cieza,35115
+30 Murcia,021 Fuente Álamo de Murcia,16284
+30 Murcia,022 Jumilla,25484
+30 Murcia,024 Lorca,91714
+30 Murcia,026 Mazarrón,32150
+30 Murcia,027 Molina de Segura,69331
+30 Murcia,029 Mula,16805
+30 Murcia,030 Murcia,439889
+30 Murcia,033 Puerto Lumbreras,14694
+30 Murcia,035 San Javier,31915
+30 Murcia,036 San Pedro del Pinatar,24339
+30 Murcia,037 Torre-Pacheco,34469
+30 Murcia,038 Las Torres de Cotillas,21399
+30 Murcia,039 Totana,30916
+30 Murcia,041 La Unión,19572
+30 Murcia,043 Yecla,34100
+30 Murcia,901 Santomera,16012
+30 Murcia,902 Los Alcázares,15605
+31 Navarra,016 Ansoáin/Antsoain,10830
+31 Navarra,060 Burlada/Burlata,18336
+31 Navarra,086 Valle de Egüés,19603
+31 Navarra,097 Estella-Lizarra,13702
+31 Navarra,201 Pamplona/Iruña,195853
+31 Navarra,227 Tafalla,10809
+31 Navarra,232 Tudela,35388
+31 Navarra,258 Villava/Atarrabia,10265
+31 Navarra,901 Barañain,20475
+31 Navarra,907 Zizur Mayor/Zizur Nagusia,14493
+32 Ourense,008 Barbadás,10463
+32 Ourense,009 O Barco de Valdeorras,13785
+32 Ourense,019 O Carballiño,13999
+32 Ourense,032 Xinzo de Limia,10043
+32 Ourense,054 Ourense,106231
+32 Ourense,085 Verín,14107
+33 Asturias,002 Aller,11555
+33 Asturias,004 Avilés,80880
+33 Asturias,011 Cangas del Narcea,13451
+33 Asturias,014 Carreño,10704
+33 Asturias,016 Castrillón,22735
+33 Asturias,020 Corvera de Asturias,16088
+33 Asturias,024 Gijón,274290
+33 Asturias,025 Gozón,10588
+33 Asturias,026 Grado,10309
+33 Asturias,031 Langreo,41738
+33 Asturias,032 Laviana,13582
+33 Asturias,033 Lena,11654
+33 Asturias,034 Valdés,12421
+33 Asturias,035 Llanera,13904
+33 Asturias,036 Llanes,13694
+33 Asturias,037 Mieres,40338
+33 Asturias,044 Oviedo,221870
+33 Asturias,060 San Martín del Rey Aurelio,17182
+33 Asturias,066 Siero,52191
+33 Asturias,073 Tineo,10128
+33 Asturias,076 Villaviciosa,14690
+34 Palencia,120 Palencia,79595
+35 Las Palmas,002 Agüimes,30294
+35 Las Palmas,003 Antigua,11024
+35 Las Palmas,004 Arrecife,56940
+35 Las Palmas,006 Arucas,37054
+35 Las Palmas,009 Gáldar,24235
+35 Las Palmas,011 Ingenio,30258
+35 Las Palmas,012 Mogán,22277
+35 Las Palmas,014 La Oliva,25199
+35 Las Palmas,015 Pájara,19271
+35 Las Palmas,016 Las Palmas de Gran Canaria,379766
+35 Las Palmas,017 Puerto del Rosario,37363
+35 Las Palmas,018 San Bartolomé,18402
+35 Las Palmas,019 San Bartolomé de Tirajana,54932
+35 Las Palmas,021 Santa Brígida,18582
+35 Las Palmas,022 Santa Lucía de Tirajana,69069
+35 Las Palmas,023 Santa María de Guía de Gran Canaria,13890
+35 Las Palmas,024 Teguise,21454
+35 Las Palmas,026 Telde,102078
+35 Las Palmas,027 Teror,12499
+35 Las Palmas,028 Tías,20019
+35 Las Palmas,030 Tuineje,13797
+35 Las Palmas,034 Yaiza,15815
+36 Pontevedra,003 Baiona,12072
+36 Pontevedra,004 Bueu,12251
+36 Pontevedra,006 Cambados,13895
+36 Pontevedra,008 Cangas,26520
+36 Pontevedra,017 A Estrada,21025
+36 Pontevedra,021 Gondomar,14056
+36 Pontevedra,022 O Grove,10801
+36 Pontevedra,023 A Guarda,10193
+36 Pontevedra,024 Lalín,20005
+36 Pontevedra,026 Marín,25084
+36 Pontevedra,029 Moaña,19492
+36 Pontevedra,033 Mos,15305
+36 Pontevedra,035 Nigrán,17619
+36 Pontevedra,038 Pontevedra,82539
+36 Pontevedra,039 O Porriño,18898
+36 Pontevedra,041 Poio,16842
+36 Pontevedra,042 Ponteareas,22990
+36 Pontevedra,045 Redondela,29697
+36 Pontevedra,051 Sanxenxo,17391
+36 Pontevedra,054 Tomiño,13662
+36 Pontevedra,055 Tui,17013
+36 Pontevedra,057 Vigo,294098
+36 Pontevedra,060 Vilagarcía de Arousa,37482
+36 Pontevedra,061 Vilanova de Arousa,10422
+37 Salamanca,046 Béjar,13724
+37 Salamanca,107 Ciudad Rodrigo,13052
+37 Salamanca,274 Salamanca,146438
+37 Salamanca,294 Santa Marta de Tormes,14970
+39 Cantabria,008 El Astillero,18297
+39 Cantabria,016 Camargo,30766
+39 Cantabria,020 Castro-Urdiales,31833
+39 Cantabria,025 Los Corrales de Buelna,11077
+39 Cantabria,035 Laredo,11643
+39 Cantabria,052 Piélagos,24360
+39 Cantabria,073 Santa Cruz de Bezana,12560
+39 Cantabria,075 Santander,173957
+39 Cantabria,079 Santoña,11088
+39 Cantabria,087 Torrelavega,53496
+40 Segovia,194 Segovia,52728
+41 Sevilla,004 Alcalá de Guadaíra,74845
+41 Sevilla,005 Alcalá del Río,11745
+41 Sevilla,007 La Algaba,16279
+41 Sevilla,011 Arahal,19550
+41 Sevilla,016 Bollullos de la Mitación,10199
+41 Sevilla,017 Bormujos,21362
+41 Sevilla,018 Brenes,12697
+41 Sevilla,020 Las Cabezas de San Juan,16514
+41 Sevilla,021 Camas,26861
+41 Sevilla,023 Cantillana,10717
+41 Sevilla,024 Carmona,28656
+41 Sevilla,029 Castilleja de la Cuesta,17459
+41 Sevilla,034 Coria del Río,30358
+41 Sevilla,038 Dos Hermanas,131317
+41 Sevilla,039 Écija,40320
+41 Sevilla,040 Espartinas,14909
+41 Sevilla,041 Estepa,12716
+41 Sevilla,047 Gines,13309
+41 Sevilla,049 Guillena,12506
+41 Sevilla,053 Lebrija,27449
+41 Sevilla,055 Lora del Río,19328
+41 Sevilla,058 Mairena del Alcor,22749
+41 Sevilla,059 Mairena del Aljarafe,44388
+41 Sevilla,060 Marchena,19878
+41 Sevilla,065 Morón de la Frontera,28223
+41 Sevilla,068 Osuna,17801
+41 Sevilla,069 Los Palacios y Villafranca,38157
+41 Sevilla,075 Pilas,13987
+41 Sevilla,077 La Puebla de Cazalla,11241
+41 Sevilla,079 La Puebla del Río,12114
+41 Sevilla,081 La Rinconada,38180
+41 Sevilla,086 San Juan de Aznalfarache,21390
+41 Sevilla,087 Sanlúcar la Mayor,13451
+41 Sevilla,091 Sevilla,693878
+41 Sevilla,093 Tomares,24743
+41 Sevilla,095 Utrera,52558
+41 Sevilla,102 El Viso del Alcor,19149
+42 Soria,173 Soria,39168
+43 Tarragona,014 Amposta,20952
+43 Tarragona,037 Calafell,24256
+43 Tarragona,038 Cambrils,32915
+43 Tarragona,051 Cunit,11883
+43 Tarragona,092 Mont-roig del Camp,11877
+43 Tarragona,123 Reus,103194
+43 Tarragona,136 Sant Carles de la Ràpita,14760
+43 Tarragona,148 Tarragona,131255
+43 Tarragona,153 Torredembarra,15371
+43 Tarragona,155 Tortosa,33864
+43 Tarragona,161 Valls,24321
+43 Tarragona,163 El Vendrell,36558
+43 Tarragona,171 Vila-seca,22332
+43 Tarragona,901 Deltebre,11676
+43 Tarragona,905 Salou,26459
+44 Teruel,013 Alcañiz,16230
+44 Teruel,216 Teruel,35590
+45 Toledo,019 Bargas,10008
+45 Toledo,053 Consuegra,10437
+45 Toledo,066 Fuensalida,11068
+45 Toledo,081 Illescas,25964
+45 Toledo,087 Madridejos,10876
+45 Toledo,106 Mora,10077
+45 Toledo,121 Ocaña,10795
+45 Toledo,142 Quintanar de la Orden,11604
+45 Toledo,161 Seseña,21558
+45 Toledo,163 Sonseca,11289
+45 Toledo,165 Talavera de la Reina,85150
+45 Toledo,168 Toledo,83226
+45 Toledo,173 Torrijos,13273
+45 Toledo,185 Villacañas,10070
+45 Toledo,205 Yuncos,10607
+46 Valencia/València,005 Alaquàs,29838
+46 Valencia/València,007 Albal,16029
+46 Valencia/València,011 Alberic,10498
+46 Valencia/València,013 Alboraya,23819
+46 Valencia/València,017 Alzira,44554
+46 Valencia/València,019 L'Alcúdia,11691
+46 Valencia/València,021 Aldaia,31120
+46 Valencia/València,022 Alfafar,21125
+46 Valencia/València,029 Algemesí,27633
+46 Valencia/València,031 Alginet,13144
+46 Valencia/València,051 Benaguasil,10936
+46 Valencia/València,054 Benetússer,14436
+46 Valencia/València,060 Benifaió,11913
+46 Valencia/València,070 Bétera,22349
+46 Valencia/València,078 Burjassot,37546
+46 Valencia/València,081 Canals,13628
+46 Valencia/València,083 Carcaixent,20479
+46 Valencia/València,085 Carlet,15397
+46 Valencia/València,094 Catarroja,27688
+46 Valencia/València,102 Quart de Poblet,24864
+46 Valencia/València,105 Cullera,22236
+46 Valencia/València,110 Xirivella,28963
+46 Valencia/València,111 Chiva,15004
+46 Valencia/València,116 L'Eliana,17436
+46 Valencia/València,131 Gandia,75514
+46 Valencia/València,135 Godella,13071
+46 Valencia/València,145 Xàtiva,29095
+46 Valencia/València,147 Llíria,22745
+46 Valencia/València,159 Manises,30807
+46 Valencia/València,164 Massamagrell,15523
+46 Valencia/València,166 Meliana,10588
+46 Valencia/València,169 Mislata,43320
+46 Valencia/València,171 Moncada,21842
+46 Valencia/València,181 Oliva,26190
+46 Valencia/València,184 Ontinyent,35621
+46 Valencia/València,186 Paiporta,24810
+46 Valencia/València,190 Paterna,67340
+46 Valencia/València,193 Picanya,11270
+46 Valencia/València,194 Picassent,20427
+46 Valencia/València,202 La Pobla de Vallbona,22994
+46 Valencia/València,205 Puçol,19357
+46 Valencia/València,213 Requena,20621
+46 Valencia/València,214 Riba-roja de Túria,21391
+46 Valencia/València,220 Sagunto/Sagunt,64944
+46 Valencia/València,223 Sedaví,10180
+46 Valencia/València,230 Silla,18570
+46 Valencia/València,235 Sueca,28252
+46 Valencia/València,238 Tavernes de la Valldigna,17734
+46 Valencia/València,244 Torrent,80107
+46 Valencia/València,249 Utiel,11915
+46 Valencia/València,250 Valencia,786189
+47 Valladolid,010 Arroyo de la Encomienda,18491
+47 Valladolid,076 Laguna de Duero,22601
+47 Valladolid,085 Medina del Campo,21110
+47 Valladolid,186 Valladolid,303905
+48 Bizkaia,003 Amorebieta-Etxano,18736
+48 Bizkaia,011 Arrigorriaga,12339
+48 Bizkaia,013 Barakaldo,100228
+48 Bizkaia,015 Basauri,41304
+48 Bizkaia,017 Bermeo,16947
+48 Bizkaia,020 Bilbao,345141
+48 Bizkaia,027 Durango,28899
+48 Bizkaia,029 Etxebarri,10881
+48 Bizkaia,034 Ermua,16048
+48 Bizkaia,036 Galdakao,29344
+48 Bizkaia,044 Getxo,78846
+48 Bizkaia,046 Gernika-Lumo,16763
+48 Bizkaia,054 Leioa,30715
+48 Bizkaia,069 Mungia,17131
+48 Bizkaia,078 Portugalete,46718
+48 Bizkaia,080 Valle de Trápaga-Trapagaran,12093
+48 Bizkaia,082 Santurtzi,46284
+48 Bizkaia,084 Sestao,28052
+48 Bizkaia,085 Sopela,13211
+48 Bizkaia,902 Erandio,24234
+49 Zamora,021 Benavente,18550
+49 Zamora,275 Zamora,63831
+50 Zaragoza,067 Calatayud,19724
+50 Zaragoza,089 Cuarte de Huerva,12141
+50 Zaragoza,095 Ejea de los Caballeros,16754
+50 Zaragoza,251 Tarazona,10759
+50 Zaragoza,272 Utebo,18430
+50 Zaragoza,297 Zaragoza,664953
+51 Ceuta,001 Ceuta,84263
+52 Melilla,001 Melilla,85584

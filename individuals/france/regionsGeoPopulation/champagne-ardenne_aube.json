@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Aube", "CityName": "La Chapelle-Saint-Luc", "Population": 12634 }, "geometry": { "type": "Point", "coordinates": [ 4.047818, 48.312011 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Aube", "CityName": "Romilly-sur-Seine", "Population": 14352 }, "geometry": { "type": "Point", "coordinates": [ 3.726275, 48.517732 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Aube", "CityName": "Saint-André-les-Vergers", "Population": 11770 }, "geometry": { "type": "Point", "coordinates": [ 4.053341, 48.279962 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Aube", "CityName": "Sainte-Savine", "Population": 10183 }, "geometry": { "type": "Point", "coordinates": [ 4.056495, 48.293191 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Aube", "CityName": "Troyes", "Population": 59671 }, "geometry": { "type": "Point", "coordinates": [ 4.0744009, 48.2973451 ] } }
+]
+}

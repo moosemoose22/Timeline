@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 2, "CityName": "Aguilar de la Frontera", "NumSubAreas": "", "Population": 13551 }, "geometry": { "type": "Point", "coordinates": [ -4.6566596, 37.5138455 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 7, "CityName": "Baena", "NumSubAreas": "", "Population": 19802 }, "geometry": { "type": "Point", "coordinates": [ -4.3244513, 37.617362 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 13, "CityName": "Cabra", "NumSubAreas": "", "Population": 20837 }, "geometry": { "type": "Point", "coordinates": [ -4.4425169, 37.4733595 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 21, "CityName": "Córdoba", "NumSubAreas": "", "Population": 327362 }, "geometry": { "type": "Point", "coordinates": [ -4.7793835, 37.8881751 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 30, "CityName": "Fuente Palmera", "NumSubAreas": "", "Population": 10895 }, "geometry": { "type": "Point", "coordinates": [ -5.1002203, 37.7053654 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 17, "CityName": "La Carlota", "NumSubAreas": "", "Population": 13929 }, "geometry": { "type": "Point", "coordinates": [ -4.9337946, 37.6726446 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 38, "CityName": "Lucena", "NumSubAreas": "", "Population": 42697 }, "geometry": { "type": "Point", "coordinates": [ -4.4961008, 37.4129332 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 42, "CityName": "Montilla", "NumSubAreas": "", "Population": 23519 }, "geometry": { "type": "Point", "coordinates": [ -4.6372866, 37.5877237 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 49, "CityName": "Palma del Río", "NumSubAreas": "", "Population": 21522 }, "geometry": { "type": "Point", "coordinates": [ -5.2801691, 37.6982171 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 52, "CityName": "Peñarroya-Pueblonuevo", "NumSubAreas": "", "Population": 11300 }, "geometry": { "type": "Point", "coordinates": [ -5.2671378, 38.3025882 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 54, "CityName": "Pozoblanco", "NumSubAreas": "", "Population": 17380 }, "geometry": { "type": "Point", "coordinates": [ -4.8494709, 38.3770629 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 55, "CityName": "Priego de Córdoba", "NumSubAreas": "", "Population": 22936 }, "geometry": { "type": "Point", "coordinates": [ -4.1987434, 37.437791 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 56, "CityName": "Puente Genil", "NumSubAreas": "", "Population": 30167 }, "geometry": { "type": "Point", "coordinates": [ -4.7665698, 37.3909975 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "AL", "RegionName": "Andalucía", "DeptCode": 14, "DeptName": "Córdoba", "CityCode": 58, "CityName": "Rute", "NumSubAreas": "", "Population": 10269 }, "geometry": { "type": "Point", "coordinates": [ -4.3706453, 37.324936 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionCode": "CM", "RegionName": "Castilla-La Mancha", "DeptCode": 16, "DeptName": "Cuenca", "CityCode": 78, "CityName": "Cuenca", "NumSubAreas": "", "Population": 55428 }, "geometry": { "type": "Point", "coordinates": [ -2.1374162, 40.0703925 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "CM", "RegionName": "Castilla-La Mancha", "DeptCode": 16, "DeptName": "Cuenca", "CityCode": 203, "CityName": "Tarancón", "NumSubAreas": "", "Population": 14922 }, "geometry": { "type": "Point", "coordinates": [ -3.0074463, 40.0105152 ] } }
+]
+}

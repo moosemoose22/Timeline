@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "La Rochelle", "Population": 74344 }, "geometry": { "type": "Point", "coordinates": [ -1.151139, 46.160329 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "Rochefort", "Population": 24761 }, "geometry": { "type": "Point", "coordinates": [ -0.961697, 45.936698 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "Royan", "Population": 18138 }, "geometry": { "type": "Point", "coordinates": [ -1.043182, 45.623027 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "Saintes", "Population": 25601 }, "geometry": { "type": "Point", "coordinates": [ -0.633389, 45.744175 ] } }
+]
+}

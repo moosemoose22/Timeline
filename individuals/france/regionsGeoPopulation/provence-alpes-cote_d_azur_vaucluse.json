@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Apt", "Population": 12325 }, "geometry": { "type": "Point", "coordinates": [ 5.395439, 43.876452 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Avignon", "Population": 90305 }, "geometry": { "type": "Point", "coordinates": [ 4.805528, 43.949317 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Bollène", "Population": 13776 }, "geometry": { "type": "Point", "coordinates": [ 4.75331, 44.2811484 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Carpentras", "Population": 28422 }, "geometry": { "type": "Point", "coordinates": [ 5.048722, 44.0555639 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Cavaillon", "Population": 25636 }, "geometry": { "type": "Point", "coordinates": [ 5.0407814, 43.8366045 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "L'Isle-sur-la-Sorgue", "Population": 18955 }, "geometry": { "type": "Point", "coordinates": [ 5.057106, 43.91419 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Le Pontet", "Population": 17344 }, "geometry": { "type": "Point", "coordinates": [ 4.863831, 43.9591489 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Monteux", "Population": 12015 }, "geometry": { "type": "Point", "coordinates": [ 4.996762, 44.034945 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Orange", "Population": 29193 }, "geometry": { "type": "Point", "coordinates": [ 4.807511, 44.1380989 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Pernes-les-Fontaines", "Population": 10121 }, "geometry": { "type": "Point", "coordinates": [ 5.0549027, 43.9984783 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Pertuis", "Population": 19498 }, "geometry": { "type": "Point", "coordinates": [ 5.501843, 43.694275 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Sorgues", "Population": 18500 }, "geometry": { "type": "Point", "coordinates": [ 4.872757, 44.008767 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Vaucluse", "CityName": "Vedène", "Population": 10661 }, "geometry": { "type": "Point", "coordinates": [ 4.903105, 43.974378 ] } }
+]
+}

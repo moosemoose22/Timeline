@@ -5,7 +5,7 @@
 import csv, time, urllib.request, urllib.parse, json, sys
 france_cities_list = []
 
-with open('spainFromWikipedia.csv', 'r') as data_file:
+with open('outputFranceInsee.csv', 'r') as data_file:
 	reader = csv.reader(data_file)
 	for row in reader:
 		france_cities_list.append(row)
@@ -28,7 +28,7 @@ for i in france_cities_list:
 	counter += 1
 	if ((counter % 8) == 0):
 		time.sleep(1.5)
-	myUrl = baseURL + urllib.parse.quote(i[0]) + endURL
+	myUrl = baseURL + urllib.parse.quote(i[5]) + endURL
 	print (myUrl)
 
 	response = urllib.request.urlopen(myUrl)
@@ -39,7 +39,7 @@ for i in france_cities_list:
 	print (i[0])
 	#{'lng': 0.107929, 'lat': 49.49437}
 
-with open("output.csv", "w") as f:
+with open("outputFranceInseeWithLatLng.csv", "w") as f:
 	writer = csv.writer(f)
 	writer.writerows(france_cities_list)
 

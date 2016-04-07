@@ -13,7 +13,7 @@
 <script src="occitaniaFuncs.js"></script>
 <script src="occitaniaRegions.js"></script>
 <script>
-	function writeMap(mapCountry)
+	function writeMap(mapCountry, callback)
 	{
 		console.log(mapCountry);
 		var mapLoc;
@@ -58,20 +58,22 @@
 				.on('click', function(d){
 					openRegionWindow(mapCountry, d);
 				});
+			
+			if (callback)
+				callback();
 		});
 	}
 	
 	function filterPopulation(population)
 	{
-		return (population > 300000);
+		return (population > 3000);
 	}
 
 	function writeCities(mapCountry)
 	{
-		var mapLoc = "maps/" + mapCountry + "/" + mapCountry + ".population.topo.json";
+		var mapLoc = "maps/occitania.population.direct.topo.json";
 		d3.json(mapLoc, function(error, occitania)
 		{
-			// Add little gray dot next to city
 			// Add little gray dot next to city
 			svg.selectAll(".cityDot")
 				.data(topojson.feature(occitania, occitania.objects.population).features)
@@ -151,12 +153,10 @@
 		.attr("height", height)
 		.attr("id", "mainD3Map");
 
-	writeMap("france");
-	writeMap("spain");
 	writeMap("andorra");
 	writeMap("monaco");
-	writeCities("france");
-	writeCities("spain");
+	writeMap("france");
+	writeMap("spain", writeCities);
 	//writeMap("maps/spain/spain.adm2.topo.json");
 </script>
 <div class="regionNameContainer">

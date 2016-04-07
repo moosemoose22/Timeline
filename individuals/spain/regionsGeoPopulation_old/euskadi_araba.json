@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionCode": "PV", "RegionName": "Euskadi", "DeptCode": 1, "DeptName": "Araba", "CityCode": 2, "CityName": "Amurrio", "NumSubAreas": "", "Population": 10263 }, "geometry": { "type": "Point", "coordinates": [ -3.0013109, 43.0518654 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "PV", "RegionName": "Euskadi", "DeptCode": 1, "DeptName": "Araba", "CityCode": 36, "CityName": "Laudio", "NumSubAreas": "", "Population": 18300 }, "geometry": { "type": "Point", "coordinates": [ -2.9579897, 43.1434506 ] } },
+{ "type": "Feature", "properties": { "RegionCode": "PV", "RegionName": "Euskadi", "DeptCode": 1, "DeptName": "Araba", "CityCode": 59, "CityName": "Vitoria-Gasteiz", "NumSubAreas": "", "Population": 243918 }, "geometry": { "type": "Point", "coordinates": [ -2.6817918, 42.8591656 ] } }
+]
+}

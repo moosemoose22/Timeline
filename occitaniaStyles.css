@@ -108,7 +108,7 @@ text
 {
 	position: fixed;
 	display: none;
-	top: 0x;
+	top: 0px;
 	z-index: 1001;
 }
 

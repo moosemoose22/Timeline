@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Aude", "CityName": "Carcassonne", "Population": 46724 }, "geometry": { "type": "Point", "coordinates": [ 2.353663, 43.212161 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Aude", "CityName": "Castelnaudary", "Population": 11476 }, "geometry": { "type": "Point", "coordinates": [ 1.95333, 43.317118 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Aude", "CityName": "Limoux", "Population": 10166 }, "geometry": { "type": "Point", "coordinates": [ 2.218142, 43.053289 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Aude", "CityName": "Lézignan-Corbières", "Population": 11223 }, "geometry": { "type": "Point", "coordinates": [ 2.7577759, 43.200503 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Aude", "CityName": "Narbonne", "Population": 52802 }, "geometry": { "type": "Point", "coordinates": [ 3.003078, 43.184277 ] } }
+]
+}

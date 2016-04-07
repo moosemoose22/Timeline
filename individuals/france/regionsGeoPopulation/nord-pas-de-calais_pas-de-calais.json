@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Arras", "Population": 40830 }, "geometry": { "type": "Point", "coordinates": [ 2.777535, 50.291002 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Auchel", "Population": 10863 }, "geometry": { "type": "Point", "coordinates": [ 2.46916, 50.50765 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Avion", "Population": 17876 }, "geometry": { "type": "Point", "coordinates": [ 2.824277, 50.412326 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Berck", "Population": 14835 }, "geometry": { "type": "Point", "coordinates": [ 1.591865, 50.408188 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Boulogne-sur-Mer", "Population": 42537 }, "geometry": { "type": "Point", "coordinates": [ 1.613334, 50.725231 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Bruay-la-Buissière", "Population": 22802 }, "geometry": { "type": "Point", "coordinates": [ 2.543206, 50.483113 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Bully-les-Mines", "Population": 12678 }, "geometry": { "type": "Point", "coordinates": [ 2.720937, 50.446598 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Béthune", "Population": 25463 }, "geometry": { "type": "Point", "coordinates": [ 2.63926, 50.531036 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Calais", "Population": 72520 }, "geometry": { "type": "Point", "coordinates": [ 1.858686, 50.95129 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Carvin", "Population": 16873 }, "geometry": { "type": "Point", "coordinates": [ 2.958107, 50.491515 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Courrières", "Population": 10639 }, "geometry": { "type": "Point", "coordinates": [ 2.946283, 50.458378 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Harnes", "Population": 12244 }, "geometry": { "type": "Point", "coordinates": [ 2.909221, 50.452176 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Hénin-Beaumont", "Population": 26748 }, "geometry": { "type": "Point", "coordinates": [ 2.94728, 50.420087 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Lens", "Population": 31647 }, "geometry": { "type": "Point", "coordinates": [ 2.83183, 50.42893 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Lillers", "Population": 10184 }, "geometry": { "type": "Point", "coordinates": [ 2.4806309, 50.564129 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Liévin", "Population": 31517 }, "geometry": { "type": "Point", "coordinates": [ 2.775222, 50.417921 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Longuenesse", "Population": 11204 }, "geometry": { "type": "Point", "coordinates": [ 2.243632, 50.736744 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Marck", "Population": 10481 }, "geometry": { "type": "Point", "coordinates": [ 1.94779, 50.948544 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Montigny-en-Gohelle", "Population": 10227 }, "geometry": { "type": "Point", "coordinates": [ 2.9270679, 50.428189 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Méricourt", "Population": 11708 }, "geometry": { "type": "Point", "coordinates": [ 2.866865, 50.4015259 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Noeux-les-Mines", "Population": 12424 }, "geometry": { "type": "Point", "coordinates": [ 2.662174, 50.481212 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Outreau", "Population": 14390 }, "geometry": { "type": "Point", "coordinates": [ 1.59255, 50.706513 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Saint-Martin-Boulogne", "Population": 11323 }, "geometry": { "type": "Point", "coordinates": [ 1.630571, 50.7257419 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Saint-Omer", "Population": 13992 }, "geometry": { "type": "Point", "coordinates": [ 2.252208, 50.750115 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Étaples", "Population": 11158 }, "geometry": { "type": "Point", "coordinates": [ 1.63879, 50.516087 ] } }
+]
+}

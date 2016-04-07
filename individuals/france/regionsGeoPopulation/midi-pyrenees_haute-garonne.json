@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Balma", "Population": 14929 }, "geometry": { "type": "Point", "coordinates": [ 1.500032, 43.606098 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Blagnac", "Population": 22969 }, "geometry": { "type": "Point", "coordinates": [ 1.39703, 43.635087 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Castanet-Tolosan", "Population": 12388 }, "geometry": { "type": "Point", "coordinates": [ 1.499573, 43.51563 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Colomiers", "Population": 38302 }, "geometry": { "type": "Point", "coordinates": [ 1.336579, 43.612189 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Cugnaux", "Population": 16638 }, "geometry": { "type": "Point", "coordinates": [ 1.344995, 43.537141 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Fonsorbes", "Population": 11786 }, "geometry": { "type": "Point", "coordinates": [ 1.230645, 43.535456 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "L'Union", "Population": 11731 }, "geometry": { "type": "Point", "coordinates": [ 1.484186, 43.657192 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Muret", "Population": 24725 }, "geometry": { "type": "Point", "coordinates": [ 1.33071, 43.461574 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Plaisance-du-Touch", "Population": 17126 }, "geometry": { "type": "Point", "coordinates": [ 1.2949, 43.564686 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Ramonville-Saint-Agne", "Population": 13475 }, "geometry": { "type": "Point", "coordinates": [ 1.4784139, 43.543794 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Saint-Gaudens", "Population": 11241 }, "geometry": { "type": "Point", "coordinates": [ 0.723763, 43.106895 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Saint-Orens-de-Gameville", "Population": 11243 }, "geometry": { "type": "Point", "coordinates": [ 1.533877, 43.551879 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Toulouse", "Population": 458298 }, "geometry": { "type": "Point", "coordinates": [ 1.444209, 43.604652 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Tournefeuille", "Population": 26206 }, "geometry": { "type": "Point", "coordinates": [ 1.346834, 43.5829 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meuse", "CityName": "Bar-le-Duc", "Population": 15950 }, "geometry": { "type": "Point", "coordinates": [ 5.158238, 48.773605 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meuse", "CityName": "Verdun", "Population": 17923 }, "geometry": { "type": "Point", "coordinates": [ 5.3844231, 49.1598764 ] } }
+]
+}

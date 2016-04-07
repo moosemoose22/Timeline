@@ -72,6 +72,37 @@ function convertID(oldID)
 	return latinize(oldID);
 }
 
+function convertRegionName(regionname)
+{
+	var convertRegionObj = {};
+	convertRegionObj["pais_vasco"] = "euskadi";
+	convertRegionObj["comunidad_foral_de_navarra"] = "navarra";
+	convertRegionObj["principado_de_asturias"] = "asturias";
+	convertRegionObj["ceuta_y_melilla"] = "ceuta";
+	convertRegionObj["cataluna"] = "catalunya";
+	convertRegionObj["castile_and_leon"] = "castilla_y_leon";
+	convertRegionObj["islas_baleares"] = "illes_balears";
+	
+	if (regionname in convertRegionObj)
+		return convertRegionObj[regionname];
+	else
+		return regionname;
+}
+
+function convertSubRegionName(subregionname)
+{
+	var convertSubRegionObj = {};
+	convertSubRegionObj["alava"] = "araba";
+	convertSubRegionObj["guipuzcoa"] = "gipuzkoa";
+	convertSubRegionObj["vizcaya"] = "bizkaia";
+	convertSubRegionObj["baleares"] = "illes_balears";
+	
+	if (subregionname in convertSubRegionObj)
+		return convertSubRegionObj[subregionname];
+	else
+		return subregionname;
+}
+
 // Convert coordinates in topojson file to screen coordinates
 function getLargeMapCoords(mapPoints, position)
 {
@@ -103,6 +134,7 @@ function openRegionWindow(mapCountry, data)
 {
 	calledRegionOpen = true;
 	var id = mapCountry + "_" + data.properties.regionname + "_" + data.properties.subregionname;
+	console.log(convertID(data.properties.regionname + "_" + data.properties.subregionname));
 	id = convertID(id);
 	currentRegion = data.properties.regionname;
 	currentFullRegion = id;
@@ -117,7 +149,18 @@ function openRegionWindow(mapCountry, data)
 	currentTopOffset = t[1];
 	currentScaling = s;
 
-	regionFuncs.init(mapCountry, data.properties.regionID, data.properties.subregionID);
+	console.log(mapCountry);
+
+	if (mapCountry == "spain")
+	{
+		var regionName = convertID(latinize(data.properties.regionname).toLowerCase());
+		var subRegionName = convertID(latinize(data.properties.subregionname).toLowerCase());
+		regionFuncs.init(mapCountry, data.properties.regionID, convertRegionName(regionName) + "_" + convertSubRegionName(subRegionName));
+	}
+	else if (mapCountry == "france")
+		regionFuncs.init(mapCountry, data.properties.regionID, convertID(data.properties.regionname + "_" + data.properties.subregionname).toLowerCase());
+	else
+		regionFuncs.init(mapCountry, data.properties.regionID, data.properties.subregionID);
 
 	var countryAbbrev = data.properties.region;
 	if (countryAbbrev.indexOf(".") !== -1)
