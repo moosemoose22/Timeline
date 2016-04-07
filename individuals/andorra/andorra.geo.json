@@ -1,0 +1,101 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.521835,42.506317 ]
+    },
+    "properties": {
+    "RegionName":"Andorra la Vella",
+    "CityName":"Andorra la Vella",
+    "Population":20430
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.599458,42.566654 ]
+    },
+    "properties": {
+    "RegionName":"Canillo",
+    "CityName":"Canillo",
+    "Population":3292
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.732591,42.542198 ]
+    },
+    "properties": {
+    "RegionName":"Encamp",
+    "CityName":"El Pas de la Casa",
+    "Population":2613
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.583022,42.536265 ]
+    },
+    "properties": {
+    "RegionName":"Encamp",
+    "CityName":"Encamp",
+    "Population":11223
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.538786,42.510080 ]
+    },
+    "properties": {
+    "RegionName":"Escaldes-Engordany",
+    "CityName":"Les Escaldes",
+    "Population":15853
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.514739,42.545625 ]
+    },
+    "properties": {
+    "RegionName":"La Massana",
+    "CityName":"La Massana",
+    "Population":7211
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.533073,42.555655 ]
+    },
+    "properties": {
+    "RegionName":"Ordino",
+    "CityName":"Ordino",
+    "Population":3066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.492128,42.465786 ]
+    },
+    "properties": {
+    "RegionName":"Sant Julià de Lòria",
+    "CityName":"Sant Julià de Lòria",
+    "Population":8022
+    }
+  }
+]
+}

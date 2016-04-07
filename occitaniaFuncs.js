@@ -45,7 +45,7 @@ window.onload = function()
 				regionIsOpen = true;
 				$(".openRegionStyle").css("z-index", "1000").css("visibility", "visible");
 				$("#openWindowGroup").css("visibility", "hidden");
-				$("#openWindow").css("background-color", "rgba(0,0,0,0.5)");
+				$("#openWindow").css("background-color", "rgba(255,255,255,0.75)");
 				//$("#regionMap").css("visibility", "visible");
 				//console.log(currentFullRegion);
 			}

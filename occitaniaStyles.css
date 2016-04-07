@@ -68,6 +68,7 @@ path {
 .regionNameContainer
 {
 	position: fixed;
+	z-index: 1001;
 	left: 5px;
 	top: 5px;
 }

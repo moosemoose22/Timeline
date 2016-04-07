@@ -83,6 +83,7 @@ ogr2ogr  -where "population is not null and population > 100000"
 
 http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
 
+http://www.ine.es/nomen2/ficheros.do
 
 
 ogrinfo ESP_adm2.shp -sql "SELECT DISTINCT(NAME_2) FROM  ESP_adm2"

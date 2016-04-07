@@ -15,7 +15,7 @@ var regionFuncs = new function()
 				population = topojson.feature(regionTopoJson, regionTopoJson.objects.population);
 
 			var scaleOverride, finaTopOffset;
-			if (mapCountry == "spain" && (subregionID == 1 || subregionID == 31))
+			if (mapCountry == "spain" && (subregionID == "andalucia_almeria" || subregionID == "ceuta_ceuta"))
 			{
 				var topleftCoordinates, bottomrightCoordinates;
 
@@ -163,9 +163,15 @@ var regionFuncs = new function()
 					// Put region and subregion name in top corner
 					$('#regionName').html(d.properties.regionname);
 					$('#subRegionName').html(d.properties.subregionname);
+
 					// Andorra, and possibly other small countries, don't have admin3
 					if ("admin3name" in d.properties)
-						$('#subSubRegionName').html(d.properties.admin3name);
+					{
+						if (d.properties.admin3name.substring(0, 4) == "n.a.")
+							$('#subSubRegionName').html(d.properties.admin3name);
+						else
+							$('#subSubRegionName').html(d.properties.admin3name);
+					}
 					else
 						$('#subSubRegionName').html("");
 				})
@@ -173,18 +179,18 @@ var regionFuncs = new function()
 					;
 				});
 				
-			if (population)
+			if (population && "features" in population)
 			{
 				// Add little gray dot next to city
 				regionSVG.selectAll(".regionCityDot")
-					.data(topojson.feature(regionTopoJson, regionTopoJson.objects.population).features)
+					.data(population.features)
 					.enter()
 					.append("path")
 					.attr("d", newPath)
 					.attr("class", "place");
 
 				regionSVG.selectAll(".region-place-label")
-					.data(topojson.feature(regionTopoJson, regionTopoJson.objects.population).features)
+					.data(population.features)
 					.enter()
 					.append("text")
 					.attr("class", "place-label")

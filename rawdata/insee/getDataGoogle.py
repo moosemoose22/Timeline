@@ -27,30 +27,35 @@ for i in france_cities_list:
 		myData = data["results"][0]["geometry"]["location"]
 		hasadmin1 = False
 		hasadmin2 = False
+		hasadmin3 = False
 		for googleAddrItem in data["results"][0]["address_components"]:
 			if ((googleAddrItem["types"][0] == "administrative_area_level_1" or googleAddrItem["types"][0] == "colloquial_area") and not hasadmin1):
 				hasadmin1 = True
-				myRegionCode = googleAddrItem["short_name"]
 				myRegionName = googleAddrItem["long_name"]
 				i.insert(0, myRegionCode)
-				i.insert(1, myRegionName)
 
 			if (googleAddrItem["types"][0] == "administrative_area_level_2"):
 				hasadmin2 = True
-				mySubRegionCode = googleAddrItem["short_name"]
+				mySubRegionName = googleAddrItem["long_name"]
+				baseIndex = 0
+				if (len(i) > 2):
+					baseIndex = 1
+				i.insert(baseIndex, mySubRegionCode)
+
+			if (googleAddrItem["types"][0] == "administrative_area_level_3"):
+				hasadmin3 = True
 				mySubRegionName = googleAddrItem["long_name"]
 				baseIndex = 0
 				if (len(i) > 2):
 					baseIndex = 2
 				i.insert(baseIndex, mySubRegionCode)
-				i.insert(baseIndex + 1, mySubRegionName)
 
 		if (hasadmin1 is False):
 			i.insert(0, '')
-			i.insert(1, '')
 		if (hasadmin2 is False):
+			i.insert(1, '')
+		if (hasadmin3 is False):
 			i.insert(2, '')
-			i.insert(3, '')
 
 		i.extend([myData['lat'], myData['lng']])
 		print (i[4])
