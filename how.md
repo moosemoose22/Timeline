@@ -1,4 +1,5 @@
 How did this map come to be?
+------
 
 First of all, I followed the awesome tutorial here:
 https://bost.ocks.org/mike/map/
