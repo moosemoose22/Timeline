@@ -52,22 +52,22 @@ ogr2ogr -f GeoJSON  MCO_adm0.json MCO_adm0.shp
 
 #### Now let's convert these GEOjson files to topojson.
 
-Andorra:
+Andorra:  
 topojson -o andorra.adm0.topo.json  \  
   --properties Cntry=ISO,regionname=NAME_ENGLI,subregionname=NAME_ENGLI,subregionID=1,region=ISO \  
   admin0=AND_adm0.json
 
-Monaco:
+Monaco:  
 topojson -o monaco.adm0.topo.json  \  
   --properties Cntry=ISO,regionname=NAME_ENGLI,subregionname=NAME_ENGLI,subregionID=0,region=ISO \  
   admin0=MCO_adm0.json
 
-France:
+France:  
 topojson --simplify-proportion .25 -o france.adm2.topo.json  \  
   --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \  
   admin2=FRA_adm2.json
 
-Spain:
+Spain:  
 topojson --simplify-proportion .3 -o spain.adm2.topo.json  \  
   --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \  
   admin2=ESP_adm2.json
@@ -164,10 +164,10 @@ Monaco,Monaco,Monaco,37831,43.7384,7.4246
 
 
 #### Convert the data to GEOjson
-Go to http://www.convertcsv.com/csv-to-geojson.htm
+Go to http://www.convertcsv.com/csv-to-geojson.htm  
 Add the following line under "Option 3 - paste into Text Box below":  
-RegionName,DeptName,CityName,Population,Lat,Long
-Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the strings from Andorra and Monaco above
+RegionName,DeptName,CityName,Population,Lat,Long  
+Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the strings from Andorra and Monaco above.  
 We named the resultant file occitania.direct.geo.json
 
 
