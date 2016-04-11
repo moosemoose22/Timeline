@@ -6,8 +6,8 @@ https://bost.ocks.org/mike/map/
 
 This shows you how to make a map such as the one in this git repository.
 
-In order to build a map of Spain/France, there were a few questions we wanted to ask:
-Where can we get the data that shows regions and boundaries?
+In order to build a map of Spain/France, there were a few questions we wanted to ask:  
+Where can we get the data that shows regions and boundaries?  
 Where can we get city data?
 
 You'd think that the source for both of the above would be the same.
