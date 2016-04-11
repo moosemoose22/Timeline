@@ -15,7 +15,8 @@ You'd think that the source for both of the above would be the same.
 Mike Bobstock in the example above got his data from http://www.naturalearthdata.com/.
 My problem was that I wanted to show more cities than the ones available in naturalearthdata.
 
-First I needed to get geographic data. This led me to gadm.org.
+#### First we need to get geographic data.
+This led me to gadm.org.
 I downloaded ESRI shapefiles of Spain and France.
 Unfortunately for Spain, some of the shapefiles were missing!
 So I downloaded a Geopackage (SpatiaLite) file and converted it to shapefiles in the directory shp:
@@ -24,8 +25,8 @@ This provided the missing shapefiles!
 Monaco didn't have any shapefiles, so we ran this:
 ogr2ogr -f "ESRI Shapefile" shp MCO_adm.gpkg -dsco SPATIALITE=yes
 
-Next we wanted to create topojson files that would draw France, Spain, and all the regions within.
-In order to get topojson, we need to convert the shapefilse we have to geojson.
+#### Next we wanted to create topojson files that would draw France, Spain, and all the regions within.
+In order to get topojson, we need to convert the shapefiles we have to geojson.
 
 Here's the code to convert the ESRI shapefiles to GEOJSON:
 France:
@@ -49,7 +50,7 @@ ogr2ogr  \
 Monaco:
 ogr2ogr -f GeoJSON  MCO_adm0.json MCO_adm0.shp
 
-Now let's convert these GEOjson files to topojson.
+#### Now let's convert these GEOjson files to topojson.
 
 Andorra:
 topojson -o andorra.adm0.topo.json  \
@@ -78,9 +79,9 @@ With Firefox, the page starts slowing down.
 One day, we might have 2 versions: 1 for Chrome, and 1 for everybody else.
 
 
-Now we need to get the city data.
+#### Now we need to get the city data.
 
-Instructions for France:
+##### Instructions for France:
 1) Go to http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
 
 2) Download the XLS titled "France métropolitaine et DOM."
@@ -110,7 +111,7 @@ and put your key into the code
 You can do this by running rawdata/france/parseFranceData.py.
 
 
-Instructions for Spain:
+##### Instructions for Spain:
 1) Go to http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1
 My instructions are for the English versino of the site.
 I chose a Geographic criterion of "National Level."
@@ -136,38 +137,46 @@ and put your key into the code
 You can do this by running rawdata/spain/parseSpainData.py.
 
 
-Instructions for Andorra:
+##### Instructions for Andorra:
 1) Get populaton data
 Andorra La Vella is both the capital and largest city in Andorra
 I went to the least vetted source possible, but it's probably good enough:
 https://population.mongabay.com/population/Andorra/
 If that doesn't work, just google "population cities andorra" or go to wikipedia or something like that.
 
-2) I manually got the coordinate and admin level 1 data from google
+2) Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
 3) I created a comma-delimited string with Andorra region, city, population, lat, and long:
 Andorra,Andorra la Vella,Andorra la Vella,20430,42.506317,1.52183
 
 
+##### Instructions for Monaco:
+1) Get populaton data
+Go to wikipedia or whatever data source of yoru choice
+
+2) Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
+https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
+
+3) I created a comma-delimited string with Andorra region, city, population, lat, and long:
+Monaco,Monaco,Monaco,37831,43.7384,7.4246
 
 
-Convert the data to GEOjson
+
+#### Convert the data to GEOjson
 Go to http://www.convertcsv.com/csv-to-geojson.htm
 Add the following line under "Option 3 - paste into Text Box below":
 RegionName,DeptName,CityName,Population,Lat,Long
-Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the string from Andorra above
+Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the strings from Andorra and Monaco above
 We named the resultant file occitania.direct.geo.json
 
 
-Convert the GEOjson to topojson
+#### Convert the GEOjson to topojson
 Run this:
 topojson -o occitania.population.direct.topo.json \
   --properties city=CityName,population=Population,admin1=RegionName,admin2=DeptName \
   population=occitania.direct.geo.json
 
 
-Now you have the city data to show the most populated cities per region!
-
-
+#### Now you have the city data to show the most populated cities per region!
 Upload these files to the maps directory, and each per-country topojson file into maps/*country*
