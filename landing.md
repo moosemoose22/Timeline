@@ -1,7 +1,7 @@
-How did this map come to be?
+How to get data for the landing page
 ------
 
-First of all, I followed the awesome tutorial here:
+First of all, I followed the awesome tutorial here:  
 https://bost.ocks.org/mike/map/
 
 This shows you how to make a map such as the one in this git repository.
