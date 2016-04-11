@@ -30,21 +30,21 @@ In order to get topojson, we need to convert the shapefiles we have to geojson.
 
 Here's the code to convert the ESRI shapefiles to GEOJSON:
 France:
-ogr2ogr  \
- -f GeoJSON  \
- FRA_adm2.json \
+ogr2ogr  \\
+ -f GeoJSON  \\
+ FRA_adm2.json \\
  FRA_adm2.shp
 
 Spain:
-ogr2ogr  \
- -f GeoJSON  \
- ESP_adm2.json \
+ogr2ogr  \\
+ -f GeoJSON  \\
+ ESP_adm2.json \\
  ESP_adm2.shp
 
 Andorra:
-ogr2ogr  \
- -f GeoJSON  \
- AND_adm0.json \
+ogr2ogr  \\
+ -f GeoJSON  \\
+ AND_adm0.json \\
  AND_adm0.shp
  
 Monaco:
@@ -53,8 +53,8 @@ ogr2ogr -f GeoJSON  MCO_adm0.json MCO_adm0.shp
 #### Now let's convert these GEOjson files to topojson.
 
 Andorra:
-topojson -o andorra.adm0.topo.json  \
-  --properties Cntry=ISO,regionname=NAME_ENGLI,subregionname=NAME_ENGLI,subregionID=1,region=ISO \
+topojson -o andorra.adm0.topo.json  \\
+  --properties Cntry=ISO,regionname=NAME_ENGLI,subregionname=NAME_ENGLI,subregionID=1,region=ISO \\
   admin0=AND_adm0.json
 
 Monaco:
@@ -63,13 +63,13 @@ topojson -o monaco.adm0.topo.json  \
   admin0=MCO_adm0.json
 
 France:
-topojson --simplify-proportion .25 -o france.adm2.topo.json  \
-  --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \
+topojson --simplify-proportion .25 -o france.adm2.topo.json  \\
+  --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \\
   admin2=FRA_adm2.json
 
 Spain:
-topojson --simplify-proportion .3 -o spain.adm2.topo.json  \
-  --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \
+topojson --simplify-proportion .3 -o spain.adm2.topo.json  \\
+  --properties Cntry=ISO,regionname=NAME_1,regionID=ID_1,subregionname=NAME_2,subregionID=ID_2,region=HASC_2 \\
   admin2=ESP_adm2.json
 
 If you look at Spain and France, you'll see that we added --simplify-proportion.
@@ -173,10 +173,10 @@ We named the resultant file occitania.direct.geo.json
 
 #### Convert the GEOjson to topojson
 Run this:
-topojson -o occitania.population.direct.topo.json \
-  --properties city=CityName,population=Population,admin1=RegionName,admin2=DeptName \
+topojson -o occitania.population.direct.topo.json \\
+  --properties city=CityName,population=Population,admin1=RegionName,admin2=DeptName \\
   population=occitania.direct.geo.json
 
 
 #### Now you have the city data to show the most populated cities per region!
-Upload these files to the maps directory, and each per-country topojson file into maps/*country*
+Upload these files to the maps directory, and each per-country topojson file into maps/\*country\*
