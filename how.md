@@ -16,13 +16,13 @@ Mike Bobstock in the example above got his data from http://www.naturalearthdata
 My problem was that I wanted to show more cities than the ones available in naturalearthdata.
 
 #### First we need to get geographic data.
-This led me to gadm.org.
-I downloaded ESRI shapefiles of Spain and France.
-Unfortunately for Spain, some of the shapefiles were missing!
-So I downloaded a Geopackage (SpatiaLite) file and converted it to shapefiles in the directory shp:
-ogr2ogr -f "ESRI Shapefile" shp ESP_adm.gpkg -dsco SPATIALITE=yes
-This provided the missing shapefiles!
-Monaco didn't have any shapefiles, so we ran this:
+This led me to http://gadm.org.  
+I downloaded ESRI shapefiles of Spain and France.  
+Unfortunately for Spain, some of the shapefiles were missing!  
+So I downloaded a Geopackage (SpatiaLite) file and converted it to shapefiles in the directory shp:  
+ogr2ogr -f "ESRI Shapefile" shp ESP_adm.gpkg -dsco SPATIALITE=yes  
+This provided the missing shapefiles!  
+Monaco didn't have any shapefiles, so we ran this:  
 ogr2ogr -f "ESRI Shapefile" shp MCO_adm.gpkg -dsco SPATIALITE=yes
 
 #### Next we wanted to create topojson files that would draw France, Spain, and all the regions within.
