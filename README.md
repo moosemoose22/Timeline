@@ -10,6 +10,6 @@ Catalan and Occitan are categorized as Occitano-Romance languages.
 
 Stage 1 is to create a map that lets you see each region with cities in detail.
 
-To learn about how this was built, [please see this file](how.md).
+To learn about how the landing page was built, [please see this file](landing.md).
 
 The demo is here: http://orent.info/timeline
