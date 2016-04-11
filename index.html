@@ -63,10 +63,14 @@
 				callback();
 		});
 	}
-	
+
+	// In case you ever wanted to filter further by population, this function is here
+	// The data is is pre-filtered so as to included the most-populated city per sub-region (admin level 2 region)
+	// And exception was made for Nice: Grasse is more populous than Nice, but Nice is clearly the more well-known city
+	// Some cities within large metropoli (especially Paris) were removed: they'd all overlap too much, and they're part of 1 larger urban area anyways.
 	function filterPopulation(population)
 	{
-		return (population > 3000);
+		return (population > 0);
 	}
 
 	function writeCities(mapCountry)
@@ -94,35 +98,6 @@
 				.attr("dy", ".35em")
 				.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
 				.text(function(d) { return d.properties.city; });
-		/*
-			svg.append("path")
-				.datum(topojson.feature(occitania, occitania.objects.population).features)
-				.filter(function(d) { console.log(d); return properties.population > 100000 })
-				.attr("d", path)
-				.attr("class", "place");
-			
-
-			// Add little gray dot next to city
-			svg.append("path")
-				.data(topojson.feature(occitania, occitania.objects.population).features)
-				.enter().append("circle")
-				.filter(function(d) { return d.properties.population > 10000 })
-				.attr("cx", function (d) { console.log(projection(d.geometry.coordinates)); return projection(d.geometry.coordinates)[0]; })
-				.attr("cy", function (d) { return projection(d.geometry.coordinates)[1]; })
-				.attr("d", path)
-				.attr("class", "place");
-
-			// City names
-			svg.selectAll(".place-label")
-				.data(topojson.feature(occitania, occitania.objects.population).features)
-				.enter().append("text")
-				.attr("class", "place-label")
-				.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
-				.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
-				.attr("dy", ".35em")
-				.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
-				.text(function(d) { return d.properties.name; });
-*/
 		});
 	}
 
@@ -143,9 +118,8 @@
 	// and set the projection used by the path generator what we specified above.
 	// If projection is not specified, returns the current projection, which defaults to albersUsa.
 	var path = d3.geo.path()
-		.projection(projection);
-
-	var regionPath = d3.geo.path().projection(projection).pointRadius(.1);
+		.projection(projection)
+		.pointRadius(2.4);
 
 	// Append default svg
 	var svg = d3.select("body").append("svg")
