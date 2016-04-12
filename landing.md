@@ -134,7 +134,7 @@ Once you have that, you can run [rawdata/ine/getDataGoogle.py](rawdata/ine/getDa
 and put your key into the code
 
 4) Show only the largest city per region
-You can do this by running [rawdata/ine/parseSpainData.py.](rawdata/ine/parseSpainData.py.)
+You can do this by running [rawdata/ine/parseSpainData.py](rawdata/ine/parseSpainData.py).
 
 
 ##### Instructions for Andorra:
