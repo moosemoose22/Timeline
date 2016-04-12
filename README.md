@@ -14,6 +14,8 @@ To learn about how to get the data for the landing page, [please see this file](
 
 To learn about how to get the data for each region, [please see this file](regions.md).
 
+To see a roadmap for future development/bug fixes, [please see this file](roadmap.md).
+
 The demo is here: http://orent.info/timeline
 
 Thank you to:  
