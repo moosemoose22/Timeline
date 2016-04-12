@@ -93,7 +93,7 @@ I saved it as rawdata/france/outputFrance.csv.
 3) Parse the population data
 The population has commas, and that could cause problems later on.
 The output also has unneeded columns.
-You can do both these tasks by running the script [rawdata/france/getFranceData.py](rawdata/france/getFranceData.py)
+You can do both these tasks by running the script [rawdata/insee/getFranceData.py](rawdata/insee/getFranceData.py)
 
 4) Remove cities around Paris
 Paris has tons of people, and there are many geographically small regions around it.
@@ -104,11 +104,11 @@ Delete all entries for Île-de-France that aren't Paris.
 We do this by using google's geocoding service!
 https://developers.google.com/maps/documentation/geocoding/intro
 You need to sign up for the service and key a key.
-Once you have that, you can run [rawdata/france/getData.py](rawdata/france/getData.py)
+Once you have that, you can run [rawdata/insee/getData.py](rawdata/insee/getData.py)
 and put your key into the code
 
 6) Show only the largest city per region
-You can do this by running [rawdata/france/parseFranceData.py.](rawdata/france/parseFranceData.py.)
+You can do this by running [rawdata/insee/parseFranceData.py.](rawdata/insee/parseFranceData.py.)
 
 
 ##### Instructions for Spain:
@@ -124,17 +124,17 @@ I copied and pasted the data into a spreadsheet which I exported as outputSpain.
 
 3) Parse the place data
 The place data has codes in them.
-You can run the script [rawdata/spain/getSpainIne.py](rawdata/spain/getSpainIne.py)
+You can run the script [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py)
 
 3) Add latitude and longitude coordinates to the CSV
 We do this by using google's geocoding service!
 https://developers.google.com/maps/documentation/geocoding/intro
 You need to sign up for the service and key a key.
-Once you have that, you can run [rawdata/spain/getDataGoogle.py](rawdata/spain/getDataGoogle.py)
+Once you have that, you can run [rawdata/ine/getDataGoogle.py](rawdata/ine/getDataGoogle.py)
 and put your key into the code
 
 4) Show only the largest city per region
-You can do this by running [rawdata/spain/parseSpainData.py.](rawdata/spain/parseSpainData.py.)
+You can do this by running [rawdata/ine/parseSpainData.py.](rawdata/ine/parseSpainData.py.)
 
 
 ##### Instructions for Andorra:
