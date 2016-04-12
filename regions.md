@@ -16,9 +16,9 @@ We also want to show additional cities with the zoomed-in view.
 
 Here's how we did this:  
 First we need to create per-subregion GEOjson for the area and the cities.  
-Run individuals/france/makeFranceIndividuals.py and [individuals/spain/makeSpainIndividuals.py](individuals/spain/makeSpainIndividuals.py)   
+Run [individuals/makeFranceIndividuals.py](individuals/makeFranceIndividuals.py) and [individuals/makeSpainIndividuals.py](individuals/makeSpainIndividuals.py)   
 This creates individual GEOjson files for each subregion for cities.  
-The files allfrance.geo.json and allspain.geo.json were created from inseee (France) and ine (Spain) data.  
+The files allfrance.geo.json and allspain.geo.json were created from [insee](http://www.insee.fr/fr/default.asp) (France) and [ine](http://ine.es/) (Spain) data.  
 We then got lat/long data from google for the extra cities.  
 We had all the data converted from a csv on http://www.convertcsv.com.  
 Note that for Spain, we needed to convert some of the region names from English/non local-language names to the local-language name for the region.
