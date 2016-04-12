@@ -44,6 +44,19 @@ ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*
 
 Note that in the bash script for Spain, we need to convert some of the names.
 
+Finally, please note that the admin3 data for Spain is mostly missing. The admin3 region names are often "n.a. (*counter*).  
+Here's what we did to fix this (see updateESPmissingAdm3/findAdm3.js):  
+The script went through all the cities we have and found out whether they're in a region.  
+Cities already have admin3 data from google map APIs.  
+If a city is in a region, copy the admin3 data from the city to the region.  
+Then rewrite the region data.  
+That solved over 1/2 of the missing regions. But we wanted to get remove the vast majority of missing regions.  
+We got data for all cities with over 1000 people from http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1.  
+We then removed all the cities we already have by running rawdata/ine/reduceOver1000.py.  
+We then got the latitude and longitude for these cities by running rawdata/ine/getDataGoogle1000To10000.py. Note that the google map APIs have a limit of 2500 queries you can make in a day for free. The script assumes that if you don't get a response of OK, you hit that limit. You'll need to continue the next day. The script has logic to pick up where you left off.  
+We went to http://www.convertcsv.com to make GEOjson out of the data we had (rawdata/ine/outputNewSpainIneWithLatLng1000To10000_latest.csv).  
+We created GEOjson for each region by running updateESPmissingAdm3/makeSpainIndividualsOver1000.py
+We then ran the same script we did before to copy admin3 data from these cities to the region data (updateESPmissingAdm3/findAdm3.js).  
 
 For Andorra: we did it by hand since it's so small.  
 We created the GEOjson for the area by runnig this:  

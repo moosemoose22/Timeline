@@ -21,14 +21,3 @@ for i in spain_cities_list_over_1000:
 with open("outputSpainIne1000To10000.csv", "w") as f:
 	writer = csv.writer(f)
 	writer.writerows(spain_cities_list_over_1000_edited)
-
-'''
-arrPos = len(spain_cities_list) - 1
-print type(spain_cities_list[arrPos][3])
-print spain_cities_list[arrPos][3]
-response = urllib2.urlopen('http://nominatim.openstreetmap.org/search?q=' + spain_cities_list[arrPos][3] + ',%20france&format=json')
-franceData = response.read()
-franceJSON = json.loads(franceData)
-print franceJSON[0]['lon']
-print franceJSON[0]['lat']
-'''
