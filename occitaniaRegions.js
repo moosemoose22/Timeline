@@ -159,21 +159,19 @@ var regionFuncs = new function()
 					id = convertID(id);
 					return id;
 				})
-				.on('mouseover', function(d){
-					// Put region and subregion name in top corner
-					$('#regionName').html(d.properties.regionname);
-					$('#subRegionName').html(d.properties.subregionname);
-
+				.on('mouseover', function(d)
+				{
+					var admin3Name;
 					// Andorra, and possibly other small countries, don't have admin3
 					if ("admin3name" in d.properties)
 					{
-						if (d.properties.admin3name.substring(0, 4) == "n.a.")
-							$('#subSubRegionName').html(d.properties.admin3name);
-						else
-							$('#subSubRegionName').html(d.properties.admin3name);
+						admin3Name = d.properties.admin3name;
+						//if (d.properties.admin3name.substring(0, 4) == "n.a.")
 					}
 					else
-						$('#subSubRegionName').html("");
+						admin3Name = undefined;
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, admin3Name);
+					selectedRegionManager.writeData();
 				})
 				.on('click', function(d){
 					;
@@ -187,7 +185,12 @@ var regionFuncs = new function()
 					.enter()
 					.append("path")
 					.attr("d", newPath)
-					.attr("class", "place");
+					.attr("class", "place")
+					.on('mouseover', function(d)
+					{
+						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+						selectedRegionManager.writeData();
+					});
 
 				regionSVG.selectAll(".region-place-label")
 					.data(population.features)
@@ -198,7 +201,12 @@ var regionFuncs = new function()
 					.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
 					.attr("dy", ".35em")
 					.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
-					.text(function(d) { return d.properties.cityname; });
+					.text(function(d) { return d.properties.cityname; })
+					.on('mouseover', function(d)
+					{
+						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+						selectedRegionManager.writeData();
+					});
 			}
 		});
 	}

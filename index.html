@@ -12,6 +12,7 @@
 <script src="http://code.jquery.com/jquery-2.2.1.js"></script>
 <script src="occitaniaFuncs.js"></script>
 <script src="occitaniaRegions.js"></script>
+<script src="selectedRegionManager.js"></script>
 <script>
 	function writeMap(mapCountry, callback)
 	{
@@ -49,11 +50,11 @@
 					id = convertID(id);
 					return id;
 				})
-				.on('mouseover', function(d){
+				.on('mouseover', function(d)
+				{
 					// Put region and subregion name in top corner
-					$('#regionName').html(d.properties.regionname);
-					$('#subRegionName').html(d.properties.subregionname);
-					$('#subSubRegionName').html("");
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname);
+					selectedRegionManager.writeData();
 				})
 				.on('click', function(d){
 					openRegionWindow(mapCountry, d);
@@ -85,7 +86,12 @@
 				.append("path")
 				.filter(function(d) { return filterPopulation(d.properties.population); })
 				.attr("d", path)
-				.attr("class", "place");
+				.attr("class", "place")
+				.on('mouseover', function(d)
+				{
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.city, d.properties.population.toLocaleString());
+					selectedRegionManager.writeData();
+				});
 
 			svg.selectAll(".place-label")
 				.data(topojson.feature(occitania, occitania.objects.population).features)
@@ -97,7 +103,12 @@
 				.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
 				.attr("dy", ".35em")
 				.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
-				.text(function(d) { return d.properties.city; });
+				.text(function(d) { return d.properties.city; })
+				.on('mouseover', function(d)
+				{
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.city, d.properties.population.toLocaleString());
+					selectedRegionManager.writeData();
+				});
 		});
 	}
 
@@ -137,6 +148,7 @@
 	<h2 id="regionName">&nbsp;</h2>
 	<h4 id="subRegionName">&nbsp;</h4>
 	<h5 id="subSubRegionName">&nbsp;</h5>
+	<h6 id="CityName">&nbsp;</h6>
 </div>
 <img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="closeWindowPrelim()" />
 <svg id="openWindow" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">

@@ -7,5 +7,9 @@ Roadmap for the future
 
 ##### Future plans
 1. Possibly have text about each region within the shape of each region.  
-2. Design a way to show more information about each region.  
-3. Show the population of a city and its name when you hover over it.
+2. Show more information about each region
+  1. Figure out what informaiton would be inteesting and get it.
+  2. Design a way to show this information.  
+3. Show the population of cities when hovering over their name.
+4. Add more cities to maps, especially in admin3 regions in France/Spain which have no cities.
+5. Add better weighting to cities to determine which cities to show when.
