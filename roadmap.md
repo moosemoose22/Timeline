@@ -7,5 +7,5 @@ Roadmap for the future
 
 ##### Future plans
 1. Possibly have text about each region within the shape of each region.  
-2. Design a way to show more informatino abuot each region.  
+2. Design a way to show more information about each region.  
 3. Show the population of a city and its name when you hover over it.
