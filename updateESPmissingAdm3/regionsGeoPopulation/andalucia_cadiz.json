@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "La Janda", "CityName": "Alcalá de los Gazules", "Population": 5326 }, "geometry": { "type": "Point", "coordinates": [ -5.7245344, 36.4617479 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Alcalá del Valle", "Population": 5224 }, "geometry": { "type": "Point", "coordinates": [ -5.1725345, 36.9055622 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Algar", "Population": 1448 }, "geometry": { "type": "Point", "coordinates": [ -5.6546388, 36.6585879 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Algodonales", "Population": 5649 }, "geometry": { "type": "Point", "coordinates": [ -5.4031177, 36.8812379 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Bornos", "Population": 7934 }, "geometry": { "type": "Point", "coordinates": [ -5.7433562, 36.8159238 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "El Bosque", "Population": 2067 }, "geometry": { "type": "Point", "coordinates": [ -5.5061788, 36.758004199999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Campo de Gibraltar", "CityName": "Castellar de la Frontera", "Population": 3045 }, "geometry": { "type": "Point", "coordinates": [ -5.4202804, 36.2853497 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Espera", "Population": 3915 }, "geometry": { "type": "Point", "coordinates": [ -5.8044027, 36.872392 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "El Gastor", "Population": 1809 }, "geometry": { "type": "Point", "coordinates": [ -5.3226677, 36.856029 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Grazalema", "Population": 2165 }, "geometry": { "type": "Point", "coordinates": [ -5.3684385, 36.7586748 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Campo de Gibraltar", "CityName": "Jimena de la Frontera", "Population": 9772 }, "geometry": { "type": "Point", "coordinates": [ -5.4509174, 36.431902 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Olvera", "Population": 8289 }, "geometry": { "type": "Point", "coordinates": [ -5.2599555, 36.9352388 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "La Janda", "CityName": "Paterna de Rivera", "Population": 5585 }, "geometry": { "type": "Point", "coordinates": [ -5.8657211, 36.5234413 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Prado del Rey", "Population": 5819 }, "geometry": { "type": "Point", "coordinates": [ -5.5577902, 36.7882576 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Puerto Serrano", "Population": 7145 }, "geometry": { "type": "Point", "coordinates": [ -5.5420421, 36.9230994 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Setenil de las Bodegas", "Population": 2845 }, "geometry": { "type": "Point", "coordinates": [ -5.1764469, 36.8624263 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Costa Noroeste", "CityName": "Trebujena", "Population": 7072 }, "geometry": { "type": "Point", "coordinates": [ -6.1752377, 36.8704663 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Sierra de Cádiz", "CityName": "Zahara", "Population": 1436 }, "geometry": { "type": "Point", "coordinates": [ -5.3919919, 36.8394942 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "La Janda", "CityName": "Benalup-Casas Viejas", "Population": 7000 }, "geometry": { "type": "Point", "coordinates": [ -5.8166423, 36.3431854 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Andalucía", "DeptName": "Cádiz", "Admin3Name": "Campiña de Jerez", "CityName": "San José del Valle", "Population": 4427 }, "geometry": { "type": "Point", "coordinates": [ -5.8010254, 36.6060308 ] } }
+]
+}

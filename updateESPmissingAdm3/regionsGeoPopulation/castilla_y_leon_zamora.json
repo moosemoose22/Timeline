@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Aliste", "CityName": "Alcañices", "Population": 1108 }, "geometry": { "type": "Point", "coordinates": [ -6.3478677, 41.698659 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Sayago", "CityName": "Bermillo de Sayago", "Population": 1104 }, "geometry": { "type": "Point", "coordinates": [ -6.109632, 41.3662173 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra del Pan", "CityName": "Coreses", "Population": 1080 }, "geometry": { "type": "Point", "coordinates": [ -5.6208251, 41.547596899999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra del Vino", "CityName": "Corrales del Vino", "Population": 1052 }, "geometry": { "type": "Point", "coordinates": [ -5.7256116, 41.3578759 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Sayago", "CityName": "Fermoselle", "Population": 1335 }, "geometry": { "type": "Point", "coordinates": [ -6.3939519, 41.316623 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "La Guareña", "CityName": "Fuentesaúco", "Population": 1644 }, "geometry": { "type": "Point", "coordinates": [ -5.4974453, 41.2313964 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Senabria", "CityName": "Galende", "Population": 1190 }, "geometry": { "type": "Point", "coordinates": [ -6.6618074, 42.1053201 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra del Vino", "CityName": "Moraleja del Vino", "Population": 1660 }, "geometry": { "type": "Point", "coordinates": [ -5.6576266, 41.4635603 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra del Vino", "CityName": "Morales del Vino", "Population": 2955 }, "geometry": { "type": "Point", "coordinates": [ -5.7378808, 41.44587 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Senabria", "CityName": "Puebla de Sanabria", "Population": 1484 }, "geometry": { "type": "Point", "coordinates": [ -6.6349267, 42.0543768 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Benavente y los Valles", "CityName": "San Cristóbal de Entreviñas", "Population": 1481 }, "geometry": { "type": "Point", "coordinates": [ -5.6346898, 42.0462612 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Benavente y los Valles", "CityName": "Santa Cristina de la Polvorosa", "Population": 1105 }, "geometry": { "type": "Point", "coordinates": [ -5.7155039, 41.999186900000012 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Benavente y los Valles", "CityName": "Santibáñez de Vidriales", "Population": 1044 }, "geometry": { "type": "Point", "coordinates": [ -6.0136694, 42.0752372 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Alfoz de Toro", "CityName": "Toro", "Population": 9214 }, "geometry": { "type": "Point", "coordinates": [ -5.3913375, 41.5274417 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Aliste", "CityName": "Trabazos", "Population": 1002 }, "geometry": { "type": "Point", "coordinates": [ -6.4916469, 41.7451798 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra de Campos", "CityName": "Villalpando", "Population": 1523 }, "geometry": { "type": "Point", "coordinates": [ -5.413591, 41.8654475 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Zamora", "Admin3Name": "Tierra del Vino", "CityName": "Villaralbo", "Population": 1893 }, "geometry": { "type": "Point", "coordinates": [ -5.6839275, 41.4896888 ] } }
+]
+}

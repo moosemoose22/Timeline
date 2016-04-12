@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Moncayo", "CityName": "Ágreda", "Population": 3053 }, "geometry": { "type": "Point", "coordinates": [ -1.922138, 41.8564653 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Comarca de Almazán", "CityName": "Almazán", "Population": 5734 }, "geometry": { "type": "Point", "coordinates": [ -2.5331845, 41.4859291 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Medinaceli", "CityName": "Arcos de Jalón", "Population": 1661 }, "geometry": { "type": "Point", "coordinates": [ -2.2765815, 41.2170069 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Burgo de Osma", "CityName": "Burgo de Osma-Ciudad de Osma", "Population": 5066 }, "geometry": { "type": "Point", "coordinates": [ -3.0754033, 41.588288899999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Comarca de Pinares", "CityName": "Covaleda", "Population": 1779 }, "geometry": { "type": "Point", "coordinates": [ -2.8831158, 41.9354883 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Comarca de Pinares", "CityName": "Duruelo de la Sierra", "Population": 1175 }, "geometry": { "type": "Point", "coordinates": [ -2.9317279, 41.9541797 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Soria", "CityName": "Golmayo", "Population": 2484 }, "geometry": { "type": "Point", "coordinates": [ -2.5231974, 41.7656798 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Moncayo", "CityName": "Ólvega", "Population": 3715 }, "geometry": { "type": "Point", "coordinates": [ -1.9844827, 41.7796324 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Burgo de Osma", "CityName": "San Esteban de Gormaz", "Population": 3070 }, "geometry": { "type": "Point", "coordinates": [ -3.1993084, 41.5705351 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Soria", "Admin3Name": "Comarca de Pinares", "CityName": "San Leonardo de Yagüe", "Population": 2164 }, "geometry": { "type": "Point", "coordinates": [ -3.0669724, 41.8292226 ] } }
+]
+}

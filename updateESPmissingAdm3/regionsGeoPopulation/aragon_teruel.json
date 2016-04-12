@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Bajo Martín", "CityName": "Albalate del Arzobispo", "Population": 2001 }, "geometry": { "type": "Point", "coordinates": [ -0.5127877, 41.1201244 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Bajo Aragón", "CityName": "Alcorisa", "Population": 3374 }, "geometry": { "type": "Point", "coordinates": [ -0.3824868, 40.8930228 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Andorra-Sierra de Arcos", "CityName": "Andorra", "Population": 8065 }, "geometry": { "type": "Point", "coordinates": [ -0.4485077, 40.9774233 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Matarraña\/Matarranya", "CityName": "Calaceite", "Population": 1052 }, "geometry": { "type": "Point", "coordinates": [ 0.1876385, 41.0158479 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Jiloca", "CityName": "Calamocha", "Population": 4417 }, "geometry": { "type": "Point", "coordinates": [ -1.299939, 40.9173028 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Bajo Aragón", "CityName": "Calanda", "Population": 3893 }, "geometry": { "type": "Point", "coordinates": [ -0.2315018, 40.9407849 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Comunidad de Teruel", "CityName": "Cella", "Population": 2776 }, "geometry": { "type": "Point", "coordinates": [ -1.2818815, 40.4521911 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Bajo Martín", "CityName": "Híjar", "Population": 1761 }, "geometry": { "type": "Point", "coordinates": [ -0.4490575, 41.1732193 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Bajo Aragón", "CityName": "Mas de las Matas", "Population": 1318 }, "geometry": { "type": "Point", "coordinates": [ -0.2420576, 40.8333537 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Jiloca", "CityName": "Monreal del Campo", "Population": 2611 }, "geometry": { "type": "Point", "coordinates": [ -1.3553635, 40.7877194 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Cuencas Mineras", "CityName": "Montalbán", "Population": 1327 }, "geometry": { "type": "Point", "coordinates": [ -0.8002439, 40.8327391 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Gúdar-Javalambre", "CityName": "Mora de Rubielos", "Population": 1585 }, "geometry": { "type": "Point", "coordinates": [ -0.7520927, 40.2515227 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Comunidad de Teruel", "CityName": "Santa Eulalia", "Population": 1081 }, "geometry": { "type": "Point", "coordinates": [ -1.3143906, 40.5675532 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Gúdar-Javalambre", "CityName": "Sarrión", "Population": 1167 }, "geometry": { "type": "Point", "coordinates": [ -0.811547, 40.1411609 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Cuencas Mineras", "CityName": "Utrillas", "Population": 3110 }, "geometry": { "type": "Point", "coordinates": [ -0.8472614, 40.8127974 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aragón", "DeptName": "Teruel", "Admin3Name": "Matarraña\/Matarranya", "CityName": "Valderrobres", "Population": 2342 }, "geometry": { "type": "Point", "coordinates": [ 0.1535949, 40.8733331 ] } }
+]
+}

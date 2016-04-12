@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Valdivia", "CityName": "Aguilar de Campoo", "Population": 7033 }, "geometry": { "type": "Point", "coordinates": [ -4.2622141, 42.7931905 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Astudillo", "Population": 1002 }, "geometry": { "type": "Point", "coordinates": [ -4.294762, 42.1925578 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Baltanás", "Population": 1273 }, "geometry": { "type": "Point", "coordinates": [ -4.2461531, 41.9380045 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Venta de Baños", "Population": 6432 }, "geometry": { "type": "Point", "coordinates": [ -4.4887385, 41.9209323 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Valdivia", "CityName": "Barruelo de Santullán", "Population": 1275 }, "geometry": { "type": "Point", "coordinates": [ -4.2884733, 42.906571199999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Carrión de los Condes", "Population": 2177 }, "geometry": { "type": "Point", "coordinates": [ -4.6024326, 42.3373375 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Montaña Palentina", "CityName": "Cervera de Pisuerga", "Population": 2442 }, "geometry": { "type": "Point", "coordinates": [ -4.4992928, 42.8668915 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Dueñas", "Population": 2741 }, "geometry": { "type": "Point", "coordinates": [ -4.5439254, 41.8732123 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Grijota", "Population": 2114 }, "geometry": { "type": "Point", "coordinates": [ -4.5824339, 42.0530505 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Montaña Palentina", "CityName": "Guardo", "Population": 6547 }, "geometry": { "type": "Point", "coordinates": [ -4.8474389, 42.7890255 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Boedo-Ojeda", "CityName": "Herrera de Pisuerga", "Population": 2132 }, "geometry": { "type": "Point", "coordinates": [ -4.3321114, 42.5953655 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Paredes de Nava", "Population": 1981 }, "geometry": { "type": "Point", "coordinates": [ -4.692841, 42.151599 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Vega - Valdavia", "CityName": "Saldaña", "Population": 3121 }, "geometry": { "type": "Point", "coordinates": [ -4.7419825, 42.5180071 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Montaña Palentina", "CityName": "Santibáñez de la Peña", "Population": 1101 }, "geometry": { "type": "Point", "coordinates": [ -4.7300164, 42.8098635 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Torquemada", "Population": 1025 }, "geometry": { "type": "Point", "coordinates": [ -4.3192729, 42.035448 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Montaña Palentina", "CityName": "Velilla del Río Carrión", "Population": 1406 }, "geometry": { "type": "Point", "coordinates": [ -4.8478632, 42.825810399999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Villada", "Population": 1036 }, "geometry": { "type": "Point", "coordinates": [ -4.9682094, 42.2489706 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Villalobón", "Population": 1573 }, "geometry": { "type": "Point", "coordinates": [ -4.5033618, 42.0299942 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Cerrato", "CityName": "Villamuriel de Cerrato", "Population": 6370 }, "geometry": { "type": "Point", "coordinates": [ -4.5153954, 41.9481691 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Osorno la Mayor", "Population": 1298 }, "geometry": { "type": "Point", "coordinates": [ -4.3770704, 42.369478 ] } }
+]
+}

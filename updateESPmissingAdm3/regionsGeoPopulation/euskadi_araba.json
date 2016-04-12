@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Arabako Lautada", "CityName": "Alegría-Dulantzi", "Population": 2882 }, "geometry": { "type": "Point", "coordinates": [ -2.5126835, 42.8410353 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Gorbeia Inguruak", "CityName": "Aramaio", "Population": 1518 }, "geometry": { "type": "Point", "coordinates": [ -2.564711, 43.0521188 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Kantauri Arabarra", "CityName": "Artziniega", "Population": 1829 }, "geometry": { "type": "Point", "coordinates": [ -3.1294084, 43.1205796 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Arabako Lautada", "CityName": "Asparrena", "Population": 1647 }, "geometry": { "type": "Point", "coordinates": [ -2.3123031, 42.8892222 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Kantauri Arabarra", "CityName": "Ayala", "Population": 2927 }, "geometry": { "type": "Point", "coordinates": [ -3.0776568, 43.0753042 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Montaña Alavesa", "CityName": "Campezo", "Population": 1069 }, "geometry": { "type": "Point", "coordinates": [ -2.3517526, 42.693323799999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Gorbeia Inguruak", "CityName": "Zigoitia", "Population": 1765 }, "geometry": { "type": "Point", "coordinates": [ -2.7182728, 42.96788 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Rioja Alavesa", "CityName": "Elciego", "Population": 1051 }, "geometry": { "type": "Point", "coordinates": [ -2.6185459, 42.5149608 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Rioja Alavesa", "CityName": "Labastida", "Population": 1471 }, "geometry": { "type": "Point", "coordinates": [ -2.7956557, 42.589935399999987 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Rioja Alavesa", "CityName": "Laguardia", "Population": 1520 }, "geometry": { "type": "Point", "coordinates": [ -2.5841047, 42.5535069 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Kantauri Arabarra", "CityName": "Okondo", "Population": 1156 }, "geometry": { "type": "Point", "coordinates": [ -3.0265434, 43.155670699999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Rioja Alavesa", "CityName": "Oyón-Oion", "Population": 3320 }, "geometry": { "type": "Point", "coordinates": [ -2.4357287, 42.5046702 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Cuadrilla de Añana", "CityName": "Ribera Baja", "Population": 1359 }, "geometry": { "type": "Point", "coordinates": [ -2.5329, 42.4423 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Arabako Lautada", "CityName": "Salvatierra", "Population": 4986 }, "geometry": { "type": "Point", "coordinates": [ -2.388785, 42.8493348 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Gorbeia Inguruak", "CityName": "Urkabustaiz", "Population": 1300 }, "geometry": { "type": "Point", "coordinates": [ -2.9410935, 42.9772904 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Arabako Ibarrak", "CityName": "Valdegovía", "Population": 1013 }, "geometry": { "type": "Point", "coordinates": [ -3.0776568, 42.8420421 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Gorbeia Inguruak", "CityName": "Legutio", "Population": 1716 }, "geometry": { "type": "Point", "coordinates": [ -2.6425841, 42.9804724 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Gorbeia Inguruak", "CityName": "Zuia", "Population": 2383 }, "geometry": { "type": "Point", "coordinates": [ -2.8377656, 42.9649882 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Euskadi", "DeptName": "Araba", "Admin3Name": "Arabako Lautada", "CityName": "Iruña Oka", "Population": 3172 }, "geometry": { "type": "Point", "coordinates": [ -2.8277963, 42.8192346 ] } }
+]
+}
