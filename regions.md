@@ -38,8 +38,22 @@ Now let's create the population GEOjson and create combined topojson.
 
 Run the following:  
 From individuals/france  
-ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}
+ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}  
 From individuals/spain  
-ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}
+ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}  
 
 Note that in the bash script for Spain, we need to convert some of the names.
+
+
+For Andorra: we did it by hand since it's so small.  
+We created the GEOjson for the area by runnig this:  
+ogr2ogr   -f GeoJSON   AND_adm1.json  AND_adm1.shp  
+We then googled for the population data of the biggest cities in Andorra.  We created rawdata/andorra.csv, and got the lat/long information for it either from http://www.latlong.net or from google map APIs.  
+We converted that information from a csv to GEOjson on http://www.convertcsv.com.  
+Then we combined it with the GEOjson for the area by running individuals/andorra/combineIndividuals.sh
+
+Monaco is so small that we did only a basic version of the large data: we ran ogr2ogr on the MCO_adm0.sh file from gadm and uploaded it.
+
+Then upload each country's individual topojson files to maps/regions/\*country\*
+
+Then you have the data for each region!!
