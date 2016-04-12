@@ -82,83 +82,83 @@ One day, we might have 2 versions: 1 for Chrome, and 1 for everybody else.
 #### Now we need to get the city data.
 
 ##### Instructions for France:
-1) Go to http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
+1. Go to http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
 
-2) Download the XLS titled "France métropolitaine et DOM."
+2. Download the XLS titled "France métropolitaine et DOM."
 Go to the tab titles "Arondissements."
 Copy all the data there and put it in a new XLS sheet or document.
 Export this as a CSV.
 I saved it as rawdata/france/outputFrance.csv.
 
-3) Parse the population data
+3. Parse the population data
 The population has commas, and that could cause problems later on.
 The output also has unneeded columns.
 You can do both these tasks by running the script [rawdata/insee/getFranceData.py](rawdata/insee/getFranceData.py)
 
-4) Remove cities around Paris
+4. Remove cities around Paris
 Paris has tons of people, and there are many geographically small regions around it.
 For the admin1 region called Île-de-France, the only city we'll show is Paris.
 Delete all entries for Île-de-France that aren't Paris.
 
-5) Add latitude and longitude coordinates to the CSV
+5. Add latitude and longitude coordinates to the CSV
 We do this by using google's geocoding service!
 https://developers.google.com/maps/documentation/geocoding/intro
 You need to sign up for the service and key a key.
 Once you have that, you can run [rawdata/insee/getData.py](rawdata/insee/getData.py)
 and put your key into the code
 
-6) Show only the largest city per region
+6. Show only the largest city per region
 You can do this by running [rawdata/insee/parseFranceData.py](rawdata/insee/parseFranceData.py).
 
 
 ##### Instructions for Spain:
-1) Go to http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1
+1. Go to http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1
 My instructions are for the English version of the site.
 I chose a Geographic criterion of "National Level."
 Entity type criterion of "Only municipalities."
 Population size criterion of "Total population" "Greater than" "20000".
 "Select years" of "2015"
 
-2) That gave me around 4 pages of data.
+2. That gave me around 4 pages of data.
 I copied and pasted the data into a spreadsheet which I exported as outputSpain.csv.
 
-3) Parse the place data
+3. Parse the place data
 The place data has codes in them.
 You can run the script [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py)
 
-3) Add latitude and longitude coordinates to the CSV
+4. Add latitude and longitude coordinates to the CSV
 We do this by using google's geocoding service!
 https://developers.google.com/maps/documentation/geocoding/intro
 You need to sign up for the service and key a key.
 Once you have that, you can run [rawdata/ine/getDataGoogle.py](rawdata/ine/getDataGoogle.py)
 and put your key into the code
 
-4) Show only the largest city per region
+5. Show only the largest city per region
 You can do this by running [rawdata/ine/parseSpainData.py](rawdata/ine/parseSpainData.py).
 
 
 ##### Instructions for Andorra:
-1) Get populaton data
+1. Get populaton data
 Andorra La Vella is both the capital and largest city in Andorra
 I went to the least vetted source possible, but it's probably good enough:
 https://population.mongabay.com/population/Andorra/
 If that doesn't work, just google "population cities andorra" or go to wikipedia or something like that.
 
-2) Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
+2. Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
-3) I created a comma-delimited string with Andorra region, city, population, lat, and long:  
+3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
 Andorra,Andorra la Vella,Andorra la Vella,20430,42.506317,1.52183
 
 
 ##### Instructions for Monaco:
-1) Get populaton data
+1. Get populaton data
 Go to wikipedia or whatever data source of yoru choice
 
-2) Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
+2. Manually get the coordinate and admin level 1 data either from google or from http://www.latlong.net or elsewhere
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
-3) I created a comma-delimited string with Andorra region, city, population, lat, and long:  
+3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
 Monaco,Monaco,Monaco,37831,43.7384,7.4246
 
 
