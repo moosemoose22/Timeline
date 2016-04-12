@@ -192,16 +192,48 @@ var regionFuncs = new function()
 						selectedRegionManager.writeData();
 					});
 
-				regionSVG.selectAll(".region-place-label")
+				var myRegionTextLabelGroups = regionSVG.selectAll(".region-place-label")
 					.data(population.features)
 					.enter()
-					.append("text")
+					.append("g");
+
+				myRegionTextLabelGroups.append("text")
 					.attr("class", "place-label")
 					.attr("transform", function(d) { return "translate(" + newProjection(d.geometry.coordinates) + ")"; })
 					.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
 					.attr("dy", ".35em")
 					.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
 					.text(function(d) { return d.properties.cityname; })
+					.on('mouseover', function(d)
+					{
+						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+						selectedRegionManager.writeData();
+					});
+
+				myRegionTextLabelGroups.append("rect")
+					.attr("class", "place-label-bg")
+					.attr("transform", function(d)
+					{
+						var bbox = this.previousSibling.getBBox();
+						var coords = newProjection(d.geometry.coordinates);
+						if (d.geometry.coordinates[0] < -1)
+							coords[0] -= (bbox.width + 6);
+						else
+							coords[0] += 6;
+						coords[1] -= (bbox.height / 2);
+						return "translate(" + coords + ")";
+					})
+					.attr("width", function(d)
+					{
+						var bbox = this.previousSibling.getBBox();
+						return bbox.width;
+					})
+					.attr("height", function(d)
+					{
+						var bbox = this.previousSibling.getBBox();
+						return bbox.height;
+					})
+					.style("fill-opacity", 0.01)
 					.on('mouseover', function(d)
 					{
 						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());

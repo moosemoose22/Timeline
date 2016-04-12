@@ -149,8 +149,6 @@ function openRegionWindow(mapCountry, data)
 	currentTopOffset = t[1];
 	currentScaling = s;
 
-	console.log(mapCountry);
-
 	if (mapCountry == "spain")
 	{
 		var regionName = convertID(latinize(data.properties.regionname).toLowerCase());

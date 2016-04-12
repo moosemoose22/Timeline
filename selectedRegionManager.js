@@ -24,8 +24,6 @@ var selectedRegionManager = new function()
 			p_currentRegionAdm2 = regionAdm2;
 			if (regionAdm3)
 			{
-				console.log(p_currentRegionAdm3);
-				console.log(regionAdm3);
 				regionChanged = (p_currentRegionAdm3 != regionAdm3);
 				p_currentRegionAdm3 = regionAdm3;
 			}

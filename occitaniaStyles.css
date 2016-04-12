@@ -65,6 +65,10 @@ path {
 	fill: #444;
 }
 
+.place-label-bg {
+	fill: #fff;
+}
+
 .regionNameContainer
 {
 	position: fixed;
