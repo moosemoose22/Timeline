@@ -82,8 +82,12 @@ ls -d */ | xargs -I {} ./mergeFrance.sh {}
 ogr2ogr  -where "population is not null and population > 100000"
 
 http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
+For more detailed:
+Historique des populations par commune depuis 1962
+http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/default.asp
 
-http://www.ine.es/nomen2/ficheros.do
+http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1
+
 
 
 ogrinfo ESP_adm2.shp -sql "SELECT DISTINCT(NAME_2) FROM  ESP_adm2"
@@ -182,3 +186,8 @@ regionname=RegionName,subregionname=DeptName,cityname=CityName,numsubareas=NumSu
 
 ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '_', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./makeTopojson.sh {}
 ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '**', NAME_1, '**', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./combineIndividuals.sh {}
+
+
+ogrinfo ESP_adm3.shp -geom=NO -sql "SELECT CONCAT(NAME_1, '**', NAME_2, '**', NAME_3) as newName FROM  ESP_adm3" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/_/g" | sed "s/ /_/g" | xargs -I {} ./updateAdm3.py {}
+
+ogrinfo andalucia_almeria.json -sql "SELECT Admin3Name FROM OGRGeoJSON" -ro -al  -geom=NO

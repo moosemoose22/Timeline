@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionCode": "ML", "RegionName": "Melilla", "DeptCode": 52, "DeptName": "Melilla", "CityCode": 1, "CityName": "Melilla", "NumSubAreas": "", "Population": 85584 }, "geometry": { "type": "Point", "coordinates": [ -2.9380973, 35.2922775 ] } }
-]
-}

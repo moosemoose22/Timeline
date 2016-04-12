@@ -3,6 +3,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castilla y León", "DeptCode": 5, "DeptName": "Ávila", "CityCode": 19, "CityName": "Ávila", "NumSubAreas": "", "Population": 58358 }, "geometry": { "type": "Point", "coordinates": [ -4.6812086, 40.656685 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Ávila", "Admin3Name": "Ávila (Valle de Amblés y Sierra de Ávila)", "CityName": "Ávila", "Population": 58358 }, "geometry": { "type": "Point", "coordinates": [ -4.6812086, 40.656685 ] } }
 ]
 }

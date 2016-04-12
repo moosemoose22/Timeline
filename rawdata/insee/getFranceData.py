@@ -24,21 +24,11 @@ france_cities_list_smaller = list()
 counter = 0
 for i in france_cities_list:
 	counter += 1
-	g = [i[0], i[3], i[5], i[6]]
+	newPopulation = i[7].replace(",", "")
+	g = [i[1], i[3], i[5], int(newPopulation)]
 	france_cities_list_smaller.append(g)
 	#{'lng': 0.107929, 'lat': 49.49437}
 
 with open("outputFranceSmaller.csv", "w") as f:
 	writer = csv.writer(f)
 	writer.writerows(france_cities_list_smaller)
-
-'''
-arrPos = len(france_cities_list) - 1
-print type(france_cities_list[arrPos][3])
-print france_cities_list[arrPos][3]
-response = urllib2.urlopen('http://nominatim.openstreetmap.org/search?q=' + france_cities_list[arrPos][3] + ',%20france&format=json')
-franceData = response.read()
-franceJSON = json.loads(franceData)
-print franceJSON[0]['lon']
-print franceJSON[0]['lat']
-'''

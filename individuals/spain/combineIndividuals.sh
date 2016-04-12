@@ -2,6 +2,10 @@
 
 IFS="**"
 
+if [ ! -d "regionsTopoNewName" ]; then
+  mkdir regionsTopoNewName
+fi
+
 declare -a Array=($*) 
 id2=`echo "${Array[0]}"`
 # Need to make it lowercase after conversion to ascii b/c upper-case with diacritics won't be lower-cased
@@ -16,9 +20,6 @@ if [ "$regionname" = "pais_vasco" ]; then
 fi
 if [ "$regionname" = "comunidad_foral_de_navarra" ]; then
 	arearegionname="navarra"
-fi
-if [ "$regionname" = "principado_de_asturias" ]; then
-	arearegionname="asturias"
 fi
 if [ "$regionname" = "ceuta_y_melilla" ]; then
 	arearegionname="ceuta"
@@ -54,6 +55,6 @@ echo ${subregionname}
 topojson  \
   -o regionsTopoNewName/spain.${arearegionname}_${areasubregionname}.topo.json \
   --properties Cntry=ISO,arearegionname=NAME_1,areasubregionname=NAME_2,region=HASC_2,admin3name=NAME_3,populregionname=RegionName,populsubregionname=DeptName,cityname=CityName,numsubareas=NumSubAreas,population=Population \
-  region=regionsGeoNewName/spain.${regionname}_${subregionname}.json \
+  region=regionsGeoNewNameEdited/spain.${regionname}_${subregionname}.json \
   -- \
   population=regionsGeoPopulation/${arearegionname}_${areasubregionname}.json \

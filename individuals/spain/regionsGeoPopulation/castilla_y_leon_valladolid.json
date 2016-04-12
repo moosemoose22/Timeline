@@ -3,9 +3,9 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castilla y León", "DeptCode": 47, "DeptName": "Valladolid", "CityCode": 10, "CityName": "Arroyo de la Encomienda", "NumSubAreas": "", "Population": 18491 }, "geometry": { "type": "Point", "coordinates": [ -4.7866615, 41.6126587 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castilla y León", "DeptCode": 47, "DeptName": "Valladolid", "CityCode": 76, "CityName": "Laguna de Duero", "NumSubAreas": "", "Population": 22601 }, "geometry": { "type": "Point", "coordinates": [ -4.7215266, 41.5823975 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castilla y León", "DeptCode": 47, "DeptName": "Valladolid", "CityCode": 85, "CityName": "Medina del Campo", "NumSubAreas": "", "Population": 21110 }, "geometry": { "type": "Point", "coordinates": [ -4.9154767, 41.3081627 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castilla y León", "DeptCode": 47, "DeptName": "Valladolid", "CityCode": 186, "CityName": "Valladolid", "NumSubAreas": "", "Population": 303905 }, "geometry": { "type": "Point", "coordinates": [ -4.7245321, 41.652251 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Valladolid", "Admin3Name": "", "CityName": "Valladolid", "Population": 303905 }, "geometry": { "type": "Point", "coordinates": [ -4.7245321, 41.652251 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Valladolid", "Admin3Name": "Campiña del Pisuerga", "CityName": "Arroyo de la Encomienda", "Population": 18491 }, "geometry": { "type": "Point", "coordinates": [ -4.7866615, 41.6126587 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Valladolid", "Admin3Name": "Tierra de Medina", "CityName": "Medina del Campo", "Population": 21110 }, "geometry": { "type": "Point", "coordinates": [ -4.9154767, 41.3081627 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Valladolid", "Admin3Name": "Tierra de Pinares", "CityName": "Laguna de Duero", "Population": 22601 }, "geometry": { "type": "Point", "coordinates": [ -4.7215266, 41.5823975 ] } }
 ]
 }

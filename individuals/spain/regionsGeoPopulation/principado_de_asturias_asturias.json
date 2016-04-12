@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Axarquía", "CityName": "Valdés", "Population": 12421 }, "geometry": { "type": "Point", "coordinates": [ -4.2416666, 36.7583987 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Cabo Peñas", "CityName": "Carreño", "Population": 10704 }, "geometry": { "type": "Point", "coordinates": [ -5.7932008, 43.548561799999987 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Cabo Peñas", "CityName": "Gozón", "Population": 10588 }, "geometry": { "type": "Point", "coordinates": [ -5.8459341, 43.593772 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Camín Real de la Mesa", "CityName": "Grado", "Population": 10309 }, "geometry": { "type": "Point", "coordinates": [ -6.074386, 43.3870548 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca Avilés", "CityName": "Avilés", "Population": 80880 }, "geometry": { "type": "Point", "coordinates": [ -5.9246653, 43.5579523 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca Avilés", "CityName": "Corvera de Asturias", "Population": 16088 }, "geometry": { "type": "Point", "coordinates": [ -5.8881542, 43.5149529 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca Vaqueira", "CityName": "Tineo", "Population": 10128 }, "geometry": { "type": "Point", "coordinates": [ -6.411729, 43.3343326 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca de la Sidra", "CityName": "Villaviciosa", "Population": 14690 }, "geometry": { "type": "Point", "coordinates": [ -5.4355748, 43.4817214 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca del Nora", "CityName": "Siero", "Population": 52191 }, "geometry": { "type": "Point", "coordinates": [ -5.6608158, 43.3915032 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Comarca del Nora", "CityName": "Llanera", "Population": 13904 }, "geometry": { "type": "Point", "coordinates": [ -5.9198387, 43.4653488 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Fuentes del Narcea", "CityName": "Cangas del Narcea", "Population": 13451 }, "geometry": { "type": "Point", "coordinates": [ -6.5498404, 43.1773837 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Gijón", "CityName": "Gijón", "Population": 274290 }, "geometry": { "type": "Point", "coordinates": [ -5.6611195, 43.5322015 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Montaña Central", "CityName": "Castrillón", "Population": 22735 }, "geometry": { "type": "Point", "coordinates": [ -5.7450973, 43.2044772 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Montaña Central", "CityName": "Lena", "Population": 11654 }, "geometry": { "type": "Point", "coordinates": [ -5.8353837, 43.084274699999987 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Montaña Central", "CityName": "Mieres", "Population": 40338 }, "geometry": { "type": "Point", "coordinates": [ -5.7785282, 43.249719 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Montaña Central", "CityName": "Aller", "Population": 11555 }, "geometry": { "type": "Point", "coordinates": [ -5.6878736, 43.1497019 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Oriente de Asturias", "CityName": "Llanes", "Population": 13694 }, "geometry": { "type": "Point", "coordinates": [ -4.7562159, 43.4211483 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Oviedo", "CityName": "Oviedo", "Population": 221870 }, "geometry": { "type": "Point", "coordinates": [ -5.8493887, 43.3619145 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Valle del Nalón", "CityName": "San Martín del Rey Aurelio", "Population": 17182 }, "geometry": { "type": "Point", "coordinates": [ -5.6087488, 43.2751294 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Valle del Nalón", "CityName": "Laviana", "Population": 13582 }, "geometry": { "type": "Point", "coordinates": [ -5.5407299, 43.2148555 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Principado de Asturias", "DeptName": "Asturias", "Admin3Name": "Valle del Nalón", "CityName": "Langreo", "Population": 41738 }, "geometry": { "type": "Point", "coordinates": [ -5.6960562, 43.3081128 ] } }
+]
+}

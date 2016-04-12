@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionCode": "AR", "RegionName": "Aragon", "DeptCode": 22, "DeptName": "Huesca", "CityCode": 125, "CityName": "Huesca", "NumSubAreas": "", "Population": 52239 }, "geometry": { "type": "Point", "coordinates": [ -0.4078058, 42.131845 ] } }
-]
-}

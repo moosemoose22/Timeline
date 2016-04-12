@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionCode": "CL", "RegionName": "Castile and León", "DeptCode": 24, "DeptName": "León", "CityCode": 89, "CityName": "León", "NumSubAreas": "", "Population": 127817 }, "geometry": { "type": "Point", "coordinates": [ -5.5670959, 42.5987263 ] } }
-]
-}

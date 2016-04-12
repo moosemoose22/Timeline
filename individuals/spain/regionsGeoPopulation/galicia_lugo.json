@@ -3,10 +3,10 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionCode": "GA", "RegionName": "Galicia", "DeptCode": 27, "DeptName": "Lugo", "CityCode": 28, "CityName": "Lugo", "NumSubAreas": "", "Population": 98134 }, "geometry": { "type": "Point", "coordinates": [ -7.5567582, 43.0097384 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "GA", "RegionName": "Galicia", "DeptCode": 27, "DeptName": "Lugo", "CityCode": 31, "CityName": "Monforte de Lemos", "NumSubAreas": "", "Population": 19061 }, "geometry": { "type": "Point", "coordinates": [ -7.5158063, 42.5190217 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "GA", "RegionName": "Galicia", "DeptCode": 27, "DeptName": "Lugo", "CityCode": 57, "CityName": "Sarria", "NumSubAreas": "", "Population": 13393 }, "geometry": { "type": "Point", "coordinates": [ -7.4140766, 42.7808389 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "GA", "RegionName": "Galicia", "DeptCode": 27, "DeptName": "Lugo", "CityCode": 65, "CityName": "Vilalba", "NumSubAreas": "", "Population": 14645 }, "geometry": { "type": "Point", "coordinates": [ -7.6807717, 43.2974899 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "GA", "RegionName": "Galicia", "DeptCode": 27, "DeptName": "Lugo", "CityCode": 66, "CityName": "Viveiro", "NumSubAreas": "", "Population": 15735 }, "geometry": { "type": "Point", "coordinates": [ -7.5945348, 43.6642649 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Lugo", "Admin3Name": "A Mariña Occidental", "CityName": "Viveiro", "Population": 15735 }, "geometry": { "type": "Point", "coordinates": [ -7.5945348, 43.6642649 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Lugo", "Admin3Name": "Lugo", "CityName": "Lugo", "Population": 98134 }, "geometry": { "type": "Point", "coordinates": [ -7.5567582, 43.0097384 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Lugo", "Admin3Name": "Sarria", "CityName": "Sarria", "Population": 13393 }, "geometry": { "type": "Point", "coordinates": [ -7.4140766, 42.7808389 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Lugo", "Admin3Name": "Terra Chá", "CityName": "Vilalba", "Population": 14645 }, "geometry": { "type": "Point", "coordinates": [ -7.6807717, 43.2974899 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Lugo", "Admin3Name": "Terra de Lemos", "CityName": "Monforte de Lemos", "Population": 19061 }, "geometry": { "type": "Point", "coordinates": [ -7.5158063, 42.5190217 ] } }
 ]
 }

@@ -10,7 +10,7 @@ def strip_accents(s):
 
 spain_cities_list = []
 
-with open('../outputSpainSmaller2.csv', 'r') as data_file:
+with open('../rawdata/ine/outputSpainFinal.csv', 'r') as data_file:
 	reader = csv.reader(data_file)
 	for row in reader:
 		spain_cities_list.append(row)

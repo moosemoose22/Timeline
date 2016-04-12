@@ -3,9 +3,9 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionCode": "EX", "RegionName": "Extremadura", "DeptCode": 10, "DeptName": "Cáceres", "CityCode": 67, "CityName": "Coria", "NumSubAreas": "", "Population": 12930 }, "geometry": { "type": "Point", "coordinates": [ -6.5369786, 39.9880324 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "EX", "RegionName": "Extremadura", "DeptCode": 10, "DeptName": "Cáceres", "CityCode": 37, "CityName": "Cáceres", "NumSubAreas": "", "Population": 95617 }, "geometry": { "type": "Point", "coordinates": [ -6.3724247, 39.4752765 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "EX", "RegionName": "Extremadura", "DeptCode": 10, "DeptName": "Cáceres", "CityCode": 131, "CityName": "Navalmoral de la Mata", "NumSubAreas": "", "Population": 17156 }, "geometry": { "type": "Point", "coordinates": [ -5.5329619, 39.8935644 ] } },
-{ "type": "Feature", "properties": { "RegionCode": "EX", "RegionName": "Extremadura", "DeptCode": 10, "DeptName": "Cáceres", "CityCode": 148, "CityName": "Plasencia", "NumSubAreas": "", "Population": 40755 }, "geometry": { "type": "Point", "coordinates": [ -6.0838065, 40.042095499999988 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Extremadura", "DeptName": "Cáceres", "Admin3Name": "Aranuelo", "CityName": "Navalmoral de la Mata", "Population": 17156 }, "geometry": { "type": "Point", "coordinates": [ -5.5329619, 39.8935644 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Extremadura", "DeptName": "Cáceres", "Admin3Name": "Cáceres", "CityName": "Cáceres", "Population": 95617 }, "geometry": { "type": "Point", "coordinates": [ -6.3724247, 39.4752765 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Extremadura", "DeptName": "Cáceres", "Admin3Name": "Plasencia", "CityName": "Plasencia", "Population": 40755 }, "geometry": { "type": "Point", "coordinates": [ -6.0838065, 40.042095499999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Extremadura", "DeptName": "Cáceres", "Admin3Name": "Vegas del Alagón", "CityName": "Coria", "Population": 12930 }, "geometry": { "type": "Point", "coordinates": [ -6.5369786, 39.9880324 ] } }
 ]
 }
