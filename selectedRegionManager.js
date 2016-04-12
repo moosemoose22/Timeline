@@ -11,25 +11,17 @@ var selectedRegionManager = new function()
 	// Public functions
 	this.select = function(regionAdm1, regionAdm2, regionAdm3, city, population)
 	{
+		p_currentRegionAdm1 = regionAdm1;
+		p_currentRegionAdm2 = regionAdm2;
+		if (regionAdm3)
+			p_currentRegionAdm3 = regionAdm3;
+		else
+			p_currentRegionAdm3 = undefined;
+		p_hasCity = (city !== undefined);
 		if (city)
 		{
 			p_currentCity = city;
-			p_hasCity = true;
 			p_currentPopulation = population;
-		}
-		else
-		{
-			var regionChanged = (p_currentRegionAdm1 != regionAdm1 || p_currentRegionAdm2 != regionAdm2);
-			p_currentRegionAdm1 = regionAdm1;
-			p_currentRegionAdm2 = regionAdm2;
-			if (regionAdm3)
-			{
-				regionChanged = (p_currentRegionAdm3 != regionAdm3);
-				p_currentRegionAdm3 = regionAdm3;
-			}
-			else
-				p_currentRegionAdm3 = undefined;
-			p_hasCity = !regionChanged; // Keep last city hovered over until a user switches regions or hovers over another city
 		}
 	}
 

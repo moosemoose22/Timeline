@@ -176,7 +176,7 @@ We named the resultant file occitania.direct.geo.json
 #### Convert the GEOjson to topojson
 Run this:  
 topojson -o maps/occitania.population.direct.topo.json \  
-  --properties cityname=CityName,population=Population,admin1=RegionName,admin2=DeptName,textPosition=TextPosition \  
+  --properties cityname=CityName,population=Population,regionname=RegionName,subregionname=DeptName,textPosition=TextPosition \  
   population=occitania.direct.geo.json
 
 
