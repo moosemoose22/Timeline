@@ -110,6 +110,8 @@ and put your key into the code
 6. Show only the largest city per region
 You can do this by running [rawdata/insee/parseFranceData.py](rawdata/insee/parseFranceData.py).
 
+7. Delete from outputFranceFinal.csv all cities within Île-de-France that aren't Paris. Otherwise, there'll be too many cities around Paris.
+
 
 ##### Instructions for Spain:
 1. Go to http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1
@@ -148,7 +150,7 @@ If that doesn't work, just google "population cities andorra" or go to wikipedia
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
 3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
-Andorra,Andorra la Vella,Andorra la Vella,20430,42.506317,1.52183
+Andorra,Andorra la Vella,Andorra la Vella,20430,42.506317,1.52183,default
 
 
 ##### Instructions for Monaco:
@@ -159,22 +161,22 @@ Go to wikipedia or whatever data source of yoru choice
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
 3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
-Monaco,Monaco,Monaco,37831,43.7384,7.4246
+Monaco,Monaco,Monaco,37831,43.7384,7.4246,default
 
 
 
 #### Convert the data to GEOjson
 Go to http://www.convertcsv.com/csv-to-geojson.htm  
 Add the following line under "Option 3 - paste into Text Box below":  
-RegionName,DeptName,CityName,Population,Lat,Long  
+RegionName,DeptName,CityName,Population,Lat,Long,TextPosition  
 Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the strings from Andorra and Monaco above.  
 We named the resultant file occitania.direct.geo.json
 
 
 #### Convert the GEOjson to topojson
 Run this:  
-topojson -o occitania.population.direct.topo.json \  
-  --properties city=CityName,population=Population,admin1=RegionName,admin2=DeptName \  
+topojson -o maps/occitania.population.direct.topo.json \  
+  --properties cityname=CityName,population=Population,admin1=RegionName,admin2=DeptName,textPosition=TextPosition \  
   population=occitania.direct.geo.json
 
 
