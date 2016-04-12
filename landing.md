@@ -108,7 +108,7 @@ Once you have that, you can run [rawdata/insee/getData.py](rawdata/insee/getData
 and put your key into the code
 
 6) Show only the largest city per region
-You can do this by running [rawdata/insee/parseFranceData.py.](rawdata/insee/parseFranceData.py.)
+You can do this by running [rawdata/insee/parseFranceData.py](rawdata/insee/parseFranceData.py).
 
 
 ##### Instructions for Spain:
