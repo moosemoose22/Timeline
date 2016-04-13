@@ -179,23 +179,25 @@ var regionFuncs = new function()
 
 			if (population && "features" in population)
 			{
-				// Add little gray dot next to city
-				regionSVG.selectAll(".regionCityDot")
-					.data(population.features)
-					.enter()
-					.append("path")
-					.attr("d", newPath)
-					.attr("class", "place")
-					.on('mouseover', function(d)
-					{
-						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
-						selectedRegionManager.writeData();
-					});
-
 				var myRegionTextLabelGroups = regionSVG.selectAll(".region-place-label")
 					.data(population.features)
 					.enter()
 					.append("g");
+
+				// Add little gray dot next to city
+				myRegionTextLabelGroups.append("path")
+					.attr("d", newPath)
+					.attr("class", "place")
+					.on('mouseover', function(d)
+					{
+						selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+						selectedRegionManager.writeData();
+						$(this.nextSibling.nextSibling).css("fill-opacity", 0.1);
+					})
+					.on('mouseout', function(d)
+					{
+						$(this.nextSibling.nextSibling).css("fill-opacity", 0.01);
+					});
 
 				myRegionTextLabelGroups.append("text")
 					.attr("class", "place-label")
@@ -203,12 +205,7 @@ var regionFuncs = new function()
 					.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
 					.attr("dy", ".35em")
 					.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
-					.text(function(d) { return d.properties.cityname; })
-					.on('mouseover', function(d)
-					{
-						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
-						selectedRegionManager.writeData();
-					});
+					.text(function(d) { return d.properties.cityname; });
 
 				myRegionTextLabelGroups.append("rect")
 					.attr("class", "place-label-bg")
@@ -236,8 +233,13 @@ var regionFuncs = new function()
 					.style("fill-opacity", 0.01)
 					.on('mouseover', function(d)
 					{
-						selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+						selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
 						selectedRegionManager.writeData();
+						$(this).css("fill-opacity", 0.1);
+					})
+					.on('mouseout', function(d)
+					{
+						$(this).css("fill-opacity", 0.01);
 					});
 			}
 		});

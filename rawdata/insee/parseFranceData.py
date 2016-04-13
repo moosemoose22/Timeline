@@ -24,7 +24,7 @@ for i in france_cities_list:
 		myDict[admin2name] = counter
 	else:
 		rowObj = france_cities_list[rowIndex]
-		if (int(i[3]) > int(rowObj[3])):
+		if (int(i[4]) > int(rowObj[4])):
 			myDict[admin2name] = counter
 	counter += 1
 

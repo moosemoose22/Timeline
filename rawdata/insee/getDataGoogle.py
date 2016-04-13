@@ -5,7 +5,7 @@
 import csv, time, urllib.request, urllib.parse, json, sys
 france_cities_list = []
 
-with open('HIST_POP_COM_RP13_10000.csv', 'r') as data_file:
+with open('HIST_POP_COM_RP13_20000.csv', 'r') as data_file:
 	reader = csv.reader(data_file)
 	for row in reader:
 		france_cities_list.append(row)
@@ -32,33 +32,30 @@ for i in france_cities_list:
 			if ((googleAddrItem["types"][0] == "administrative_area_level_1" or googleAddrItem["types"][0] == "colloquial_area") and not hasadmin1):
 				hasadmin1 = True
 				myRegionName = googleAddrItem["long_name"]
-				i.insert(0, myRegionCode)
 
 			if (googleAddrItem["types"][0] == "administrative_area_level_2"):
 				hasadmin2 = True
 				mySubRegionName = googleAddrItem["long_name"]
-				baseIndex = 0
-				if (len(i) > 2):
-					baseIndex = 1
-				i.insert(baseIndex, mySubRegionCode)
 
 			if (googleAddrItem["types"][0] == "administrative_area_level_3"):
 				hasadmin3 = True
 				mySubRegionName = googleAddrItem["long_name"]
-				baseIndex = 0
-				if (len(i) > 2):
-					baseIndex = 2
-				i.insert(baseIndex, mySubRegionCode)
 
 		if (hasadmin1 is False):
 			i.insert(0, '')
+		else:
+			i.insert(0, myRegionName)
 		if (hasadmin2 is False):
 			i.insert(1, '')
+		else:
+			i.insert(1, mySubRegionName)
 		if (hasadmin3 is False):
 			i.insert(2, '')
+		else:
+			i.insert(2, mySubRegionName)
 
 		i.extend([myData['lat'], myData['lng']])
-		print (i[4])
+		print (i[3])
 	else:
 		print (i[0] + " missing")
 	#{'lng': 0.107929, 'lat': 49.49437}

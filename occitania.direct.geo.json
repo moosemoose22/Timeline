@@ -10,6 +10,7 @@
     "properties": {
     "RegionName":"Île-de-France",
     "DeptName":"Paris",
+    "Admin3Name":"",
     "CityName":"Paris",
     "Population":2229621,
     "TextPosition":"default"
@@ -24,6 +25,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Bouches-du-Rhone",
+    "Admin3Name":"",
     "CityName":"Marseille",
     "Population":855393,
     "TextPosition":"default"
@@ -38,6 +40,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Rhône",
+    "Admin3Name":"",
     "CityName":"Lyon",
     "Population":500715,
     "TextPosition":"default"
@@ -52,6 +55,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Haute-Garonne",
+    "Admin3Name":"",
     "CityName":"Toulouse",
     "Population":458298,
     "TextPosition":"default"
@@ -66,6 +70,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Alpes-Maritimes",
+    "Admin3Name":"",
     "CityName":"Nice",
     "Population":342295,
     "TextPosition":"left"
@@ -80,6 +85,7 @@
     "properties": {
     "RegionName":"Pays de la Loire",
     "DeptName":"Loire-Atlantique",
+    "Admin3Name":"",
     "CityName":"Nantes",
     "Population":292718,
     "TextPosition":"default"
@@ -94,6 +100,7 @@
     "properties": {
     "RegionName":"Alsace",
     "DeptName":"Bas-Rhin",
+    "Admin3Name":"",
     "CityName":"Strasbourg",
     "Population":275718,
     "TextPosition":"default"
@@ -108,6 +115,7 @@
     "properties": {
     "RegionName":"Languedoc-Roussillon",
     "DeptName":"Hérault",
+    "Admin3Name":"",
     "CityName":"Montpellier",
     "Population":272084,
     "TextPosition":"default"
@@ -122,6 +130,7 @@
     "properties": {
     "RegionName":"Aquitaine",
     "DeptName":"Gironde",
+    "Admin3Name":"",
     "CityName":"Bordeaux",
     "Population":243626,
     "TextPosition":"default"
@@ -136,6 +145,7 @@
     "properties": {
     "RegionName":"Nord-Pas-de-Calais",
     "DeptName":"Nord",
+    "Admin3Name":"",
     "CityName":"Lille",
     "Population":231491,
     "TextPosition":"default"
@@ -150,6 +160,7 @@
     "properties": {
     "RegionName":"Brittany",
     "DeptName":"Ille-et-Vilaine",
+    "Admin3Name":"",
     "CityName":"Rennes",
     "Population":211373,
     "TextPosition":"default"
@@ -164,6 +175,7 @@
     "properties": {
     "RegionName":"Champagne-Ardenne",
     "DeptName":"Marne",
+    "Admin3Name":"",
     "CityName":"Reims",
     "Population":182592,
     "TextPosition":"default"
@@ -178,6 +190,7 @@
     "properties": {
     "RegionName":"Upper Normandy",
     "DeptName":"Seine-Maritime",
+    "Admin3Name":"",
     "CityName":"Le Havre",
     "Population":172074,
     "TextPosition":"default"
@@ -192,6 +205,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Loire",
+    "Admin3Name":"",
     "CityName":"Saint-Étienne",
     "Population":172023,
     "TextPosition":"default"
@@ -206,6 +220,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Var",
+    "Admin3Name":"",
     "CityName":"Toulon",
     "Population":163760,
     "TextPosition":"default"
@@ -220,6 +235,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Isere",
+    "Admin3Name":"",
     "CityName":"Grenoble",
     "Population":160215,
     "TextPosition":"default"
@@ -234,6 +250,7 @@
     "properties": {
     "RegionName":"Burgundy",
     "DeptName":"Côte-d'Or",
+    "Admin3Name":"",
     "CityName":"Dijon",
     "Population":153003,
     "TextPosition":"default"
@@ -248,6 +265,7 @@
     "properties": {
     "RegionName":"Languedoc-Roussillon",
     "DeptName":"Gard",
+    "Admin3Name":"",
     "CityName":"Nîmes",
     "Population":150564,
     "TextPosition":"default"
@@ -262,6 +280,7 @@
     "properties": {
     "RegionName":"Pays de la Loire",
     "DeptName":"Maine-et-Loire",
+    "Admin3Name":"",
     "CityName":"Angers",
     "Population":150125,
     "TextPosition":"default"
@@ -276,6 +295,7 @@
     "properties": {
     "RegionName":"Pays de la Loire",
     "DeptName":"Sarthe",
+    "Admin3Name":"",
     "CityName":"Le Mans",
     "Population":144244,
     "TextPosition":"default"
@@ -290,6 +310,7 @@
     "properties": {
     "RegionName":"Auvergne",
     "DeptName":"Puy-de-Dome",
+    "Admin3Name":"",
     "CityName":"Clermont-Ferrand",
     "Population":141463,
     "TextPosition":"default"
@@ -304,6 +325,7 @@
     "properties": {
     "RegionName":"Brittany",
     "DeptName":"Finistere",
+    "Admin3Name":"",
     "CityName":"Brest",
     "Population":139386,
     "TextPosition":"default"
@@ -318,6 +340,7 @@
     "properties": {
     "RegionName":"Limousin",
     "DeptName":"Haute-Vienne",
+    "Admin3Name":"",
     "CityName":"Limoges",
     "Population":135098,
     "TextPosition":"default"
@@ -332,6 +355,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Indre-et-Loire",
+    "Admin3Name":"",
     "CityName":"Tours",
     "Population":134803,
     "TextPosition":"default"
@@ -346,6 +370,7 @@
     "properties": {
     "RegionName":"Picardy",
     "DeptName":"Somme",
+    "Admin3Name":"",
     "CityName":"Amiens",
     "Population":132699,
     "TextPosition":"default"
@@ -360,6 +385,7 @@
     "properties": {
     "RegionName":"Languedoc-Roussillon",
     "DeptName":"Pyrénées-Orientales",
+    "Admin3Name":"",
     "CityName":"Perpignan",
     "Population":120959,
     "TextPosition":"default"
@@ -374,6 +400,7 @@
     "properties": {
     "RegionName":"Lorraine",
     "DeptName":"Moselle",
+    "Admin3Name":"",
     "CityName":"Metz",
     "Population":118634,
     "TextPosition":"default"
@@ -388,6 +415,7 @@
     "properties": {
     "RegionName":"Franche-Comté",
     "DeptName":"Doubs",
+    "Admin3Name":"",
     "CityName":"Besançon",
     "Population":116952,
     "TextPosition":"default"
@@ -402,6 +430,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Loiret",
+    "Admin3Name":"",
     "CityName":"Orléans",
     "Population":114375,
     "TextPosition":"default"
@@ -416,6 +445,7 @@
     "properties": {
     "RegionName":"Alsace",
     "DeptName":"Haut-Rhin",
+    "Admin3Name":"",
     "CityName":"Mulhouse",
     "Population":112063,
     "TextPosition":"default"
@@ -430,6 +460,7 @@
     "properties": {
     "RegionName":"Lower Normandy",
     "DeptName":"Calvados",
+    "Admin3Name":"",
     "CityName":"Caen",
     "Population":107229,
     "TextPosition":"default"
@@ -444,6 +475,7 @@
     "properties": {
     "RegionName":"Lorraine",
     "DeptName":"Meurthe-et-Moselle",
+    "Admin3Name":"",
     "CityName":"Nancy",
     "Population":104072,
     "TextPosition":"default"
@@ -458,6 +490,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Vaucluse",
+    "Admin3Name":"",
     "CityName":"Avignon",
     "Population":90305,
     "TextPosition":"left"
@@ -472,6 +505,7 @@
     "properties": {
     "RegionName":"Poitou-Charentes",
     "DeptName":"Vienne",
+    "Admin3Name":"",
     "CityName":"Poitiers",
     "Population":87427,
     "TextPosition":"default"
@@ -486,6 +520,7 @@
     "properties": {
     "RegionName":"Aquitaine",
     "DeptName":"Pyrénées-Atlantiques",
+    "Admin3Name":"",
     "CityName":"Pau",
     "Population":77575,
     "TextPosition":"default"
@@ -500,6 +535,7 @@
     "properties": {
     "RegionName":"Poitou-Charentes",
     "DeptName":"Charente-Maritime",
+    "Admin3Name":"",
     "CityName":"La Rochelle",
     "Population":74344,
     "TextPosition":"default"
@@ -514,6 +550,7 @@
     "properties": {
     "RegionName":"Nord-Pas-de-Calais",
     "DeptName":"Pas-de-Calais",
+    "Admin3Name":"",
     "CityName":"Calais",
     "Population":72520,
     "TextPosition":"default"
@@ -528,6 +565,7 @@
     "properties": {
     "RegionName":"Corsica",
     "DeptName":"Corse-du-Sud",
+    "Admin3Name":"",
     "CityName":"Ajaccio",
     "Population":67507,
     "TextPosition":"default"
@@ -542,6 +580,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Cher",
+    "Admin3Name":"",
     "CityName":"Bourges",
     "Population":67189,
     "TextPosition":"default"
@@ -556,6 +595,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Drome",
+    "Admin3Name":"",
     "CityName":"Valence",
     "Population":61767,
     "TextPosition":"default"
@@ -570,6 +610,7 @@
     "properties": {
     "RegionName":"Champagne-Ardenne",
     "DeptName":"Aube",
+    "Admin3Name":"",
     "CityName":"Troyes",
     "Population":59671,
     "TextPosition":"default"
@@ -584,6 +625,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Savoie",
+    "Admin3Name":"",
     "CityName":"Chambéry",
     "Population":58653,
     "TextPosition":"default"
@@ -598,6 +640,7 @@
     "properties": {
     "RegionName":"Brittany",
     "DeptName":"Morbihan",
+    "Admin3Name":"",
     "CityName":"Lorient",
     "Population":57961,
     "TextPosition":"default"
@@ -612,6 +655,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Tarn-et-Garonne",
+    "Admin3Name":"",
     "CityName":"Montauban",
     "Population":57921,
     "TextPosition":"default"
@@ -626,6 +670,7 @@
     "properties": {
     "RegionName":"Poitou-Charentes",
     "DeptName":"Deux-Sevres",
+    "Admin3Name":"",
     "CityName":"Niort",
     "Population":57393,
     "TextPosition":"default"
@@ -640,6 +685,7 @@
     "properties": {
     "RegionName":"Picardy",
     "DeptName":"Aisne",
+    "Admin3Name":"",
     "CityName":"Saint-Quentin",
     "Population":55698,
     "TextPosition":"default"
@@ -654,8 +700,39 @@
     "properties": {
     "RegionName":"Picardy",
     "DeptName":"Oise",
+    "Admin3Name":"",
     "CityName":"Beauvais",
     "Population":55252,
+    "TextPosition":"default"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.8884657,48.9562018 ]
+    },
+    "properties": {
+    "RegionName":"Île-de-France",
+    "DeptName":"Seine-et-Marne",
+    "Admin3Name":"",
+    "CityName":"Meaux",
+    "Population":53766,
+    "TextPosition":"default"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.441782,48.629828 ]
+    },
+    "properties": {
+    "RegionName":"Île-de-France",
+    "DeptName":"Essonne",
+    "Admin3Name":"",
+    "CityName":"Évry",
+    "Population":53237,
     "TextPosition":"default"
     }
   },
@@ -668,6 +745,7 @@
     "properties": {
     "RegionName":"Languedoc-Roussillon",
     "DeptName":"Aude",
+    "Admin3Name":"",
     "CityName":"Narbonne",
     "Population":52802,
     "TextPosition":"default"
@@ -682,6 +760,7 @@
     "properties": {
     "RegionName":"Pays de la Loire",
     "DeptName":"Vendee",
+    "Admin3Name":"",
     "CityName":"La Roche-sur-Yon",
     "Population":52732,
     "TextPosition":"default"
@@ -696,6 +775,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Haute-Savoie",
+    "Admin3Name":"",
     "CityName":"Annecy",
     "Population":52029,
     "TextPosition":"default"
@@ -710,6 +790,7 @@
     "properties": {
     "RegionName":"Pays de la Loire",
     "DeptName":"Mayenne",
+    "Admin3Name":"",
     "CityName":"Laval",
     "Population":50479,
     "TextPosition":"default"
@@ -724,6 +805,7 @@
     "properties": {
     "RegionName":"Franche-Comté",
     "DeptName":"Territoire de Belfort",
+    "Admin3Name":"",
     "CityName":"Belfort",
     "Population":50196,
     "TextPosition":"default"
@@ -738,6 +820,7 @@
     "properties": {
     "RegionName":"Upper Normandy",
     "DeptName":"Eure",
+    "Admin3Name":"",
     "CityName":"Évreux",
     "Population":49722,
     "TextPosition":"default"
@@ -752,6 +835,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Tarn",
+    "Admin3Name":"",
     "CityName":"Albi",
     "Population":49342,
     "TextPosition":"default"
@@ -766,6 +850,7 @@
     "properties": {
     "RegionName":"Champagne-Ardenne",
     "DeptName":"Ardennes",
+    "Admin3Name":"",
     "CityName":"Charleville-Mézières",
     "Population":48991,
     "TextPosition":"default"
@@ -780,6 +865,7 @@
     "properties": {
     "RegionName":"Limousin",
     "DeptName":"Correze",
+    "Admin3Name":"",
     "CityName":"Brive-la-Gaillarde",
     "Population":46794,
     "TextPosition":"default"
@@ -794,6 +880,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Loir-et-Cher",
+    "Admin3Name":"",
     "CityName":"Blois",
     "Population":45539,
     "TextPosition":"default"
@@ -808,6 +895,7 @@
     "properties": {
     "RegionName":"Brittany",
     "DeptName":"Cotes-d'Armor",
+    "Admin3Name":"",
     "CityName":"Saint-Brieuc",
     "Population":45331,
     "TextPosition":"default"
@@ -822,6 +910,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Indre",
+    "Admin3Name":"",
     "CityName":"Châteauroux",
     "Population":45209,
     "TextPosition":"default"
@@ -836,6 +925,7 @@
     "properties": {
     "RegionName":"Burgundy",
     "DeptName":"Saône-et-Loire",
+    "Admin3Name":"",
     "CityName":"Chalon-sur-Saône",
     "Population":45166,
     "TextPosition":"default"
@@ -850,6 +940,7 @@
     "properties": {
     "RegionName":"Corsica",
     "DeptName":"Haute-Corse",
+    "Admin3Name":"",
     "CityName":"Bastia",
     "Population":42254,
     "TextPosition":"default"
@@ -864,6 +955,7 @@
     "properties": {
     "RegionName":"Poitou-Charentes",
     "DeptName":"Charente",
+    "Admin3Name":"",
     "CityName":"Angoulême",
     "Population":41970,
     "TextPosition":"default"
@@ -878,6 +970,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Hautes-Pyrénées",
+    "Admin3Name":"",
     "CityName":"Tarbes",
     "Population":41062,
     "TextPosition":"default"
@@ -892,6 +985,7 @@
     "properties": {
     "RegionName":"Rhone-Alpes",
     "DeptName":"Ain",
+    "Admin3Name":"",
     "CityName":"Bourg-en-Bresse",
     "Population":40490,
     "TextPosition":"default"
@@ -906,6 +1000,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Hautes-Alpes",
+    "Admin3Name":"",
     "CityName":"Gap",
     "Population":40255,
     "TextPosition":"default"
@@ -920,6 +1015,7 @@
     "properties": {
     "RegionName":"Centre",
     "DeptName":"Eure-et-Loir",
+    "Admin3Name":"",
     "CityName":"Chartres",
     "Population":38840,
     "TextPosition":"default"
@@ -934,6 +1030,7 @@
     "properties": {
     "RegionName":"Auvergne",
     "DeptName":"Allier",
+    "Admin3Name":"",
     "CityName":"Montluçon",
     "Population":37839,
     "TextPosition":"default"
@@ -948,6 +1045,7 @@
     "properties": {
     "RegionName":"Lower Normandy",
     "DeptName":"Manche",
+    "Admin3Name":"",
     "CityName":"Cherbourg-Octeville",
     "Population":37055,
     "TextPosition":"default"
@@ -962,6 +1060,7 @@
     "properties": {
     "RegionName":"Burgundy",
     "DeptName":"Yonne",
+    "Admin3Name":"",
     "CityName":"Auxerre",
     "Population":34869,
     "TextPosition":"default"
@@ -976,6 +1075,7 @@
     "properties": {
     "RegionName":"Burgundy",
     "DeptName":"Nievre",
+    "Admin3Name":"",
     "CityName":"Nevers",
     "Population":34841,
     "TextPosition":"default"
@@ -990,6 +1090,7 @@
     "properties": {
     "RegionName":"Aquitaine",
     "DeptName":"Lot-et-Garonne",
+    "Admin3Name":"",
     "CityName":"Agen",
     "Population":34344,
     "TextPosition":"default"
@@ -1004,6 +1105,7 @@
     "properties": {
     "RegionName":"Lorraine",
     "DeptName":"Vosges",
+    "Admin3Name":"",
     "CityName":"Épinal",
     "Population":32188,
     "TextPosition":"default"
@@ -1018,6 +1120,7 @@
     "properties": {
     "RegionName":"Aquitaine",
     "DeptName":"Landes",
+    "Admin3Name":"",
     "CityName":"Mont-de-Marsan",
     "Population":31334,
     "TextPosition":"default"
@@ -1032,6 +1135,7 @@
     "properties": {
     "RegionName":"Aquitaine",
     "DeptName":"Dordogne",
+    "Admin3Name":"",
     "CityName":"Périgueux",
     "Population":30036,
     "TextPosition":"left"
@@ -1046,6 +1150,7 @@
     "properties": {
     "RegionName":"Auvergne",
     "DeptName":"Cantal",
+    "Admin3Name":"",
     "CityName":"Aurillac",
     "Population":26572,
     "TextPosition":"default"
@@ -1060,6 +1165,7 @@
     "properties": {
     "RegionName":"Lower Normandy",
     "DeptName":"Orne",
+    "Admin3Name":"",
     "CityName":"Alençon",
     "Population":26350,
     "TextPosition":"default"
@@ -1074,6 +1180,7 @@
     "properties": {
     "RegionName":"Champagne-Ardenne",
     "DeptName":"Haute-Marne",
+    "Admin3Name":"",
     "CityName":"Saint-Dizier",
     "Population":25626,
     "TextPosition":"default"
@@ -1088,6 +1195,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Aveyron",
+    "Admin3Name":"",
     "CityName":"Rodez",
     "Population":23741,
     "TextPosition":"default"
@@ -1102,6 +1210,7 @@
     "properties": {
     "RegionName":"Franche-Comté",
     "DeptName":"Jura",
+    "Admin3Name":"",
     "CityName":"Dole",
     "Population":23312,
     "TextPosition":"default"
@@ -1116,6 +1225,7 @@
     "properties": {
     "RegionName":"Provence-Alpes-Côte d'Azur",
     "DeptName":"Alpes-de-Haute-Provence",
+    "Admin3Name":"",
     "CityName":"Manosque",
     "Population":22412,
     "TextPosition":"left"
@@ -1130,6 +1240,7 @@
     "properties": {
     "RegionName":"Midi-Pyrénées",
     "DeptName":"Gers",
+    "Admin3Name":"",
     "CityName":"Auch",
     "Population":21962,
     "TextPosition":"default"
@@ -1144,6 +1255,7 @@
     "properties": {
     "RegionName":"Euskadi",
     "DeptName":"Araba",
+    "Admin3Name":"Arabako Lautada",
     "CityName":"Vitoria-Gasteiz",
     "Population":243918,
     "TextPosition":"default"
@@ -1158,6 +1270,7 @@
     "properties": {
     "RegionName":"Castilla-La Mancha",
     "DeptName":"Albacete",
+    "Admin3Name":"Llanos de Albacete",
     "CityName":"Albacete",
     "Population":172121,
     "TextPosition":"default"
@@ -1172,6 +1285,7 @@
     "properties": {
     "RegionName":"Comunidad Valenciana",
     "DeptName":"Alicante",
+    "Admin3Name":"L'Alacantí",
     "CityName":"Alicante",
     "Population":328648,
     "TextPosition":"default"
@@ -1186,6 +1300,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Almería",
+    "Admin3Name":"Metropolitana de Almería",
     "CityName":"Almería",
     "Population":194203,
     "TextPosition":"default"
@@ -1200,6 +1315,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Ávila",
+    "Admin3Name":"Ávila (Valle de Amblés y Sierra de Ávila)",
     "CityName":"Ávila",
     "Population":58358,
     "TextPosition":"default"
@@ -1214,6 +1330,7 @@
     "properties": {
     "RegionName":"Extremadura",
     "DeptName":"Badajoz",
+    "Admin3Name":"Tierra de Badajoz",
     "CityName":"Badajoz",
     "Population":149892,
     "TextPosition":"default"
@@ -1228,6 +1345,7 @@
     "properties": {
     "RegionName":"Illes Balears",
     "DeptName":"Illes Balears",
+    "Admin3Name":"Palma de Mallorca",
     "CityName":"Palma de Mallorca",
     "Population":400578,
     "TextPosition":"default"
@@ -1242,6 +1360,7 @@
     "properties": {
     "RegionName":"Catalunya",
     "DeptName":"Barcelona",
+    "Admin3Name":"El Barcelonès",
     "CityName":"Barcelona",
     "Population":1604555,
     "TextPosition":"default"
@@ -1256,6 +1375,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Burgos",
+    "Admin3Name":"Alfoz de Burgos",
     "CityName":"Burgos",
     "Population":177100,
     "TextPosition":"default"
@@ -1270,6 +1390,7 @@
     "properties": {
     "RegionName":"Extremadura",
     "DeptName":"Cáceres",
+    "Admin3Name":"Cáceres",
     "CityName":"Cáceres",
     "Population":95617,
     "TextPosition":"default"
@@ -1284,6 +1405,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Cádiz",
+    "Admin3Name":"Campiña de Jerez",
     "CityName":"Jerez de la Frontera",
     "Population":212876,
     "TextPosition":"default"
@@ -1298,6 +1420,7 @@
     "properties": {
     "RegionName":"Comunidad Valenciana",
     "DeptName":"Castellón",
+    "Admin3Name":"Plana Alta",
     "CityName":"Castellón de la Plana",
     "Population":171669,
     "TextPosition":"default"
@@ -1312,6 +1435,7 @@
     "properties": {
     "RegionName":"Castilla-La Mancha",
     "DeptName":"Ciudad Real",
+    "Admin3Name":"Campo de Calatrava",
     "CityName":"Ciudad Real",
     "Population":74427,
     "TextPosition":"default"
@@ -1326,6 +1450,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Córdoba",
+    "Admin3Name":"Córdoba",
     "CityName":"Córdoba",
     "Population":327362,
     "TextPosition":"default"
@@ -1340,6 +1465,7 @@
     "properties": {
     "RegionName":"Galicia",
     "DeptName":"A Coruña",
+    "Admin3Name":"A Coruña",
     "CityName":"A Coruña",
     "Population":243870,
     "TextPosition":"default"
@@ -1354,6 +1480,7 @@
     "properties": {
     "RegionName":"Castilla-La Mancha",
     "DeptName":"Cuenca",
+    "Admin3Name":"Serranía de Cuenca",
     "CityName":"Cuenca",
     "Population":55428,
     "TextPosition":"default"
@@ -1368,6 +1495,7 @@
     "properties": {
     "RegionName":"Catalunya",
     "DeptName":"Girona",
+    "Admin3Name":"El Gironès",
     "CityName":"Girona",
     "Population":97586,
     "TextPosition":"default"
@@ -1382,6 +1510,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Granada",
+    "Admin3Name":"Vega de Granada",
     "CityName":"Granada",
     "Population":235800,
     "TextPosition":"default"
@@ -1396,6 +1525,7 @@
     "properties": {
     "RegionName":"Castilla-La Mancha",
     "DeptName":"Guadalajara",
+    "Admin3Name":"Campiña de Guadalajara",
     "CityName":"Guadalajara",
     "Population":83391,
     "TextPosition":"default"
@@ -1410,6 +1540,7 @@
     "properties": {
     "RegionName":"Euskadi",
     "DeptName":"Gipuzkoa",
+    "Admin3Name":"Donostialdea",
     "CityName":"Donostia",
     "Population":186095,
     "TextPosition":"default"
@@ -1424,6 +1555,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Huelva",
+    "Admin3Name":"Metropolitana de Huelva",
     "CityName":"Huelva",
     "Population":146318,
     "TextPosition":"default"
@@ -1438,6 +1570,7 @@
     "properties": {
     "RegionName":"Aragon",
     "DeptName":"Huesca",
+    "Admin3Name":"Hoya de Huesca/Plana de Uesca",
     "CityName":"Huesca",
     "Population":52239,
     "TextPosition":"default"
@@ -1452,6 +1585,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Jaén",
+    "Admin3Name":"Área Metropolitana de Jaén",
     "CityName":"Jaén",
     "Population":115395,
     "TextPosition":"default"
@@ -1466,6 +1600,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"León",
+    "Admin3Name":"León",
     "CityName":"León",
     "Population":127817,
     "TextPosition":"default"
@@ -1480,6 +1615,7 @@
     "properties": {
     "RegionName":"Catalunya",
     "DeptName":"Lleida",
+    "Admin3Name":"El Segrià",
     "CityName":"Lleida",
     "Population":138542,
     "TextPosition":"default"
@@ -1494,6 +1630,7 @@
     "properties": {
     "RegionName":"La Rioja",
     "DeptName":"La Rioja",
+    "Admin3Name":"Logroño",
     "CityName":"Logroño",
     "Population":151344,
     "TextPosition":"default"
@@ -1508,6 +1645,7 @@
     "properties": {
     "RegionName":"Galicia",
     "DeptName":"Lugo",
+    "Admin3Name":"Lugo",
     "CityName":"Lugo",
     "Population":98134,
     "TextPosition":"default"
@@ -1522,6 +1660,7 @@
     "properties": {
     "RegionName":"Comunidad de Madrid",
     "DeptName":"Madrid",
+    "Admin3Name":"Área Metropolitalitana y Corredor del Henares",
     "CityName":"Madrid",
     "Population":3141991,
     "TextPosition":"default"
@@ -1536,6 +1675,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Málaga",
+    "Admin3Name":"Málaga",
     "CityName":"Málaga",
     "Population":569130,
     "TextPosition":"default"
@@ -1550,6 +1690,7 @@
     "properties": {
     "RegionName":"Región de Murcia",
     "DeptName":"Murcia",
+    "Admin3Name":"Huerta de Murcia",
     "CityName":"Murcia",
     "Population":439889,
     "TextPosition":"default"
@@ -1564,6 +1705,7 @@
     "properties": {
     "RegionName":"Navarre",
     "DeptName":"Navarra",
+    "Admin3Name":"Cuenca de Pamplona - Pamplona",
     "CityName":"Pamplona",
     "Population":195853,
     "TextPosition":"default"
@@ -1578,6 +1720,7 @@
     "properties": {
     "RegionName":"Galicia",
     "DeptName":"Ourense",
+    "Admin3Name":"Ourense",
     "CityName":"Ourense",
     "Population":106231,
     "TextPosition":"default"
@@ -1592,6 +1735,7 @@
     "properties": {
     "RegionName":"Principado de Asturias",
     "DeptName":"Asturias",
+    "Admin3Name":"Gijón",
     "CityName":"Gijón",
     "Population":274290,
     "TextPosition":"default"
@@ -1606,6 +1750,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Palencia",
+    "Admin3Name":"Tierra de Campos",
     "CityName":"Palencia",
     "Population":79595,
     "TextPosition":"default"
@@ -1620,6 +1765,7 @@
     "properties": {
     "RegionName":"Islas Canarias",
     "DeptName":"Las Palmas",
+    "Admin3Name":"Las Palmas de Gran Canaria - Cuenca del Guiniguada",
     "CityName":"Las Palmas de Gran Canaria",
     "Population":379766,
     "TextPosition":"default"
@@ -1634,6 +1780,7 @@
     "properties": {
     "RegionName":"Galicia",
     "DeptName":"Pontevedra",
+    "Admin3Name":"Vigo",
     "CityName":"Vigo",
     "Population":294098,
     "TextPosition":"default"
@@ -1648,6 +1795,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Salamanca",
+    "Admin3Name":"Campo de Salamanca",
     "CityName":"Salamanca",
     "Population":146438,
     "TextPosition":"default"
@@ -1662,6 +1810,7 @@
     "properties": {
     "RegionName":"Cantabria",
     "DeptName":"Cantabria",
+    "Admin3Name":"Santander",
     "CityName":"Santander",
     "Population":173957,
     "TextPosition":"default"
@@ -1676,6 +1825,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Segovia",
+    "Admin3Name":"Tierra de Segovia",
     "CityName":"Segovia",
     "Population":52728,
     "TextPosition":"default"
@@ -1690,6 +1840,7 @@
     "properties": {
     "RegionName":"Andalucía",
     "DeptName":"Sevilla",
+    "Admin3Name":"Área Metropolitana de Sevilla",
     "CityName":"Sevilla",
     "Population":693878,
     "TextPosition":"default"
@@ -1704,6 +1855,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Soria",
+    "Admin3Name":"Soria",
     "CityName":"Soria",
     "Population":39168,
     "TextPosition":"default"
@@ -1718,6 +1870,7 @@
     "properties": {
     "RegionName":"Catalunya",
     "DeptName":"Tarragona",
+    "Admin3Name":"El Tarragonès",
     "CityName":"Tarragona",
     "Population":131255,
     "TextPosition":"default"
@@ -1732,6 +1885,7 @@
     "properties": {
     "RegionName":"Aragón",
     "DeptName":"Teruel",
+    "Admin3Name":"Teruel Community",
     "CityName":"Teruel",
     "Population":35590,
     "TextPosition":"default"
@@ -1746,6 +1900,7 @@
     "properties": {
     "RegionName":"Castilla-La Mancha",
     "DeptName":"Toledo",
+    "Admin3Name":"Vega de Talavera de la Reina",
     "CityName":"Talavera de la Reina",
     "Population":85150,
     "TextPosition":"default"
@@ -1760,6 +1915,7 @@
     "properties": {
     "RegionName":"Comunidad Valenciana",
     "DeptName":"Valencia",
+    "Admin3Name":"L'Horta de València",
     "CityName":"Valencia",
     "Population":786189,
     "TextPosition":"default"
@@ -1774,6 +1930,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Valladolid",
+    "Admin3Name":"",
     "CityName":"Valladolid",
     "Population":303905,
     "TextPosition":"default"
@@ -1788,6 +1945,7 @@
     "properties": {
     "RegionName":"Euskadi",
     "DeptName":"Bizkaia",
+    "Admin3Name":"Greater Bilbao",
     "CityName":"Bilbao",
     "Population":345141,
     "TextPosition":"default"
@@ -1802,6 +1960,7 @@
     "properties": {
     "RegionName":"Castilla y León",
     "DeptName":"Zamora",
+    "Admin3Name":"Tierra del Pan",
     "CityName":"Zamora",
     "Population":63831,
     "TextPosition":"default"
@@ -1816,6 +1975,7 @@
     "properties": {
     "RegionName":"Aragon",
     "DeptName":"Zaragoza",
+    "Admin3Name":"Zaragoza",
     "CityName":"Zaragoza",
     "Population":664953,
     "TextPosition":"default"
@@ -1830,6 +1990,7 @@
     "properties": {
     "RegionName":"Ceuta",
     "DeptName":"Ceuta",
+    "Admin3Name":"",
     "CityName":"Ceuta",
     "Population":84263,
     "TextPosition":"default"
@@ -1844,6 +2005,7 @@
     "properties": {
     "RegionName":"Melilla",
     "DeptName":"Melilla",
+    "Admin3Name":"",
     "CityName":"Melilla",
     "Population":85584,
     "TextPosition":"default"
@@ -1858,6 +2020,7 @@
     "properties": {
     "RegionName":"Andorra",
     "DeptName":"Andorra la Vella",
+    "Admin3Name":"",
     "CityName":"Andorra la Vella",
     "Population":20430,
     "TextPosition":"default"
@@ -1872,6 +2035,7 @@
     "properties": {
     "RegionName":"Monaco",
     "DeptName":"Monaco",
+    "Admin3Name":"",
     "CityName":"Monaco",
     "Population":37831,
     "TextPosition":"default"

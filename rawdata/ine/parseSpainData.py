@@ -16,13 +16,12 @@ counter = 0
 for i in spain_cities_list:
 	admin2name = i[1]
 	rowIndex = myDict.get(admin2name, "Never")
-	i.remove(i[2])
 	i.extend(['default'])
 	if (rowIndex == "Never"):
 		myDict[admin2name] = counter
 	else:
 		rowObj = spain_cities_list[rowIndex]
-		if (int(i[3]) > int(rowObj[3])):
+		if (int(i[4]) > int(rowObj[4])):
 			myDict[admin2name] = counter
 	counter += 1
 

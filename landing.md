@@ -84,30 +84,30 @@ One day, we might have 2 versions: 1 for Chrome, and 1 for everybody else.
 ##### Instructions for France:
 1. Go to http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2013
 
-2. Download the XLS titled "France métropolitaine et DOM."
+2. Download the XLS titled "France métropolitaine et DOM."  
 Go to the tab titles "Arondissements."
 Copy all the data there and put it in a new XLS sheet or document.
 Export this as a CSV.
 I saved it as rawdata/france/outputFrance.csv.
 
-3. Parse the population data
+3. Parse the population data  
 The population has commas, and that could cause problems later on.
 The output also has unneeded columns.
 You can do both these tasks by running the script [rawdata/insee/getFranceData.py](rawdata/insee/getFranceData.py)
 
-4. Remove cities around Paris
+4. Remove cities around Paris  
 Paris has tons of people, and there are many geographically small regions around it.
 For the admin1 region called Île-de-France, the only city we'll show is Paris.
 Delete all entries for Île-de-France that aren't Paris.
 
-5. Add latitude and longitude coordinates to the CSV
+5. Add latitude and longitude coordinates to the CSV  
 We do this by using google's geocoding service!
 https://developers.google.com/maps/documentation/geocoding/intro
 You need to sign up for the service and key a key.
 Once you have that, you can run [rawdata/insee/getData.py](rawdata/insee/getData.py)
 and put your key into the code
 
-6. Show only the largest city per region
+6. Show only the largest city per region  
 You can do this by running [rawdata/insee/parseFranceData.py](rawdata/insee/parseFranceData.py).
 
 7. Delete from outputFranceFinal.csv all cities within Île-de-France that aren't Paris. Otherwise, there'll be too many cities around Paris.
@@ -150,7 +150,7 @@ If that doesn't work, just google "population cities andorra" or go to wikipedia
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
 3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
-Andorra,Andorra la Vella,Andorra la Vella,20430,42.506317,1.52183,default
+Andorra,Andorra la Vella,,Andorra la Vella,20430,42.506317,1.52183,default
 
 
 ##### Instructions for Monaco:
@@ -161,14 +161,14 @@ Go to wikipedia or whatever data source of yoru choice
 https://maps.googleapis.com/maps/api/geocode/json?address=El%20Tarter,%20Andorra&key=*APIkey*
 
 3. I created a comma-delimited string with Andorra region, city, population, lat, and long:  
-Monaco,Monaco,Monaco,37831,43.7384,7.4246,default
+Monaco,Monaco,,Monaco,37831,43.7384,7.4246,default
 
 
 
 #### Convert the data to GEOjson
 Go to http://www.convertcsv.com/csv-to-geojson.htm  
 Add the following line under "Option 3 - paste into Text Box below":  
-RegionName,DeptName,CityName,Population,Lat,Long,TextPosition  
+RegionName,DeptName,Admin3Name,CityName,Population,Lat,Long,TextPosition  
 Then paste in the contents of outputFranceFinal.csv, outputSpainFinal.csv, and the strings from Andorra and Monaco above.  
 We named the resultant file occitania.direct.geo.json
 
@@ -176,7 +176,7 @@ We named the resultant file occitania.direct.geo.json
 #### Convert the GEOjson to topojson
 Run this:  
 topojson -o maps/occitania.population.direct.topo.json \  
-  --properties cityname=CityName,population=Population,regionname=RegionName,subregionname=DeptName,textPosition=TextPosition \  
+  --properties cityname=CityName,population=Population,regionname=RegionName,subregionname=DeptName,admin3name=Admin3Name,textPosition=TextPosition \  
   population=occitania.direct.geo.json
 
 

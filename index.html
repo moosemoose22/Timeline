@@ -79,26 +79,29 @@
 		var mapLoc = "maps/occitania.population.direct.topo.json";
 		d3.json(mapLoc, function(error, occitania)
 		{
-			// Add little gray dot next to city
-			svg.selectAll(".cityDot")
-				.data(topojson.feature(occitania, occitania.objects.population).features)
-				.enter()
-				.append("path")
-				.filter(function(d) { return filterPopulation(d.properties.population); })
-				.attr("d", path)
-				.attr("class", "place")
-				.on('mouseover', function(d)
-				{
-					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
-					selectedRegionManager.writeData();
-				});
-
 			var myTextLabelGroups = svg.selectAll(".place-label")
 				.data(topojson.feature(occitania, occitania.objects.population).features)
 				.enter()
 				.append("g");
 
+			// Add little gray dot next to city
+			myTextLabelGroups.append("path")
+				.filter(function(d) { return filterPopulation(d.properties.population); })
+				.attr("d", path)
+				.attr("class", "place")
+				.on('mouseover', function(d)
+				{
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, d.properties.admin3name, d.properties.cityname, d.properties.population.toLocaleString());
+					selectedRegionManager.writeData();
+					$(this.nextSibling.nextSibling).css("fill-opacity", 0.1);
+				})
+				.on('mouseout', function(d)
+				{
+					$(this.nextSibling.nextSibling).css("fill-opacity", 0.01);
+				});
+
 			myTextLabelGroups.append("text")
+				.filter(function(d) { return filterPopulation(d.properties.population); })
 				.attr("class", "place-label")
 				.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
 				.attr("x", function(d)
@@ -119,6 +122,7 @@
 				.text(function(d) { return d.properties.cityname; });
 
 			myTextLabelGroups.append("rect")
+				.filter(function(d) { return filterPopulation(d.properties.population); })
 				.attr("class", "place-label-bg")
 				.attr("transform", function(d)
 				{
@@ -149,8 +153,13 @@
 				.style("fill-opacity", 0.01)
 				.on('mouseover', function(d)
 				{
-					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, d.properties.admin3name, d.properties.cityname, d.properties.population.toLocaleString());
 					selectedRegionManager.writeData();
+					$(this).css("fill-opacity", 0.1);
+				})
+				.on('mouseout', function(d)
+				{
+					$(this).css("fill-opacity", 0.01);
 				});
 		});
 	}
