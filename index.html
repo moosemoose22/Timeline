@@ -10,11 +10,75 @@
 <script src="topojson.v1.min.js"></script>
 <script src="latinize.js"></script>
 <script src="http://code.jquery.com/jquery-2.2.1.js"></script>
+<script src="js/globals.js"></script>
+<script src="js/landingPage.js"></script>
 <script src="js/occitaniaFuncs.js"></script>
 <script src="js/occitaniaRegions.js"></script>
 <script src="js/selectedRegionManager.js"></script>
-<script src="js/landingPage.js"></script>
 <script>
+	/******** Onload event ********/
+	var calledRegionOpen, calledRegionPrelimClose, calledRegionClose, regionIsOpen;
+	// Events and variables being set on load
+	window.onload = function()
+	{
+		// Choose browser-specific name for end transition
+		var transitions = {
+			"transition"      : "transitionend",
+			"OTransition"     : "oTransitionEnd",
+			"MozTransition"   : "transitionend",
+			"WebkitTransition": "webkitTransitionEnd"
+		}
+		for (var t in transitions)
+		{
+			if (document.body.style[t] !== undefined)
+				transitionEndName = transitions[t];
+		}
+
+		// When we finish closing a region window,
+		// hide the old region 
+		$("#openWindow")
+			.on(transitionEndName, function(e){
+				if (calledRegionPrelimClose)
+				{
+					regionIsOpen = false;
+					calledRegionPrelimClose = false;
+					windowManager.closeWindow();
+				}
+				else if (calledRegionClose)
+				{
+					calledRegionClose = false;
+					$("#openWindow").css("z-index", "-1");
+					// Hide previously clicked region
+					$( "#" + currentFullRegion + "_copy" ).remove();
+					$("#regionMap").remove();
+					//$("#openRegion").css("z-index", "-1").css("visibility", "hidden");
+				}
+				else if (calledRegionOpen)
+				{
+					calledRegionOpen = false;
+					regionIsOpen = true;
+					$(".openRegionStyle").css("z-index", "1000").css("visibility", "visible");
+					$("#openWindowGroup").css("visibility", "hidden");
+					$("#openWindow").css("background-color", "rgba(255,255,255,0.75)");
+					//$("#regionMap").css("visibility", "visible");
+					//console.log(currentFullRegion);
+				}
+			});
+		$(window).scroll(function()
+		{
+			if (!regionIsOpen)
+			{
+				$("#openWindow")
+					.css("animation-duration", "0s")
+					.css("-webkit-animation-duration", "0s")
+					.css("transform", "translateY(" + ($(window).scrollTop() * -1) + "px)");
+			}
+		});
+	}
+	/******** End onload event ********/
+
+
+	/******** D3 map setup ********/
 	var width = 1200,
 		height = 1300;
 
@@ -43,6 +107,7 @@
 
 	// write map, then cities, so map doesn't cover cities
 	landingPage.init();
+	/******** End D3 map setup ********/
 </script>
 
 <div class="regionNameContainer">
@@ -52,7 +117,7 @@
 	<h5 id="CityName">&nbsp;</h5>
 </div>
 
-<img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="closeWindowPrelim()" />
+<img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="windowManager.closeWindowPrelim()" />
 <svg id="openWindow" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
 </svg>
 <svg id="openRegion" class="openRegionStyle" width="2000" height="1500" viewBox="0 0 2000 1500">

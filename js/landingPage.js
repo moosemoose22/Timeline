@@ -52,7 +52,7 @@ var landingPage = new function()
 					selectedRegionManager.writeData();
 				})
 				.on('click', function(d){
-					openRegionWindow(mapCountry, d);
+					windowManager.openRegionWindow(mapCountry, d);
 				});
 			
 			if (callback)
