@@ -36,7 +36,7 @@
 
 		// When we finish closing a region window,
 		// hide the old region 
-		$("#openWindow")
+		$("#openRegionBG")
 			.on(transitionEndName, function(e){
 				if (calledRegionPrelimClose)
 				{
@@ -47,19 +47,18 @@
 				else if (calledRegionClose)
 				{
 					calledRegionClose = false;
-					$("#openWindow").css("z-index", "-1");
+					$("#openRegionBG").css("z-index", "-1");
 					// Hide previously clicked region
 					$( "#" + currentFullRegion + "_copy" ).remove();
 					$("#regionMap").remove();
-					//$("#openRegion").css("z-index", "-1").css("visibility", "hidden");
 				}
 				else if (calledRegionOpen)
 				{
 					calledRegionOpen = false;
 					regionIsOpen = true;
 					$(".openRegionStyle").css("z-index", "1000").css("visibility", "visible");
-					$("#openWindowGroup").css("visibility", "hidden");
-					$("#openWindow").css("background-color", "rgba(255,255,255,0.75)");
+					$("#regionZoomAnimationContainer").css("visibility", "hidden");
+					$("#openRegionBG").css("background-color", "rgba(255,255,255,0.75)");
 					//$("#regionMap").css("visibility", "visible");
 					//console.log(currentFullRegion);
 				}
@@ -68,7 +67,7 @@
 		{
 			if (!regionIsOpen)
 			{
-				$("#openWindow")
+				$("#openRegionBG")
 					.css("animation-duration", "0s")
 					.css("-webkit-animation-duration", "0s")
 					.css("transform", "translateY(" + ($(window).scrollTop() * -1) + "px)");
@@ -118,9 +117,9 @@
 </div>
 
 <img id="closeButtonObj" class="closeButton" src="img/fileclose.png" onclick="windowManager.closeWindowPrelim()" />
-<svg id="openWindow" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
+<svg id="openRegionBG" class="openWindowStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
 </svg>
-<svg id="openRegion" class="openRegionStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
+<svg id="openRegionContainer" class="openRegionStyle" width="2000" height="1500" viewBox="0 0 2000 1500">
 </svg>
 </body>
 </html>

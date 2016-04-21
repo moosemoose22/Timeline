@@ -54,7 +54,7 @@ echo ${subregionname}
 
 topojson  \
   -o regionsTopoNewName/spain.${arearegionname}_${areasubregionname}.topo.json \
-  --properties Cntry=ISO,arearegionname=NAME_1,areasubregionname=NAME_2,region=HASC_2,admin3name=NAME_3,populregionname=RegionName,populsubregionname=DeptName,cityname=CityName,numsubareas=NumSubAreas,population=Population \
+  --properties Cntry=ISO,arearegionname=NAME_1,areasubregionname=NAME_2,region=HASC_2,admin3name=NAME_3,populregionname=RegionName,populsubregionname=DeptName,cityname=CityName,population=Population,textPosition=TextPosition \
   region=regionsGeoNewNameEdited/spain.${regionname}_${subregionname}.json \
   -- \
   population=regionsGeoPopulation/${arearegionname}_${areasubregionname}.json \

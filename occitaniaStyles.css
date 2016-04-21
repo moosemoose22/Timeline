@@ -117,7 +117,7 @@ text
 	z-index: 1001;
 }
 
-#openWindowGroup
+#regionZoomAnimationContainer
 {
 	position: absolute;
 }

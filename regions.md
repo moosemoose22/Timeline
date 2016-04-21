@@ -7,10 +7,13 @@ https://bost.ocks.org/mike/map/
 
 This page also assumes that you've gotten the data for the landing page already. [You can learn more about the landing page data here.](landing.md)
 
+The goal of this page is to describe what goes on when we zoom in on a region and how to get the proper data to draw that zoomed-in region.  
+
 When you click on a region, it zooms open and shows you a closer-up view of the region.  
-We literally took the SVG path of the region and zoomed it appropriately.  
-We found that the border of the zoomed-in region wasn't as accurate as we wanted.  
-One reason for that is that we needed to call --simplify-proportion when we created the boundaries of the large drawing France/Spain.  
+We literally cloned the HTML element the represents that region, attached the clone to a transparent div layer, and then zoom in on that SVG.  
+At that point, the region looks great-- though the edges were a bit overly jagged. Also: the border thickness wasn't uniform. Smaller regions-- that got zoomed-in more to fill the screen-- had thicker borders. Larger regions had thinner borders.
+Note that when drawing the larger map, we called --simplify-proportion when creating the topojson. There were too many borders, and Firefox used to slow down with too large of an SVG.  
+
 We decided to redraw each region once they've been clicked on and the zoom has finished.  
 We also want to show additional cities with the zoomed-in view.
 
@@ -18,7 +21,7 @@ Here's how we did this:
 First we need to create per-subregion GEOjson for the area and the cities.  
 Run [individuals/makeFranceIndividuals.py](individuals/makeFranceIndividuals.py) and [individuals/makeSpainIndividuals.py](individuals/makeSpainIndividuals.py)   
 This creates individual GEOjson files for each subregion for cities.  
-The files allfrance.geo.json and allspain.geo.json were created from [insee](http://www.insee.fr/fr/default.asp) (France) and [ine](http://ine.es/) (Spain) data.  
+The files [individuals/allfrance.geo.json](individuals/allfrance.geo.json) and [individuals/allspain.geo.json](individuals/allspain.geo.json) were created from [insee](http://www.insee.fr/fr/default.asp) (France) and [ine](http://ine.es/) (Spain) data.  
 We then got lat/long data from google for the extra cities.  
 We had all the data converted from a csv on http://www.convertcsv.com.  
 Note that for Spain, we needed to convert some of the region names from English/non local-language names to the local-language name for the region.

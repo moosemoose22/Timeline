@@ -82,16 +82,12 @@ var windowManager = new function()
 		currentTopOffset = t[1];
 		currentScaling = s;
 
-		if (mapCountry == "spain")
+		if (mapCountry == "spain" || mapCountry == "france" || mapCountry == "andorra")
 		{
 			var regionName = convertID(latinize(data.properties.regionname).toLowerCase());
 			var subRegionName = convertID(latinize(data.properties.subregionname).toLowerCase());
 			regionFuncs.init(mapCountry, data.properties.regionID, convertRegionName(regionName) + "_" + convertSubRegionName(subRegionName));
 		}
-		else if (mapCountry == "france")
-			regionFuncs.init(mapCountry, data.properties.regionID, convertID(data.properties.regionname + "_" + data.properties.subregionname).toLowerCase());
-		else
-			regionFuncs.init(mapCountry, data.properties.regionID, data.properties.subregionID);
 
 		var countryAbbrev = data.properties.region;
 		if (countryAbbrev.indexOf(".") !== -1)
@@ -99,17 +95,18 @@ var windowManager = new function()
 			var tmp = countryAbbrev.split(".");
 			countryAbbrev = tmp[0];
 		}
-		$("#openWindow").html('<g id="openWindowGroup"></g>');
+		$("#openRegionBG").html('<g id="regionZoomAnimationContainer"></g>');
 
+		// Clone current region and attach it to regionZoomAnimationContainer
 		$( "#" + currentFullRegion )
 			.clone()
 			.prop('id', currentFullRegion + "_copy" )
 			.removeClass("region" )
 			.addClass("regionLarge" )
-			.addClass(countryAbbrev)
-			.appendTo( "#openWindowGroup" );
+			.addClass(countryAbbrev) // add country-specific background to region zoom svg
+			.appendTo( "#regionZoomAnimationContainer" );
 
-		$("#openWindow")
+		$("#openRegionBG")
 			.css("z-index", "100");
 
 		// Here we simultaneously scale and move the region
@@ -119,7 +116,7 @@ var windowManager = new function()
 		// Also: we need to use translate below instead of changing css's left and top.
 		// Translate has much faster animations, especially in Chrome
 		// .2 is quasi-offset for stroke-width
-		$("#openWindow")
+		$("#openRegionBG")
 			.css("animation-duration", "1.5s")
 			.css("-webkit-animation-duration", "1.5s")
 			.css("transform", "translate(" + currentLeftOffset + "px," + currentTopOffset + "px) scale(" + currentScaling + ")");
@@ -133,14 +130,14 @@ var windowManager = new function()
 	{
 		calledRegionPrelimClose = true;
 		$(".openRegionStyle").css("z-index", "-1").css("visibility", "hidden");
-		$("#openWindowGroup").css("visibility", "visible");
-		$("#openWindow").css("background-color", "rgba(0,0,0,0.0)");
+		$("#regionZoomAnimationContainer").css("visibility", "visible");
+		$("#openRegionBG").css("background-color", "rgba(0,0,0,0.0)");
 		$("#closeButtonObj").css("display", "none");
 	}
 	this.closeWindow = function()
 	{
 		calledRegionClose = true;
-		$("#openWindow")
+		$("#openRegionBG")
 			.css("transform", "scale(1)")
 			.css("transform", "translate(0px," + ($(window).scrollTop() * -1) + "px) scale(1)");
 		$("#closeButtonObj").css("display", "none");

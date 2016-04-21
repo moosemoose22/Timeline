@@ -10,7 +10,8 @@
     "properties": {
     "RegionName":"Andorra la Vella",
     "CityName":"Andorra la Vella",
-    "Population":20430
+    "Population":20430,
+    "TextPosition":"default"
     }
   },
   {
@@ -22,7 +23,8 @@
     "properties": {
     "RegionName":"Canillo",
     "CityName":"Canillo",
-    "Population":3292
+    "Population":3292,
+    "TextPosition":"default"
     }
   },
   {
@@ -34,7 +36,8 @@
     "properties": {
     "RegionName":"Encamp",
     "CityName":"El Pas de la Casa",
-    "Population":2613
+    "Population":2613,
+    "TextPosition":"left"
     }
   },
   {
@@ -46,7 +49,8 @@
     "properties": {
     "RegionName":"Encamp",
     "CityName":"Encamp",
-    "Population":11223
+    "Population":11223,
+    "TextPosition":"default"
     }
   },
   {
@@ -58,7 +62,8 @@
     "properties": {
     "RegionName":"Escaldes-Engordany",
     "CityName":"Les Escaldes",
-    "Population":15853
+    "Population":15853,
+    "TextPosition":"default"
     }
   },
   {
@@ -70,7 +75,8 @@
     "properties": {
     "RegionName":"La Massana",
     "CityName":"La Massana",
-    "Population":7211
+    "Population":7211,
+    "TextPosition":"default"
     }
   },
   {
@@ -82,7 +88,8 @@
     "properties": {
     "RegionName":"Ordino",
     "CityName":"Ordino",
-    "Population":3066
+    "Population":3066,
+    "TextPosition":"default"
     }
   },
   {
@@ -94,7 +101,8 @@
     "properties": {
     "RegionName":"Sant Julià de Lòria",
     "CityName":"Sant Julià de Lòria",
-    "Population":8022
+    "Population":8022,
+    "TextPosition":"default"
     }
   }
 ]

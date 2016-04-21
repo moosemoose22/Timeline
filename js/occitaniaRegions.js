@@ -136,7 +136,7 @@ var regionFuncs = new function()
 
 			// Color each region based on country
 			// See "Area coloring" in the styles above
-			var regionSVG = d3.select("#openRegion").append("svg")
+			var regionSVG = d3.select("#openRegionContainer").append("svg")
 				.attr("width", windowWidth)
 				.attr("height", windowHeight)
 				.attr("id", "regionMap");
