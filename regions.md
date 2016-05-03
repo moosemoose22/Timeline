@@ -25,6 +25,7 @@ We opened it in LibreOfficeCalc (you could use Excel or any spreadsheet program)
 We sorted it by population in LibreOfficeCalc.  I then grabbed cities with a population of over 10000 and saved it as [rawdata/insee/HIST_POP_COM_RP13_10000.csv](rawdata/insee/HIST_POP_COM_RP13_10000.csv).  
 We then got lat/long data from google for the extra cities by running and [rawdata/insee/getDataGoogle.py](rawdata/insee/getDataGoogle.py).  
 The result was saved as [rawdata/insee/outputNewFranceInseeWithLatLng.csv](rawdata/insee/outputNewFranceInseeWithLatLng.csv).  
+Please note that the google geocoding API seems not to have admin3 data for cities in France. gadm does have this data. This is why when you hover over a city in France, there's no admin3 data. When you hover over an admin3 region, you see then name.
 
 For Spain, we got [rawdata/ine/outputSpainIneOver1000.csv](rawdata/ine/outputSpainIneOver1000.csv) from http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1.  
 The cities originally had numbers attached to them. You can remove them by running [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py).  
