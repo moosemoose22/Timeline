@@ -100,7 +100,14 @@ Monaco is so small that we did only a basic version of the large data: we ran og
 
 ##### Copying files to live working website  
 Then upload each country's individual topojson files to maps/\*country\*/regions.  
-For example: for France, I copied the directory [individuals/france/regionsTopoNewName](individuals/france/regionsTopoNewName) to [maps/france](maps/france) and renamed it [regions](maps/france/regions).
+
+For France, we copied the directory [individuals/france/regionsTopoNewName](individuals/france/regionsTopoNewName) to [maps/france](maps/france) and renamed it [regions](maps/france/regions).
 If you wanted to look at the topojson file for [Alsace Bas-Rhin](maps/france/regions/france.alsace_bas-rhin.topo.json), for example, you could find it at maps/france/regions/france.alsace_bas-rhin.topo.json.
+
+For Spain, we followed the exact same instructions as for France... but using the files for Spain.  
+
+For Andorra, we created a directory called [andorra](maps/andorra) and then [andorra/regions](maps/andorra/regions) in the [maps](maps) directory and copied [individuals/andorra/andorra.andorra_andorra.topo.json](individuals/andorra/andorra.andorra_andorra.topo.json) there.
+
+We're ignoring Monaco for now because nobody can click on it on the current map.
 
 ##### Now you have the data for each region on your live site!!
