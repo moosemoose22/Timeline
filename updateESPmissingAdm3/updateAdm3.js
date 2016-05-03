@@ -12,6 +12,7 @@ if (!fs.existsSync(baseDirectory + 'regionsGeoNewNameEdited'))
 	fs.mkdirSync(baseDirectory + 'regionsGeoNewNameEdited');
 
 /***** Pre-processing to get data *****/
+// Get correct population file name, then pass name to next stage
 function getFilenames()
 {
 	fs.readdir(baseDirectory + 'regionsGeoPopulation/', function(err, items)
@@ -46,6 +47,7 @@ function getFilenames()
 	});
 }
 
+// Get correct area file name, then pass area and population file names to next stage
 function readArea(areaFileToRead, cityFileToRead)
 {
 	fs.readFile(baseDirectory + 'regionsGeoNewName/' + areaFileToRead, 'utf8', function (err,data)
@@ -58,6 +60,7 @@ function readArea(areaFileToRead, cityFileToRead)
 	});
 }
 
+// First read in cities that match this region
 function readCities(areaFileToRead, cityFileToRead, areasObj)
 {
 	fs.readFile(baseDirectory + 'regionsGeoPopulation/' + cityFileToRead, 'utf8', function (err,data)
@@ -70,6 +73,9 @@ function readCities(areaFileToRead, cityFileToRead, areasObj)
 	});
 }
 
+// GeoJSON has polygons and multi-polygons.
+// If your area is apolygon, we call findCitiesInArea once.
+// Otherwise, we call findCitiesInArea for each polygon in the multi-polygon.
 function findCitiesInAreaPrelim(areaFileToRead, areasObj, cities)
 {
 	areasObj["features"].forEach(function(areaElem, areaIndex, areaArr)
@@ -100,6 +106,8 @@ function isPointInPoly(poly, pt)
 }
 
 var counter = 0;
+// Here's where we actually find a city in a region!
+// If the city is in this region, we update the admin3 data for the region
 function findCitiesInArea(geom, areaIndex, areasObj, cities)
 {
 	cities.forEach(function(cityElem, cityIndex, cityArr)

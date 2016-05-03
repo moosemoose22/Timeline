@@ -32,18 +32,19 @@ For Spain we got [rawdata/ine/outputSpainIneWithLatLng.csv](rawdata/ine/outputSp
 For Spain, the cities had numbers attached to them. You can remove them by running [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py).  
 We then got lat/long data from google for the extra cities by running and [rawdata/ine/getDataGoogle.py](rawdata/ine/getDataGoogle.py).  
 The result was saved as [rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv).  
-[rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv) had a bunch of English names in them. I did some manual corrections to them with search/replace.
+[rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv) had a bunch of English names in them. I did some manual corrections to them with search/replace.  
+You can see what conversions we did by looking at [rawdata/ine/fixRegionNames.py](rawdata/ine/fixRegionNames.py).  
+You could modify that file to do the convers for you.
+
 
 ##### Post-processing and converting to topojson for France/Spain  
 At this point, we need to add a column for city text direction override. This means that we can manually set whether a city name is on the left of its dot or the right.  
 We ran [rawdata/addCityNameLoc.py](rawdata/addCityNameLoc.py) to add "default" to the end of the data.
 
-[comment]: <> (Note that for Spain, we needed to convert some of the region names from English/non local-language names to the local-language name for the region.)
-[comment]: <> (We did that in [rawdata/ine/fixRegionNames.py](rawdata/ine/fixRegionNames.py).)
-
 We had all the data converted from a csv on http://www.convertcsv.com.  
 I named the output [individuals/allfrance.geo.json](individuals/allfrance.geo.json) and [individuals/allspain.geo.json](individuals/allspain.geo.json).  
 
+##### Making individual per-region topojson files  
 We need to break this large file up into the individual population geojson files per region.  
 We did this by running [individuals/makeFranceIndividuals.py](individuals/makeFranceIndividuals.py) and [individuals/makeSpainIndividuals.py](individuals/makeSpainIndividuals.py).  
 
@@ -70,17 +71,21 @@ Note that in the bash script for Spain, we need to convert some of the names.
 You should also get some topojson errors for ceuta_y_melilla and islas_canarias for spain.  
 Since those aren't promiment on our map (Tenerife isn't on the map at all currently), I haven't dealt with them yet.
 
-Finally, please note that the admin3 data for Spain is mostly missing. The admin3 region names are often "n.a. (*counter*).  
-Yuo can see  a list of all remaining missing regions by running [updateESPmissingAdm3/findAdm3.js](updateESPmissingAdm3/findAdm3.js).  
+##### Fixing missing admin3 data in Spain  
+The admin3 data for Spain from gadm is mostly missing. The admin3 region names are often "n.a. (*counter*).  
+You can see  a list of all remaining missing regions by running [updateESPmissingAdm3/findAdm3.js](updateESPmissingAdm3/findAdm3.js).  
 Here's what we did to fix this (see [updateESPmissingAdm3/updateAdm3.js](updateESPmissingAdm3/updateAdm3.js)):  
 The script went through all the cities we have and found out whether they're in a region.  
 Cities already have admin3 data from google map APIs.  
 If a city is in a region, copy the admin3 data from the city to the region.  
 Then rewrite the region data.  
-That solved over 1/2 of the missing regions. But we wanted to get remove the vast majority of missing regions.  
+That solved over 1/2 of the missing regions.  
+
+We wanted to get remove the vast majority of missing regions.  
 We got data for all cities with over 1000 people from http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1.  
 We then removed all the cities we already have by running [rawdata/ine/reduceOver1000.py](rawdata/ine/reduceOver1000.py).  
 We then got the latitude and longitude for these cities by running [rawdata/ine/getDataGoogle1000To10000.py](rawdata/ine/getDataGoogle1000To10000.py). Note that the google map APIs have a limit of 2500 queries you can make in a day for free. The script assumes that if you don't get a response of OK, you hit that limit. You'll need to continue the next day. The script has logic to pick up where you left off.  
+We converted some of the region names from English/non local-language names to the local-language name for the region by running [rawdata/ine/fixRegionNames.py](rawdata/ine/fixRegionNames.py).  
 We went to http://www.convertcsv.com to make GEOjson out of the data we had [rawdata/ine/outputNewSpainIneWithLatLng1000To10000_latest.csv](rawdata/ine/outputNewSpainIneWithLatLng1000To10000_latest.csv).  
 We created GEOjson for each region by running [updateESPmissingAdm3/makeSpainIndividualsOver1000.py](updateESPmissingAdm3/makeSpainIndividualsOver1000.py).  
 We then ran the same script we did before to copy admin3 data from these cities to the region data [updateESPmissingAdm3/updateAdm3.js](updateESPmissingAdm3/updateAdm3.js).  
