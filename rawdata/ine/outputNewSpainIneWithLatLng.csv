@@ -1,0 +1,731 @@
+Euskadi,Araba,Kantauri Arabarra,Amurrio,10263,43.0518654,-3.0013109,default
+Euskadi,Araba,Kantauri Arabarra,Laudio,18300,43.1434506,-2.9579897,default
+Euskadi,Araba,Arabako Lautada,Vitoria-Gasteiz,243918,42.8591656,-2.681791800000001,default
+Castilla-La Mancha,Albacete,Llanos de Albacete,Albacete,172121,38.994349,-1.8585424,default
+Castilla-La Mancha,Albacete,Corredor de Almansa,Almansa,24837,38.8702789,-1.0993366,default
+Castilla-La Mancha,Albacete,Corredor de Almansa,Caudete,10163,38.7051649,-0.9880418999999999,default
+Castilla-La Mancha,Albacete,Campo de Hellín,Hellín,30592,38.5068902,-1.6979398,default
+Castilla-La Mancha,Albacete,Mancha Baja,La Roda,15868,39.2071243,-2.1569109,default
+Castilla-La Mancha,Albacete,Mancha Baja,Villarrobledo,25989,39.2683154,-2.6015635,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Albatera,11780,38.1801605,-0.8710884,default
+Comunidad Valenciana,Alicante,L'Alcoià,Alcoy,59567,38.6987066,-0.4810937,default
+Comunidad Valenciana,Alicante,La Marina Baixa,L'Alfàs del Pi,21700,38.57855199999999,-0.09966399999999999,default
+Comunidad Valenciana,Alicante,L'Alacantí,Alicante,328648,38.3459963,-0.4906855,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Almoradí,19955,38.1107088,-0.7937015,default
+Comunidad Valenciana,Alicante,La Marina Baixa,Altea,22385,38.6029075,-0.0450666,default
+Comunidad Valenciana,Alicante,Vinalopó Mitjà,Aspe,20406,38.3435941,-0.7704126,default
+Comunidad Valenciana,Alicante,La Marina Baixa,Benidorm,69045,38.5410566,-0.1224937,default
+Comunidad Valenciana,Alicante,La Marina Alta,Benissa,11598,38.7145489,0.0524919,default
+Comunidad Valenciana,Alicante,La Marina Alta,Calp,21540,38.6436469,0.04568759999999999,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Callosa de Segura,18200,38.1269393,-0.8732975,default
+Comunidad Valenciana,Alicante,L'Alacantí,El Campello,27356,38.4289804,-0.397816,default
+Comunidad Valenciana,Alicante,El Comtat,Cocentaina,11406,38.7451583,-0.4396248,default
+Comunidad Valenciana,Alicante,Baix Vinalopó,Crevillent,28465,38.2446844,-0.8113636,default
+Comunidad Valenciana,Alicante,La Marina Alta,Dénia,41553,38.8387992,0.1050557,default
+Comunidad Valenciana,Alicante,Baix Vinalopó,Elche,227312,38.2699329,-0.7125608,default
+Comunidad Valenciana,Alicante,Vinalopó Mitjà,Elda,53248,38.4765073,-0.7964597,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Guardamar del Segura,15589,38.0851461,-0.6512823,default
+Comunidad Valenciana,Alicante,L'Alcoià,Ibi,23321,38.6212635,-0.5776167,default
+Comunidad Valenciana,Alicante,La Marina Alta,Jávea,27681,38.7890109,0.1660813,default
+Comunidad Valenciana,Alicante,Vinalopó Mitjà,Monóvar,12381,38.4182514,-0.9247501,default
+Comunidad Valenciana,Alicante,L'Alacantí,Mutxamel,24256,38.4196718,-0.4470839,default
+Comunidad Valenciana,Alicante,Vinalopó Mitjà,Novelda,26146,38.3841032,-0.7668469,default
+Comunidad Valenciana,Alicante,La Marina Baixa,La Nucia,20039,38.612269,-0.1272708,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Orihuela,82675,38.08555279999999,-0.9480050999999999,default
+Comunidad Valenciana,Alicante,La Marina Alta,Pego,10331,38.8429394,-0.1156439,default
+Comunidad Valenciana,Alicante,Vinalopó Mitjà,Petrer,34586,38.4807948,-0.7719244,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Rojales,18127,38.0860483,-0.7235857,default
+Comunidad Valenciana,Alicante,L'Alacantí,Sant Joan d'Alacant,22825,38.4020456,-0.4360296,default
+Comunidad Valenciana,Alicante,Baix Vinalopó,Santa Pola,31657,38.1965614,-0.5612438,default
+Comunidad Valenciana,Alicante,L'Alacantí,San Vicente del Raspeig,56302,38.3964181,-0.5248710999999999,default
+Comunidad Valenciana,Alicante,La Marina Alta,Teulada,11460,38.72826269999999,0.1044712,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Torrevieja,88447,37.9847003,-0.6808233,default
+Comunidad Valenciana,Alicante,La Marina Baixa,Villajoyosa,33878,38.5079606,-0.2285807,default
+Comunidad Valenciana,Alicante,Alto Vinalopó,Villena,34361,38.6318196,-0.8612206,default
+Comunidad Valenciana,Alicante,Vega Baja del Segura,Pilar de la Horadada,21629,37.8631809,-0.7901334,default
+Andalucía,Almería,Poniente Almeriense,Adra,24670,36.7479022,-3.0163202,default
+Andalucía,Almería,Valle del Almanzora,Albox,11429,37.3881024,-2.1417503,default
+Andalucía,Almería,Metropolitana de Almería,Almería,194203,36.834047,-2.4637136,default
+Andalucía,Almería,Poniente Almeriense,Berja,15174,36.8451829,-2.945068,default
+Andalucía,Almería,Levante Almeriense,Cuevas del Almanzora,13292,37.2922445,-1.876084,default
+Andalucía,Almería,Metropolitana de Almería,Huércal de Almería,16823,36.8881816,-2.4445519,default
+Andalucía,Almería,Levante Almeriense,Huércal-Overa,18530,37.3962183,-1.9416877,default
+Andalucía,Almería,Metropolitana de Almería,Níjar,28056,36.96593060000001,-2.2067723,default
+Andalucía,Almería,Poniente Almeriense,Roquetas de Mar,90623,36.7636819,-2.6154266,default
+Andalucía,Almería,Levante Almeriense,Vera,15108,37.2476803,-1.8679197,default
+Andalucía,Almería,Poniente Almeriense,Vícar,24571,36.8314423,-2.6418821,default
+Andalucía,Almería,Poniente Almeriense,El Ejido,85961,36.7731148,-2.8103551,default
+Castilla y León,Ávila,Ávila (Valle de Amblés y Sierra de Ávila),Ávila,58358,40.656685,-4.6812086,default
+Extremadura,Badajoz,Tierra de Barros,Almendralejo,34265,38.6914575,-6.4058423,default
+Extremadura,Badajoz,Tierra de Badajoz,Badajoz,149892,38.8794495,-6.9706535,default
+Extremadura,Badajoz,Las Vegas Altas,Don Benito,36971,38.954463,-5.8618982,default
+Extremadura,Badajoz,Tierra de Mérida - Vegas Bajas,Mérida,58971,38.9191439,-6.3408055,default
+Extremadura,Badajoz,Tierra de Mérida - Vegas Bajas,Montijo,15789,38.9089185,-6.6172103,default
+Extremadura,Badajoz,Llanos de Olivenza,Olivenza,12090,38.6826443,-7.1026661,default
+Extremadura,Badajoz,Tierra de Barros,Villafranca de los Barros,13289,38.562691,-6.341219199999999,default
+Extremadura,Badajoz,Las Vegas Altas,Villanueva de la Serena,26021,38.97357520000001,-5.7997323,default
+Extremadura,Badajoz,Zafra Río Bodión,Zafra,16857,38.4225303,-6.415722499999999,default
+Illes Balears,Illes Balears,Raiguer,Alcúdia,19763,39.8532672,3.1240239,default
+Illes Balears,Illes Balears,Serra de Tramuntana,Andratx,11093,39.5744273,2.4202537,default
+Illes Balears,Illes Balears,Serra de Tramuntana,Calvià,50328,39.5653483,2.5033683,default
+Illes Balears,Illes Balears,Llevant,Capdepera,11420,39.7023646,3.4353222,default
+Illes Balears,Illes Balears,Área Metropolitana de Ciutadella,Ciutadella de Menorca,29098,39.9991163,3.8389047,default
+Illes Balears,Illes Balears,Migjorn,Felanitx,17412,39.4696851,3.148297,default
+Illes Balears,Illes Balears,,Formentera,11878,38.6964006,1.4531355,default
+Illes Balears,Illes Balears,Ibiza,Eivissa,49975,38.9067339,1.4205983,default
+Illes Balears,Illes Balears,Raiguer,Inca,30651,39.71777429999999,2.9075475,default
+Illes Balears,Illes Balears,Migjorn,Llucmajor,34618,39.49084390000001,2.8916657,default
+Illes Balears,Illes Balears,Àrea Metropolitana de Maó,Maó-Mahón,28006,39.8873296,4.259619499999999,default
+Illes Balears,Illes Balears,Llevant,Manacor,40170,39.5697165,3.2095318,default
+Illes Balears,Illes Balears,Raiguer,Marratxí,35726,39.6214684,2.7253135,default
+Illes Balears,Illes Balears,Palma de Mallorca,Palma de Mallorca,400578,39.5696005,2.6501603,default
+Illes Balears,Illes Balears,Serra de Tramuntana,Pollença,16115,39.8771939,3.0162026,default
+Illes Balears,Illes Balears,Raiguer,Sa Pobla,12694,39.7697384,3.0250778,default
+Illes Balears,Illes Balears,Ibiza,Sant Antoni de Portmany,23631,38.9826357,1.3015192,default
+Illes Balears,Illes Balears,Ibiza,Sant Josep de sa Talaia,25674,38.9217535,1.2934954,default
+Illes Balears,Illes Balears,Ibiza,Santa Eulària des Riu,35812,38.9852753,1.5350964,default
+Illes Balears,Illes Balears,Pla de Mallorca,Santa Margalida,11672,39.7020092,3.1039678,default
+Illes Balears,Illes Balears,Migjorn,Santanyí,11316,39.3538601,3.1302932,default
+Illes Balears,Illes Balears,Serra de Tramuntana,Sóller,13648,39.7670693,2.7157866,default
+Illes Balears,Illes Balears,Llevant,Son Servera,11449,39.6201493,3.3603044,default
+Catalunya,Barcelona,El Baix Llobregat,Abrera,12071,41.5175266,1.9017802,default
+Catalunya,Barcelona,Maresme,Arenys de Mar,15289,41.5797073,2.5508683,default
+Catalunya,Barcelona,Maresme,Argentona,11978,41.5531639,2.4008466,default
+Catalunya,Barcelona,El Barcelonès,Badalona,215654,41.4469883,2.2450325,default
+Catalunya,Barcelona,El Barcelonès,Barcelona,1604555,41.3850639,2.1734035,default
+Catalunya,Barcelona,El Berguedà,Berga,16238,42.1012595,1.8439221,default
+Catalunya,Barcelona,El Vallès Oriental,Caldes de Montbui,17098,41.6316583,2.1668706,default
+Catalunya,Barcelona,Maresme,Calella,18226,41.6134346,2.6535552,default
+Catalunya,Barcelona,Maresme,Canet de Mar,14177,41.5889734,2.5803886,default
+Catalunya,Barcelona,El Vallès Oriental,Canovelles,15906,41.61872959999999,2.2770506,default
+Catalunya,Barcelona,El Vallès Oriental,Cardedeu,17938,41.6394024,2.3591531,default
+Catalunya,Barcelona,El Vallès Occidental,Castellar del Vallès,23442,41.6172338,2.0873256,default
+Catalunya,Barcelona,El Vallès Occidental,Castellbisbal,12364,41.482929,1.9869293,default
+Catalunya,Barcelona,El Baix Llobregat,Castelldefels,63891,41.2800161,1.9766294,default
+Catalunya,Barcelona,El Baix Llobregat,Corbera de Llobregat,14240,41.4177165,1.9326228,default
+Catalunya,Barcelona,El Baix Llobregat,Cornellà de Llobregat,86376,41.3573827,2.0707159,default
+Catalunya,Barcelona,El Garraf,Cubelles,14420,41.2085031,1.6727934,default
+Catalunya,Barcelona,El Baix Llobregat,Esparreguera,21701,41.5389334,1.870725,default
+Catalunya,Barcelona,El Baix Llobregat,Esplugues de Llobregat,45626,41.3766912,2.0858115,default
+Catalunya,Barcelona,El Vallès Oriental,Les Franqueses del Vallès,19446,41.64782750000001,2.3123031,default
+Catalunya,Barcelona,El Vallès Oriental,La Garriga,15740,41.6803805,2.2833401,default
+Catalunya,Barcelona,El Baix Llobregat,Gavà,46405,41.3028274,2.0019345,default
+Catalunya,Barcelona,El Vallès Oriental,Granollers,60101,41.60619270000001,2.2870889,default
+Catalunya,Barcelona,El Barcelonès,L'Hospitalet de Llobregat,252171,41.3661865,2.1164942,default
+Catalunya,Barcelona,L'Anoia,Igualada,38751,41.5847817,1.6226538,default
+Catalunya,Barcelona,El Vallès Oriental,La Llagosta,13252,41.5138608,2.1930919,default
+Catalunya,Barcelona,El Vallès Oriental,Lliçà d'Amunt,14742,41.6081296,2.2396577,default
+Catalunya,Barcelona,Maresme,Malgrat de Mar,18371,41.6455042,2.7438793,default
+Catalunya,Barcelona,Osona,Manlleu,20228,42.0035444,2.2852014,default
+Catalunya,Barcelona,El Bages,Manresa,74655,41.7292826,1.8225154,default
+Catalunya,Barcelona,El Baix Llobregat,Martorell,27694,41.4795041,1.923048,default
+Catalunya,Barcelona,Maresme,Al Masnou,22923,41.4826455,2.3114706,default
+Catalunya,Barcelona,Maresme,Mataró,124867,41.5381124,2.4447406,default
+Catalunya,Barcelona,El Baix Llobregat,Molins de Rei,25155,41.4134488,2.0182425,default
+Catalunya,Barcelona,El Vallès Oriental,Mollet del Vallès,51650,41.542551,2.2113698,default
+Catalunya,Barcelona,El Vallès Occidental,Montcada i Reixac,34377,41.4931546,2.181871000000001,default
+Catalunya,Barcelona,Maresme,Montgat,11501,41.4684703,2.2850483,default
+Catalunya,Barcelona,El Vallès Oriental,Montornès del Vallès,16172,41.5445244,2.2670286,default
+Catalunya,Barcelona,El Baix Llobregat,Olesa de Montserrat,23536,41.5451695,1.8913371,default
+Catalunya,Barcelona,El Vallès Occidental,Palau-solità i Plegamans,14457,41.5839461,2.1804146,default
+Catalunya,Barcelona,El Baix Llobregat,Pallejà,11298,41.4213871,1.9972813,default
+Catalunya,Barcelona,El Vallès Oriental,Parets del Vallès,18901,41.5636447,2.2288957,default
+Catalunya,Barcelona,L'Anoia,Piera,14991,41.5217462,1.7502311,default
+Catalunya,Barcelona,Maresme,Pineda de Mar,25968,41.62451009999999,2.6827579,default
+Catalunya,Barcelona,El Baix Llobregat,El Prat de Llobregat,63014,41.3245953,2.0934902,default
+Catalunya,Barcelona,Maresme,Premià de Mar,27944,41.4946642,2.3591531,default
+Catalunya,Barcelona,El Vallès Occidental,Ripollet,37445,41.49845,2.1569325,default
+Catalunya,Barcelona,El Vallès Oriental,La Roca del Vallès,10504,41.5814805,2.32586,default
+Catalunya,Barcelona,El Vallès Occidental,Rubí,74536,41.4971174,2.0349243,default
+Catalunya,Barcelona,El Vallès Occidental,Sabadell,207814,41.5462745,2.1086131,default
+Catalunya,Barcelona,El Barcelonès,Sant Adrià de Besòs,35814,41.42668,2.2245813,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Andreu de la Barca,27340,41.4470241,1.9728327,default
+Catalunya,Barcelona,Maresme,Sant Andreu de Llavaneres,10493,41.57547470000001,2.4831483,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Boi de Llobregat,82195,41.3458415,2.035041,default
+Catalunya,Barcelona,El Vallès Oriental,Sant Celoni,17317,41.6897479,2.4892465,default
+Catalunya,Barcelona,El Vallès Occidental,Sant Cugat del Vallès,87830,41.4720702,2.0865154,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Feliu de Llobregat,43800,41.38467,2.0494619,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Joan Despí,33264,41.3673523,2.0566806,default
+Catalunya,Barcelona,El Bages,Sant Joan de Vilatorrada,10768,41.742807,1.8038035,default
+Catalunya,Barcelona,Maresme,Vilassar de Mar,20447,41.5040814,2.3922562,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Just Desvern,16631,41.383333,2.0666616,default
+Catalunya,Barcelona,Maresme,Premià de Dalt,10392,41.5048954,2.3458198,default
+Catalunya,Barcelona,El Garraf,Sant Pere de Ribes,29666,41.2596829,1.7757916,default
+Catalunya,Barcelona,El Vallès Occidental,Sant Quirze del Vallès,19602,41.5351317,2.0776681,default
+Catalunya,Barcelona,L'Alt Penedès,Sant Sadurní d'Anoia,12689,41.4261755,1.7867506,default
+Catalunya,Barcelona,El Barcelonès,Santa Coloma de Gramenet,116950,41.44458789999999,2.2103217,default
+Catalunya,Barcelona,El Vallès Occidental,Barberà del Vallès,32545,41.5136208,2.1255553,default
+Catalunya,Barcelona,El Vallès Occidental,Santa Perpètua de Mogoda,25466,41.5353285,2.1821487,default
+Catalunya,Barcelona,El Baix Llobregat,Sant Vicenç dels Horts,27983,41.3898442,2.0035906,default
+Catalunya,Barcelona,El Vallès Occidental,Cerdanyola del Vallès,57413,41.4900419,2.1396748,default
+Catalunya,Barcelona,El Garraf,Sitges,28269,41.2371851,1.805886,default
+Catalunya,Barcelona,El Vallès Occidental,Terrassa,215214,41.563211,2.0088747,default
+Catalunya,Barcelona,Maresme,Tordera,16433,41.6972043,2.7178464,default
+Catalunya,Barcelona,Osona,Torelló,13881,42.0491614,2.2626613,default
+Catalunya,Barcelona,El Baix Llobregat,Vallirana,14633,41.3848607,1.9317305,default
+Catalunya,Barcelona,Osona,Vic,42498,41.9304373,2.2544335,default
+Catalunya,Barcelona,El Baix Llobregat,Viladecans,65549,41.315296,2.0133208,default
+Catalunya,Barcelona,L'Anoia,Vilanova del Camí,12452,41.57027830000001,1.6391874,default
+Catalunya,Barcelona,L'Alt Penedès,Vilafranca del Penedès,39224,41.3461265,1.6979398,default
+Catalunya,Barcelona,Arabako Lautada,Vilanova i la Geltrú,65684,42.8591656,-2.681791800000001,default
+Catalunya,Barcelona,El Vallès Occidental,Badia del Vallès,13502,41.508052,2.1152932,default
+Castilla y León,Burgos,Ribera del Duero,Aranda de Duero,32880,41.6692282,-3.6902166,default
+Castilla y León,Burgos,Alfoz de Burgos,Burgos,177100,42.3439925,-3.696906,default
+Castilla y León,Burgos,Comarca del Ebro,Miranda de Ebro,36173,42.6869753,-2.945068,default
+Extremadura,Cáceres,Cáceres,Cáceres,95617,39.4752765,-6.3724247,default
+Extremadura,Cáceres,Vegas del Alagón,Coria,12930,39.9880324,-6.536978599999999,default
+Extremadura,Cáceres,Aranuelo,Navalmoral de la Mata,17156,39.8935644,-5.5329619,default
+Extremadura,Cáceres,Plasencia,Plasencia,40755,40.04209549999999,-6.0838065,default
+Andalucía,Cádiz,Campo de Gibraltar,Algeciras,118920,36.1407591,-5.456233,default
+Andalucía,Cádiz,Sierra de Cádiz,Arcos de la Frontera,31193,36.7560042,-5.8116522,default
+Andalucía,Cádiz,La Janda,Barbate,22808,36.1900204,-5.9224799,default
+Andalucía,Cádiz,Campo de Gibraltar,Los Barrios,23167,36.1850645,-5.4925573,default
+Andalucía,Cádiz,Bay of Cádiz,Cádiz,120468,36.5270612,-6.2885962,default
+Andalucía,Cádiz,La Janda,Conil de la Frontera,22136,36.2780988,-6.086207099999999,default
+Andalucía,Cádiz,Bay of Cádiz,Chiclana de la Frontera,82777,36.4165052,-6.1461102,default
+Andalucía,Cádiz,Costa Noroeste,Chipiona,19062,36.7348614,-6.431699000000001,default
+Andalucía,Cádiz,Campiña de Jerez,Jerez de la Frontera,212876,36.6850064,-6.126074399999999,default
+Andalucía,Cádiz,Campo de Gibraltar,La Línea de la Concepción,63352,36.1927346,-5.3468563,default
+Andalucía,Cádiz,La Janda,Medina-Sidonia,11749,36.4619644,-5.9292131,default
+Andalucía,Cádiz,Bay of Cádiz,El Puerto de Santa María,88335,36.600595,-6.2329094,default
+Andalucía,Cádiz,Bay of Cádiz,Puerto Real,41509,36.5316485,-6.1831947,default
+Andalucía,Cádiz,Costa Noroeste,Rota,29123,36.6236874,-6.3601441,default
+Andalucía,Cádiz,Bay of Cádiz,San Fernando,96131,36.4718646,-6.196594800000001,default
+Andalucía,Cádiz,Costa Noroeste,Sanlúcar de Barrameda,67433,36.7725774,-6.3529689,default
+Andalucía,Cádiz,Campo de Gibraltar,San Roque,29373,36.2104615,-5.384431699999999,default
+Andalucía,Cádiz,Campo de Gibraltar,Tarifa,18011,36.0143209,-5.6044497,default
+Andalucía,Cádiz,Sierra de Cádiz,Ubrique,16836,36.6770842,-5.44539,default
+Andalucía,Cádiz,La Janda,Vejer de la Frontera,12812,36.252034,-5.9667359,default
+Andalucía,Cádiz,Sierra de Cádiz,Villamartín,12271,36.8610112,-5.6417243,default
+Comunidad Valenciana,Castellón,Alcalatén,L'Alcora,10591,40.0746462,-0.2139151,default
+Comunidad Valenciana,Castellón,Plana Alta,Almazora,25488,39.9478425,-0.0629989,default
+Comunidad Valenciana,Castellón,Baix Maestrat,Benicarló,26403,40.4126493,0.4243013,default
+Comunidad Valenciana,Castellón,Plana Alta,Benicasim,18098,40.055385,0.0641504,default
+Comunidad Valenciana,Castellón,Plana Baixa,Borriana,34708,39.8895925,-0.0848302,default
+Comunidad Valenciana,Castellón,Plana Alta,Castellón de la Plana,171669,39.9863563,-0.0513246,default
+Comunidad Valenciana,Castellón,Plana Baixa,Nules,13442,39.8539503,-0.1553504,default
+Comunidad Valenciana,Castellón,Plana Baixa,Onda,24963,39.96512999999999,-0.2625949,default
+Comunidad Valenciana,Castellón,Plana Baixa,La Vall d'Uixó,31671,39.8242386,-0.2315018,default
+Comunidad Valenciana,Castellón,Plana Baixa,Vila-real,50580,39.9397706,-0.1005932,default
+Comunidad Valenciana,Castellón,Baix Maestrat,Vinaròs,28190,40.4679855,0.4747301,default
+Castilla-La Mancha,Ciudad Real,Campo de San Juan,Alcázar de San Juan,31269,39.3900748,-3.2100984,default
+Castilla-La Mancha,Ciudad Real,Campo de Calatrava,Bolaños de Calatrava,12001,38.9068623,-3.664859,default
+Castilla-La Mancha,Ciudad Real,Campo de San Juan,Campo de Criptana,14126,39.4006055,-3.1252777,default
+Castilla-La Mancha,Ciudad Real,Campo de Calatrava,Ciudad Real,74427,38.9848295,-3.927377799999999,default
+Castilla-La Mancha,Ciudad Real,Campo de Daimiel,Daimiel,18577,39.0699215,-3.6141819,default
+Castilla-La Mancha,Ciudad Real,Campo de Tomelloso y Valdepeñas,Manzanares,18642,39.0042841,-3.3716443,default
+Castilla-La Mancha,Ciudad Real,Campo de Calatrava,Miguelturra,15032,38.9622034,-3.8884417,default
+Castilla-La Mancha,Ciudad Real,Sierra Morena de Ciudad Real,Puertollano,50035,38.6884458,-4.1078877,default
+Castilla-La Mancha,Ciudad Real,Campo de San Juan,Socuéllamos,12721,39.2847115,-2.7904302,default
+Castilla-La Mancha,Ciudad Real,Campo de Tomelloso y Valdepeñas,La Solana,15979,38.94160129999999,-3.2392014,default
+Castilla-La Mancha,Ciudad Real,Campo de Tomelloso y Valdepeñas,Tomelloso,37645,39.15837450000001,-3.0214475,default
+Castilla-La Mancha,Ciudad Real,Campo de Tomelloso y Valdepeñas,Valdepeñas,30514,38.760524,-3.3876074,default
+Castilla-La Mancha,Ciudad Real,Campo de Daimiel,Villarrubia de los Ojos,10494,39.21921529999999,-3.607666099999999,default
+Andalucía,Córdoba,Campiña Sur,Aguilar de la Frontera,13551,37.5138455,-4.6566596,default
+Andalucía,Córdoba,Campiña de Baena,Baena,19802,37.617362,-4.3244513,default
+Andalucía,Córdoba,Subbética,Cabra,20837,37.4733595,-4.4425169,default
+Andalucía,Córdoba,Valle Medio del Guadalquivir,La Carlota,13929,37.6726446,-4.9337946,default
+Andalucía,Córdoba,Córdoba,Córdoba,327362,37.8881751,-4.7793835,default
+Andalucía,Córdoba,Valle Medio del Guadalquivir,Fuente Palmera,10895,37.7053654,-5.1002203,default
+Andalucía,Córdoba,Subbética,Lucena,42697,37.4129332,-4.4961008,default
+Andalucía,Córdoba,Campiña Sur,Montilla,23519,37.5877237,-4.637286599999999,default
+Andalucía,Córdoba,Valle Medio del Guadalquivir,Palma del Río,21522,37.69821710000001,-5.2801691,default
+Andalucía,Córdoba,Valle del Guadiato,Peñarroya-Pueblonuevo,11300,38.3025882,-5.2671378,default
+Andalucía,Córdoba,Los Pedroches,Pozoblanco,17380,38.3770629,-4.8494709,default
+Andalucía,Córdoba,Subbética,Priego de Córdoba,22936,37.437791,-4.1987434,default
+Andalucía,Córdoba,Campiña Sur,Puente Genil,30167,37.3909975,-4.7665698,default
+Andalucía,Córdoba,Subbética,Rute,10269,37.324936,-4.3706453,default
+Galicia,A Coruña,Santiago,Ames,30267,42.9038027,-8.6583677,default
+Galicia,A Coruña,A Coruña,Arteixo,30950,43.3038683,-8.510297399999999,default
+Galicia,A Coruña,Betanzos,Betanzos,13202,43.2784298,-8.213123399999999,default
+Galicia,A Coruña,A Barbanza,Boiro,18950,42.647476,-8.883353800000002,default
+Galicia,A Coruña,A Coruña,Cambre,24076,43.2926146,-8.3422786,default
+Galicia,A Coruña,Bergantiños,Carballo,31283,43.2128217,-8.691526399999999,default
+Galicia,A Coruña,A Coruña,A Coruña,243870,43.3623436,-8.4115401,default
+Galicia,A Coruña,A Coruña,Culleredo,29593,43.2882033,-8.389602,default
+Galicia,A Coruña,Ferrol,Fene,13385,43.475298,-8.1662448,default
+Galicia,A Coruña,Ferrol,Ferrol,69452,43.48964600000001,-8.2193451,default
+Galicia,A Coruña,Bergantiños,A Laracha,11402,43.24827,-8.5844049,default
+Galicia,A Coruña,Ferrol,Narón,39565,43.5012892,-8.192374299999999,default
+Galicia,A Coruña,Noia,Noia,14472,42.78427569999999,-8.8882891,default
+Galicia,A Coruña,A Coruña,Oleiros,34693,43.33270590000001,-8.3157003,default
+Galicia,A Coruña,Ordes,Ordes,12776,43.0763738,-8.4080662,default
+Galicia,A Coruña,O Eume,As Pontes de García Rodríguez,10503,43.4526064,-7.852247399999999,default
+Galicia,A Coruña,A Barbanza,Rianxo,11386,42.6513206,-8.8166051,default
+Galicia,A Coruña,A Barbanza,Ribeira,27372,42.5540645,-8.9922481,default
+Galicia,A Coruña,A Coruña,Sada,15080,43.3555238,-8.255737600000002,default
+Galicia,A Coruña,Santiago,Santiago de Compostela,95612,42.8782132,-8.5448445,default
+Galicia,A Coruña,Santiago,Teo,18505,42.7670593,-8.5158077,default
+Castilla-La Mancha,Cuenca,Serranía de Cuenca,Cuenca,55428,40.0703925,-2.1374162,default
+Castilla-La Mancha,Cuenca,La Mancha,Tarancón,14922,40.0105152,-3.0074463,default
+Catalunya,Girona,El Pla de l'Estany,Banyoles,19299,42.1181833,2.7651488,default
+Catalunya,Girona,El Baix Empordà,La Bisbal d'Empordà,10759,41.9586483,3.0397887,default
+Catalunya,Girona,Selva,Blanes,39132,41.6759954,2.7902289,default
+Catalunya,Girona,El Baix Empordà,Calonge,10520,41.8610629,3.0760889,default
+Catalunya,Girona,El Gironès,Cassà de la Selva,10030,41.8862532,2.8751691,default
+Catalunya,Girona,L'Alt Empordà,Castelló d'Empúries,10870,42.2604918,3.0738992,default
+Catalunya,Girona,El Baix Empordà,Castell-Platja d'Aro,10589,41.8144466,3.0321868,default
+Catalunya,Girona,L'Alt Empordà,L'Escala,10276,42.10942660000001,3.1428341,default
+Catalunya,Girona,L'Alt Empordà,Figueres,45346,42.26550659999999,2.9581046,default
+Catalunya,Girona,El Gironès,Girona,97586,41.9794005,2.8214264,default
+Catalunya,Girona,Selva,Lloret de Mar,37618,41.7005989,2.8398194,default
+Catalunya,Girona,La Garrotxa,Olot,33944,42.18220780000001,2.4880242,default
+Catalunya,Girona,El Baix Empordà,Palafrugell,22733,41.9179112,3.1629611,default
+Catalunya,Girona,El Baix Empordà,Palamós,17911,41.8505066,3.1298161,default
+Catalunya,Girona,El Ripollès,Ripoll,10632,42.1994589,2.1907618,default
+Catalunya,Girona,L'Alt Empordà,Roses,19575,42.2631774,3.1781873,default
+Catalunya,Girona,El Gironès,Salt,29342,41.9726971,2.791944,default
+Catalunya,Girona,El Baix Empordà,Sant Feliu de Guíxols,21586,41.7850237,3.031659,default
+Catalunya,Girona,Selva,Santa Coloma de Farners,12681,41.8624336,2.6650879,default
+Catalunya,Girona,El Baix Empordà,Torroella de Montgrí,11388,42.0419133,3.1265315,default
+Andalucía,Granada,Vega de Granada,Albolote,18464,37.2283225,-3.6543577,default
+Andalucía,Granada,Costa Tropical,Almuñécar,27391,36.734473,-3.6890198,default
+Andalucía,Granada,Vega de Granada,Armilla,23623,37.1439159,-3.6254529,default
+Andalucía,Granada,Vega de Granada,Atarfe,17792,37.2211865,-3.6902166,default
+Andalucía,Granada,Baza,Baza,20668,37.4862228,-2.7769904,default
+Andalucía,Granada,Vega de Granada,Churriana de la Vega,13907,37.1457019,-3.6448642,default
+Andalucía,Granada,Vega de Granada,Granada,235800,37.1773363,-3.5985571,default
+Andalucía,Granada,Guadix,Guadix,18928,37.3011351,-3.1403256,default
+Andalucía,Granada,Loja,Huétor Tájar,10147,37.1972428,-4.0481376,default
+Andalucía,Granada,Vega de Granada,Huétor Vega,11849,37.1470974,-3.5684419,default
+Andalucía,Granada,Loja,Illora,10423,37.2869036,-3.880361,default
+Andalucía,Granada,Loja,Loja,20893,37.1661897,-4.149075,default
+Andalucía,Granada,Vega de Granada,Maracena,21816,37.2078659,-3.6329196,default
+Andalucía,Granada,Costa Tropical,Motril,60777,36.7489747,-3.5180363,default
+Andalucía,Granada,Vega de Granada,Ogíjares,13719,37.12000949999999,-3.6079451,default
+Andalucía,Granada,Vega de Granada,Peligros,11154,37.2324557,-3.628112999999999,default
+Andalucía,Granada,Vega de Granada,Pinos Puente,10605,37.2514515,-3.7496132,default
+Andalucía,Granada,Costa Tropical,Salobreña,12429,36.7429438,-3.5850658,default
+Andalucía,Granada,Vega de Granada,Santa Fe,15067,37.1878785,-3.7202391,default
+Andalucía,Granada,Vega de Granada,La Zubia,18675,37.1197161,-3.5843792,default
+Andalucía,Granada,Vega de Granada,Las Gabias,19603,37.1346055,-3.6693027,default
+Andalucía,Granada,Vega de Granada,Vegas del Genil,10423,37.1701396,-3.6978264,default
+Castilla-La Mancha,Guadalajara,Campiña de Guadalajara,Alovera,12247,40.5961557,-3.2477262,default
+Castilla-La Mancha,Guadalajara,Campiña de Guadalajara,Azuqueca de Henares,34896,40.5648765,-3.2680616,default
+Castilla-La Mancha,Guadalajara,Campiña de Guadalajara,El Casar,11606,40.7058621,-3.427332,default
+Castilla-La Mancha,Guadalajara,Campiña de Guadalajara,Guadalajara,83391,40.632489,-3.16017,default
+Euskadi,Gipuzkoa,Donostialdea,Andoain,14668,43.2186367,-2.021197,default
+Euskadi,Gipuzkoa,Urola-Kostaldea,Azkoitia,11566,43.1776439,-2.3109203,default
+Euskadi,Gipuzkoa,Urola-Kostaldea,Azpeitia,14675,43.1825979,-2.2667322,default
+Euskadi,Gipuzkoa,Goierri,Beasain,13980,43.0457548,-2.2003055,default
+Euskadi,Gipuzkoa,Debabarrena,Eibar,27414,43.1832096,-2.4715422,default
+Euskadi,Gipuzkoa,Debabarrena,Elgoibar,11589,43.2157113,-2.4128202,default
+Euskadi,Gipuzkoa,Bidasoaldea,Hondarribia,16945,43.3708434,-1.8001488,default
+Euskadi,Gipuzkoa,Donostialdea,Hernani,19600,43.26579280000001,-1.9768497,default
+Euskadi,Gipuzkoa,Bidasoaldea,Irun,61481,43.3381465,-1.7888495,default
+Euskadi,Gipuzkoa,Debagoiena,Arrasate,22055,43.0648865,-2.4902081,default
+Euskadi,Gipuzkoa,Debagoiena,Oñati,11276,43.0341127,-2.4171658,default
+Euskadi,Gipuzkoa,Donostialdea,Oiartzun,10148,43.298838,-1.8624156,default
+Euskadi,Gipuzkoa,Donostialdea,Pasaia,16012,43.32547030000001,-1.9301396,default
+Euskadi,Gipuzkoa,Donostialdea,Errenteria,39276,43.3081107,-1.8912823,default
+Euskadi,Gipuzkoa,Donostialdea,Donostia,186095,43.318334,-1.9812313,default
+Euskadi,Gipuzkoa,Tolosaldea,Tolosa,19113,43.1347544,-2.0750946,default
+Euskadi,Gipuzkoa,Debagoiena,Bergara,14780,43.1259269,-2.4232063,default
+Euskadi,Gipuzkoa,Urola-Kostaldea,Zarautz,22988,43.284771,-2.1713967,default
+Euskadi,Gipuzkoa,Donostialdea,Lasarte-Oria,18093,43.2684377,-2.0178149,default
+Andalucía,Huelva,Metropolitana de Huelva,Aljaraque,20357,37.2665858,-7.024306699999999,default
+Andalucía,Huelva,El Condado,Almonte,23254,37.2596578,-6.516975299999999,default
+Andalucía,Huelva,Costa Occidental,Ayamonte,20357,37.2141237,-7.4043413,default
+Andalucía,Huelva,El Condado,Bollullos Par del Condado,14324,37.3383616,-6.5383124,default
+Andalucía,Huelva,Costa Occidental,Cartaya,19164,37.2829635,-7.150746199999999,default
+Andalucía,Huelva,Metropolitana de Huelva,Gibraleón,12508,37.3748375,-6.9695468,default
+Andalucía,Huelva,Metropolitana de Huelva,Huelva,146318,37.261421,-6.9447224,default
+Andalucía,Huelva,Costa Occidental,Isla Cristina,21193,37.2005266,-7.323303500000001,default
+Andalucía,Huelva,Costa Occidental,Lepe,27675,37.2571539,-7.2032754,default
+Andalucía,Huelva,Metropolitana de Huelva,Moguer,21383,37.27464,-6.8369079,default
+Andalucía,Huelva,El Condado,La Palma del Condado,10662,37.3867644,-6.5529858,default
+Andalucía,Huelva,Metropolitana de Huelva,Palos de la Frontera,10365,37.2288942,-6.8954258,default
+Andalucía,Huelva,Metropolitana de Huelva,Punta Umbría,14996,37.1852585,-6.9704976,default
+Andalucía,Huelva,Andévalo,Valverde del Camino,12766,37.5746343,-6.753414,default
+Aragón,Huesca,Somontano de Barbastro,Barbastro,17020,42.0360435,0.1284404,default
+Aragón,Huesca,Bajo Cinca,Fraga,14921,41.5217853,0.3417097,default
+Aragon,Huesca,Hoya de Huesca/Plana de Uesca,Huesca,52239,42.131845,-0.4078058,default
+Aragón,Huesca,La Jacetania,Jaca,13088,42.57171659999999,-0.5470554,default
+Aragón,Huesca,Cinca Medio,Monzón,17260,41.9157645,0.1928216,default
+Andalucía,Jaén,Sierra Sur de Jaén,Alcalá la Real,22036,37.4645203,-3.9241021,default
+Andalucía,Jaén,Sierra Sur de Jaén,Alcaudete,10779,37.5908541,-4.083601,default
+Andalucía,Jaén,Campiña,Andújar,38246,38.03849,-4.0516619,default
+Andalucía,Jaén,La Loma,Baeza,16163,37.9966884,-3.4676157,default
+Andalucía,Jaén,Sierra Morena,Bailén,18243,38.0951601,-3.7765276,default
+Andalucía,Jaén,Sierra Morena,La Carolina,15673,38.2742645,-3.6141819,default
+Andalucía,Jaén,Área Metropolitana de Jaén,Jaén,115395,37.7795941,-3.784905699999999,default
+Andalucía,Jaén,Sierra Mágina,Jódar,12022,37.8381872,-3.3514863,default
+Andalucía,Jaén,Sierra Morena,Linares,59737,38.09690980000001,-3.6369803,default
+Andalucía,Jaén,Área Metropolitana de Jaén,Mancha Real,11212,37.7868126,-3.6103832,default
+Andalucía,Jaén,Área Metropolitana de Jaén,Martos,24398,37.7182399,-3.9699874,default
+Andalucía,Jaén,Área Metropolitana de Jaén,Torredelcampo,14605,37.7696858,-3.8997851,default
+Andalucía,Jaén,Área Metropolitana de Jaén,Torredonjimeno,14011,37.7665084,-3.9546877,default
+Andalucía,Jaén,La Loma,Úbeda,34930,38.0114236,-3.3712457,default
+Andalucía,Jaén,Las Villas,Villacarrillo,11040,38.1196247,-3.0786158,default
+Castilla y León,León,Astorga,Astorga,11387,42.4549303,-6.053251100000001,default
+Castilla y León,León,La Bañeza,La Bañeza,10443,42.299821,-5.8975955,default
+Castilla y León,León,León,León,127817,42.5987263,-5.5670959,default
+Castilla y León,León,Bierzo,Ponferrada,66884,42.5499958,-6.598259000000001,default
+Castilla y León,León,León,San Andrés del Rabanedo,31745,42.6112686,-5.617545000000001,default
+Castilla y León,León,León,Villaquilambre,18615,42.6412912,-5.557725,default
+Catalunya,Lleida,La Noguera,Balaguer,16479,41.7919281,0.8060409,default
+Catalunya,Lleida,El Segrià,Lleida,138542,41.6175899,0.6200146,default
+Catalunya,Lleida,El Pla d'Urgell,Mollerussa,14900,41.6287381,0.8941817000000001,default
+Catalunya,Lleida,L'Alt Urgell,La Seu d'Urgell,12249,42.3575784,1.4555525,default
+Catalunya,Lleida,L'Urgell,Tàrrega,16444,41.6480797,1.1409432,default
+La Rioja,La Rioja,Arnedo,Arnedo,14597,42.22567919999999,-2.1020752,default
+La Rioja,La Rioja,Calahorra,Calahorra,23955,42.3073551,-1.9673133,default
+La Rioja,La Rioja,Haro,Haro,11414,42.5768716,-2.8502302,default
+La Rioja,La Rioja,Logroño,Logroño,151344,42.4627195,-2.4449852,default
+Galicia,Lugo,Lugo,Lugo,98134,43.0097384,-7.5567582,default
+Galicia,Lugo,Terra de Lemos,Monforte de Lemos,19061,42.5190217,-7.5158063,default
+Galicia,Lugo,Sarria,Sarria,13393,42.7808389,-7.4140766,default
+Galicia,Lugo,Terra Chá,Vilalba,14645,43.2974899,-7.6807717,default
+Galicia,Lugo,A Mariña Occidental,Viveiro,15735,43.6642649,-7.594534800000001,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Alcalá de Henares,198750,40.4819791,-3.3635421,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Alcobendas,113055,40.5372512,-3.637224499999999,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Alcorcón,167136,40.3468454,-3.8278443,default
+Comunidad de Madrid,Madrid,Cuenca del Guadarrama,Algete,20148,40.5964617,-3.5016452,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Alpedrete,14248,40.6621635,-4.031169000000001,default
+Comunidad de Madrid,Madrid,Las Vegas,Aranjuez,58168,40.0305018,-3.6040527,default
+Comunidad de Madrid,Madrid,Cuenca del Henares,Arganda del Rey,54533,40.3064463,-3.4479063,default
+Comunidad de Madrid,Madrid,Sur,Arroyomolinos,26846,40.2783308,-3.9215541,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Boadilla del Monte,48775,40.4122794,-3.8887699,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Brunete,10398,40.4043103,-3.9993244,default
+Comunidad de Madrid,Madrid,Las Vegas,Ciempozuelos,23696,40.157955,-3.6192473,default
+Comunidad de Madrid,Madrid,Cuenca Alta del Manzanares,Colmenar Viejo,47601,40.6626481,-3.7710457,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Collado Villalba,62056,40.6308775,-4.0055605,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Coslada,86919,40.4260459,-3.5651646,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,El Escorial,15342,40.583347,-4.1270438,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Fuenlabrada,195180,40.2902056,-3.8035477,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Galapagar,32294,40.5768377,-4.005802699999999,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Getafe,174921,40.3082504,-3.7323934,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Guadarrama,15538,40.6731798,-4.0875528,default
+Comunidad de Madrid,Madrid,Sur,Humanes de Madrid,19413,40.2596169,-3.8209585,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Leganés,186907,40.3319506,-3.7686545,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Madrid,3141991,40.4167754,-3.7037902,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Majadahonda,70800,40.4737586,-3.8683123,default
+Comunidad de Madrid,Madrid,Cuenca del Guadarrama,Meco,13269,40.5539468,-3.3263003,default
+Comunidad de Madrid,Madrid,Cuenca del Henares,Mejorada del Campo,22902,40.396654,-3.4877129,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Moralzarzal,12213,40.6763507,-3.9704867,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Móstoles,206263,40.3232129,-3.8676291,default
+Comunidad de Madrid,Madrid,Sur,Navalcarnero,26672,40.285599,-4.0166526,default
+Comunidad de Madrid,Madrid,Cuenca del Guadarrama,Paracuellos de Jarama,22293,40.5056034,-3.5302108,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Parla,125056,40.232367,-3.768906,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Pinto,48660,40.2375052,-3.6967718,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Pozuelo de Alarcón,84558,40.4475272,-3.8074152,default
+Comunidad de Madrid,Madrid,Cuenca del Henares,Rivas-Vaciamadrid,81473,40.3519065,-3.5357334,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Las Rozas de Madrid,93520,40.4935329,-3.8757916,default
+Comunidad de Madrid,Madrid,Cuenca del Guadarrama,San Agustín del Guadalix,12982,40.6788466,-3.6163061,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,San Fernando de Henares,40188,40.4256038,-3.5318722,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,San Lorenzo de El Escorial,18191,40.5932386,-4.1475748,default
+Comunidad de Madrid,Madrid,Las Vegas,San Martín de la Vega,18835,40.2103049,-3.5787384,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,San Sebastián de los Reyes,84944,40.5589672,-3.6261976,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Torrejón de Ardoz,126934,40.4567552,-3.4754967,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Torrelodones,23117,40.5766078,-3.9293646,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Valdemorillo,12173,40.4991922,-4.065255899999999,default
+Comunidad de Madrid,Madrid,Sur,Valdemoro,72854,40.1912403,-3.6740182,default
+Comunidad de Madrid,Madrid,Cuenca del Henares,Velilla de San Antonio,12382,40.3699557,-3.4864498,default
+Comunidad de Madrid,Madrid,Cuenca del Henares,Villalbilla,12351,40.4329592,-3.3005573,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Villanueva de la Cañada,19250,40.4481075,-3.9975566,default
+Comunidad de Madrid,Madrid,Cuenca del Medio Jarama,Villanueva del Pardillo,16797,40.4898209,-3.9615348,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Villaviciosa de Odón,27075,40.3626807,-3.9139109,default
+Comunidad de Madrid,Madrid,Área Metropolitalitana y Corredor del Henares,Tres Cantos,43309,40.600727,-3.7079745,default
+Andalucía,Málaga,Valle del Guadalhorce,Alhaurín de la Torre,38523,36.6598945,-4.5598636,default
+Andalucía,Málaga,Valle del Guadalhorce,Alhaurín el Grande,24338,36.6428298,-4.6876707,default
+Andalucía,Málaga,Valle del Guadalhorce,Álora,13003,36.8249628,-4.7057687,default
+Andalucía,Málaga,Comarca de Antequera,Antequera,41141,37.020001,-4.5593676,default
+Andalucía,Málaga,Costa del Sol,Benalmádena,66598,36.5987966,-4.5168056,default
+Andalucía,Málaga,Valle del Guadalhorce,Cártama,24592,36.7121567,-4.629873,default
+Andalucía,Málaga,Valle del Guadalhorce,Coín,21561,36.661601,-4.75751,default
+Andalucía,Málaga,Costa del Sol,Estepona,67080,36.4256345,-5.1510261,default
+Andalucía,Málaga,Costa del Sol,Fuengirola,77525,36.544148,-4.624943900000001,default
+Andalucía,Málaga,Málaga,Málaga,569130,36.721261,-4.4212655,default
+Andalucía,Málaga,Costa del Sol,Manilva,14587,36.3760794,-5.2508157,default
+Andalucía,Málaga,Costa del Sol,Marbella,139537,36.510071,-4.8824474,default
+Andalucía,Málaga,Costa del Sol,Mijas,79483,36.5967755,-4.6323067,default
+Andalucía,Málaga,Axarquía,Nerja,21185,36.7565204,-3.8724658,default
+Andalucía,Málaga,Axarquía,Rincón de la Victoria,43135,36.7176779,-4.280396,default
+Andalucía,Málaga,Serranía de Ronda,Ronda,35676,36.746209,-5.161225099999999,default
+Andalucía,Málaga,Axarquía,Torrox,15117,36.7544783,-3.9514923,default
+Andalucía,Málaga,Axarquía,Vélez-Málaga,78166,36.7799228,-4.1005589,default
+Andalucía,Málaga,Costa del Sol,Torremolinos,67492,36.6225541,-4.4994767,default
+Región de Murcia,Murcia,Vega Alta,Abarán,13179,38.2040853,-1.4012039,default
+Región de Murcia,Murcia,Alto Guadalentín,Águilas,34772,37.4117554,-1.5827678,default
+Región de Murcia,Murcia,Huerta de Murcia,Alcantarilla,41021,37.9695167,-1.2193422,default
+Región de Murcia,Murcia,Bajo Guadalentín,Alhama de Murcia,21351,37.8493011,-1.422935,default
+Región de Murcia,Murcia,Valle de Ricote,Archena,18559,38.11677350000001,-1.3011431,default
+Región de Murcia,Murcia,Huerta de Murcia,Beniel,11096,38.0463092,-1.0018665,default
+Región de Murcia,Murcia,Noroeste,Bullas,11753,38.0433449,-1.6736397,default
+Región de Murcia,Murcia,Noroeste,Calasparra,10423,38.2291511,-1.701586,default
+Región de Murcia,Murcia,Noroeste,Caravaca de la Cruz,25851,38.1041892,-1.8609152,default
+Región de Murcia,Murcia,Campo de Cartagena,Cartagena,216301,37.6256827,-0.9965839,default
+Región de Murcia,Murcia,Noroeste,Cehegín,15794,38.0922055,-1.7963757,default
+Región de Murcia,Murcia,Vega Media,Ceutí,11227,38.0800864,-1.272254,default
+Región de Murcia,Murcia,Vega Alta,Cieza,35115,38.2420912,-1.4217274,default
+Región de Murcia,Murcia,Campo de Cartagena,Fuente Álamo de Murcia,16284,37.7215156,-1.1726873,default
+Región de Murcia,Murcia,Altiplano,Jumilla,25484,38.4763532,-1.3221865,default
+Región de Murcia,Murcia,Alto Guadalentín,Lorca,91714,37.6735925,-1.6968357,default
+Región de Murcia,Murcia,Bajo Guadalentín,Mazarrón,32150,37.5958175,-1.3147353,default
+Región de Murcia,Murcia,Vega Media,Molina de Segura,69331,38.05168099999999,-1.2073261,default
+Región de Murcia,Murcia,Río Mula,Mula,16805,38.0397056,-1.492172,default
+Región de Murcia,Murcia,Huerta de Murcia,Murcia,439889,37.9922399,-1.1306544,default
+Región de Murcia,Murcia,Alto Guadalentín,Puerto Lumbreras,14694,37.5622979,-1.808677,default
+Región de Murcia,Murcia,Mar Menor,San Javier,31915,37.8054749,-0.8379313,default
+Región de Murcia,Murcia,Mar Menor,San Pedro del Pinatar,24339,37.8354703,-0.7913131,default
+Región de Murcia,Murcia,Mar Menor,Torre-Pacheco,34469,37.7442385,-0.9536260999999998,default
+Región de Murcia,Murcia,Vega Media,Las Torres de Cotillas,21399,38.0274986,-1.2433848,default
+Región de Murcia,Murcia,Bajo Guadalentín,Totana,30916,37.7700655,-1.4990814,default
+Región de Murcia,Murcia,Campo de Cartagena,La Unión,19572,37.6213893,-0.8824204,default
+Región de Murcia,Murcia,Altiplano,Yecla,34100,38.6122134,-1.110112,default
+Región de Murcia,Murcia,Huerta de Murcia,Santomera,16012,38.0601529,-1.0470905,default
+Región de Murcia,Murcia,Mar Menor,Los Alcázares,15605,37.7505094,-0.8476651,default
+Navarra,Navarra,Cuenca de Pamplona - Pamplona,Ansoáin,10830,42.8337593,-1.6432837,default
+Navarra,Navarra,Cuenca de Pamplona - Pamplona,Burlada,18336,42.8264759,-1.6156261,default
+Navarre,Navarra,Cuenca de Pamplona - Pamplona,Valle de Egüés,19603,42.8240875,-1.5499211,default
+Navarra,Navarra,Estella Oriental,Estella-Lizarra,13702,42.6720856,-2.0324524,default
+Navarre,Navarra,Cuenca de Pamplona - Pamplona,Pamplona,195853,42.812526,-1.6457745,default
+Navarra,Navarra,Tafalla,Tafalla,10809,42.5267993,-1.6776784,default
+Navarra,Navarra,Tudela,Tudela,35388,42.0613816,-1.6063169,default
+Navarra,Navarra,Cuenca de Pamplona - Pamplona,Villava,10265,42.8314377,-1.6123283,default
+Navarra,Navarra,Cuenca de Pamplona - Pamplona,Barañain,20475,42.8041023,-1.6846077,default
+Navarra,Navarra,Cuenca de Pamplona - Pamplona,Zizur Mayor,14493,42.7855575,-1.6882181,default
+Galicia,Ourense,Ourense,Barbadás,10463,42.2981451,-7.8871273,default
+Galicia,Ourense,Valdeorras,O Barco de Valdeorras,13785,42.4164275,-6.9855705,default
+Galicia,Ourense,O Carballiño,O Carballiño,13999,42.4316551,-8.0775086,default
+Galicia,Ourense,A Limia,Xinzo de Limia,10043,42.0631102,-7.7259471,default
+Galicia,Ourense,Ourense,Ourense,106231,42.33578929999999,-7.863880999999998,default
+Galicia,Ourense,Verín,Verín,14107,41.9402591,-7.4349526,default
+Principado de Asturias,Asturias,Montaña Central,Aller,11555,43.1497019,-5.6878736,default
+Principado de Asturias,Asturias,Comarca Avilés,Avilés,80880,43.5579523,-5.9246653,default
+Principado de Asturias,Asturias,Fuentes del Narcea,Cangas del Narcea,13451,43.1773837,-6.5498404,default
+Principado de Asturias,Asturias,Cabo Peñas,Carreño,10704,43.54856179999999,-5.7932008,default
+Principado de Asturias,Asturias,Montaña Central,Castrillón,22735,43.2044772,-5.7450973,default
+Principado de Asturias,Asturias,Comarca Avilés,Corvera de Asturias,16088,43.5149529,-5.8881542,default
+Principado de Asturias,Asturias,Gijón,Gijón,274290,43.5322015,-5.6611195,default
+Principado de Asturias,Asturias,Cabo Peñas,Gozón,10588,43.593772,-5.8459341,default
+Principado de Asturias,Asturias,Camín Real de la Mesa,Grado,10309,43.38705480000001,-6.074386,default
+Principado de Asturias,Asturias,Valle del Nalón,Langreo,41738,43.3081128,-5.6960562,default
+Principado de Asturias,Asturias,Valle del Nalón,Laviana,13582,43.2148555,-5.5407299,default
+Principado de Asturias,Asturias,Montaña Central,Lena,11654,43.08427469999999,-5.8353837,default
+Principado de Asturias,Asturias,Axarquía,Valdés,12421,36.7583987,-4.241666599999999,default
+Principado de Asturias,Asturias,Comarca del Nora,Llanera,13904,43.4653488,-5.9198387,default
+Principado de Asturias,Asturias,Oriente de Asturias,Llanes,13694,43.4211483,-4.7562159,default
+Principado de Asturias,Asturias,Montaña Central,Mieres,40338,43.24971900000001,-5.778528199999999,default
+Principado de Asturias,Asturias,Oviedo,Oviedo,221870,43.3619145,-5.8493887,default
+Principado de Asturias,Asturias,Valle del Nalón,San Martín del Rey Aurelio,17182,43.2751294,-5.6087488,default
+Principado de Asturias,Asturias,Comarca del Nora,Siero,52191,43.3915032,-5.6608158,default
+Principado de Asturias,Asturias,Comarca Vaqueira,Tineo,10128,43.3343326,-6.411728999999999,default
+Principado de Asturias,Asturias,Comarca de la Sidra,Villaviciosa,14690,43.4817214,-5.435574799999999,default
+Castilla y León,Palencia,Tierra de Campos,Palencia,79595,42.0096857,-4.5288016,default
+Islas Canarias,Las Palmas,Comarca Este,Agüimes,30294,27.9018327,-15.4463485,default
+Islas Canarias,Las Palmas,Maxorata,Antigua,11024,28.415292,-14.0110599,default
+Islas Canarias,Las Palmas,Isla de Lanzarote,Arrecife,56940,28.9651694,-13.5550363,default
+Islas Canarias,Las Palmas,Comarca Norte,Arucas,37054,28.1201412,-15.5210607,default
+Islas Canarias,Las Palmas,Comarca Norte,Gáldar,24235,28.1463501,-15.6515167,default
+Islas Canarias,Las Palmas,Comarca Este,Ingenio,30258,27.9182821,-15.4331746,default
+Islas Canarias,Las Palmas,Comarca Sur,Mogán,22277,27.8839292,-15.723279,default
+Islas Canarias,Las Palmas,Maxorata,La Oliva,25199,28.6100767,-13.9267252,default
+Islas Canarias,Las Palmas,Jandía,Pájara,19271,28.3508903,-14.1081189,default
+Islas Canarias,Las Palmas,Las Palmas de Gran Canaria - Cuenca del Guiniguada,Las Palmas de Gran Canaria,379766,28.1235459,-15.4362574,default
+Islas Canarias,Las Palmas,Maxorata,Puerto del Rosario,37363,28.500821,-13.8628367,default
+Islas Canarias,Las Palmas,Isla de Lanzarote,San Bartolomé,18402,29.0010487,-13.6117649,default
+Islas Canarias,Las Palmas,Comarca Sur,San Bartolomé de Tirajana,54932,27.9249459,-15.5730295,default
+Islas Canarias,Las Palmas,Las Palmas de Gran Canaria - Cuenca del Guiniguada,Santa Brígida,18582,28.0358502,-15.4975124,default
+Islas Canarias,Las Palmas,Comarca Este,Santa Lucía de Tirajana,69069,27.9101389,-15.5401365,default
+Islas Canarias,Las Palmas,Comarca Norte,Santa María de Guía de Gran Canaria,13890,28.1074494,-15.6060661,default
+Islas Canarias,Las Palmas,Isla de Lanzarote,Teguise,21454,29.0599533,-13.5595989,default
+Islas Canarias,Las Palmas,Comarca Este,Telde,102078,27.9955313,-15.4173726,default
+Islas Canarias,Las Palmas,Las Palmas de Gran Canaria - Cuenca del Guiniguada,Teror,12499,28.0616461,-15.5459718,default
+Islas Canarias,Las Palmas,Isla de Lanzarote,Tías,20019,28.9578494,-13.6507431,default
+Islas Canarias,Las Palmas,Maxorata,Tuineje,13797,28.3258026,-14.0471443,default
+Islas Canarias,Las Palmas,Isla de Lanzarote,Yaiza,15815,28.9557183,-13.7680207,default
+Galicia,Pontevedra,Vigo,Baiona,12072,42.1201526,-8.8523668,default
+Galicia,Pontevedra,O Morrazo,Bueu,12251,42.3253264,-8.7864436,default
+Galicia,Pontevedra,O Salnés,Cambados,13895,42.5137374,-8.8145173,default
+Galicia,Pontevedra,O Morrazo,Cangas,26520,42.2645845,-8.7809282,default
+Galicia,Pontevedra,Tabeirós - Terra de Montes,A Estrada,21025,42.6898968,-8.4909406,default
+Galicia,Pontevedra,Vigo,Gondomar,14056,42.1115469,-8.761324199999999,default
+Galicia,Pontevedra,O Salnés,O Grove,10801,42.4959962,-8.8651418,default
+Galicia,Pontevedra,O Baixo Miño,A Guarda,10193,41.9074666,-8.8652259,default
+Galicia,Pontevedra,Deza,Lalín,20005,42.6611505,-8.1110256,default
+Galicia,Pontevedra,O Morrazo,Marín,25084,42.3914848,-8.7020824,default
+Galicia,Pontevedra,O Morrazo,Moaña,19492,42.2819188,-8.7363783,default
+Galicia,Pontevedra,Terra Chá,Mos,15305,43.1631398,-7.545491900000001,default
+Galicia,Pontevedra,Vigo,Nigrán,17619,42.1419428,-8.8062953,default
+Galicia,Pontevedra,Pontevedra,Pontevedra,82539,42.4298846,-8.6446202,default
+Galicia,Pontevedra,Vigo,O Porriño,18898,42.1608459,-8.6177291,default
+Galicia,Pontevedra,Pontevedra,Poio,16842,42.4341563,-8.657473999999999,default
+Galicia,Pontevedra,O Condado,Ponteareas,22990,42.1756174,-8.5064757,default
+Galicia,Pontevedra,Vigo,Redondela,29697,42.2818519,-8.609170299999999,default
+Galicia,Pontevedra,O Salnés,Sanxenxo,17391,42.4033003,-8.811359099999999,default
+Galicia,Pontevedra,O Baixo Miño,Tomiño,13662,41.9924192,-8.7424885,default
+Galicia,Pontevedra,O Baixo Miño,Tui,17013,42.049155,-8.6466099,default
+Galicia,Pontevedra,Vigo,Vigo,294098,42.24059889999999,-8.7207268,default
+Galicia,Pontevedra,O Salnés,Vilagarcía de Arousa,37482,42.5953513,-8.7659082,default
+Galicia,Pontevedra,O Salnés,Vilanova de Arousa,10422,42.5627589,-8.8274228,default
+Castilla y León,Salamanca,Sierra de Béjar,Béjar,13724,40.3871165,-5.7642172,default
+Castilla y León,Salamanca,La Socampa,Ciudad Rodrigo,13052,40.5994005,-6.530716099999999,default
+Castilla y León,Salamanca,Campo de Salamanca,Salamanca,146438,40.9701039,-5.663539699999999,default
+Castilla y León,Salamanca,Campo de Salamanca,Santa Marta de Tormes,14970,40.9497273,-5.6262751,default
+Cantabria,Cantabria,Santander,El Astillero,18297,43.3983734,-3.822281,default
+Cantabria,Cantabria,Santander,Camargo,30766,43.4047027,-3.8846224,default
+Cantabria,Cantabria,Eastern coast of Cantabria,Castro-Urdiales,31833,43.3688221,-3.2156354,default
+Cantabria,Cantabria,Besaya Valley,Los Corrales de Buelna,11077,43.2597761,-4.0669902,default
+Cantabria,Cantabria,Eastern coast of Cantabria,Laredo,11643,43.4096287,-3.428383,default
+Cantabria,Cantabria,Santander,Piélagos,24360,43.38727189999999,-3.9368439,default
+Cantabria,Cantabria,Santander,Santa Cruz de Bezana,12560,43.4425958,-3.9024482,default
+Cantabria,Cantabria,Santander,Santander,173957,43.46230569999999,-3.8099803,default
+Cantabria,Cantabria,Transmiera,Santoña,11088,43.4448965,-3.4561456,default
+Cantabria,Cantabria,Besaya Valley,Torrelavega,53496,43.3488503,-4.050150500000001,default
+Castilla y León,Segovia,Tierra de Segovia,Segovia,52728,40.9429032,-4.108806899999999,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Alcalá de Guadaíra,74845,37.3397234,-5.8416716,default
+Andalucía,Sevilla,Vega del Guadalquivir,Alcalá del Río,11745,37.5187353,-5.9812748,default
+Andalucía,Sevilla,Vega del Guadalquivir,La Algaba,16279,37.4587461,-6.013631699999999,default
+Andalucía,Sevilla,Campiña de Morón y Marchena,Arahal,19550,37.2593351,-5.5434222,default
+Andalucía,Sevilla,Aljarafe,Bollullos de la Mitación,10199,37.339834,-6.1381188,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Bormujos,21362,37.3722503,-6.0701344,default
+Andalucía,Sevilla,Vega del Guadalquivir,Brenes,12697,37.5486335,-5.8719234,default
+Andalucía,Sevilla,Bajo Guadalquivir,Las Cabezas de San Juan,16514,36.9802873,-5.9383291,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Camas,26861,37.401173,-6.0321884,default
+Andalucía,Sevilla,Vega del Guadalquivir,Cantillana,10717,37.6109062,-5.8235168,default
+Andalucía,Sevilla,Campiña de Carmona,Carmona,28656,37.471274,-5.6418214,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Castilleja de la Cuesta,17459,37.3861591,-6.0550852,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Coria del Río,30358,37.2882628,-6.0533598,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Dos Hermanas,131317,37.2865803,-5.924239099999999,default
+Andalucía,Sevilla,Écija,Écija,40320,37.5414656,-5.0826742,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Espartinas,14909,37.3800349,-6.1328179,default
+Andalucía,Sevilla,Sierra Sur,Estepa,12716,37.2917592,-4.8792939,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Gines,13309,37.3873487,-6.0780749,default
+Andalucía,Sevilla,Sierra Norte de Sevilla,Guillena,12506,37.5429955,-6.056855199999999,default
+Andalucía,Sevilla,Bajo Guadalquivir,Lebrija,27449,36.9197889,-6.0758624,default
+Andalucía,Sevilla,Vega del Guadalquivir,Lora del Río,19328,37.6556349,-5.52761,default
+Andalucía,Sevilla,Campiña de Carmona,Mairena del Alcor,22749,37.3740447,-5.7484139,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Mairena del Aljarafe,44388,37.350923,-6.0520363,default
+Andalucía,Sevilla,Campiña de Morón y Marchena,Marchena,19878,37.3271048,-5.4162096,default
+Andalucía,Sevilla,Campiña de Morón y Marchena,Morón de la Frontera,28223,37.1211901,-5.4541928,default
+Andalucía,Sevilla,Sierra Sur,Osuna,17801,37.2373642,-5.1033081,default
+Andalucía,Sevilla,Bajo Guadalquivir,Los Palacios y Villafranca,38157,37.1584636,-5.9244808,default
+Andalucía,Sevilla,Aljarafe,Pilas,13987,37.3034383,-6.2986857,default
+Andalucía,Sevilla,Campiña de Morón y Marchena,La Puebla de Cazalla,11241,37.2223653,-5.314171399999999,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,La Puebla del Río,12114,37.2694065,-6.063133,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,La Rinconada,38180,37.4872681,-5.9816424,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,San Juan de Aznalfarache,21390,37.3592432,-6.0343054,default
+Andalucía,Sevilla,Aljarafe,Sanlúcar la Mayor,13451,37.3870837,-6.2017649,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Sevilla,693878,37.3890924,-5.9844589,default
+Andalucía,Sevilla,Área Metropolitana de Sevilla,Tomares,24743,37.375855,-6.0450059,default
+Andalucía,Sevilla,Bajo Guadalquivir,Utrera,52558,37.1848134,-5.7795147,default
+Andalucía,Sevilla,Campiña de Carmona,El Viso del Alcor,19149,37.3886862,-5.721781099999999,default
+Castilla y León,Soria,Soria,Soria,39168,41.7665972,-2.4790306,default
+Catalunya,Tarragona,El Montsià,Amposta,20952,40.7067997,0.5801695,default
+Catalunya,Tarragona,El Baix Penedès,Calafell,24256,41.1938386,1.5664556,default
+Catalunya,Tarragona,El Baix Camp,Cambrils,32915,41.0666754,1.0603606,default
+Catalunya,Tarragona,El Baix Penedès,Cunit,11883,41.1980207,1.628035,default
+Catalunya,Tarragona,El Baix Camp,Mont-roig del Camp,11877,41.0865513,0.9606138000000001,default
+Catalunya,Tarragona,El Baix Camp,Reus,103194,41.1498259,1.1055321,default
+Catalunya,Tarragona,El Montsià,Sant Carles de la Ràpita,14760,40.6204924,0.5896357,default
+Catalunya,Tarragona,El Tarragonès,Tarragona,131255,41.1188827,1.2444909,default
+Catalunya,Tarragona,El Tarragonès,Torredembarra,15371,41.14409670000001,1.4009454,default
+Catalunya,Tarragona,El Baix Ebre,Tortosa,33864,40.8125777,0.5214423,default
+Catalunya,Tarragona,Alt Camp,Valls,24321,41.2854449,1.2494589,default
+Catalunya,Tarragona,El Baix Penedès,El Vendrell,36558,41.2196699,1.534307,default
+Catalunya,Tarragona,El Tarragonès,Vila-seca,22332,41.1089174,1.1457729,default
+Catalunya,Tarragona,El Baix Ebre,Deltebre,11676,40.72123879999999,0.7176492,default
+Catalunya,Tarragona,El Tarragonès,Salou,26459,41.0777581,1.1315203,default
+Aragón,Teruel,Bajo Aragón,Alcañiz,16230,41.0510353,-0.1335373,default
+Aragón,Teruel,Teruel Community,Teruel,35590,40.3456879,-1.1064345,default
+Castilla-La Mancha,Toledo,Vega de Toledo,Bargas,10008,39.9399375,-4.0210189,default
+Castilla-La Mancha,Toledo,La Mancha,Consuegra,10437,39.4642436,-3.609117,default
+Castilla-La Mancha,Toledo,Torrijos,Fuensalida,11068,40.0510725,-4.2102716,default
+Castilla-La Mancha,Toledo,La Sagra,Illescas,25964,40.1262812,-3.8489895,default
+Castilla-La Mancha,Toledo,La Mancha,Madridejos,10876,39.47173830000001,-3.5332049,default
+Castilla-La Mancha,Toledo,Vega de Toledo,Mora,10077,39.6861673,-3.7714464,default
+Castilla-La Mancha,Toledo,Mesa de Ocaña,Ocaña,10795,39.9569147,-3.4982579,default
+Castilla-La Mancha,Toledo,La Mancha,Quintanar de la Orden,11604,39.59411559999999,-3.0400945,default
+Castilla-La Mancha,Toledo,La Sagra,Seseña,21558,40.1051029,-3.6927472,default
+Castilla-La Mancha,Toledo,Vega de Toledo,Sonseca,11289,39.6764458,-3.9754467,default
+Castilla-La Mancha,Toledo,Vega de Talavera de la Reina,Talavera de la Reina,85150,39.962884,-4.830453599999999,default
+Castilla-La Mancha,Toledo,Vega de Toledo,Toledo,83226,39.8628316,-4.027323099999999,default
+Castilla-La Mancha,Toledo,Torrijos,Torrijos,13273,39.9833124,-4.281145599999999,default
+Castilla-La Mancha,Toledo,La Mancha,Villacañas,10070,39.6247278,-3.3373237,default
+Castilla-La Mancha,Toledo,La Sagra,Yuncos,10607,40.0883936,-3.8731663,default
+Comunidad Valenciana,Valencia,L'Horta de València,Alaquàs,29838,39.4563374,-0.4598461,default
+Comunidad Valenciana,Valencia,L'Horta de València,Albal,16029,39.3963775,-0.4136962,default
+Comunidad Valenciana,Valencia,Ribera Alta,Alberic,10498,39.118077,-0.5222378999999999,default
+Comunidad Valenciana,Valencia,L'Horta de València,Alboraya,23819,39.4989552,-0.3510141,default
+Comunidad Valenciana,Valencia,Ribera Alta,Alzira,44554,39.1511854,-0.4333643,default
+Comunidad Valenciana,Valencia,Ribera Alta,L'Alcúdia,11691,39.1974843,-0.5045206,default
+Comunidad Valenciana,Valencia,L'Horta de València,Aldaia,31120,39.4650646,-0.461541,default
+Comunidad Valenciana,Valencia,L'Horta de València,Alfafar,21125,39.4169604,-0.4000294,default
+Comunidad Valenciana,Valencia,Ribera Alta,Algemesí,27633,39.1925693,-0.4337304,default
+Comunidad Valenciana,Valencia,Ribera Alta,Alginet,13144,39.2638755,-0.4702895,default
+Comunidad Valenciana,Valencia,Camp de Túria,Benaguasil,10936,39.5909456,-0.5896357,default
+Comunidad Valenciana,Valencia,L'Horta de València,Benetússer,14436,39.4240498,-0.397069,default
+Comunidad Valenciana,Valencia,Ribera Alta,Benifaió,11913,39.2854564,-0.4255562,default
+Comunidad Valenciana,Valencia,Camp de Túria,Bétera,22349,39.5915208,-0.4620313,default
+Comunidad Valenciana,Valencia,L'Horta de València,Burjassot,37546,39.5096699,-0.4135963,default
+Comunidad Valenciana,Valencia,Costera,Canals,13628,38.9622878,-0.5848192,default
+Comunidad Valenciana,Valencia,Ribera Alta,Carcaixent,20479,39.1201751,-0.4543496,default
+Comunidad Valenciana,Valencia,Ribera Alta,Carlet,15397,39.2272919,-0.5222378999999999,default
+Comunidad Valenciana,Valencia,L'Horta de València,Catarroja,27688,39.4038783,-0.4034584,default
+Comunidad Valenciana,Valencia,L'Horta de València,Quart de Poblet,24864,39.4825816,-0.4448669,default
+Comunidad Valenciana,Valencia,Ribera Baixa,Cullera,22236,39.1631959,-0.2537897,default
+Comunidad Valenciana,Valencia,L'Horta de València,Xirivella,28963,39.4657262,-0.4302873,default
+Comunidad Valenciana,Valencia,Hoya de Buñol,Chiva,15004,39.4726477,-0.7194028,default
+Comunidad Valenciana,Valencia,Camp de Túria,L'Eliana,17436,39.5666699,-0.5340538,default
+Comunidad Valenciana,Valencia,Safor,Gandia,75514,38.968032,-0.1844671,default
+Comunidad Valenciana,Valencia,L'Horta de València,Godella,13071,39.5232062,-0.4160527,default
+Comunidad Valenciana,Valencia,Costera,Xàtiva,29095,38.9899566,-0.5235474,default
+Comunidad Valenciana,Valencia,Camp de Túria,Llíria,22745,39.6274082,-0.5968562,default
+Comunidad Valenciana,Valencia,L'Horta de València,Manises,30807,39.4937868,-0.4635382999999999,default
+Comunidad Valenciana,Valencia,L'Horta de València,Massamagrell,15523,39.569999,-0.3336614,default
+Comunidad Valenciana,Valencia,L'Horta de València,Meliana,10588,39.5286011,-0.3477733,default
+Comunidad Valenciana,Valencia,L'Horta de València,Mislata,43320,39.4766346,-0.4184093,default
+Comunidad Valenciana,Valencia,L'Horta de València,Moncada,21842,39.5452518,-0.3960275,default
+Comunidad Valenciana,Valencia,Safor,Oliva,26190,38.9223758,-0.1237623,default
+Comunidad Valenciana,Valencia,Vall d'Albaida,Ontinyent,35621,38.8220593,-0.6063927,default
+Comunidad Valenciana,Valencia,L'Horta de València,Paiporta,24810,39.4274468,-0.4184093,default
+Comunidad Valenciana,Valencia,L'Horta de València,Paterna,67340,39.5037093,-0.4431618,default
+Comunidad Valenciana,Valencia,L'Horta de València,Picanya,11270,39.4351468,-0.4372669,default
+Comunidad Valenciana,Valencia,L'Horta de València,Picassent,20427,39.3637987,-0.4620313,default
+Comunidad Valenciana,Valencia,Camp de Túria,La Pobla de Vallbona,22994,39.5962965,-0.5517843000000001,default
+Comunidad Valenciana,Valencia,L'Horta de València,Puçol,19357,39.6163537,-0.3008938,default
+Comunidad Valenciana,Valencia,Utiel-Requena DO,Requena,20621,39.4890265,-1.0993366,default
+Comunidad Valenciana,Valencia,Camp de Túria,Riba-roja de Túria,21391,39.5455654,-0.5713001,default
+Comunidad Valenciana,Valencia,Camp de Morvedre,Sagunto,64944,39.6798633,-0.2784385,default
+Comunidad Valenciana,Valencia,L'Horta de València,Sedaví,10180,39.4245468,-0.3829931,default
+Comunidad Valenciana,Valencia,L'Horta de València,Silla,18570,39.3625923,-0.4120147,default
+Comunidad Valenciana,Valencia,Ribera Baixa,Sueca,28252,39.2033565,-0.3113278,default
+Comunidad Valenciana,Valencia,Safor,Tavernes de la Valldigna,17734,39.0733815,-0.2643516,default
+Comunidad Valenciana,Valencia,L'Horta de València,Torrent,80107,39.4322368,-0.472373,default
+Comunidad Valenciana,Valencia,Utiel-Requena DO,Utiel,11915,39.5694342,-1.203722,default
+Comunidad Valenciana,Valencia,L'Horta de València,Valencia,786189,39.4699075,-0.3762881,default
+Castilla y León,Valladolid,Campiña del Pisuerga,Arroyo de la Encomienda,18491,41.6126587,-4.7866615,default
+Castilla y León,Valladolid,Tierra de Pinares,Laguna de Duero,22601,41.5823975,-4.7215266,default
+Castilla y León,Valladolid,Tierra de Medina,Medina del Campo,21110,41.3081627,-4.9154767,default
+Castilla y León,Valladolid,,Valladolid,303905,41.652251,-4.724532099999999,default
+Euskadi,Bizkaia,Durangaldea,Amorebieta-Etxano,18736,43.2204692,-2.733068,default
+Euskadi,Bizkaia,Greater Bilbao,Arrigorriaga,12339,43.20974469999999,-2.8888912,default
+Euskadi,Bizkaia,Greater Bilbao,Barakaldo,100228,43.2969875,-2.9862029,default
+Euskadi,Bizkaia,Greater Bilbao,Basauri,41304,43.2353175,-2.8912652,default
+Euskadi,Bizkaia,Gernika-Bermeo,Bermeo,16947,43.4188248,-2.7269756,default
+Euskadi,Bizkaia,Greater Bilbao,Bilbao,345141,43.2630126,-2.9349852,default
+Euskadi,Bizkaia,Durangaldea,Durango,28899,43.1711864,-2.6313339,default
+Euskadi,Bizkaia,Greater Bilbao,Etxebarri,10881,43.25277370000001,-2.8834532,default
+Euskadi,Bizkaia,Durangaldea,Ermua,16048,43.1873519,-2.5037039,default
+Euskadi,Bizkaia,Greater Bilbao,Galdakao,29344,43.2313783,-2.8447524,default
+Euskadi,Bizkaia,Greater Bilbao,Getxo,78846,43.3387367,-3.0081319,default
+Euskadi,Bizkaia,Gernika-Bermeo,Gernika-Lumo,16763,43.311373,-2.6808403,default
+Euskadi,Bizkaia,Greater Bilbao,Leioa,30715,43.32670359999999,-2.990057,default
+Euskadi,Bizkaia,Plentzia-Mungia,Mungia,17131,43.3544186,-2.8467037,default
+Euskadi,Bizkaia,Greater Bilbao,Portugalete,46718,43.3182479,-3.0211969,default
+Euskadi,Bizkaia,Greater Bilbao,Valle de Trápaga-Trapagaran,12093,43.3049937,-3.0372333,default
+Euskadi,Bizkaia,Greater Bilbao,Santurtzi,46284,43.328128,-3.0336586,default
+Euskadi,Bizkaia,Greater Bilbao,Sestao,28052,43.3093903,-3.0072372,default
+Euskadi,Bizkaia,Plentzia-Mungia,Sopela,13211,43.3807336,-2.9816125,default
+Euskadi,Bizkaia,Greater Bilbao,Erandio,24234,43.3028593,-2.9756534,default
+Castilla y León,Zamora,Benavente y los Valles,Benavente,18550,42.0028837,-5.6784691,default
+Castilla y León,Zamora,Tierra del Pan,Zamora,63831,41.5034712,-5.7467879,default
+Aragón,Zaragoza,Comunidad de Calatayud,Calatayud,19724,41.3531678,-1.6468455,default
+Aragón,Zaragoza,Zaragoza,Cuarte de Huerva,12141,41.5962142,-0.9331147,default
+Aragón,Zaragoza,Cinco Villas,Ejea de los Caballeros,16754,42.1257236,-1.1365014,default
+Aragón,Zaragoza,Tarazona y el Moncayo,Tarazona,10759,41.90429719999999,-1.7222535,default
+Aragón,Zaragoza,Zaragoza,Utebo,18430,41.7087277,-0.9986737999999998,default
+Aragon,Zaragoza,Zaragoza,Zaragoza,664953,41.6488226,-0.8890853,default
+Ceuta,Ceuta,,Ceuta,84263,35.8893874,-5.3213455,default
+Melilla,Melilla,,Melilla,85584,35.2922775,-2.9380973,default
