@@ -3,9 +3,9 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Campo de Salamanca", "CityName": "Santa Marta de Tormes", "Population": 14970 }, "geometry": { "type": "Point", "coordinates": [ -5.6262751, 40.9497273 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Campo de Salamanca", "CityName": "Salamanca", "Population": 146438 }, "geometry": { "type": "Point", "coordinates": [ -5.6635397, 40.9701039 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "La Socampa", "CityName": "Ciudad Rodrigo", "Population": 13052 }, "geometry": { "type": "Point", "coordinates": [ -6.5307161, 40.5994005 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Sierra de Béjar", "CityName": "Béjar", "Population": 13724 }, "geometry": { "type": "Point", "coordinates": [ -5.7642172, 40.3871165 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Sierra de Béjar", "CityName": "Béjar", "Population": 13724, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -5.7642172, 40.3871165 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "La Socampa", "CityName": "Ciudad Rodrigo", "Population": 13052, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -6.5307161, 40.5994005 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Campo de Salamanca", "CityName": "Salamanca", "Population": 146438, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -5.6635397, 40.9701039 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Salamanca", "Admin3Name": "Campo de Salamanca", "CityName": "Santa Marta de Tormes", "Population": 14970, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -5.6262751, 40.9497273 ] } }
 ]
 }

@@ -3,6 +3,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Aragon", "DeptName": "Huesca", "Admin3Name": "Hoya de Huesca\/Plana de Uesca", "CityName": "Huesca", "Population": 52239 }, "geometry": { "type": "Point", "coordinates": [ -0.4078058, 42.131845 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Aragon", "DeptName": "Huesca", "Admin3Name": "Hoya de Huesca\/Plana de Uesca", "CityName": "Huesca", "Population": 52239, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.4078058, 42.131845 ] } }
 ]
 }

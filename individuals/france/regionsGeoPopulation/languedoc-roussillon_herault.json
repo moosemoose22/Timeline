@@ -3,15 +3,13 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Agde", "Population": 25253 }, "geometry": { "type": "Point", "coordinates": [ 3.4768109, 43.3088031 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Béziers", "Population": 74811 }, "geometry": { "type": "Point", "coordinates": [ 3.215795, 43.344233 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Castelnau-le-Lez", "Population": 17837 }, "geometry": { "type": "Point", "coordinates": [ 3.8975051, 43.6329827 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Frontignan", "Population": 22942 }, "geometry": { "type": "Point", "coordinates": [ 3.755999, 43.444815 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Lattes", "Population": 15748 }, "geometry": { "type": "Point", "coordinates": [ 3.896473, 43.567296 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Lunel", "Population": 25006 }, "geometry": { "type": "Point", "coordinates": [ 4.135366, 43.67445 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Mauguio", "Population": 16659 }, "geometry": { "type": "Point", "coordinates": [ 4.010165, 43.6154409 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Montpellier", "Population": 272084 }, "geometry": { "type": "Point", "coordinates": [ 3.876716, 43.610769 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Mèze", "Population": 10642 }, "geometry": { "type": "Point", "coordinates": [ 3.606834, 43.4255939 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Sète", "Population": 44270 }, "geometry": { "type": "Point", "coordinates": [ 3.7008219, 43.4078758 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Montpellier", "Population": 272084, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.876716, 43.610769 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Béziers", "Population": 74811, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.215795, 43.344233 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Sète", "Population": 44270, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.7008219, 43.4078758 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Agde", "Population": 25253, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.4768109, 43.3088031 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Lunel", "Population": 25006, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.135366, 43.67445 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Frontignan", "Population": 22942, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.755999, 43.444815 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Castelnau-le-Lez", "Population": 17837, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.8975051, 43.6329827 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Hérault", "CityName": "Lattes", "Population": 15748, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.896473, 43.567296 ] } }
 ]
 }

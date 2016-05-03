@@ -3,23 +3,11 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Amnéville", "Population": 10235 }, "geometry": { "type": "Point", "coordinates": [ 6.142912, 49.2599469 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Creutzwald", "Population": 13434 }, "geometry": { "type": "Point", "coordinates": [ 6.6962469, 49.204987 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Fameck", "Population": 13965 }, "geometry": { "type": "Point", "coordinates": [ 6.1025919, 49.304436 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Florange", "Population": 11689 }, "geometry": { "type": "Point", "coordinates": [ 6.118282, 49.321374 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Forbach", "Population": 21596 }, "geometry": { "type": "Point", "coordinates": [ 6.895295, 49.186515 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Freyming-Merlebach", "Population": 13278 }, "geometry": { "type": "Point", "coordinates": [ 6.811347, 49.146198 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Hayange", "Population": 15833 }, "geometry": { "type": "Point", "coordinates": [ 6.062166, 49.329827 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Maizières-lès-Metz", "Population": 11233 }, "geometry": { "type": "Point", "coordinates": [ 6.160064, 49.2102519 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Metz", "Population": 118634 }, "geometry": { "type": "Point", "coordinates": [ 6.1757156, 49.1193089 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Montigny-lès-Metz", "Population": 21831 }, "geometry": { "type": "Point", "coordinates": [ 6.147807, 49.099068 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Rombas", "Population": 10002 }, "geometry": { "type": "Point", "coordinates": [ 6.093352, 49.251254 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Saint-Avold", "Population": 16126 }, "geometry": { "type": "Point", "coordinates": [ 6.705793, 49.104408 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Sarrebourg", "Population": 12306 }, "geometry": { "type": "Point", "coordinates": [ 7.052587, 48.732663 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Sarreguemines", "Population": 21572 }, "geometry": { "type": "Point", "coordinates": [ 7.070862, 49.106031 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Stiring-Wendel", "Population": 12506 }, "geometry": { "type": "Point", "coordinates": [ 6.932073, 49.201512 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Thionville", "Population": 41627 }, "geometry": { "type": "Point", "coordinates": [ 6.168426, 49.357571 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Woippy", "Population": 13495 }, "geometry": { "type": "Point", "coordinates": [ 6.150998, 49.150918 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Yutz", "Population": 15898 }, "geometry": { "type": "Point", "coordinates": [ 6.200101, 49.357276 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Metz", "Population": 118634, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.1757156, 49.1193089 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Thionville", "Population": 41627, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.168426, 49.357571 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Montigny-lès-Metz", "Population": 21831, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.147807, 49.099068 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Forbach", "Population": 21596, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.895295, 49.186515 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Sarreguemines", "Population": 21572, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.070862, 49.106031 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Maizières-lès-Metz", "Population": 11233, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.160064, 49.2102519 ] } }
 ]
 }

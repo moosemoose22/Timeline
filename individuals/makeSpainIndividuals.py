@@ -20,11 +20,11 @@ myDict = {}
 counter = 0
 for i in spain_cities_list:
 	#print (strip_accents(i[1]) + "_" + strip_accents(i[3]))
-	filename = strip_accents(i[1]) + "_" + strip_accents(i[3])
+	filename = strip_accents(i[0]) + "_" + strip_accents(i[1])
 	filename = filename.replace(" ", "_")
 	filename = filename.replace("'", "_")
 	filename = filename.lower()
 	print (i[1].replace("'", "\\'"))
-	subprocess.call(['ogr2ogr', '-f', 'GeoJSON', '-where', "RegionName='" + i[1].replace("'", "\\'") + "' and DeptName='" + i[3].replace("'", "\\'") + "'", 'spain/regionsGeoPopulation/' + filename + '.json', 'allspain.geo.json'])
+	subprocess.call(['ogr2ogr', '-f', 'GeoJSON', '-where', "RegionName='" + i[0].replace("'", "\\'") + "' and DeptName='" + i[1].replace("'", "\\'") + "'", 'spain/regionsGeoPopulation/' + filename + '.json', 'allspain.geo.json'])
 	#sys.exit()
 	counter += 1

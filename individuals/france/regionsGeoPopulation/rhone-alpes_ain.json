@@ -3,6 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Ain", "CityName": "Bourg-en-Bresse", "Population": 40490, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.2255007, 46.2051675 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Ain", "CityName": "Oyonnax", "Population": 22258, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.655335, 46.257773 ] } }
 ]
 }

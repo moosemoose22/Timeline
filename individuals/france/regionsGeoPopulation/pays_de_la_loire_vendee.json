@@ -3,6 +3,13 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "La Roche-sur-Yon", "Population": 52732, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.426442, 46.670511 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Challans", "Population": 19501, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.880412, 46.844828 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Les Herbiers", "Population": 15933, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.013388, 46.86919 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Olonne-sur-Mer", "Population": 14299, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.772826, 46.536402 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Les Sables-d'Olonne", "Population": 14253, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.795493, 46.492958 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Fontenay-le-Comte", "Population": 13647, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.8065, 46.465972 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Château-d'Olonne", "Population": 13593, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.738692, 46.50436 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Vendee", "CityName": "Saint-Hilaire-de-Riez", "Population": 11169, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.945917, 46.720204 ] } }
 ]
 }

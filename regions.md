@@ -1,5 +1,6 @@
 How to get data for all the regions
 ------
+##### Introduction  
 This page assumes that you've installed ogr2ogr, orginfo (which should come with ogr2ogr), and topojson.
 
 To learn more about those applications, check out this tutorial:  
@@ -17,16 +18,36 @@ Note that when drawing the larger map, we called --simplify-proportion when crea
 We decided to redraw each region once they've been clicked on and the zoom has finished.  
 We also want to show additional cities with the zoomed-in view.
 
-Here's how we did this:  
-First we need to create per-subregion GEOjson for the area and the cities.  
-Run [individuals/makeFranceIndividuals.py](individuals/makeFranceIndividuals.py) and [individuals/makeSpainIndividuals.py](individuals/makeSpainIndividuals.py)   
-This creates individual GEOjson files for each subregion for cities.  
-The files [individuals/allfrance.geo.json](individuals/allfrance.geo.json) and [individuals/allspain.geo.json](individuals/allspain.geo.json) were created from [insee](http://www.insee.fr/fr/default.asp) (France) and [ine](http://ine.es/) (Spain) data.  
-We then got lat/long data from google for the extra cities.  
-We had all the data converted from a csv on http://www.convertcsv.com.  
-Note that for Spain, we needed to convert some of the region names from English/non local-language names to the local-language name for the region.
-We did that in [rawdata/ine/fixRegionNames.py](rawdata/ine/fixRegionNames.py)
 
+##### Get a bunch of cities for France/Spain  
+For France, we went to http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/default.asp and downloaded the link for "Historique des populations par commune depuis 1962".  
+We opened it in LibreOfficeCalc (you could use Excel or any spreadsheet program), copied columns F and G, and saved them as [rawdata/insee/HIST_POP_COM_RP13.csv](rawdata/insee/HIST_POP_COM_RP13.csv).  
+We sorted it by population in LibreOfficeCalc.  I then grabbed cities with a population of over 10000 and saved it as [rawdata/insee/HIST_POP_COM_RP13.csv](rawdata/insee/HIST_POP_COM_RP13.csv).  
+We then got lat/long data from google for the extra cities by running and [rawdata/insee/getDataGoogle.py](rawdata/insee/getDataGoogle.py).  
+The result was saved as [rawdata/insee/outputNewFranceInseeWithLatLng.csv](rawdata/insee/outputNewFranceInseeWithLatLng.csv).  
+
+For Spain, it was [rawdata/ine/outputSpainIneOver1000.csv](rawdata/ine/outputSpainIneOver1000.csv).  
+We then got lat/long data from google for the extra cities by running and [rawdata/insee/getDataGoogle.py](rawdata/insee/getDataGoogle.py).  
+For Spain we got [rawdata/ine/outputSpainIneWithLatLng.csv](rawdata/ine/outputSpainIneWithLatLng.csv) from [ine](http://ine.es/).  
+For Spain, the cities had numbers attached to them. You can remove them by running [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py).  
+We then got lat/long data from google for the extra cities by running and [rawdata/ine/getDataGoogle.py](rawdata/ine/getDataGoogle.py).  
+The result was saved as [rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv).  
+[rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv) had a bunch of English names in them. I did some manual corrections to them with search/replace.
+
+##### Post-processing and converting to topojson for France/Spain  
+At this point, we need to add a column for city text direction override. This means that we can manually set whether a city name is on the left of its dot or the right.  
+We ran [rawdata/addCityNameLoc.py](rawdata/addCityNameLoc.py) to add "default" to the end of the data.
+
+[comment]: <> (Note that for Spain, we needed to convert some of the region names from English/non local-language names to the local-language name for the region.)
+[comment]: <> (We did that in [rawdata/ine/fixRegionNames.py](rawdata/ine/fixRegionNames.py).)
+
+We had all the data converted from a csv on http://www.convertcsv.com.  
+I named the output [individuals/allfrance.geo.json](individuals/allfrance.geo.json) and [individuals/allspain.geo.json](individuals/allspain.geo.json).  
+
+We need to break this large file up into the individual population geojson files per region.  
+We did this by running [individuals/makeFranceIndividuals.py](individuals/makeFranceIndividuals.py) and [individuals/makeSpainIndividuals.py](individuals/makeSpainIndividuals.py).  
+
+Now we want to combine the population topojson we have with the data that'll draw each subregion.  
 Here's how we created individual GEOjson files per region:  
 We read in each region from the admin2 gadm data, then read in the area of every admin2 region and admin3 region from the admin3 gadm data:  
 From [individuals/france](individuals/france)  
@@ -45,7 +66,9 @@ ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*
 From [individuals/spain](individuals/spain)  
 ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}  
 
-Note that in the bash script for Spain, we need to convert some of the names.
+Note that in the bash script for Spain, we need to convert some of the names.  
+You should also get some topojson errors for ceuta_y_melilla and islas_canarias for spain.  
+Since those aren't promiment on our map (Tenerife isn't on the map at all currently), I haven't dealt with them yet.
 
 Finally, please note that the admin3 data for Spain is mostly missing. The admin3 region names are often "n.a. (*counter*).  
 Yuo can see  a list of all remaining missing regions by running [updateESPmissingAdm3/findAdm3.js](updateESPmissingAdm3/findAdm3.js).  
@@ -59,10 +82,11 @@ We got data for all cities with over 1000 people from http://www.ine.es/nomen2/c
 We then removed all the cities we already have by running [rawdata/ine/reduceOver1000.py](rawdata/ine/reduceOver1000.py).  
 We then got the latitude and longitude for these cities by running [rawdata/ine/getDataGoogle1000To10000.py](rawdata/ine/getDataGoogle1000To10000.py). Note that the google map APIs have a limit of 2500 queries you can make in a day for free. The script assumes that if you don't get a response of OK, you hit that limit. You'll need to continue the next day. The script has logic to pick up where you left off.  
 We went to http://www.convertcsv.com to make GEOjson out of the data we had [rawdata/ine/outputNewSpainIneWithLatLng1000To10000_latest.csv](rawdata/ine/outputNewSpainIneWithLatLng1000To10000_latest.csv).  
-We created GEOjson for each region by running [updateESPmissingAdm3/makeSpainIndividualsOver1000.py](updateESPmissingAdm3/makeSpainIndividualsOver1000.py)  
-We then ran the same script we did before to copy admin3 data from these cities to the region data [updateESPmissingAdm3/findAdm3.js](updateESPmissingAdm3/findAdm3.js).  
+We created GEOjson for each region by running [updateESPmissingAdm3/makeSpainIndividualsOver1000.py](updateESPmissingAdm3/makeSpainIndividualsOver1000.py).  
+We then ran the same script we did before to copy admin3 data from these cities to the region data [updateESPmissingAdm3/updateAdm3.js](updateESPmissingAdm3/updateAdm3.js).  
 
-For Andorra: we did it by hand since it's so small.  
+##### Andorra  
+We did it by hand since it's so small.  
 We created the GEOjson for the area by running this:  
 ogr2ogr   -f GeoJSON   AND_adm1.json  AND_adm1.shp  
 We then googled for the population data of the biggest cities in Andorra.  We created [rawdata/andorra.csv](rawdata/andorra.csv), and got the lat/long information for it either from http://www.latlong.net or from google map APIs.  

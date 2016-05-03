@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Vosges", "CityName": "Saint-Dié-des-Vosges", "Population": 20471 }, "geometry": { "type": "Point", "coordinates": [ 6.947767, 48.2874679 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Vosges", "CityName": "Épinal", "Population": 32188 }, "geometry": { "type": "Point", "coordinates": [ 6.449403, 48.172402 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Vosges", "CityName": "Épinal", "Population": 32188, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.449403, 48.172402 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Vosges", "CityName": "Saint-Dié-des-Vosges", "Population": 20471, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.947767, 48.2874679 ] } }
 ]
 }

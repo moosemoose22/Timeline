@@ -3,11 +3,11 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "A Limia", "CityName": "Xinzo de Limia", "Population": 10043 }, "geometry": { "type": "Point", "coordinates": [ -7.7259471, 42.0631102 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "O Carballiño", "CityName": "O Carballiño", "Population": 13999 }, "geometry": { "type": "Point", "coordinates": [ -8.0775086, 42.4316551 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Ourense", "CityName": "Ourense", "Population": 106231 }, "geometry": { "type": "Point", "coordinates": [ -7.863881, 42.335789299999988 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Ourense", "CityName": "Barbadás", "Population": 10463 }, "geometry": { "type": "Point", "coordinates": [ -7.8871273, 42.2981451 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Valdeorras", "CityName": "O Barco de Valdeorras", "Population": 13785 }, "geometry": { "type": "Point", "coordinates": [ -6.9855705, 42.4164275 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Verín", "CityName": "Verín", "Population": 14107 }, "geometry": { "type": "Point", "coordinates": [ -7.4349526, 41.9402591 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Ourense", "CityName": "Barbadás", "Population": 10463, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -7.8871273, 42.2981451 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Valdeorras", "CityName": "O Barco de Valdeorras", "Population": 13785, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -6.9855705, 42.4164275 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "O Carballiño", "CityName": "O Carballiño", "Population": 13999, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -8.0775086, 42.4316551 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "A Limia", "CityName": "Xinzo de Limia", "Population": 10043, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -7.7259471, 42.0631102 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Ourense", "CityName": "Ourense", "Population": 106231, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -7.863881, 42.335789299999988 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Galicia", "DeptName": "Ourense", "Admin3Name": "Verín", "CityName": "Verín", "Population": 14107, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -7.4349526, 41.9402591 ] } }
 ]
 }

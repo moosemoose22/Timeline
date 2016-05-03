@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Vienne", "CityName": "Châtellerault", "Population": 31262 }, "geometry": { "type": "Point", "coordinates": [ 0.548146, 46.816487 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Vienne", "CityName": "Poitiers", "Population": 87427 }, "geometry": { "type": "Point", "coordinates": [ 0.340375, 46.580224 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Vienne", "CityName": "Poitiers", "Population": 87427, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.340375, 46.580224 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Vienne", "CityName": "Châtellerault", "Population": 31262, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.548146, 46.816487 ] } }
 ]
 }

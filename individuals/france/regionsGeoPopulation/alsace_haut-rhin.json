@@ -3,15 +3,8 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Cernay", "Population": 11664 }, "geometry": { "type": "Point", "coordinates": [ 7.176532, 47.807124 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Guebwiller", "Population": 11322 }, "geometry": { "type": "Point", "coordinates": [ 7.209336, 47.911586 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Illzach", "Population": 14870 }, "geometry": { "type": "Point", "coordinates": [ 7.346867, 47.781287 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Kingersheim", "Population": 12720 }, "geometry": { "type": "Point", "coordinates": [ 7.334499, 47.789641 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Mulhouse", "Population": 112063 }, "geometry": { "type": "Point", "coordinates": [ 7.335888, 47.750839 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Riedisheim", "Population": 11962 }, "geometry": { "type": "Point", "coordinates": [ 7.368599, 47.749709 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Rixheim", "Population": 13750 }, "geometry": { "type": "Point", "coordinates": [ 7.396834, 47.744376 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Saint-Louis", "Population": 19907 }, "geometry": { "type": "Point", "coordinates": [ 7.563934, 47.5859949 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Wittelsheim", "Population": 10562 }, "geometry": { "type": "Point", "coordinates": [ 7.240593, 47.809194 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Wittenheim", "Population": 14666 }, "geometry": { "type": "Point", "coordinates": [ 7.339439, 47.81077 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Mulhouse", "Population": 112063, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.335888, 47.750839 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Kingersheim", "Population": 12720, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.334499, 47.789641 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Cernay", "Population": 11664, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.176532, 47.807124 ] } }
 ]
 }

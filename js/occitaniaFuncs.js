@@ -8,7 +8,6 @@ function convertRegionName(regionname)
 	var convertRegionObj = {};
 	convertRegionObj["pais_vasco"] = "euskadi";
 	convertRegionObj["comunidad_foral_de_navarra"] = "navarra";
-	convertRegionObj["principado_de_asturias"] = "asturias";
 	convertRegionObj["ceuta_y_melilla"] = "ceuta";
 	convertRegionObj["cataluna"] = "catalunya";
 	convertRegionObj["castile_and_leon"] = "castilla_y_leon";

@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Castilla-La Mancha", "DeptName": "Cuenca", "Admin3Name": "La Mancha", "CityName": "Tarancón", "Population": 14922 }, "geometry": { "type": "Point", "coordinates": [ -3.0074463, 40.0105152 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Castilla-La Mancha", "DeptName": "Cuenca", "Admin3Name": "Serranía de Cuenca", "CityName": "Cuenca", "Population": 55428 }, "geometry": { "type": "Point", "coordinates": [ -2.1374162, 40.0703925 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Castilla-La Mancha", "DeptName": "Cuenca", "Admin3Name": "Serranía de Cuenca", "CityName": "Cuenca", "Population": 55428, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.1374162, 40.0703925 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Castilla-La Mancha", "DeptName": "Cuenca", "Admin3Name": "La Mancha", "CityName": "Tarancón", "Population": 14922, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -3.0074463, 40.0105152 ] } }
 ]
 }

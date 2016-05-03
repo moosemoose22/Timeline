@@ -1,421 +1,906 @@
-Île-de-France,Paris,Paris,2229621,48.856614,2.3522219
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Marseille,855393,43.296482,5.36978
-Rhone-Alpes,Rhône,Lyon,500715,45.764043,4.835659
-Midi-Pyrénées,Haute-Garonne,Toulouse,458298,43.604652,1.444209
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Nice,342295,43.7101728,7.2619532
-Pays de la Loire,Loire-Atlantique,Nantes,292718,47.218371,-1.553621
-Alsace,Bas-Rhin,Strasbourg,275718,48.5734053,7.7521113
-Languedoc-Roussillon,Hérault,Montpellier,272084,43.610769,3.876716
-Aquitaine,Gironde,Bordeaux,243626,44.837789,-0.57918
-Nord-Pas-de-Calais,Nord,Lille,231491,50.62925,3.057256
-Brittany,Ille-et-Vilaine,Rennes,211373,48.117266,-1.6777926
-Champagne-Ardenne,Marne,Reims,182592,49.258329,4.031696
-Upper Normandy,Seine-Maritime,Le Havre,172074,49.49437,0.107929
-Rhone-Alpes,Loire,Saint-Étienne,172023,45.439695,4.3871779
-Provence-Alpes-Côte d'Azur,Var,Toulon,163760,43.124228,5.928
-Rhone-Alpes,Isere,Grenoble,160215,45.188529,5.724524
-Burgundy,Côte-d'Or,Dijon,153003,47.322047,5.04148
-Languedoc-Roussillon,Gard,Nîmes,150564,43.836699,4.360054
-Pays de la Loire,Maine-et-Loire,Angers,150125,47.478419,-0.563166
-Rhone-Alpes,Rhône,Villeurbanne,147192,45.771944,4.8901709
-Pays de la Loire,Sarthe,Le Mans,144244,48.00611,0.199556
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Aix-en-Provence,141545,43.529742,5.447427
-Auvergne,Puy-de-Dome,Clermont-Ferrand,141463,45.777222,3.087025
-Brittany,Finistere,Brest,139386,48.390394,-4.486076
-Limousin,Haute-Vienne,Limoges,135098,45.833619,1.261105
-Centre,Indre-et-Loire,Tours,134803,47.394144,0.68484
-Picardy,Somme,Amiens,132699,49.894067,2.295753
-Languedoc-Roussillon,Pyrénées-Orientales,Perpignan,120959,42.6886591,2.8948332
-Lorraine,Moselle,Metz,118634,49.1193089,6.1757156
-Franche-Comté,Doubs,Besançon,116952,47.237829,6.0240539
-Île-de-France,Hauts-de-Seine,Boulogne-Billancourt,116794,48.8396952,2.2399123
-Centre,Loiret,Orléans,114375,47.902964,1.909251
-Alsace,Haut-Rhin,Mulhouse,112063,47.750839,7.335888
-Upper Normandy,Seine-Maritime,Rouen,110755,49.443232,1.099971
-Île-de-France,Seine-Saint-Denis,Saint-Denis,109343,48.936181,2.357443
-Lower Normandy,Calvados,Caen,107229,49.182863,-0.370679
-Île-de-France,Val-d'Oise,Argenteuil,106817,48.9472096,2.2466847
-Île-de-France,Seine-Saint-Denis,Montreuil,104139,48.863812,2.448451
-Lorraine,Meurthe-et-Moselle,Nancy,104072,48.692054,6.184417
-Nord-Pas-de-Calais,Nord,Roubaix,95866,50.6927049,3.177847
-Nord-Pas-de-Calais,Nord,Tourcoing,93974,50.724993,3.16207
-Île-de-France,Hauts-de-Seine,Nanterre,92227,48.892423,2.215331
-Provence-Alpes-Côte d'Azur,Vaucluse,Avignon,90305,43.949317,4.805528
-Île-de-France,Val-de-Marne,Vitry-sur-Seine,90075,48.792001,2.39851
-Île-de-France,Val-de-Marne,Créteil,89989,48.790367,2.455572
-Nord-Pas-de-Calais,Nord,Dunkerque,89882,51.0343684,2.3767763
-Poitou-Charentes,Vienne,Poitiers,87427,46.580224,0.340375
-Île-de-France,Hauts-de-Seine,Asnières-sur-Seine,86020,48.914155,2.285369
-Île-de-France,Hauts-de-Seine,Courbevoie,85523,48.900552,2.25929
-Île-de-France,Yvelines,Versailles,85272,48.801408,2.130122
-Île-de-France,Hauts-de-Seine,Colombes,84577,48.9220615,2.2533313
-Île-de-France,Seine-Saint-Denis,Aulnay-sous-Bois,82634,48.9412151,2.4970711
-Île-de-France,Hauts-de-Seine,Rueil-Malmaison,79762,48.882767,2.17693
-Aquitaine,Pyrénées-Atlantiques,Pau,77575,43.2951,-0.370797
-Île-de-France,Seine-Saint-Denis,Aubervilliers,77452,48.912259,2.384049
-Île-de-France,Val-de-Marne,Champigny-sur-Marne,75961,48.817049,2.515556
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Antibes,75456,43.580418,7.125102
-Languedoc-Roussillon,Hérault,Béziers,74811,43.344233,3.215795
-Poitou-Charentes,Charente-Maritime,La Rochelle,74344,46.160329,-1.151139
-Île-de-France,Val-de-Marne,Saint-Maur-des-Fossés,74133,48.8029439,2.485429
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Cannes,73325,43.552847,7.017369
-Nord-Pas-de-Calais,Pas-de-Calais,Calais,72520,50.95129,1.858686
-Pays de la Loire,Loire-Atlantique,Saint-Nazaire,68513,47.2734979,-2.213848
-Aquitaine,Gironde,Mérignac,68386,44.8448769,-0.656358
-Île-de-France,Seine-Saint-Denis,Drancy,68241,48.924298,2.445676
-Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Colmar,67956,48.0793589,7.358512
-Corsica,Corse-du-Sud,Ajaccio,67507,41.919229,8.738635
-Centre,Cher,Bourges,67189,47.081012,2.398782
-Île-de-France,Hauts-de-Seine,Issy-les-Moulineaux,65662,48.8245306,2.2743419
-Île-de-France,Hauts-de-Seine,Levallois-Perret,65264,48.893217,2.287864
-Provence-Alpes-Côte d'Azur,Var,La Seyne-sur-Mer,64523,43.102976,5.878219
-Brittany,Finistere,Quimper,63532,47.997542,-4.097899
-Île-de-France,Seine-Saint-Denis,Noisy-le-Grand,62834,48.848579,2.55261
-Nord-Pas-de-Calais,Nord,Villeneuve-d'Ascq,62616,50.6232523,3.1442651
-Île-de-France,Hauts-de-Seine,Neuilly-sur-Seine,62346,48.884831,2.26851
-Rhone-Alpes,Drome,Valence,61767,44.933393,4.89236
-Île-de-France,Hauts-de-Seine,Antony,61727,48.759255,2.302553
-Île-de-France,Val-d'Oise,Cergy,61708,49.035617,2.060325
-Rhone-Alpes,Rhône,Vénissieux,61636,45.699594,4.8844649
-Aquitaine,Gironde,Pessac,60763,44.80583,-0.630386
-Champagne-Ardenne,Aube,Troyes,59671,48.2973451,4.0744009
-Île-de-France,Hauts-de-Seine,Clichy,59255,48.904526,2.304768
-Île-de-France,Val-de-Marne,Ivry-sur-Seine,58933,48.813055,2.38822
-Rhone-Alpes,Savoie,Chambéry,58653,45.564601,5.917781
-Brittany,Morbihan,Lorient,57961,47.7482524,-3.3702449
-Midi-Pyrénées,Tarn-et-Garonne,Montauban,57921,44.0221252,1.3529599
-Île-de-France,Val-d'Oise,Sarcelles,57533,48.997347,2.378493
-Poitou-Charentes,Deux-Sevres,Niort,57393,46.323716,-0.464777
-Île-de-France,Val-de-Marne,Villejuif,57184,48.792716,2.359279
-Provence-Alpes-Côte d'Azur,Var,Hyères,55713,43.120541,6.128639
-Picardy,Aisne,Saint-Quentin,55698,49.847066,3.2874
-Picardy,Oise,Beauvais,55252,49.4295387,2.0807123
-Île-de-France,Seine-Saint-Denis,Épinay-sur-Seine,54857,48.955735,2.314739
-Île-de-France,Val-de-Marne,Maisons-Alfort,54470,48.801148,2.429443
-Pays de la Loire,Maine-et-Loire,Cholet,53890,47.059407,-0.879787
-Île-de-France,Seine-et-Marne,Meaux,53766,48.9562018,2.8884657
-Île-de-France,Seine-et-Marne,Chelles,53569,48.877535,2.59016
-Île-de-France,Seine-Saint-Denis,Pantin,53471,48.894533,2.40963
-Île-de-France,Essonne,Évry,53237,48.629828,2.441782
-Île-de-France,Val-de-Marne,Fontenay-sous-Bois,53124,48.851542,2.475907
-Provence-Alpes-Côte d'Azur,Var,Fréjus,53039,43.433152,6.737034
-Brittany,Morbihan,Vannes,53032,47.658236,-2.760847
-Île-de-France,Seine-Saint-Denis,Bondy,52865,48.906008,2.481875
-Languedoc-Roussillon,Aude,Narbonne,52802,43.184277,3.003078
-Île-de-France,Seine-Saint-Denis,Le Blanc-Mesnil,52797,48.941345,2.46436
-Pays de la Loire,Vendee,La Roche-sur-Yon,52732,46.670511,-1.426442
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Arles,52566,43.676647,4.6277769
-Île-de-France,Hauts-de-Seine,Clamart,52203,48.799815,2.257289
-Rhone-Alpes,Haute-Savoie,Annecy,52029,45.899247,6.129384
-Île-de-France,Yvelines,Sartrouville,51599,48.941106,2.158431
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Grasse,50916,43.660153,6.926492
-Pays de la Loire,Mayenne,Laval,50479,48.0785146,-0.7669906
-Franche-Comté,Territoire de Belfort,Belfort,50196,47.639674,6.863849
-Île-de-France,Seine-Saint-Denis,Bobigny,49802,48.908612,2.439712
-Upper Normandy,Eure,Évreux,49722,49.0270129,1.151361
-Île-de-France,Val-de-Marne,Vincennes,49695,48.847759,2.4394969
-Île-de-France,Hauts-de-Seine,Montrouge,49656,48.816363,2.317384
-Île-de-France,Seine-Saint-Denis,Sevran,49465,48.93897,2.538716
-Midi-Pyrénées,Tarn,Albi,49342,43.9250853,2.1486413
-Champagne-Ardenne,Ardennes,Charleville-Mézières,48991,49.762085,4.726096
-Île-de-France,Hauts-de-Seine,Suresnes,48066,48.869798,2.219033
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Martigues,47904,43.404811,5.053728
-Île-de-France,Essonne,Corbeil-Essonnes,47632,48.6102599,2.474805
-Île-de-France,Seine-Saint-Denis,Saint-Ouen,47534,48.911856,2.333764
-Aquitaine,Pyrénées-Atlantiques,Bayonne,47492,43.492949,-1.474841
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Cagnes-sur-Mer,46940,43.663739,7.14882
-Limousin,Correze,Brive-la-Gaillarde,46794,45.159555,1.533937
-Languedoc-Roussillon,Aude,Carcassonne,46724,43.212161,2.353663
-Île-de-France,Essonne,Massy,45902,48.730756,2.27137
-Centre,Loir-et-Cher,Blois,45539,47.5860921,1.3359475
-Brittany,Cotes-d'Armor,Saint-Brieuc,45331,48.51418,-2.765835
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Aubagne,45303,43.2926781,5.5676425
-Centre,Indre,Châteauroux,45209,46.811434,1.686779
-Burgundy,Saône-et-Loire,Chalon-sur-Saône,45166,46.780764,4.853947
-Île-de-France,Yvelines,Mantes-la-Jolie,45052,48.989323,1.714958
-Île-de-France,Hauts-de-Seine,Meudon,45043,48.812995,2.23847
-Brittany,Ille-et-Vilaine,Saint-Malo,44919,48.649337,-2.025674
-Champagne-Ardenne,Marne,Châlons-en-Champagne,44899,48.956682,4.363073
-Île-de-France,Val-de-Marne,Alfortville,44818,48.80093,2.422317
-Languedoc-Roussillon,Hérault,Sète,44270,43.4078758,3.7008219
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Salon-de-Provence,44263,43.640199,5.097022
-Rhone-Alpes,Rhône,Vaulx-en-Velin,44087,45.782029,4.922661
-Île-de-France,Hauts-de-Seine,Puteaux,43891,48.884748,2.23964
-Île-de-France,Seine-Saint-Denis,Rosny-sous-Bois,43802,48.875661,2.485932
-Pays de la Loire,Loire-Atlantique,Saint-Herblain,43784,47.210335,-1.651444
-Île-de-France,Hauts-de-Seine,Gennevilliers,43219,48.925525,2.293275
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Le Cannet,43187,43.576551,7.01902
-Île-de-France,Seine-Saint-Denis,Livry-Gargan,43099,48.91923,2.536118
-Rhone-Alpes,Rhône,Saint-Priest,42950,45.698938,4.947071
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Istres,42937,43.513006,4.987968
-Nord-Pas-de-Calais,Nord,Valenciennes,42851,50.357113,3.518332
-Île-de-France,Val-de-Marne,Choisy-le-Roi,42769,48.762541,2.4088759
-Rhone-Alpes,Rhône,Caluire-et-Cuire,42581,45.79681,4.842426
-Nord-Pas-de-Calais,Pas-de-Calais,Boulogne-sur-Mer,42537,50.725231,1.613334
-Corsica,Haute-Corse,Bastia,42254,42.697283,9.450881
-Poitou-Charentes,Charente,Angoulême,41970,45.648377,0.1562369
-Île-de-France,Val-d'Oise,Garges-lès-Gonesse,41782,48.97178,2.400724
-Midi-Pyrénées,Tarn,Castres,41636,43.606214,2.241295
-Lorraine,Moselle,Thionville,41627,49.357571,6.168426
-Nord-Pas-de-Calais,Nord,Wattrelos,41522,50.701174,3.215007
-Aquitaine,Gironde,Talence,41517,44.802614,-0.588054
-Nord-Pas-de-Calais,Nord,Douai,41189,50.367874,3.080602
-Île-de-France,Seine-Saint-Denis,Noisy-le-Sec,41125,48.892489,2.458625
-Midi-Pyrénées,Hautes-Pyrénées,Tarbes,41062,43.232951,0.078082
-Nord-Pas-de-Calais,Pas-de-Calais,Arras,40830,50.291002,2.777535
-Languedoc-Roussillon,Gard,Alès,40711,44.127204,4.083352
-Île-de-France,Seine-Saint-Denis,La Courneuve,40678,48.9320252,2.3990819
-Rhone-Alpes,Ain,Bourg-en-Bresse,40490,46.2051675,5.2255007
-Picardy,Oise,Compiègne,40430,49.417816,2.826145
-Provence-Alpes-Côte d'Azur,Hautes-Alpes,Gap,40255,44.559638,6.079758
-Île-de-France,Seine-et-Marne,Melun,40066,48.542105,2.6554
-Pays de la Loire,Loire-Atlantique,Rezé,39568,47.190616,-1.569382
-Île-de-France,Yvelines,Saint-Germain-en-Laye,39547,48.898908,2.093761
-Nord-Pas-de-Calais,Nord,Marcq-en-Baroeul,39392,50.670368,3.096267
-Île-de-France,Seine-Saint-Denis,Gagny,39276,48.8849159,2.536518
-Aquitaine,Pyrénées-Atlantiques,Anglet,39184,43.481402,-1.514699
-Provence-Alpes-Côte d'Azur,Var,Draguignan,39174,43.5377269,6.464993
-Centre,Eure-et-Loir,Chartres,38840,48.443854,1.489012
-Rhone-Alpes,Rhône,Bron,38746,45.733316,4.911927
-Île-de-France,Hauts-de-Seine,Bagneux,38520,48.796696,2.31002
-Midi-Pyrénées,Haute-Garonne,Colomiers,38302,43.612189,1.336579
-Rhone-Alpes,Isere,Saint-Martin-d'Hères,38019,45.165133,5.767761
-Île-de-France,Seine-et-Marne,Pontault-Combault,37847,48.801255,2.607598
-Auvergne,Allier,Montluçon,37839,46.3415466,2.6019912
-Centre,Indre-et-Loire,Joué-lès-Tours,37703,47.351861,0.6613099
-Île-de-France,Yvelines,Poissy,37461,48.929584,2.046982
-Île-de-France,Essonne,Savigny-sur-Orge,37206,48.6851259,2.349282
-Lower Normandy,Manche,Cherbourg-Octeville,37055,49.6337308,-1.622137
-Rhone-Alpes,Drome,Montélimar,36643,44.556944,4.749496
-Rhone-Alpes,Rhône,Villefranche-sur-Saône,36531,45.991471,4.718821
-Île-de-France,Seine-Saint-Denis,Stains,36365,48.955387,2.384703
-Île-de-France,Seine-Saint-Denis,Bagnolet,35984,48.870364,2.4234589
-Auvergne,Allier,Châtillon,35964,46.471854,3.131439
-Île-de-France,Essonne,Sainte-Geneviève-des-Bois,35868,48.6408416,2.3259213
-Rhone-Alpes,Isere,Échirolles,35684,45.142151,5.718034
-Rhone-Alpes,Loire,Roanne,35507,46.034432,4.072695
-Île-de-France,Seine-Saint-Denis,Villepinte,35329,48.960226,2.542867
-Rhone-Alpes,Loire,Saint-Chamond,35308,45.476088,4.5127119
-Île-de-France,Yvelines,Conflans-Sainte-Honorine,35213,49.000275,2.09178
-Burgundy,Yonne,Auxerre,34869,47.798202,3.573781
-Burgundy,Nievre,Nevers,34841,46.990896,3.162845
-Île-de-France,Seine-Saint-Denis,Neuilly-sur-Marne,34756,48.856898,2.528373
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,La Ciotat,34655,43.173653,5.605155
-Île-de-France,Seine-Saint-Denis,Tremblay-en-France,34614,48.979952,2.557211
-Rhone-Alpes,Haute-Savoie,Thonon-les-Bains,34610,46.373565,6.477635
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Vitrolles,34493,43.458598,5.249703
-Alsace,Bas-Rhin,Haguenau,34419,48.813288,7.79125
-Provence-Alpes-Côte d'Azur,Var,Six-Fours-les-Plages,34387,43.093062,5.839225
-Aquitaine,Lot-et-Garonne,Agen,34344,44.203142,0.616363
-Picardy,Oise,Creil,34262,49.2576872,2.4783913
-Rhone-Alpes,Haute-Savoie,Annemasse,34261,46.193253,6.234158
-Provence-Alpes-Côte d'Azur,Var,Saint-Raphaël,34005,43.42519,6.76837
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Marignane,33986,43.4212739,5.218332
-Rhone-Alpes,Drome,Romans-sur-Isère,33632,45.044236,5.052735
-Île-de-France,Yvelines,Montigny-le-Bretonneux,33625,48.7738734,2.0360157
-Île-de-France,Val-de-Marne,Le Perreux-sur-Marne,33480,48.841386,2.504038
-Île-de-France,Val-d'Oise,Franconville,33375,48.986011,2.229632
-Burgundy,Saône-et-Loire,Mâcon,33350,46.3068839,4.828731
-Nord-Pas-de-Calais,Nord,Cambrai,32852,50.173538,3.236633
-Île-de-France,Hauts-de-Seine,Châtenay-Malabry,32623,48.771896,2.270748
-Île-de-France,Val-de-Marne,Villeneuve-Saint-Georges,32575,48.7305769,2.447488
-Île-de-France,Yvelines,Houilles,32287,48.926916,2.18888
-Lorraine,Vosges,Épinal,32188,48.172402,6.449403
-Nord-Pas-de-Calais,Pas-de-Calais,Lens,31647,50.42893,2.83183
-Nord-Pas-de-Calais,Pas-de-Calais,Liévin,31517,50.417921,2.775222
-Île-de-France,Yvelines,Les Mureaux,31487,48.990181,1.912178
-Alsace,Bas-Rhin,Schiltigheim,31450,48.605226,7.748453
-Rhone-Alpes,Rhône,Meyzieu,31438,45.766821,5.003658
-Centre,Eure-et-Loir,Dreux,31373,48.736134,1.370889
-Île-de-France,Val-de-Marne,Nogent-sur-Marne,31367,48.837631,2.481699
-Île-de-France,Yvelines,Plaisir,31342,48.817223,1.949075
-Aquitaine,Landes,Mont-de-Marsan,31334,43.893485,-0.499782
-Île-de-France,Essonne,Palaiseau,31264,48.714509,2.245748
-Poitou-Charentes,Vienne,Châtellerault,31262,46.816487,0.548146
-Île-de-France,Val-d'Oise,Goussainville,31212,49.030467,2.471236
-Île-de-France,Val-de-Marne,L'Haÿ-les-Roses,31201,48.7789659,2.338084
-Île-de-France,Essonne,Viry-Châtillon,31132,48.666218,2.375902
-Île-de-France,Essonne,Vigneux-sur-Seine,31126,48.700094,2.416924
-Île-de-France,Yvelines,Trappes,30979,48.776731,2.001844
-Île-de-France,Yvelines,Chatou,30809,48.896391,2.160098
-Île-de-France,Seine-Saint-Denis,Clichy-sous-Bois,30725,48.910899,2.546147
-Aquitaine,Gironde,Villenave-d'Ornon,30663,44.7799813,-0.5672574
-Rhone-Alpes,Rhône,Rillieux-la-Pape,30645,45.819655,4.897126
-Nord-Pas-de-Calais,Nord,Maubeuge,30567,50.280228,3.9674
-Île-de-France,Val-de-Marne,Charenton-le-Pont,30408,48.8193107,2.4162805
-Île-de-France,Hauts-de-Seine,Malakoff,30304,48.817275,2.2977599
-Upper Normandy,Seine-Maritime,Dieppe,30214,49.922992,1.077483
-Île-de-France,Essonne,Athis-Mons,30094,48.7092979,2.38479
-Île-de-France,Seine-et-Marne,Savigny-le-Temple,30068,48.59586,2.580987
-Aquitaine,Dordogne,Périgueux,30036,45.184029,0.7211149
-Lorraine,Meurthe-et-Moselle,Vandoeuvre-lès-Nancy,29836,48.661118,6.17376
-Île-de-France,Val-d'Oise,Pontoise,29826,49.050966,2.100645
-Rhone-Alpes,Savoie,Aix-les-Bains,29580,45.692341,5.908998
-Île-de-France,Val-de-Marne,Cachan,29462,48.791855,2.331433
-Rhone-Alpes,Isere,Vienne,29325,45.525587,4.874339
-Île-de-France,Val-de-Marne,Thiais,29280,48.760344,2.387405
-Provence-Alpes-Côte d'Azur,Vaucluse,Orange,29193,44.1380989,4.807511
-Aquitaine,Gironde,Saint-Médard-en-Jalles,29178,44.895295,-0.7181
-Île-de-France,Seine-Saint-Denis,Villemomble,29165,48.886727,2.505069
-Île-de-France,Hauts-de-Seine,Saint-Cloud,29109,48.847647,2.208115
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Saint-Laurent-du-Var,28891,43.673417,7.189811
-Île-de-France,Essonne,Yerres,28797,48.712858,2.490967
-Upper Normandy,Seine-Maritime,Saint-Étienne-du-Rouvray,28738,49.380305,1.108209
-Upper Normandy,Seine-Maritime,Sotteville-lès-Rouen,28704,49.41725,1.095407
-Île-de-France,Essonne,Draveil,28687,48.685388,2.408154
-Île-de-France,Yvelines,Le Chesnay,28640,48.825415,2.130544
-Île-de-France,Hauts-de-Seine,Bois-Colombes,28561,48.917402,2.269675
-Île-de-France,Hauts-de-Seine,Le Plessis-Robinson,28500,48.780426,2.266257
-Île-de-France,Hauts-de-Seine,La Garenne-Colombes,28498,48.906535,2.244085
-Nord-Pas-de-Calais,Nord,Lambersart,28491,50.652468,3.026676
-Picardy,Aisne,Soissons,28472,49.376636,3.32342
-Île-de-France,Seine-Saint-Denis,Pierrefitte-sur-Seine,28459,48.967903,2.364077
-Provence-Alpes-Côte d'Azur,Vaucluse,Carpentras,28422,44.0555639,5.048722
-Île-de-France,Val-de-Marne,Villiers-sur-Marne,28190,48.825787,2.546798
-Île-de-France,Hauts-de-Seine,Vanves,28170,48.822484,2.288405
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Menton,28100,43.774481,7.49754
-Aquitaine,Dordogne,Bergerac,28063,44.853806,0.483392
-Île-de-France,Val-d'Oise,Ermont,28021,48.989071,2.258451
-Île-de-France,Val-d'Oise,Bezons,27855,48.925687,2.215847
-Île-de-France,Essonne,Grigny,27716,48.656473,2.385166
-Île-de-France,Yvelines,Guyancourt,27546,48.762895,2.075323
-Pays de la Loire,Maine-et-Loire,Saumur,27413,47.260135,-0.080893
-Île-de-France,Val-d'Oise,Herblay,27378,48.990006,2.165493
-Île-de-France,Essonne,Ris-Orangis,27312,48.645663,2.410451
-Île-de-France,Val-d'Oise,Villiers-le-Bel,27312,49.007379,2.387981
-Rhone-Alpes,Isere,Bourgoin-Jallieu,27163,45.597108,5.27212
-Centre,Cher,Vierzon,27113,47.221438,2.069791
-Rhone-Alpes,Rhône,Décines-Charpieu,26826,45.7674499,4.957024
-Nord-Pas-de-Calais,Pas-de-Calais,Hénin-Beaumont,26748,50.420087,2.94728
-Île-de-France,Val-de-Marne,Fresnes,26645,48.757205,2.326243
-Auvergne,Cantal,Aurillac,26572,44.930953,2.444997
-Île-de-France,Val-d'Oise,Sannois,26557,48.970782,2.256869
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Vallauris,26465,43.577244,7.055041
-Alsace,Bas-Rhin,Illkirch-Graffenstaden,26455,48.52854,7.711011
-Lower Normandy,Orne,Alençon,26350,48.432856,0.091266
-Île-de-France,Yvelines,Élancourt,26290,48.782907,1.960077
-Midi-Pyrénées,Haute-Garonne,Tournefeuille,26206,43.5829,1.346834
-Aquitaine,Gironde,Bègles,26104,44.812023,-0.543784
-Île-de-France,Val-d'Oise,Gonesse,26075,48.9864632,2.4497721
-Rhone-Alpes,Rhône,Oullins,26072,45.711926,4.80066
-Île-de-France,Essonne,Brunoy,26066,48.698071,2.504543
-Île-de-France,Val-d'Oise,Taverny,25998,49.027441,2.223507
-Nord-Pas-de-Calais,Nord,Armentières,25978,50.691652,2.884218
-Île-de-France,Seine-Saint-Denis,Montfermeil,25945,48.902029,2.570773
-Île-de-France,Yvelines,Rambouillet,25926,48.643868,1.829079
-Île-de-France,Seine-et-Marne,Villeparisis,25889,48.938315,2.614385
-Île-de-France,Val-de-Marne,Le Kremlin-Bicêtre,25863,48.810108,2.356972
-Île-de-France,Val-de-Marne,Sucy-en-Brie,25849,48.7708784,2.5221629
-Franche-Comté,Doubs,Montbéliard,25697,47.510356,6.798466
-Île-de-France,Seine-Saint-Denis,Romainville,25657,48.886112,2.435048
-Provence-Alpes-Côte d'Azur,Vaucluse,Cavaillon,25636,43.8366045,5.0407814
-Champagne-Ardenne,Haute-Marne,Saint-Dizier,25626,48.637692,4.947418
-Île-de-France,Essonne,Brétigny-sur-Orge,25624,48.611486,2.30604
-Pays de la Loire,Loire-Atlantique,Saint-Sébastien-sur-Loire,25610,47.205376,-1.503103
-Poitou-Charentes,Charente-Maritime,Saintes,25601,45.744175,-0.633389
-Aquitaine,Gironde,La Teste-de-Buch,25587,44.631077,-1.148224
-Île-de-France,Hauts-de-Seine,Villeneuve-la-Garenne,25466,48.936616,2.324789
-Nord-Pas-de-Calais,Pas-de-Calais,Béthune,25463,50.531036,2.63926
-Île-de-France,Seine-et-Marne,Bussy-Saint-Georges,25419,48.842205,2.69802
-Auvergne,Allier,Vichy,25325,46.131859,3.425488
-Provence-Alpes-Côte d'Azur,Var,La Garde,25298,43.128777,6.017199
-Languedoc-Roussillon,Hérault,Agde,25253,43.3088031,3.4768109
-Picardy,Aisne,Laon,25219,49.564133,3.61989
-Burgundy,Yonne,Sens,25018,48.20065,3.28268
-Languedoc-Roussillon,Hérault,Lunel,25006,43.67445,4.135366
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Miramas,25002,43.588896,5.002136
-Aquitaine,Pyrénées-Atlantiques,Biarritz,24993,43.4831519,-1.558626
-Upper Normandy,Seine-Maritime,Le Grand-Quevilly,24967,49.411811,1.041384
-Pays de la Loire,Loire-Atlantique,Orvault,24922,47.274344,-1.619405
-Île-de-France,Essonne,Les Ulis,24914,48.6792779,2.16647
-Île-de-France,Seine-et-Marne,Champs-sur-Marne,24913,48.852775,2.602651
-Poitou-Charentes,Charente-Maritime,Rochefort,24761,45.936698,-0.961697
-Midi-Pyrénées,Haute-Garonne,Muret,24725,43.461574,1.33071
-Île-de-France,Val-d'Oise,Eaubonne,24606,48.992128,2.2779189
-Île-de-France,Essonne,Étampes,24502,48.434416,2.16142
-Aquitaine,Gironde,Gradignan,24439,44.774267,-0.618945
-Upper Normandy,Eure,Vernon,24064,49.091958,1.488107
-Aquitaine,Gironde,Libourne,23947,44.912998,-0.243985
-Picardy,Somme,Abbeville,23821,50.105467,1.836833
-Midi-Pyrénées,Aveyron,Rodez,23741,44.349389,2.575986
-Île-de-France,Val-d'Oise,Saint-Ouen-l'Aumône,23702,49.04313,2.105287
-Île-de-France,Seine-et-Marne,Torcy,23669,48.850572,2.654472
-Île-de-France,Essonne,Montgeron,23565,48.703859,2.4604529
-Aquitaine,Lot-et-Garonne,Villeneuve-sur-Lot,23462,44.4082053,0.7072568
-Île-de-France,Val-d'Oise,Cormeilles-en-Parisis,23419,48.973526,2.201292
-Champagne-Ardenne,Marne,Épernay,23413,49.043411,3.956242
-Île-de-France,Hauts-de-Seine,Sèvres,23404,48.8212407,2.2109771
-Franche-Comté,Jura,Dole,23312,47.09534,5.49081
-Aquitaine,Gironde,Le Bouscat,23207,44.865164,-0.59944
-Île-de-France,Yvelines,Maisons-Laffitte,23194,48.947545,2.1423899
-Midi-Pyrénées,Haute-Garonne,Blagnac,22969,43.635087,1.39703
-Languedoc-Roussillon,Hérault,Frontignan,22942,43.444815,3.755999
-Aquitaine,Gironde,Cenon,22882,44.857738,-0.530906
-Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Mandelieu-la-Napoule,22864,43.546232,6.938309
-Pays de la Loire,Loire-Atlantique,Vertou,22820,47.168194,-1.473378
-Île-de-France,Seine-Saint-Denis,Les Lilas,22819,48.881935,2.419452
-Île-de-France,Val-de-Marne,Limeil-Brévannes,22816,48.7461849,2.492154
-Nord-Pas-de-Calais,Pas-de-Calais,Bruay-la-Buissière,22802,50.483113,2.543206
-Île-de-France,Seine-Saint-Denis,Les Pavillons-sous-Bois,22680,48.90852,2.504403
-Champagne-Ardenne,Haute-Marne,Chaumont,22560,48.113748,5.1392559
-Île-de-France,Seine-et-Marne,Roissy-en-Brie,22559,48.7904005,2.656802
-Upper Normandy,Seine-Maritime,Le Petit-Quevilly,22426,49.429895,1.054325
-Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Manosque,22412,43.835744,5.790916
-Île-de-France,Val-de-Marne,Saint-Mandé,22398,48.842832,2.4178639
-Île-de-France,Hauts-de-Seine,Fontenay-aux-Roses,22378,48.789776,2.287181
-Île-de-France,Val-de-Marne,Orly,22377,48.745193,2.401373
-Burgundy,Saône-et-Loire,Le Creusot,22308,46.805351,4.4278
-Rhone-Alpes,Ain,Oyonnax,22258,46.257773,5.655335
-Nord-Pas-de-Calais,Nord,La Madeleine,22243,50.654836,3.073511
-Midi-Pyrénées,Aveyron,Millau,22205,44.100575,3.077801
-Île-de-France,Seine-et-Marne,Combs-la-Ville,22086,48.66602,2.55769
-Rhone-Alpes,Isere,Fontaine,22066,45.192754,5.688211
-Île-de-France,Val-d'Oise,Deuil-la-Barre,22031,48.975751,2.3272339
-Nord-Pas-de-Calais,Nord,Coudekerque-Branche,22015,51.015681,2.397046
-Midi-Pyrénées,Gers,Auch,21962,43.64638,0.586709
-Brittany,Morbihan,Lanester,21874,47.763494,-3.347354
-Burgundy,Côte-d'Or,Beaune,21838,47.02603,4.840004
-Lorraine,Moselle,Montigny-lès-Metz,21831,49.099068,6.147807
-Aquitaine,Gironde,Eysines,21762,44.885793,-0.648815
-Nord-Pas-de-Calais,Nord,Hazebrouck,21737,50.72748,2.542555
-Île-de-France,Essonne,Longjumeau,21657,48.6930642,2.2947615
-Rhone-Alpes,Rhône,Sainte-Foy-lès-Lyon,21646,45.735237,4.804827
-Lorraine,Moselle,Forbach,21596,49.186515,6.895295
-Lorraine,Moselle,Sarreguemines,21572,49.106031,7.070862
-Nord-Pas-de-Calais,Nord,Mons-en-Baroeul,21513,50.642006,3.107673
-Provence-Alpes-Côte d'Azur,Var,La Valette-du-Var,21463,43.13824,5.9875844
-Lower Normandy,Calvados,Hérouville-Saint-Clair,21393,49.20358,-0.333655
-Île-de-France,Essonne,Morsang-sur-Orge,21377,48.661766,2.345709
-Nord-Pas-de-Calais,Nord,Grande-Synthe,21364,51.013547,2.302577
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Allauch,21276,43.336148,5.4825739
-Île-de-France,Yvelines,La Celle-Saint-Cloud,21264,48.849766,2.132504
-Lower Normandy,Calvados,Lisieux,21132,49.145922,0.227849
-Nord-Pas-de-Calais,Nord,Croix,21114,50.67732,3.148719
-Rhone-Alpes,Rhône,Tassin-la-Demi-Lune,21102,45.761337,4.776921
-Île-de-France,Seine-et-Marne,Dammarie-les-Lys,21094,48.515451,2.634831
-Île-de-France,Yvelines,Vélizy-Villacoublay,20997,48.787899,2.190408
-Nord-Pas-de-Calais,Nord,Wasquehal,20990,50.669276,3.130782
-Île-de-France,Val-d'Oise,Saint-Gratien,20933,48.970259,2.286571
-Nord-Pas-de-Calais,Nord,Halluin,20915,50.782824,3.127845
-Île-de-France,Seine-Saint-Denis,Neuilly-Plaisance,20840,48.865205,2.509142
-Île-de-France,Val-d'Oise,Montmorency,20796,48.989778,2.321878
-Aquitaine,Landes,Dax,20776,43.708608,-1.051945
-Aquitaine,Gironde,Lormont,20770,44.880163,-0.523108
-Île-de-France,Seine-et-Marne,Lagny-sur-Marne,20718,48.87296,2.713016
-Île-de-France,Seine-et-Marne,Le Mée-sur-Seine,20713,48.534031,2.632122
-Rhone-Alpes,Rhône,Saint-Genis-Laval,20696,45.691999,4.792768
-Centre,Loiret,Fleury-les-Aubrais,20677,47.931513,1.920754
-Nord-Pas-de-Calais,Nord,Loos,20650,50.615139,3.017729
-Île-de-France,Essonne,Gif-sur-Yvette,20631,48.701844,2.134078
-Nord-Pas-de-Calais,Nord,Denain,20549,50.328225,3.397325
-Île-de-France,Val-de-Marne,Villeneuve-le-Roi,20481,48.732026,2.407557
-Lorraine,Vosges,Saint-Dié-des-Vosges,20471,48.2874679,6.947767
-Centre,Loiret,Olivet,20458,47.865408,1.897565
-Île-de-France,Val-d'Oise,Montigny-lès-Cormeilles,20307,48.987412,2.187929
-Aquitaine,Gironde,Gujan-Mestras,20294,44.635731,-1.071189
-Île-de-France,Yvelines,Mantes-la-Ville,20251,48.978154,1.713371
-Brittany,Ille-et-Vilaine,Fougères,20170,48.3515609,-1.204626
-Rhone-Alpes,Haute-Savoie,Annecy-le-Vieux,20166,45.9192139,6.1419499
-Pays de la Loire,Loire-Atlantique,Couëron,20084,47.210999,-1.72885
-Île-de-France,Essonne,Saint-Michel-sur-Orge,20057,48.63264,2.312884
-Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Les Pennes-Mirabeau,20018,43.410272,5.308922
+Île-de-France,Paris,Paris,2229621,48.856614,2.3522219,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Marseille,855393,43.296482,5.36978,default
+Rhone-Alpes,Rhône,Lyon,500715,45.764043,4.835659,default
+Midi-Pyrénées,Haute-Garonne,Toulouse,458298,43.604652,1.444209,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Nice,342295,43.7101728,7.2619532,default
+Pays de la Loire,Loire-Atlantique,Nantes,292718,47.218371,-1.553621,default
+Alsace,Bas-Rhin,Strasbourg,275718,48.5734053,7.7521113,default
+Languedoc-Roussillon,Hérault,Montpellier,272084,43.610769,3.876716,default
+Aquitaine,Gironde,Bordeaux,243626,44.837789,-0.57918,default
+Nord-Pas-de-Calais,Nord,Lille,231491,50.62925,3.057256,default
+Brittany,Ille-et-Vilaine,Rennes,211373,48.117266,-1.6777926,default
+Champagne-Ardenne,Marne,Reims,182592,49.258329,4.031696,default
+Upper Normandy,Seine-Maritime,Le Havre,172074,49.49437,0.107929,default
+Rhone-Alpes,Loire,Saint-Étienne,172023,45.439695,4.3871779,default
+Provence-Alpes-Côte d'Azur,Var,Toulon,163760,43.124228,5.928,default
+Rhone-Alpes,Isere,Grenoble,160215,45.188529,5.724524,default
+Burgundy,Côte-d'Or,Dijon,153003,47.322047,5.04148,default
+Languedoc-Roussillon,Gard,Nîmes,150564,43.836699,4.360054,default
+Pays de la Loire,Maine-et-Loire,Angers,150125,47.478419,-0.563166,default
+Rhone-Alpes,Rhône,Villeurbanne,147192,45.771944,4.8901709,default
+Pays de la Loire,Sarthe,Le Mans,144244,48.00611,0.199556,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Aix-en-Provence,141545,43.529742,5.447427,default
+Auvergne,Puy-de-Dome,Clermont-Ferrand,141463,45.777222,3.087025,default
+Brittany,Finistere,Brest,139386,48.390394,-4.486076,default
+Limousin,Haute-Vienne,Limoges,135098,45.833619,1.261105,default
+Centre,Indre-et-Loire,Tours,134803,47.394144,0.68484,default
+Picardy,Somme,Amiens,132699,49.894067,2.295753,default
+Languedoc-Roussillon,Pyrénées-Orientales,Perpignan,120959,42.6886591,2.8948332,default
+Lorraine,Moselle,Metz,118634,49.1193089,6.1757156,default
+Franche-Comté,Doubs,Besançon,116952,47.237829,6.0240539,default
+Île-de-France,Hauts-de-Seine,Boulogne-Billancourt,116794,48.8396952,2.2399123,default
+Centre,Loiret,Orléans,114375,47.902964,1.909251,default
+Alsace,Haut-Rhin,Mulhouse,112063,47.750839,7.335888,default
+Upper Normandy,Seine-Maritime,Rouen,110755,49.443232,1.099971,default
+Île-de-France,Seine-Saint-Denis,Saint-Denis,109343,48.936181,2.357443,default
+Lower Normandy,Calvados,Caen,107229,49.182863,-0.370679,default
+Île-de-France,Val-d'Oise,Argenteuil,106817,48.9472096,2.2466847,default
+Île-de-France,Seine-Saint-Denis,Montreuil,104139,48.863812,2.448451,default
+Lorraine,Meurthe-et-Moselle,Nancy,104072,48.692054,6.184417,default
+Nord-Pas-de-Calais,Nord,Roubaix,95866,50.6927049,3.177847,default
+Nord-Pas-de-Calais,Nord,Tourcoing,93974,50.724993,3.16207,default
+Île-de-France,Hauts-de-Seine,Nanterre,92227,48.892423,2.215331,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Avignon,90305,43.949317,4.805528,default
+Île-de-France,Val-de-Marne,Vitry-sur-Seine,90075,48.792001,2.39851,default
+Île-de-France,Val-de-Marne,Créteil,89989,48.790367,2.455572,default
+Nord-Pas-de-Calais,Nord,Dunkerque,89882,51.0343684,2.3767763,default
+Poitou-Charentes,Vienne,Poitiers,87427,46.580224,0.340375,default
+Île-de-France,Hauts-de-Seine,Asnières-sur-Seine,86020,48.914155,2.285369,default
+Île-de-France,Hauts-de-Seine,Courbevoie,85523,48.900552,2.25929,default
+Île-de-France,Yvelines,Versailles,85272,48.801408,2.130122,default
+Île-de-France,Hauts-de-Seine,Colombes,84577,48.9220615,2.2533313,default
+Île-de-France,Seine-Saint-Denis,Aulnay-sous-Bois,82634,48.9412151,2.4970711,default
+Île-de-France,Hauts-de-Seine,Rueil-Malmaison,79762,48.882767,2.17693,default
+Aquitaine,Pyrénées-Atlantiques,Pau,77575,43.2951,-0.370797,default
+Île-de-France,Seine-Saint-Denis,Aubervilliers,77452,48.912259,2.384049,default
+Île-de-France,Val-de-Marne,Champigny-sur-Marne,75961,48.817049,2.515556,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Antibes,75456,43.580418,7.125102,default
+Languedoc-Roussillon,Hérault,Béziers,74811,43.344233,3.215795,default
+Poitou-Charentes,Charente-Maritime,La Rochelle,74344,46.160329,-1.151139,default
+Île-de-France,Val-de-Marne,Saint-Maur-des-Fossés,74133,48.8029439,2.485429,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Cannes,73325,43.552847,7.017369,default
+Nord-Pas-de-Calais,Pas-de-Calais,Calais,72520,50.95129,1.858686,default
+Pays de la Loire,Loire-Atlantique,Saint-Nazaire,68513,47.2734979,-2.213848,default
+Aquitaine,Gironde,Mérignac,68386,44.8448769,-0.656358,default
+Île-de-France,Seine-Saint-Denis,Drancy,68241,48.924298,2.445676,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Colmar,67956,48.0793589,7.358512,default
+Corsica,Corse-du-Sud,Ajaccio,67507,41.919229,8.738635,default
+Centre,Cher,Bourges,67189,47.081012,2.398782,default
+Île-de-France,Hauts-de-Seine,Issy-les-Moulineaux,65662,48.8245306,2.2743419,default
+Île-de-France,Hauts-de-Seine,Levallois-Perret,65264,48.893217,2.287864,default
+Provence-Alpes-Côte d'Azur,Var,La Seyne-sur-Mer,64523,43.102976,5.878219,default
+Brittany,Finistere,Quimper,63532,47.997542,-4.097899,default
+Île-de-France,Seine-Saint-Denis,Noisy-le-Grand,62834,48.848579,2.55261,default
+Nord-Pas-de-Calais,Nord,Villeneuve-d'Ascq,62616,50.6232523,3.1442651,default
+Île-de-France,Hauts-de-Seine,Neuilly-sur-Seine,62346,48.884831,2.26851,default
+Rhone-Alpes,Drome,Valence,61767,44.933393,4.89236,default
+Île-de-France,Hauts-de-Seine,Antony,61727,48.759255,2.302553,default
+Île-de-France,Val-d'Oise,Cergy,61708,49.035617,2.060325,default
+Rhone-Alpes,Rhône,Vénissieux,61636,45.699594,4.8844649,default
+Aquitaine,Gironde,Pessac,60763,44.80583,-0.630386,default
+Champagne-Ardenne,Aube,Troyes,59671,48.2973451,4.0744009,default
+Île-de-France,Hauts-de-Seine,Clichy,59255,48.904526,2.304768,default
+Île-de-France,Val-de-Marne,Ivry-sur-Seine,58933,48.813055,2.38822,default
+Rhone-Alpes,Savoie,Chambéry,58653,45.564601,5.917781,default
+Brittany,Morbihan,Lorient,57961,47.7482524,-3.3702449,default
+Midi-Pyrénées,Tarn-et-Garonne,Montauban,57921,44.0221252,1.3529599,default
+Île-de-France,Val-d'Oise,Sarcelles,57533,48.997347,2.378493,default
+Poitou-Charentes,Deux-Sevres,Niort,57393,46.323716,-0.464777,default
+Île-de-France,Val-de-Marne,Villejuif,57184,48.792716,2.359279,default
+Provence-Alpes-Côte d'Azur,Var,Hyères,55713,43.120541,6.128639,default
+Picardy,Aisne,Saint-Quentin,55698,49.847066,3.2874,default
+Picardy,Oise,Beauvais,55252,49.4295387,2.0807123,default
+Île-de-France,Seine-Saint-Denis,Épinay-sur-Seine,54857,48.955735,2.314739,default
+Île-de-France,Val-de-Marne,Maisons-Alfort,54470,48.801148,2.429443,default
+Pays de la Loire,Maine-et-Loire,Cholet,53890,47.059407,-0.879787,default
+Île-de-France,Seine-et-Marne,Meaux,53766,48.9562018,2.8884657,default
+Île-de-France,Seine-et-Marne,Chelles,53569,48.877535,2.59016,default
+Île-de-France,Seine-Saint-Denis,Pantin,53471,48.894533,2.40963,default
+Île-de-France,Essonne,Évry,53237,48.629828,2.441782,default
+Île-de-France,Val-de-Marne,Fontenay-sous-Bois,53124,48.851542,2.475907,default
+Provence-Alpes-Côte d'Azur,Var,Fréjus,53039,43.433152,6.737034,default
+Brittany,Morbihan,Vannes,53032,47.658236,-2.760847,default
+Île-de-France,Seine-Saint-Denis,Bondy,52865,48.906008,2.481875,default
+Languedoc-Roussillon,Aude,Narbonne,52802,43.184277,3.003078,default
+Île-de-France,Seine-Saint-Denis,Le Blanc-Mesnil,52797,48.941345,2.46436,default
+Pays de la Loire,Vendee,La Roche-sur-Yon,52732,46.670511,-1.426442,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Arles,52566,43.676647,4.6277769,default
+Île-de-France,Hauts-de-Seine,Clamart,52203,48.799815,2.257289,default
+Rhone-Alpes,Haute-Savoie,Annecy,52029,45.899247,6.129384,default
+Île-de-France,Yvelines,Sartrouville,51599,48.941106,2.158431,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Grasse,50916,43.660153,6.926492,default
+Pays de la Loire,Mayenne,Laval,50479,48.0785146,-0.7669906,default
+Franche-Comté,Territoire de Belfort,Belfort,50196,47.639674,6.863849,default
+Île-de-France,Seine-Saint-Denis,Bobigny,49802,48.908612,2.439712,default
+Upper Normandy,Eure,Évreux,49722,49.0270129,1.151361,default
+Île-de-France,Val-de-Marne,Vincennes,49695,48.847759,2.4394969,default
+Île-de-France,Hauts-de-Seine,Montrouge,49656,48.816363,2.317384,default
+Île-de-France,Seine-Saint-Denis,Sevran,49465,48.93897,2.538716,default
+Midi-Pyrénées,Tarn,Albi,49342,43.9250853,2.1486413,default
+Champagne-Ardenne,Ardennes,Charleville-Mézières,48991,49.762085,4.726096,default
+Île-de-France,Hauts-de-Seine,Suresnes,48066,48.869798,2.219033,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Martigues,47904,43.404811,5.053728,default
+Île-de-France,Essonne,Corbeil-Essonnes,47632,48.6102599,2.474805,default
+Île-de-France,Seine-Saint-Denis,Saint-Ouen,47534,48.911856,2.333764,default
+Aquitaine,Pyrénées-Atlantiques,Bayonne,47492,43.492949,-1.474841,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Cagnes-sur-Mer,46940,43.663739,7.14882,default
+Limousin,Correze,Brive-la-Gaillarde,46794,45.159555,1.533937,default
+Languedoc-Roussillon,Aude,Carcassonne,46724,43.212161,2.353663,default
+Île-de-France,Essonne,Massy,45902,48.730756,2.27137,default
+Centre,Loir-et-Cher,Blois,45539,47.5860921,1.3359475,default
+Brittany,Cotes-d'Armor,Saint-Brieuc,45331,48.51418,-2.765835,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Aubagne,45303,43.2926781,5.5676425,default
+Centre,Indre,Châteauroux,45209,46.811434,1.686779,default
+Burgundy,Saône-et-Loire,Chalon-sur-Saône,45166,46.780764,4.853947,default
+Île-de-France,Yvelines,Mantes-la-Jolie,45052,48.989323,1.714958,default
+Île-de-France,Hauts-de-Seine,Meudon,45043,48.812995,2.23847,default
+Brittany,Ille-et-Vilaine,Saint-Malo,44919,48.649337,-2.025674,default
+Champagne-Ardenne,Marne,Châlons-en-Champagne,44899,48.956682,4.363073,default
+Île-de-France,Val-de-Marne,Alfortville,44818,48.80093,2.422317,default
+Languedoc-Roussillon,Hérault,Sète,44270,43.4078758,3.7008219,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Salon-de-Provence,44263,43.640199,5.097022,default
+Rhone-Alpes,Rhône,Vaulx-en-Velin,44087,45.782029,4.922661,default
+Île-de-France,Hauts-de-Seine,Puteaux,43891,48.884748,2.23964,default
+Île-de-France,Seine-Saint-Denis,Rosny-sous-Bois,43802,48.875661,2.485932,default
+Pays de la Loire,Loire-Atlantique,Saint-Herblain,43784,47.210335,-1.651444,default
+Île-de-France,Hauts-de-Seine,Gennevilliers,43219,48.925525,2.293275,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Le Cannet,43187,43.576551,7.01902,default
+Île-de-France,Seine-Saint-Denis,Livry-Gargan,43099,48.91923,2.536118,default
+Rhone-Alpes,Rhône,Saint-Priest,42950,45.698938,4.947071,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Istres,42937,43.513006,4.987968,default
+Nord-Pas-de-Calais,Nord,Valenciennes,42851,50.357113,3.518332,default
+Île-de-France,Val-de-Marne,Choisy-le-Roi,42769,48.762541,2.4088759,default
+Rhone-Alpes,Rhône,Caluire-et-Cuire,42581,45.79681,4.842426,default
+Nord-Pas-de-Calais,Pas-de-Calais,Boulogne-sur-Mer,42537,50.725231,1.613334,default
+Corsica,Haute-Corse,Bastia,42254,42.697283,9.450881,default
+Poitou-Charentes,Charente,Angoulême,41970,45.648377,0.1562369,default
+Île-de-France,Val-d'Oise,Garges-lès-Gonesse,41782,48.97178,2.400724,default
+Midi-Pyrénées,Tarn,Castres,41636,43.606214,2.241295,default
+Lorraine,Moselle,Thionville,41627,49.357571,6.168426,default
+Nord-Pas-de-Calais,Nord,Wattrelos,41522,50.701174,3.215007,default
+Aquitaine,Gironde,Talence,41517,44.802614,-0.588054,default
+Nord-Pas-de-Calais,Nord,Douai,41189,50.367874,3.080602,default
+Île-de-France,Seine-Saint-Denis,Noisy-le-Sec,41125,48.892489,2.458625,default
+Midi-Pyrénées,Hautes-Pyrénées,Tarbes,41062,43.232951,0.078082,default
+Nord-Pas-de-Calais,Pas-de-Calais,Arras,40830,50.291002,2.777535,default
+Languedoc-Roussillon,Gard,Alès,40711,44.127204,4.083352,default
+Île-de-France,Seine-Saint-Denis,La Courneuve,40678,48.9320252,2.3990819,default
+Rhone-Alpes,Ain,Bourg-en-Bresse,40490,46.2051675,5.2255007,default
+Picardy,Oise,Compiègne,40430,49.417816,2.826145,default
+Provence-Alpes-Côte d'Azur,Hautes-Alpes,Gap,40255,44.559638,6.079758,default
+Île-de-France,Seine-et-Marne,Melun,40066,48.542105,2.6554,default
+Pays de la Loire,Loire-Atlantique,Rezé,39568,47.190616,-1.569382,default
+Île-de-France,Yvelines,Saint-Germain-en-Laye,39547,48.898908,2.093761,default
+Nord-Pas-de-Calais,Nord,Marcq-en-Baroeul,39392,50.670368,3.096267,default
+Île-de-France,Seine-Saint-Denis,Gagny,39276,48.8849159,2.536518,default
+Aquitaine,Pyrénées-Atlantiques,Anglet,39184,43.481402,-1.514699,default
+Provence-Alpes-Côte d'Azur,Var,Draguignan,39174,43.5377269,6.464993,default
+Centre,Eure-et-Loir,Chartres,38840,48.443854,1.489012,default
+Rhone-Alpes,Rhône,Bron,38746,45.733316,4.911927,default
+Île-de-France,Hauts-de-Seine,Bagneux,38520,48.796696,2.31002,default
+Midi-Pyrénées,Haute-Garonne,Colomiers,38302,43.612189,1.336579,default
+Rhone-Alpes,Isere,Saint-Martin-d'Hères,38019,45.165133,5.767761,default
+Île-de-France,Seine-et-Marne,Pontault-Combault,37847,48.801255,2.607598,default
+Auvergne,Allier,Montluçon,37839,46.3415466,2.6019912,default
+Centre,Indre-et-Loire,Joué-lès-Tours,37703,47.351861,0.6613099,default
+Île-de-France,Yvelines,Poissy,37461,48.929584,2.046982,default
+Île-de-France,Essonne,Savigny-sur-Orge,37206,48.6851259,2.349282,default
+Lower Normandy,Manche,Cherbourg-Octeville,37055,49.6337308,-1.622137,default
+Rhone-Alpes,Drome,Montélimar,36643,44.556944,4.749496,default
+Rhone-Alpes,Rhône,Villefranche-sur-Saône,36531,45.991471,4.718821,default
+Île-de-France,Seine-Saint-Denis,Stains,36365,48.955387,2.384703,default
+Île-de-France,Seine-Saint-Denis,Bagnolet,35984,48.870364,2.4234589,default
+Auvergne,Allier,Châtillon,35964,46.471854,3.131439,default
+Île-de-France,Essonne,Sainte-Geneviève-des-Bois,35868,48.6408416,2.3259213,default
+Rhone-Alpes,Isere,Échirolles,35684,45.142151,5.718034,default
+Rhone-Alpes,Loire,Roanne,35507,46.034432,4.072695,default
+Île-de-France,Seine-Saint-Denis,Villepinte,35329,48.960226,2.542867,default
+Rhone-Alpes,Loire,Saint-Chamond,35308,45.476088,4.5127119,default
+Île-de-France,Yvelines,Conflans-Sainte-Honorine,35213,49.000275,2.09178,default
+Burgundy,Yonne,Auxerre,34869,47.798202,3.573781,default
+Burgundy,Nievre,Nevers,34841,46.990896,3.162845,default
+Île-de-France,Seine-Saint-Denis,Neuilly-sur-Marne,34756,48.856898,2.528373,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,La Ciotat,34655,43.173653,5.605155,default
+Île-de-France,Seine-Saint-Denis,Tremblay-en-France,34614,48.979952,2.557211,default
+Rhone-Alpes,Haute-Savoie,Thonon-les-Bains,34610,46.373565,6.477635,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Vitrolles,34493,43.458598,5.249703,default
+Alsace,Bas-Rhin,Haguenau,34419,48.813288,7.79125,default
+Provence-Alpes-Côte d'Azur,Var,Six-Fours-les-Plages,34387,43.093062,5.839225,default
+Aquitaine,Lot-et-Garonne,Agen,34344,44.203142,0.616363,default
+Picardy,Oise,Creil,34262,49.2576872,2.4783913,default
+Rhone-Alpes,Haute-Savoie,Annemasse,34261,46.193253,6.234158,default
+Provence-Alpes-Côte d'Azur,Var,Saint-Raphaël,34005,43.42519,6.76837,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Marignane,33986,43.4212739,5.218332,default
+Rhone-Alpes,Drome,Romans-sur-Isère,33632,45.044236,5.052735,default
+Île-de-France,Yvelines,Montigny-le-Bretonneux,33625,48.7738734,2.0360157,default
+Île-de-France,Val-de-Marne,Le Perreux-sur-Marne,33480,48.841386,2.504038,default
+Île-de-France,Val-d'Oise,Franconville,33375,48.986011,2.229632,default
+Burgundy,Saône-et-Loire,Mâcon,33350,46.3068839,4.828731,default
+Nord-Pas-de-Calais,Nord,Cambrai,32852,50.173538,3.236633,default
+Île-de-France,Hauts-de-Seine,Châtenay-Malabry,32623,48.771896,2.270748,default
+Île-de-France,Val-de-Marne,Villeneuve-Saint-Georges,32575,48.7305769,2.447488,default
+Île-de-France,Yvelines,Houilles,32287,48.926916,2.18888,default
+Lorraine,Vosges,Épinal,32188,48.172402,6.449403,default
+Nord-Pas-de-Calais,Pas-de-Calais,Lens,31647,50.42893,2.83183,default
+Nord-Pas-de-Calais,Pas-de-Calais,Liévin,31517,50.417921,2.775222,default
+Île-de-France,Yvelines,Les Mureaux,31487,48.990181,1.912178,default
+Alsace,Bas-Rhin,Schiltigheim,31450,48.605226,7.748453,default
+Rhone-Alpes,Rhône,Meyzieu,31438,45.766821,5.003658,default
+Centre,Eure-et-Loir,Dreux,31373,48.736134,1.370889,default
+Île-de-France,Val-de-Marne,Nogent-sur-Marne,31367,48.837631,2.481699,default
+Île-de-France,Yvelines,Plaisir,31342,48.817223,1.949075,default
+Aquitaine,Landes,Mont-de-Marsan,31334,43.893485,-0.499782,default
+Île-de-France,Essonne,Palaiseau,31264,48.714509,2.245748,default
+Poitou-Charentes,Vienne,Châtellerault,31262,46.816487,0.548146,default
+Île-de-France,Val-d'Oise,Goussainville,31212,49.030467,2.471236,default
+Île-de-France,Val-de-Marne,L'Haÿ-les-Roses,31201,48.7789659,2.338084,default
+Île-de-France,Essonne,Viry-Châtillon,31132,48.666218,2.375902,default
+Île-de-France,Essonne,Vigneux-sur-Seine,31126,48.700094,2.416924,default
+Île-de-France,Yvelines,Trappes,30979,48.776731,2.001844,default
+Île-de-France,Yvelines,Chatou,30809,48.896391,2.160098,default
+Île-de-France,Seine-Saint-Denis,Clichy-sous-Bois,30725,48.910899,2.546147,default
+Aquitaine,Gironde,Villenave-d'Ornon,30663,44.7799813,-0.5672574,default
+Rhone-Alpes,Rhône,Rillieux-la-Pape,30645,45.819655,4.897126,default
+Nord-Pas-de-Calais,Nord,Maubeuge,30567,50.280228,3.9674,default
+Île-de-France,Val-de-Marne,Charenton-le-Pont,30408,48.8193107,2.4162805,default
+Île-de-France,Hauts-de-Seine,Malakoff,30304,48.817275,2.2977599,default
+Upper Normandy,Seine-Maritime,Dieppe,30214,49.922992,1.077483,default
+Île-de-France,Essonne,Athis-Mons,30094,48.7092979,2.38479,default
+Île-de-France,Seine-et-Marne,Savigny-le-Temple,30068,48.59586,2.580987,default
+Aquitaine,Dordogne,Périgueux,30036,45.184029,0.7211149,default
+Lorraine,Meurthe-et-Moselle,Vandoeuvre-lès-Nancy,29836,48.661118,6.17376,default
+Île-de-France,Val-d'Oise,Pontoise,29826,49.050966,2.100645,default
+Rhone-Alpes,Savoie,Aix-les-Bains,29580,45.692341,5.908998,default
+Île-de-France,Val-de-Marne,Cachan,29462,48.791855,2.331433,default
+Rhone-Alpes,Isere,Vienne,29325,45.525587,4.874339,default
+Île-de-France,Val-de-Marne,Thiais,29280,48.760344,2.387405,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Orange,29193,44.1380989,4.807511,default
+Aquitaine,Gironde,Saint-Médard-en-Jalles,29178,44.895295,-0.7181,default
+Île-de-France,Seine-Saint-Denis,Villemomble,29165,48.886727,2.505069,default
+Île-de-France,Hauts-de-Seine,Saint-Cloud,29109,48.847647,2.208115,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Saint-Laurent-du-Var,28891,43.673417,7.189811,default
+Île-de-France,Essonne,Yerres,28797,48.712858,2.490967,default
+Upper Normandy,Seine-Maritime,Saint-Étienne-du-Rouvray,28738,49.380305,1.108209,default
+Upper Normandy,Seine-Maritime,Sotteville-lès-Rouen,28704,49.41725,1.095407,default
+Île-de-France,Essonne,Draveil,28687,48.685388,2.408154,default
+Île-de-France,Yvelines,Le Chesnay,28640,48.825415,2.130544,default
+Île-de-France,Hauts-de-Seine,Bois-Colombes,28561,48.917402,2.269675,default
+Île-de-France,Hauts-de-Seine,Le Plessis-Robinson,28500,48.780426,2.266257,default
+Île-de-France,Hauts-de-Seine,La Garenne-Colombes,28498,48.906535,2.244085,default
+Nord-Pas-de-Calais,Nord,Lambersart,28491,50.652468,3.026676,default
+Picardy,Aisne,Soissons,28472,49.376636,3.32342,default
+Île-de-France,Seine-Saint-Denis,Pierrefitte-sur-Seine,28459,48.967903,2.364077,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Carpentras,28422,44.0555639,5.048722,default
+Île-de-France,Val-de-Marne,Villiers-sur-Marne,28190,48.825787,2.546798,default
+Île-de-France,Hauts-de-Seine,Vanves,28170,48.822484,2.288405,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Menton,28100,43.774481,7.49754,default
+Aquitaine,Dordogne,Bergerac,28063,44.853806,0.483392,default
+Île-de-France,Val-d'Oise,Ermont,28021,48.989071,2.258451,default
+Île-de-France,Val-d'Oise,Bezons,27855,48.925687,2.215847,default
+Île-de-France,Essonne,Grigny,27716,48.656473,2.385166,default
+Île-de-France,Yvelines,Guyancourt,27546,48.762895,2.075323,default
+Pays de la Loire,Maine-et-Loire,Saumur,27413,47.260135,-0.080893,default
+Île-de-France,Val-d'Oise,Herblay,27378,48.990006,2.165493,default
+Île-de-France,Essonne,Ris-Orangis,27312,48.645663,2.410451,default
+Île-de-France,Val-d'Oise,Villiers-le-Bel,27312,49.007379,2.387981,default
+Rhone-Alpes,Isere,Bourgoin-Jallieu,27163,45.597108,5.27212,default
+Centre,Cher,Vierzon,27113,47.221438,2.069791,default
+Rhone-Alpes,Rhône,Décines-Charpieu,26826,45.7674499,4.957024,default
+Nord-Pas-de-Calais,Pas-de-Calais,Hénin-Beaumont,26748,50.420087,2.94728,default
+Île-de-France,Val-de-Marne,Fresnes,26645,48.757205,2.326243,default
+Auvergne,Cantal,Aurillac,26572,44.930953,2.444997,default
+Île-de-France,Val-d'Oise,Sannois,26557,48.970782,2.256869,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Vallauris,26465,43.577244,7.055041,default
+Alsace,Bas-Rhin,Illkirch-Graffenstaden,26455,48.52854,7.711011,default
+Lower Normandy,Orne,Alençon,26350,48.432856,0.091266,default
+Île-de-France,Yvelines,Élancourt,26290,48.782907,1.960077,default
+Midi-Pyrénées,Haute-Garonne,Tournefeuille,26206,43.5829,1.346834,default
+Aquitaine,Gironde,Bègles,26104,44.812023,-0.543784,default
+Île-de-France,Val-d'Oise,Gonesse,26075,48.9864632,2.4497721,default
+Rhone-Alpes,Rhône,Oullins,26072,45.711926,4.80066,default
+Île-de-France,Essonne,Brunoy,26066,48.698071,2.504543,default
+Île-de-France,Val-d'Oise,Taverny,25998,49.027441,2.223507,default
+Nord-Pas-de-Calais,Nord,Armentières,25978,50.691652,2.884218,default
+Île-de-France,Seine-Saint-Denis,Montfermeil,25945,48.902029,2.570773,default
+Île-de-France,Yvelines,Rambouillet,25926,48.643868,1.829079,default
+Île-de-France,Seine-et-Marne,Villeparisis,25889,48.938315,2.614385,default
+Île-de-France,Val-de-Marne,Le Kremlin-Bicêtre,25863,48.810108,2.356972,default
+Île-de-France,Val-de-Marne,Sucy-en-Brie,25849,48.7708784,2.5221629,default
+Franche-Comté,Doubs,Montbéliard,25697,47.510356,6.798466,default
+Île-de-France,Seine-Saint-Denis,Romainville,25657,48.886112,2.435048,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Cavaillon,25636,43.8366045,5.0407814,default
+Champagne-Ardenne,Haute-Marne,Saint-Dizier,25626,48.637692,4.947418,default
+Île-de-France,Essonne,Brétigny-sur-Orge,25624,48.611486,2.30604,default
+Pays de la Loire,Loire-Atlantique,Saint-Sébastien-sur-Loire,25610,47.205376,-1.503103,default
+Poitou-Charentes,Charente-Maritime,Saintes,25601,45.744175,-0.633389,default
+Aquitaine,Gironde,La Teste-de-Buch,25587,44.631077,-1.148224,default
+Île-de-France,Hauts-de-Seine,Villeneuve-la-Garenne,25466,48.936616,2.324789,default
+Nord-Pas-de-Calais,Pas-de-Calais,Béthune,25463,50.531036,2.63926,default
+Île-de-France,Seine-et-Marne,Bussy-Saint-Georges,25419,48.842205,2.69802,default
+Auvergne,Allier,Vichy,25325,46.131859,3.425488,default
+Provence-Alpes-Côte d'Azur,Var,La Garde,25298,43.128777,6.017199,default
+Languedoc-Roussillon,Hérault,Agde,25253,43.3088031,3.4768109,default
+Picardy,Aisne,Laon,25219,49.564133,3.61989,default
+Burgundy,Yonne,Sens,25018,48.20065,3.28268,default
+Languedoc-Roussillon,Hérault,Lunel,25006,43.67445,4.135366,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Miramas,25002,43.588896,5.002136,default
+Aquitaine,Pyrénées-Atlantiques,Biarritz,24993,43.4831519,-1.558626,default
+Upper Normandy,Seine-Maritime,Le Grand-Quevilly,24967,49.411811,1.041384,default
+Pays de la Loire,Loire-Atlantique,Orvault,24922,47.274344,-1.619405,default
+Île-de-France,Essonne,Les Ulis,24914,48.6792779,2.16647,default
+Île-de-France,Seine-et-Marne,Champs-sur-Marne,24913,48.852775,2.602651,default
+Poitou-Charentes,Charente-Maritime,Rochefort,24761,45.936698,-0.961697,default
+Midi-Pyrénées,Haute-Garonne,Muret,24725,43.461574,1.33071,default
+Île-de-France,Val-d'Oise,Eaubonne,24606,48.992128,2.2779189,default
+Île-de-France,Essonne,Étampes,24502,48.434416,2.16142,default
+Aquitaine,Gironde,Gradignan,24439,44.774267,-0.618945,default
+Upper Normandy,Eure,Vernon,24064,49.091958,1.488107,default
+Aquitaine,Gironde,Libourne,23947,44.912998,-0.243985,default
+Picardy,Somme,Abbeville,23821,50.105467,1.836833,default
+Midi-Pyrénées,Aveyron,Rodez,23741,44.349389,2.575986,default
+Île-de-France,Val-d'Oise,Saint-Ouen-l'Aumône,23702,49.04313,2.105287,default
+Île-de-France,Seine-et-Marne,Torcy,23669,48.850572,2.654472,default
+Île-de-France,Essonne,Montgeron,23565,48.703859,2.4604529,default
+Aquitaine,Lot-et-Garonne,Villeneuve-sur-Lot,23462,44.4082053,0.7072568,default
+Île-de-France,Val-d'Oise,Cormeilles-en-Parisis,23419,48.973526,2.201292,default
+Champagne-Ardenne,Marne,Épernay,23413,49.043411,3.956242,default
+Île-de-France,Hauts-de-Seine,Sèvres,23404,48.8212407,2.2109771,default
+Franche-Comté,Jura,Dole,23312,47.09534,5.49081,default
+Aquitaine,Gironde,Le Bouscat,23207,44.865164,-0.59944,default
+Île-de-France,Yvelines,Maisons-Laffitte,23194,48.947545,2.1423899,default
+Midi-Pyrénées,Haute-Garonne,Blagnac,22969,43.635087,1.39703,default
+Languedoc-Roussillon,Hérault,Frontignan,22942,43.444815,3.755999,default
+Aquitaine,Gironde,Cenon,22882,44.857738,-0.530906,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Mandelieu-la-Napoule,22864,43.546232,6.938309,default
+Pays de la Loire,Loire-Atlantique,Vertou,22820,47.168194,-1.473378,default
+Île-de-France,Seine-Saint-Denis,Les Lilas,22819,48.881935,2.419452,default
+Île-de-France,Val-de-Marne,Limeil-Brévannes,22816,48.7461849,2.492154,default
+Nord-Pas-de-Calais,Pas-de-Calais,Bruay-la-Buissière,22802,50.483113,2.543206,default
+Île-de-France,Seine-Saint-Denis,Les Pavillons-sous-Bois,22680,48.90852,2.504403,default
+Champagne-Ardenne,Haute-Marne,Chaumont,22560,48.113748,5.1392559,default
+Île-de-France,Seine-et-Marne,Roissy-en-Brie,22559,48.7904005,2.656802,default
+Upper Normandy,Seine-Maritime,Le Petit-Quevilly,22426,49.429895,1.054325,default
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Manosque,22412,43.835744,5.790916,default
+Île-de-France,Val-de-Marne,Saint-Mandé,22398,48.842832,2.4178639,default
+Île-de-France,Hauts-de-Seine,Fontenay-aux-Roses,22378,48.789776,2.287181,default
+Île-de-France,Val-de-Marne,Orly,22377,48.745193,2.401373,default
+Burgundy,Saône-et-Loire,Le Creusot,22308,46.805351,4.4278,default
+Rhone-Alpes,Ain,Oyonnax,22258,46.257773,5.655335,default
+Nord-Pas-de-Calais,Nord,La Madeleine,22243,50.654836,3.073511,default
+Midi-Pyrénées,Aveyron,Millau,22205,44.100575,3.077801,default
+Île-de-France,Seine-et-Marne,Combs-la-Ville,22086,48.66602,2.55769,default
+Rhone-Alpes,Isere,Fontaine,22066,45.192754,5.688211,default
+Île-de-France,Val-d'Oise,Deuil-la-Barre,22031,48.975751,2.3272339,default
+Nord-Pas-de-Calais,Nord,Coudekerque-Branche,22015,51.015681,2.397046,default
+Midi-Pyrénées,Gers,Auch,21962,43.64638,0.586709,default
+Brittany,Morbihan,Lanester,21874,47.763494,-3.347354,default
+Burgundy,Côte-d'Or,Beaune,21838,47.02603,4.840004,default
+Lorraine,Moselle,Montigny-lès-Metz,21831,49.099068,6.147807,default
+Aquitaine,Gironde,Eysines,21762,44.885793,-0.648815,default
+Nord-Pas-de-Calais,Nord,Hazebrouck,21737,50.72748,2.542555,default
+Île-de-France,Essonne,Longjumeau,21657,48.6930642,2.2947615,default
+Rhone-Alpes,Rhône,Sainte-Foy-lès-Lyon,21646,45.735237,4.804827,default
+Lorraine,Moselle,Forbach,21596,49.186515,6.895295,default
+Lorraine,Moselle,Sarreguemines,21572,49.106031,7.070862,default
+Nord-Pas-de-Calais,Nord,Mons-en-Baroeul,21513,50.642006,3.107673,default
+Provence-Alpes-Côte d'Azur,Var,La Valette-du-Var,21463,43.13824,5.9875844,default
+Lower Normandy,Calvados,Hérouville-Saint-Clair,21393,49.20358,-0.333655,default
+Île-de-France,Essonne,Morsang-sur-Orge,21377,48.661766,2.345709,default
+Nord-Pas-de-Calais,Nord,Grande-Synthe,21364,51.013547,2.302577,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Allauch,21276,43.336148,5.4825739,default
+Île-de-France,Yvelines,La Celle-Saint-Cloud,21264,48.849766,2.132504,default
+Lower Normandy,Calvados,Lisieux,21132,49.145922,0.227849,default
+Nord-Pas-de-Calais,Nord,Croix,21114,50.67732,3.148719,default
+Rhone-Alpes,Rhône,Tassin-la-Demi-Lune,21102,45.761337,4.776921,default
+Île-de-France,Seine-et-Marne,Dammarie-les-Lys,21094,48.515451,2.634831,default
+Île-de-France,Yvelines,Vélizy-Villacoublay,20997,48.787899,2.190408,default
+Nord-Pas-de-Calais,Nord,Wasquehal,20990,50.669276,3.130782,default
+Île-de-France,Val-d'Oise,Saint-Gratien,20933,48.970259,2.286571,default
+Nord-Pas-de-Calais,Nord,Halluin,20915,50.782824,3.127845,default
+Île-de-France,Seine-Saint-Denis,Neuilly-Plaisance,20840,48.865205,2.509142,default
+Île-de-France,Val-d'Oise,Montmorency,20796,48.989778,2.321878,default
+Aquitaine,Landes,Dax,20776,43.708608,-1.051945,default
+Aquitaine,Gironde,Lormont,20770,44.880163,-0.523108,default
+Île-de-France,Seine-et-Marne,Lagny-sur-Marne,20718,48.87296,2.713016,default
+Île-de-France,Seine-et-Marne,Le Mée-sur-Seine,20713,48.534031,2.632122,default
+Rhone-Alpes,Rhône,Saint-Genis-Laval,20696,45.691999,4.792768,default
+Centre,Loiret,Fleury-les-Aubrais,20677,47.931513,1.920754,default
+Nord-Pas-de-Calais,Nord,Loos,20650,50.615139,3.017729,default
+Île-de-France,Essonne,Gif-sur-Yvette,20631,48.701844,2.134078,default
+Nord-Pas-de-Calais,Nord,Denain,20549,50.328225,3.397325,default
+Île-de-France,Val-de-Marne,Villeneuve-le-Roi,20481,48.732026,2.407557,default
+Lorraine,Vosges,Saint-Dié-des-Vosges,20471,48.2874679,6.947767,default
+Centre,Loiret,Olivet,20458,47.865408,1.897565,default
+Île-de-France,Val-d'Oise,Montigny-lès-Cormeilles,20307,48.987412,2.187929,default
+Aquitaine,Gironde,Gujan-Mestras,20294,44.635731,-1.071189,default
+Île-de-France,Yvelines,Mantes-la-Ville,20251,48.978154,1.713371,default
+Brittany,Ille-et-Vilaine,Fougères,20170,48.3515609,-1.204626,default
+Rhone-Alpes,Haute-Savoie,Annecy-le-Vieux,20166,45.9192139,6.1419499,default
+Pays de la Loire,Loire-Atlantique,Couëron,20084,47.210999,-1.72885,default
+Île-de-France,Essonne,Saint-Michel-sur-Orge,20057,48.63264,2.312884,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Les Pennes-Mirabeau,20018,43.410272,5.308922,default
+Auvergne Rhône-Alpes,Isere,Voiron,19988,45.362713,5.591349,default
+Île-de-France,Yvelines,Achères,19985,48.960796,2.0700219,default
+Île-de-France,Seine-et-Marne,Ozoir-la-Ferrière,19917,48.763827,2.671739,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Saint-Louis,19907,47.5859949,7.563934,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Gardanne,19844,43.4525982,5.4717363,default
+Île-de-France,Val-de-Marne,Arcueil,19746,48.80486,2.334955,default
+Île-de-France,Hauts-de-Seine,Sceaux,19718,48.778016,2.295092,default
+Île-de-France,Hauts-de-Seine,Chaville,19717,48.808026,2.192418,default
+Île-de-France,Hauts-de-Seine,Bourg-la-Reine,19712,48.780454,2.316374,default
+Brittany,Cotes-d'Armor,Lannion,19627,48.732084,-3.459144,default
+Rhone-Alpes,Haute-Savoie,Seynod,19624,45.8890357,6.1020358,default
+Languedoc-Roussillon Midi-Pyrénées,Lot,Cahors,19616,44.4475229,1.441989,default
+Auvergne Rhône-Alpes,Rhône,Givors,19574,45.58329,4.772829,default
+Centre,Loiret,Saint-Jean-de-Braye,19571,47.912048,1.970843,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Lunéville,19516,48.592237,6.492339,default
+Île-de-France,Essonne,Chilly-Mazarin,19502,48.705134,2.310271,default
+Pays de la Loire,Vendee,Challans,19501,46.844828,-1.880412,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Pertuis,19498,43.694275,5.501843,default
+Auvergne Rhône-Alpes,Allier,Moulins,19474,46.568059,3.334417,default
+Upper Normandy,Seine-Maritime,Fécamp,19381,49.755601,0.380774,default
+Auvergne Rhône-Alpes,Drome,Bourg-lès-Valence,19351,44.947037,4.894633,default
+Alsace,Bas-Rhin,Sélestat,19332,48.259386,7.454241,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Cournon-d'Auvergne,19287,45.741532,3.198177,default
+Lower Normandy,Manche,Saint-Lô,19285,49.1154686,-1.0828136,default
+Île-de-France,Seine-et-Marne,Mitry-Mory,19267,48.98543,2.619156,default
+Normandy,Seine-Maritime,Mont-Saint-Aignan,19178,49.459778,1.079798,default
+Île-de-France,Val-de-Marne,Le Plessis-Trévise,19157,48.808589,2.573903,default
+Auvergne Rhône-Alpes,Savoie,Albertville,19071,45.675535,6.392726,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Vence,19052,43.7223216,7.1117033,default
+Burgundy,Saône-et-Loire,Montceau-les-Mines,18969,46.67413,4.362979,default
+Aquitaine Limousin Poitou-Charentes,Deux-Sevres,Bressuire,18962,46.84246,-0.492866,default
+Provence-Alpes-Côte d'Azur,Vaucluse,L'Isle-sur-la-Sorgue,18955,43.91419,5.057106,default
+Île-de-France,Val-de-Marne,Chevilly-Larue,18894,48.7649765,2.3581919,default
+Brittany,Finistere,Concarneau,18867,47.872834,-3.920734,default
+Île-de-France,Yvelines,Maurepas,18827,48.7623589,1.945326,default
+Picardy,Oise,Nogent-sur-Oise,18753,49.278948,2.464688,default
+Nord-Pas-de-Calais,Nord,Hem,18721,50.654867,3.18881,default
+Aquitaine Limousin Poitou-Charentes,Charente,Cognac,18705,45.691046,-0.328744,default
+Auvergne,Puy-de-Dome,Riom,18675,45.8939949,3.114932,default
+Pays de la Loire,Loire-Atlantique,Bouguenais,18662,47.176385,-1.619656,default
+Pays de la Loire,Loire-Atlantique,Carquefou,18646,47.296241,-1.486812,default
+Auvergne Rhône-Alpes,Haute-Loire,Le Puy-en-Velay,18619,45.042768,3.882936,default
+Nord-Pas-de-Calais Picardie,Nord,Ronchin,18570,50.605934,3.078683,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Sorgues,18500,44.008767,4.872757,default
+Pays de la Loire,Loire-Atlantique,La Chapelle-sur-Erdre,18412,47.299576,-1.550638,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Mougins,18302,43.6023319,7.006491,default
+Languedoc-Roussillon Midi-Pyrénées,Gard,Bagnols-sur-Cèze,18218,44.16252,4.620075,default
+Auvergne Rhône-Alpes,Isere,Villefontaine,18168,45.613538,5.150093,default
+Aquitaine Limousin Poitou-Charentes,Charente-Maritime,Royan,18138,45.623027,-1.043182,default
+Alsace-Champagne-Ardenne-Lorraine,Ardennes,Sedan,18134,49.70349,4.93863,default
+Île-de-France,Val-de-Marne,Chennevières-sur-Marne,18134,48.796124,2.53507,default
+Île-de-France,Val-de-Marne,Joinville-le-Pont,18124,48.821267,2.472043,default
+Île-de-France,Yvelines,Saint-Cyr-l'École,18089,48.806421,2.0657,default
+Brittany,Morbihan,Ploemeur,18039,47.735695,-3.42714,default
+Aquitaine Limousin Poitou-Charentes,Lot-et-Garonne,Marmande,18028,44.500484,0.159869,default
+Normandy,Eure,Louviers,18023,49.2152477,1.1686123,default
+Alsace-Champagne-Ardenne-Lorraine,Meuse,Verdun,17923,49.1598764,5.3844231,default
+Île-de-France,Seine-Saint-Denis,Le Pré-Saint-Gervais,17908,48.885063,2.40557,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Avion,17876,50.412326,2.824277,default
+Languedoc-Roussillon,Hérault,Castelnau-le-Lez,17837,43.6329827,3.8975051,default
+Auvergne Rhône-Alpes,Rhône,Écully,17787,45.774657,4.77867,default
+Île-de-France,Hauts-de-Seine,Garches,17769,48.846066,2.188703,default
+Île-de-France,Yvelines,Les Clayes-sous-Bois,17735,48.82342,1.976374,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Chamalières,17733,45.77412,3.060484,default
+Île-de-France,Val-d'Oise,Soisy-sous-Montmorency,17637,48.988506,2.299731,default
+Auvergne Rhône-Alpes,Haute-Savoie,Cluses,17627,46.06039,6.580582,default
+Rhone-Alpes,Rhône,Saint-Fons,17584,45.708874,4.853374,default
+Île-de-France,Seine-et-Marne,Moissy-Cramayel,17500,48.627158,2.593706,default
+Nord-Pas-de-Calais,Nord,Faches-Thumesnil,17497,50.602642,3.06953,default
+Auvergne Rhône-Alpes,Isere,Meylan,17493,45.209786,5.777628,default
+Auvergne Rhône-Alpes,Haute-Savoie,Cran-Gevrier,17493,45.907737,6.106677,default
+Brittany,Ille-et-Vilaine,Vitré,17463,48.124746,-1.21543,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Lingolsheim,17450,48.554457,7.681749,default
+Alsace,Bas-Rhin,Bischheim,17432,48.614813,7.751991,default
+Bourgogne Franche-Comté,Doubs,Pontarlier,17398,46.9041039,6.354242,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Le Pontet,17344,43.9591489,4.863831,default
+Normandy,Seine-Maritime,Elbeuf,17343,49.292163,1.00691,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Port-de-Bouc,17208,43.405449,4.985931,default
+Normandy,Manche,Équeurdreville-Hainneville,17175,49.648868,-1.653674,default
+Île-de-France,Seine-et-Marne,Montereau-Fault-Yonne,17173,48.384734,2.956193,default
+Languedoc-Roussillon Midi-Pyrénées,Haute-Garonne,Plaisance-du-Touch,17126,43.564686,1.2949,default
+Centre,Loir-et-Cher,Vendôme,17121,47.792551,1.065343,default
+Auvergne Rhône-Alpes,Loire,Firminy,17066,45.387638,4.287617,default
+Bourgogne Franche-Comté,Jura,Lons-le-Saunier,17063,46.671361,5.550796,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Bruges,16954,44.881793,-0.612747,default
+Centre,Loir-et-Cher,Romorantin-Lanthenay,16891,47.358657,1.747259,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Hendaye,16887,43.359399,-1.766148,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Carvin,16873,50.491515,2.958107,default
+Brittany,Ille-et-Vilaine,Bruz,16855,48.024538,-1.747148,default
+Brittany,Ille-et-Vilaine,Cesson-Sévigné,16784,48.119472,-1.602923,default
+Île-de-France,Val-d'Oise,Éragny,16704,49.02458,2.094985,default
+Languedoc-Roussillon Midi-Pyrénées,Hérault,Mauguio,16659,43.6154409,4.010165,default
+Nord-Pas-de-Calais Picardie,Nord,Saint-Amand-les-Eaux,16653,50.448979,3.428713,default
+Île-de-France,Val-de-Marne,Bonneuil-sur-Marne,16642,48.774755,2.487765,default
+Languedoc-Roussillon Midi-Pyrénées,Haute-Garonne,Cugnaux,16638,43.537141,1.344995,default
+Provence-Alpes-Côte d'Azur,Var,La Crau,16612,43.147764,6.073127,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Floirac,16531,44.8305549,-0.527552,default
+Île-de-France,Seine-et-Marne,Brie-Comte-Robert,16529,48.6912267,2.6103697,default
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Digne-les-Bains,16512,44.092193,6.235976,default
+Centre,Loiret,Saint-Jean-de-la-Ruelle,16488,47.912722,1.874149,default
+Île-de-France,Yvelines,Marly-le-Roi,16485,48.868389,2.097727,default
+Provence-Alpes-Côte d'Azur,Var,Brignoles,16450,43.40655,6.061187,default
+Île-de-France,Val-d'Oise,Osny,16441,49.0700239,2.062715,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Cestas,16438,44.741163,-0.684355,default
+Île-de-France,Val-de-Marne,Gentilly,16427,48.8138999,2.344688,default
+Île-de-France,Val-de-Marne,Bry-sur-Marne,16423,48.834913,2.5236489,default
+Île-de-France,Val-de-Marne,Boissy-Saint-Léger,16399,48.7544029,2.5060809,default
+Île-de-France,Val-d'Oise,Jouy-le-Moutier,16300,49.015695,2.047209,default
+Centre,Indre-et-Loire,Saint-Cyr-sur-Loire,16239,47.401366,0.6633599,default
+Île-de-France,Yvelines,Le Pecq,16237,48.897267,2.106434,default
+Auvergne Rhône-Alpes,Isere,L'Isle-d'Abeau,16225,45.623157,5.2301149,default
+Normandy,Seine-Maritime,Montivilliers,16198,49.542538,0.19336,default
+Île-de-France,Essonne,Orsay,16153,48.697161,2.189617,default
+Centre,Eure-et-Loir,Lucé,16149,48.439575,1.466895,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Toul,16128,48.678296,5.890159,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Saint-Avold,16126,49.104408,6.705793,default
+Rhone-Alpes,Ardeche,Annonay,16075,45.239403,4.667349,default
+Provence-Alpes-Côte d'Azur,Var,Sanary-sur-Mer,16047,43.118021,5.801435,default
+Île-de-France,Yvelines,Limay,16040,48.992181,1.735384,default
+Languedoc-Roussillon Midi-Pyrénées,Gard,Beaucaire,16036,43.807235,4.644269,default
+Auvergne Rhône-Alpes,Isere,Saint-Égrève,15996,45.233131,5.681538,default
+Alsace-Champagne-Ardenne-Lorraine,Meuse,Bar-le-Duc,15950,48.773605,5.158238,default
+Pays de la Loire,Vendee,Les Herbiers,15933,46.86919,-1.013388,default
+Normandy,Manche,Tourlaville,15902,49.643509,-1.569449,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Yutz,15898,49.357276,6.200101,default
+Pays de la Loire,Loire-Atlantique,Guérande,15858,47.328003,-2.4297589,default
+Auvergne Rhône-Alpes,Haute-Savoie,Sallanches,15853,45.936661,6.6305569,default
+Île-de-France,Yvelines,Le Vésinet,15847,48.894198,2.134716,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Hayange,15833,49.329827,6.062166,default
+Nord-Pas-de-Calais Picardie,Nord,Sin-le-Noble,15825,50.365851,3.114329,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Fos-sur-Mer,15814,43.437882,4.945711,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Châteaurenard,15780,43.8820059,4.855685,default
+Brittany,Morbihan,Hennebont,15765,47.802625,-3.275811,default
+Languedoc-Roussillon,Hérault,Lattes,15748,43.567296,3.896473,default
+Languedoc-Roussillon Midi-Pyrénées,Ariege,Pamiers,15744,43.114753,1.607953,default
+Île-de-France,Yvelines,Viroflay,15734,48.79966,2.173231,default
+Île-de-France,Essonne,Verrières-le-Buisson,15709,48.746318,2.266838,default
+Île-de-France,Seine-Saint-Denis,Le Bourget,15708,48.936752,2.425377,default
+Île-de-France,Val-d'Oise,Vauréal,15705,49.029373,2.023163,default
+Auvergne Rhône-Alpes,Loire,Montbrison,15673,45.60745,4.063338,default
+Île-de-France,Seine-et-Marne,Noisiel,15638,48.85478,2.628701,default
+Provence-Alpes-Côte d'Azur,Var,Saint-Maximin-la-Sainte-Baume,15590,43.452497,5.864004,default
+Nord-Pas-de-Calais Picardie,Oise,Senlis,15583,49.205164,2.583212,default
+Île-de-France,Essonne,Juvisy-sur-Orge,15545,48.691738,2.37216,default
+Bourgogne Franche-Comté,Haute-Saône,Vesoul,15473,47.619788,6.15428,default
+Pays de la Loire,Loire-Atlantique,La Baule-Escoublac,15456,47.285448,-2.393236,default
+Centre,Loiret,Saran,15449,47.94791,1.880734,default
+Brittany,Finistere,Landerneau,15443,48.450821,-4.248437,default
+Centre,Indre-et-Loire,Saint-Pierre-des-Corps,15404,47.3898439,0.722479,default
+Île-de-France,Val-d'Oise,Domont,15339,49.030343,2.326213,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Blanquefort,15297,44.910084,-0.635244,default
+Brittany,Finistere,Morlaix,15264,48.577613,-3.828228,default
+Île-de-France,Yvelines,Carrières-sur-Seine,15205,48.911292,2.178685,default
+Île-de-France,Yvelines,Montesson,15183,48.908587,2.149777,default
+Île-de-France,Yvelines,Carrières-sous-Poissy,15102,48.945484,2.037356,default
+Île-de-France,Val-d'Oise,Saint-Leu-la-Forêt,15082,49.019157,2.247531,default
+Île-de-France,Yvelines,Verneuil-sur-Seine,15050,48.979317,1.975419,default
+Pays de la Loire,Sarthe,La Flèche,14992,47.69589,-0.074646,default
+Nord-Pas-de-Calais Picardie,Oise,Crépy-en-Valois,14962,49.2361549,2.890059,default
+Midi-Pyrénées,Haute-Garonne,Balma,14929,43.606098,1.500032,default
+Île-de-France,Val-de-Marne,Saint-Maurice,14927,48.8205669,2.423655,default
+Centre,Indre-et-Loire,Saint-Avertin,14893,47.367854,0.726905,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Illzach,14870,47.781287,7.346867,default
+Île-de-France,Seine-et-Marne,Fontainebleau,14839,48.404676,2.70162,default
+Nord-Pas-de-Calais,Pas-de-Calais,Berck,14835,50.408188,1.591865,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Pont-à-Mousson,14792,48.90329,6.054868,default
+Nord-Pas-de-Calais Picardie,Nord,Caudry,14789,50.124269,3.410122,default
+Normandy,Orne,Flers,14761,48.750059,-0.575794,default
+Brittany,Finistere,Douarnenez,14750,48.093228,-4.328619,default
+Île-de-France,Seine-et-Marne,Coulommiers,14725,48.813071,3.083497,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Laxou,14681,48.684256,6.152525,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Wittenheim,14666,47.81077,7.339439,default
+Auvergne Rhône-Alpes,Loire,Rive-de-Gier,14658,45.527692,4.615349,default
+Languedoc-Roussillon Midi-Pyrénées,Hautes-Pyrénées,Lourdes,14644,43.091463,-0.045726,default
+Centre,Loiret,Gien,14624,47.698059,2.624758,default
+Normandy,Seine-Maritime,Canteleu,14621,49.4512969,1.035511,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Ambarès-et-Lagrave,14609,44.926494,-0.490401,default
+Nord-Pas-de-Calais Picardie,Nord,Haubourdin,14560,50.60953,2.984736,default
+Franche-Comté,Doubs,Audincourt,14552,47.481724,6.840615,default
+Auvergne Rhône-Alpes,Haute-Savoie,Rumilly,14542,45.867137,5.942357,default
+Brittany,Cotes-d'Armor,Plérin,14394,48.534928,-2.770404,default
+Île-de-France,Val-d'Oise,Saint-Brice-sous-Forêt,14393,48.999429,2.356007,default
+Nord-Pas-de-Calais,Pas-de-Calais,Outreau,14390,50.706513,1.59255,default
+Nord-Pas-de-Calais Picardie,Nord,Bailleul,14389,50.736482,2.73559,default
+Auvergne Rhône-Alpes,Ain,Ambérieu-en-Bugey,14359,45.958436,5.359556,default
+Auvergne Rhône-Alpes,Loire,Saint-Just-Saint-Rambert,14356,45.4936827,4.2453004,default
+Alsace-Champagne-Ardenne-Lorraine,Aube,Romilly-sur-Seine,14352,48.517732,3.726275,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Villeneuve-Loubet,14346,43.6578919,7.122337,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn,Gaillac,14334,43.9018159,1.896506,default
+Centre,Loiret,Montargis,14326,47.99729,2.736291,default
+Aquitaine Limousin Poitou-Charentes,Correze,Tulle,14323,45.26565,1.771697,default
+Pays de la Loire,Vendee,Olonne-sur-Mer,14299,46.536402,-1.772826,default
+Pays de la Loire,Loire-Atlantique,Pornic,14288,47.115491,-2.104444,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Issoire,14286,45.54151,3.248128,default
+Nord-Pas-de-Calais Picardie,Nord,Hautmont,14271,50.246997,3.91708,default
+Île-de-France,Seine-Saint-Denis,Le Raincy,14261,48.897386,2.5231119,default
+Pays de la Loire,Vendee,Les Sables-d'Olonne,14253,46.492958,-1.795493,default
+Nord-Pas-de-Calais Picardie,Aisne,Château-Thierry,14189,49.0459869,3.40262,default
+Nord-Pas-de-Calais Picardie,Nord,Wattignies,14179,50.581494,3.044099,default
+Pays de la Loire,Loire-Atlantique,Sainte-Luce-sur-Loire,14170,47.249491,-1.487331,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Villers-lès-Nancy,14133,48.673218,6.153496,default
+Île-de-France,Val-d'Oise,Arnouville,14122,48.980312,2.423662,default
+Auvergne Rhône-Alpes,Rhône,Francheville,14094,45.7297871,4.7438242,default
+Alsace-Champagne-Ardenne-Lorraine,Meurthe-et-Moselle,Longwy,14092,49.519919,5.761773,default
+Île-de-France,Seine-et-Marne,Lognes,14021,48.836571,2.6327379,default
+Île-de-France,Yvelines,Bois-d'Arcy,14008,48.80598,2.022188,default
+Picardy,Oise,Méru,13995,49.236009,2.13544,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Saint-Omer,13992,50.750115,2.252208,default
+Aquitaine Limousin Poitou-Charentes,Landes,Biscarrosse,13983,44.3946602,-1.164218,default
+Bourgogne Franche-Comté,Côte-d'Or,Chenôve,13982,47.294216,5.00119,default
+Brittany,Finistere,Guipavas,13966,48.435977,-4.400707,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Fameck,13965,49.304436,6.1025919,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Bouc-Bel-Air,13963,43.451152,5.413875,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Tarascon,13941,43.806044,4.65752,default
+Picardy,Aisne,Tergnier,13938,49.656252,3.291635,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Berre-l'Étang,13937,43.4757729,5.167309,default
+Brittany,Morbihan,Pontivy,13915,48.066152,-2.967056,default
+Lower Normandy,Orne,Argentan,13903,48.744001,-0.016566,default
+Nord-Pas-de-Calais Picardie,Oise,Noyon,13894,49.580166,3.0007229,default
+Lower Normandy,Calvados,Bayeux,13888,49.276437,-0.70314,default
+Île-de-France,Val-d'Oise,Montmagny,13864,48.97088,2.34408,default
+Bourgogne Franche-Comté,Saône-et-Loire,Autun,13863,46.950914,4.301565,default
+Provence-Alpes-Côte d'Azur,Var,Sainte-Maxime,13835,43.310184,6.640482,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Châteauneuf-les-Martigues,13792,43.38296,5.164636,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Bollène,13776,44.2811484,4.75331,default
+Île-de-France,Seine-et-Marne,Avon,13761,48.404839,2.720733,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Rixheim,13750,47.744376,7.396834,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn-et-Garonne,Castelsarrasin,13739,44.039889,1.107132,default
+Pays de la Loire,Vendee,Fontenay-le-Comte,13647,46.465972,-0.8065,default
+Brittany,Ille-et-Vilaine,Saint-Gilles,13641,48.154936,-1.828955,default
+Pays de la Loire,Vendee,Château-d'Olonne,13593,46.50436,-1.738692,default
+Auvergne Rhône-Alpes,Allier,Cusset,13545,46.131962,3.4565,default
+Nord-Pas-de-Calais Picardie,Nord,Roncq,13524,50.746301,3.115632,default
+Île-de-France,Seine-et-Marne,Saint-Fargeau-Ponthierry,13497,48.5361561,2.5242532,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Woippy,13495,49.150918,6.150998,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Billère,13479,43.302207,-0.39742,default
+Midi-Pyrénées,Haute-Garonne,Ramonville-Saint-Agne,13475,43.543794,1.4784139,default
+Île-de-France,Essonne,Courcouronnes,13466,48.617871,2.407091,default
+Nord-Pas-de-Calais Picardie,Nord,Lys-lez-Lannoy,13437,50.67452,3.216898,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Creutzwald,13434,49.204987,6.6962469,default
+Pays de la Loire,Mayenne,Mayenne,13376,48.3061239,-0.620935,default
+Provence-Alpes-Côte d'Azur,Var,Ollioules,13321,43.139901,5.847652,default
+Nord-Pas-de-Calais Picardie,Nord,Mouvaux,13309,50.702318,3.132008,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Beausoleil,13279,43.741767,7.423019,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Freyming-Merlebach,13278,49.146198,6.811347,default
+Centre,Indre-et-Loire,Amboise,13246,47.413326,0.984407,default
+Centre,Eure-et-Loir,Châteaudun,13226,48.070369,1.327696,default
+Île-de-France,Seine-et-Marne,Vaires-sur-Marne,13200,48.873609,2.639543,default
+Île-de-France,Essonne,Mennecy,13194,48.566784,2.434436,default
+Alsace-Champagne-Ardenne-Lorraine,Marne,Vitry-le-François,13174,48.726087,4.585745,default
+Aquitaine Limousin Poitou-Charentes,Creuse,Guéret,13143,46.169599,1.871452,default
+Pays de la Loire,Loire-Atlantique,Saint-Brevin-les-Pins,13134,47.246659,-2.165807,default
+Pays de la Loire,Maine-et-Loire,Trélazé,13125,47.445879,-0.466795,default
+Normandy,Manche,Granville,13104,48.837579,-1.597302,default
+Brittany,Finistere,Plougastel-Daoulas,13101,48.374051,-4.369108,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Valbonne,13092,43.64152,7.009186,default
+Nord-Pas-de-Calais Picardie,Nord,Anzin,13092,50.375949,3.511127,default
+Île-de-France,Yvelines,Fontenay-le-Fleury,13086,48.810638,2.046222,default
+Normandy,Seine-Maritime,Bois-Guillaume,13046,49.4688521,1.1148305,default
+Pays de la Loire,Maine-et-Loire,Avrillé,12972,47.505335,-0.590629,default
+Normandy,Eure,Val-de-Reuil,12969,49.272602,1.217085,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Saint-Jean-de-Luz,12967,43.388051,-1.663055,default
+Aquitaine Limousin Poitou-Charentes,Landes,Saint-Paul-lès-Dax,12956,43.724934,-1.051409,default
+Brittany,Morbihan,Auray,12946,47.666491,-2.983767,default
+Auvergne Rhône-Alpes,Drome,Pierrelatte,12936,44.37775,4.696981,default
+Auvergne Rhône-Alpes,Allier,Yzeure,12905,46.566314,3.354775,default
+Nord-Pas-de-Calais Picardie,Nord,Somain,12863,50.359201,3.281138,default
+Nord-Pas-de-Calais Picardie,Oise,Montataire,12843,49.257575,2.4350679,default
+Île-de-France,Seine-et-Marne,Nemours,12824,48.267043,2.692611,default
+Île-de-France,Val-de-Marne,Valenton,12819,48.749736,2.459965,default
+Centre,Loiret,Châlette-sur-Loing,12812,48.014736,2.73203,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Saint-Martin-de-Crau,12737,43.638628,4.812107,default
+Alsace,Haut-Rhin,Kingersheim,12720,47.789641,7.334499,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Bischwiller,12718,48.768088,7.860032,default
+Nord-Pas-de-Calais,Nord,Raismes,12682,50.392546,3.484984,default
+Nord-Pas-de-Calais,Pas-de-Calais,Bully-les-Mines,12678,50.446598,2.720937,default
+Auvergne Rhône-Alpes,Haute-Savoie,Bonneville,12648,46.0780249,6.409053,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Roquebrune-Cap-Martin,12646,43.757808,7.473754,default
+Nord-Pas-de-Calais Picardie,Oise,Pont-Sainte-Maxence,12637,49.301412,2.6048429,default
+Alsace-Champagne-Ardenne-Lorraine,Aube,La Chapelle-Saint-Luc,12634,48.312011,4.047818,default
+Nord-Pas-de-Calais Picardie,Nord,Fourmies,12581,50.018301,4.046972,default
+Pays de la Loire,Sarthe,Sablé-sur-Sarthe,12575,47.8404856,-0.3334185,default
+Nord-Pas-de-Calais,Nord,Seclin,12571,50.545332,3.026566,default
+Île-de-France,Essonne,Épinay-sous-Sénart,12565,48.693052,2.515825,default
+Nord-Pas-de-Calais Picardie,Nord,Comines,12564,50.7650099,3.006234,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn-et-Garonne,Moissac,12564,44.104852,1.08468,default
+Auvergne Rhône-Alpes,Haute-Savoie,Saint-Julien-en-Genevois,12561,46.144516,6.081338,default
+Auvergne Rhône-Alpes,Loire,Le Chambon-Feugerolles,12523,45.395883,4.325413,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Stiring-Wendel,12506,49.201512,6.932073,default
+Auvergne Rhône-Alpes,Rhône,Mions,12485,45.6629628,4.9532038,default
+Île-de-France,Essonne,Morangis,12456,48.7022059,2.336018,default
+Île-de-France,Seine-Saint-Denis,Villetaneuse,12451,48.963476,2.347354,default
+Languedoc-Roussillon Midi-Pyrénées,Pyrénées-Orientales,Canet-en-Roussillon,12436,42.706091,3.009898,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Noeux-les-Mines,12424,50.481212,2.662174,default
+Centre,Indre,Issoudun,12420,46.947535,1.988654,default
+Midi-Pyrénées,Haute-Garonne,Castanet-Tolosan,12388,43.51563,1.499573,default
+Provence-Alpes-Côte d'Azur,Var,Roquebrune-sur-Argens,12344,43.443408,6.637682,default
+Auvergne Rhône-Alpes,Rhône,Genas,12341,45.732041,5.001291,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Apt,12325,43.876452,5.395439,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Sarrebourg,12306,48.732663,7.052587,default
+Aquitaine Limousin Poitou-Charentes,Landes,Tarnos,12269,43.5408,-1.461038,default
+Île-de-France,Yvelines,Andrésy,12249,48.979048,2.051033,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Harnes,12244,50.452176,2.909221,default
+Centre,Loiret,Amilly,12232,47.975346,2.768125,default
+Brittany,Cotes-d'Armor,Lamballe,12217,48.468637,-2.517322,default
+Provence-Alpes-Côte d'Azur,Hautes-Alpes,Briançon,12190,44.899416,6.643179,default
+Brittany,Finistere,Plouzané,12175,48.381438,-4.620404,default
+Auvergne Rhône-Alpes,Isere,Seyssinet-Pariset,12156,45.1729516,5.6703133,default
+Pays de la Loire,Maine-et-Loire,Les Ponts-de-Cé,12112,47.424616,-0.524654,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Lons,12106,43.315739,-0.411051,default
+Nord-Pas-de-Calais,Nord,Bruay-sur-l'Escaut,12097,50.397664,3.537198,default
+Île-de-France,Yvelines,Vernouillet,12047,48.973699,1.983023,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Monteux,12015,44.034945,4.996762,default
+Île-de-France,Val-de-Marne,La Queue-en-Brie,12008,48.790857,2.5754929,default
+Brittany,Finistere,Quimperlé,11978,47.872586,-3.547546,default
+Île-de-France,Val-d'Oise,L'Isle-Adam,11976,49.112288,2.217872,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Riedisheim,11962,47.749709,7.368599,default
+Normandy,Seine-Maritime,Barentin,11957,49.543453,0.95813,default
+Île-de-France,Seine-et-Marne,Provins,11940,48.560149,3.299203,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Ostwald,11925,48.5434709,7.71023,default
+Languedoc-Roussillon Midi-Pyrénées,Aveyron,Villefranche-de-Rouergue,11909,44.349746,2.035381,default
+Provence-Alpes-Côte d'Azur,Var,Saint-Cyr-sur-Mer,11894,43.1826409,5.709571,default
+Picardy,Aisne,Chauny,11874,49.615576,3.219421,default
+Pays de la Loire,Loire-Atlantique,Châteaubriant,11866,47.720948,-1.3762239,default
+Normandy,Seine-Maritime,Yvetot,11849,49.617779,0.755212,default
+Languedoc-Roussillon Midi-Pyrénées,Pyrénées-Orientales,Saint-Estève,11846,42.711815,2.8437039,default
+Languedoc-Roussillon,Gard,Villeneuve-lès-Avignon,11833,43.96341,4.796959,default
+Île-de-France,Val-d'Oise,Persan,11809,49.152233,2.269571,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn,Graulhet,11807,43.759597,1.988911,default
+Auvergne Rhône-Alpes,Ardeche,Aubenas,11803,44.620909,4.389863,default
+Languedoc-Roussillon Midi-Pyrénées,Haute-Garonne,Fonsorbes,11786,43.535456,1.230645,default
+Brittany,Ille-et-Vilaine,Saint-Jacques-de-la-Lande,11783,48.065963,-1.722328,default
+Alsace-Champagne-Ardenne-Lorraine,Aube,Saint-André-les-Vergers,11770,48.279962,4.053341,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Carros,11756,43.792389,7.18712,default
+Midi-Pyrénées,Haute-Garonne,L'Union,11731,43.657192,1.484186,default
+Auvergne Rhône-Alpes,Haute-Savoie,Gaillard,11723,46.184685,6.208959,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Méricourt,11708,50.4015259,2.866865,default
+Auvergne Rhône-Alpes,Isere,Sassenage,11705,45.206646,5.663678,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Rognac,11700,43.487871,5.23463,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Florange,11689,49.321374,6.118282,default
+Languedoc-Roussillon Midi-Pyrénées,Lozère,Mende,11679,44.517611,3.501873,default
+Alsace,Haut-Rhin,Cernay,11664,47.807124,7.176532,default
+Auvergne Rhône-Alpes,Ain,Bellegarde-sur-Valserine,11644,46.107599,5.826179,default
+Provence-Alpes-Côte d'Azur,Var,Cogolin,11642,43.251843,6.532649,default
+Nord-Pas-de-Calais,Nord,Gravelines,11638,50.98707,2.125537,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Saverne,11609,48.741963,7.361647,default
+Languedoc-Roussillon Midi-Pyrénées,Aveyron,Onet-le-Château,11604,44.3794807,2.5891648,default
+Île-de-France,Seine-et-Marne,Claye-Souilly,11599,48.945849,2.68836,default
+Lower Normandy,Calvados,Vire,11597,48.837781,-0.888482,default
+Pays de la Loire,Mayenne,Château-Gontier,11582,47.8267669,-0.7069,default
+Île-de-France,Yvelines,Aubergenville,11576,48.9591319,1.855891,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Andernos-les-Bains,11575,44.743536,-1.102449,default
+Île-de-France,Yvelines,Triel-sur-Seine,11572,48.9817076,2.0054541,default
+Brittany,Cotes-d'Armor,Ploufragan,11569,48.488781,-2.794373,default
+Rhone-Alpes,Savoie,La Motte-Servolex,11563,45.596488,5.874112,default
+Upper Normandy,Seine-Maritime,Bolbec,11551,49.575329,0.483881,default
+Nord-Pas-de-Calais Picardie,Nord,Saint-André-lez-Lille,11533,50.660979,3.047736,default
+Normandy,Seine-Maritime,Oissel,11505,49.339778,1.08978,default
+Normandy,Calvados,Ifs,11500,49.140254,-0.350503,default
+Languedoc-Roussillon Midi-Pyrénées,Aude,Castelnaudary,11476,43.317118,1.95333,default
+Île-de-France,Yvelines,Voisins-le-Bretonneux,11464,48.7604611,2.0436886,default
+Auvergne Rhône-Alpes,Rhône,Brignais,11429,45.674944,4.7525639,default
+Corsica,Corse-du-Sud,Porto-Vecchio,11354,41.591369,9.278311,default
+Nord-Pas-de-Calais Picardie,Nord,Marly,11335,50.346445,3.547647,default
+Île-de-France,Val-d'Oise,Enghien-les-Bains,11332,48.9708759,2.3034849,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Auriol,11325,43.369174,5.631363,default
+Brittany,Finistere,Le Relecq-Kerhuon,11323,48.406325,-4.39258,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Saint-Martin-Boulogne,11323,50.7257419,1.630571,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Guebwiller,11322,47.911586,7.209336,default
+Provence-Alpes-Côte d'Azur,Var,Solliès-Pont,11310,43.191199,6.041984,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Thiers,11308,45.857907,3.545177,default
+Limousin,Haute-Vienne,Saint-Junien,11301,45.88716,0.901165,default
+Île-de-France,Hauts-de-Seine,Ville-d'Avray,11266,48.8270042,2.1886944,default
+Midi-Pyrénées,Haute-Garonne,Saint-Orens-de-Gameville,11243,43.551879,1.533877,default
+Languedoc-Roussillon Midi-Pyrénées,Haute-Garonne,Saint-Gaudens,11241,43.106895,0.723763,default
+Lorraine,Moselle,Maizières-lès-Metz,11233,49.2102519,6.160064,default
+Languedoc-Roussillon,Aude,Lézignan-Corbières,11223,43.200503,2.7577759,default
+Nord-Pas-de-Calais,Pas-de-Calais,Longuenesse,11204,50.736744,2.243632,default
+Normandy,Eure,Gisors,11201,49.279774,1.776579,default
+Languedoc-Roussillon Midi-Pyrénées,Gard,Vauvert,11195,43.692984,4.278326,default
+Normandy,Seine-Maritime,Maromme,11188,49.481859,1.044099,default
+Auvergne Rhône-Alpes,Haute-Savoie,La Roche-sur-Foron,11184,46.067072,6.312039,default
+Pays de la Loire,Vendee,Saint-Hilaire-de-Riez,11169,46.720204,-1.945917,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Étaples,11158,50.516087,1.63879,default
+Auvergne Rhône-Alpes,Isere,Le Pont-de-Claix,11133,45.123218,5.69782,default
+Burgundy,Côte-d'Or,Talant,11131,47.33666,5.003666,default
+Nord-Pas-de-Calais Picardie,Nord,Saint-Saulve,11108,50.370729,3.554938,default
+Nord-Pas-de-Calais Picardie,Oise,Chantilly,11108,49.19316,2.4687389,default
+Provence-Alpes-Côte d'Azur,Var,Le Pradet,11074,43.106933,6.018687,default
+Pays de la Loire,Sarthe,Allonnes,11047,47.968893,0.159363,default
+Brittany,Ille-et-Vilaine,Pacé,11044,48.146698,-1.77276,default
+Île-de-France,Seine-et-Marne,Lieusaint,11033,48.631195,2.551107,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Hoenheim,11028,48.621085,7.7555,default
+Auvergne Rhône-Alpes,Rhône,Corbas,10968,45.6704717,4.8984124,default
+Nord-Pas-de-Calais Picardie,Nord,Douchy-les-Mines,10964,50.300531,3.388923,default
+Rhone-Alpes,Haute-Savoie,Passy,10958,45.923392,6.684919,default
+Brittany,Cotes-d'Armor,Dinan,10940,48.454366,-2.047327,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Obernai,10932,48.46226,7.48168,default
+Provence-Alpes-Côte d'Azur,Var,Vidauban,10928,43.426869,6.4316129,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Beaumont,10926,45.754198,3.085606,default
+Auvergne Rhône-Alpes,Ardeche,Guilherand-Granges,10918,44.9293497,4.8627618,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Erstein,10916,48.42353,7.66326,default
+Auvergne Rhône-Alpes,Ain,Gex,10893,46.3341909,6.058036,default
+Centre,Indre-et-Loire,Chambray-lès-Tours,10881,47.3376625,0.7013087,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Auchel,10863,50.50765,2.46916,default
+Nord-Pas-de-Calais Picardie,Aisne,Villers-Cotterêts,10797,49.255061,3.0908159,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Oloron-Sainte-Marie,10794,43.194413,-0.605292,default
+Centre,Indre-et-Loire,Montlouis-sur-Loire,10787,47.388264,0.827383,default
+Île-de-France,Seine-et-Marne,Vaux-le-Pénil,10764,48.525439,2.68411,default
+Brittany,Morbihan,Guidel,10760,47.795017,-3.487062,default
+Auvergne Rhône-Alpes,Rhône,Tarare,10733,45.89676,4.433425,default
+Brittany,Morbihan,Saint-Avé,10728,47.68981,-2.73568,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Trets,10719,43.446909,5.6841549,default
+Languedoc-Roussillon Midi-Pyrénées,Pyrénées-Orientales,Saint-Cyprien,10716,42.61783,3.004182,default
+Picardy,Oise,Clermont,10714,49.376086,2.414202,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Septèmes-les-Vallons,10713,43.398686,5.3684079,default
+Île-de-France,Essonne,Arpajon,10707,48.589172,2.246237,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn,Lavaur,10691,43.699185,1.820699,default
+Auvergne Rhône-Alpes,Loire,Riorges,10690,46.043248,4.044545,default
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhone,Plan-de-Cuques,10689,43.345989,5.462092,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Vedène,10661,43.974378,4.903105,default
+Languedoc-Roussillon Midi-Pyrénées,Hérault,Mèze,10642,43.4255939,3.606834,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Courrières,10639,50.458378,2.946283,default
+Bourgogne Franche-Comté,Nievre,Cosne-Cours-sur-Loire,10629,47.3824086,2.9252801,default
+Brittany,Ille-et-Vilaine,Betton,10608,48.182829,-1.643459,default
+Provence-Alpes-Côte d'Azur,Var,Cuers,10570,43.237875,6.0721999,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Orthez,10569,43.48756,-0.7739279,default
+Alsace-Champagne-Ardenne-Lorraine,Haut-Rhin,Wittelsheim,10562,47.809194,7.240593,default
+Limousin,Haute-Vienne,Panazol,10560,45.835537,1.306352,default
+Auvergne Rhône-Alpes,Ardeche,Tournon-sur-Rhône,10545,45.067915,4.832137,default
+Nord-Pas-de-Calais Picardie,Nord,Aniche,10536,50.331488,3.251723,default
+Pays de la Loire,Loire-Atlantique,Pornichet,10531,47.263426,-2.340571,default
+Auvergne Rhône-Alpes,Puy-de-Dome,Pont-du-Château,10516,45.796936,3.2485909,default
+Île-de-France,Essonne,Épinay-sur-Orge,10499,48.672714,2.323859,default
+Centre,Eure-et-Loir,Nogent-le-Rotrou,10496,48.321762,0.8217759,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Saint-André-de-Cubzac,10495,44.99456,-0.445865,default
+Burgundy,Côte-d'Or,Chevigny-Saint-Sauveur,10486,47.302245,5.139998,default
+Nord-Pas-de-Calais Picardie,Pas-de-Calais,Marck,10481,50.948544,1.94779,default
+Aquitaine Limousin Poitou-Charentes,Gironde,Arcachon,10476,44.652297,-1.1785016,default
+Auvergne Rhône-Alpes,Rhône,Craponne,10466,45.746821,4.7249169,default
+Brittany,Ille-et-Vilaine,Chantepie,10410,48.089126,-1.618455,default
+Auvergne,Puy-de-Dome,Gerzat,10404,45.8243889,3.143508,default
+Languedoc-Roussillon Midi-Pyrénées,Gard,Pont-Saint-Esprit,10393,44.261034,4.648079,default
+Centre,Eure-et-Loir,Mainvilliers,10368,48.44921,1.464086,default
+Provence-Alpes-Côte d'Azur,Hautes-Alpes,Saint-Jean,10358,44.424599,5.701299,default
+Franche-Comté,Jura,Saint-Claude,10346,46.387405,5.8677659,default
+Île-de-France,Essonne,Villebon-sur-Yvette,10344,48.6964029,2.236654,default
+Île-de-France,Essonne,Dourdan,10342,48.529171,2.0152549,default
+Normandy,Seine-Maritime,Déville-lès-Rouen,10309,49.469956,1.049907,default
+Nord-Pas-de-Calais Picardie,Nord,Neuville-en-Ferrain,10294,50.752034,3.155492,default
+Centre,Indre-et-Loire,La Riche,10276,47.388309,0.658258,default
+Upper Normandy,Eure,Bernay,10275,49.089328,0.597811,default
+Bourgogne Franche-Comté,Doubs,Valentigney,10264,47.4614199,6.837516,default
+Nord-Pas-de-Calais,Nord,Annoeullin,10246,50.529722,2.931557,default
+Centre,Cher,Saint-Amand-Montrond,10238,46.7254859,2.505604,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Amnéville,10235,49.2599469,6.142912,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,La Trinité,10232,43.742043,7.313963,default
+Île-de-France,Essonne,Igny,10228,48.73753,2.2228629,default
+Nord-Pas-de-Calais,Pas-de-Calais,Montigny-en-Gohelle,10227,50.428189,2.9270679,default
+Île-de-France,Seine-Saint-Denis,Dugny,10216,48.952179,2.416983,default
+Poitou-Charentes,Deux-Sevres,Parthenay,10204,46.648825,-0.251441,default
+Nord-Pas-de-Calais Picardie,Nord,Marquette-lez-Lille,10196,50.674339,3.062324,default
+Centre,Indre-et-Loire,Fondettes,10193,47.404813,0.599971,default
+Pays de la Loire,Loire-Atlantique,Pontchâteau,10191,47.436929,-2.089536,default
+Nord-Pas-de-Calais,Pas-de-Calais,Lillers,10184,50.564129,2.4806309,default
+Alsace-Champagne-Ardenne-Lorraine,Aube,Sainte-Savine,10183,48.293191,4.056495,default
+Provence-Alpes-Côte d'Azur,Var,Le Luc,10183,43.394509,6.3132339,default
+Languedoc-Roussillon Midi-Pyrénées,Aude,Limoux,10166,43.053289,2.218142,default
+Normandy,Seine-Maritime,Caudebec-lès-Elbeuf,10154,49.283282,1.018033,default
+Auvergne Rhône-Alpes,Drome,Bourg-de-Péage,10137,45.040419,5.050948,default
+Auvergne Rhône-Alpes,Rhône,Pierre-Bénite,10132,45.703204,4.824651,default
+Provence-Alpes-Côte d'Azur,Vaucluse,Pernes-les-Fontaines,10121,43.9984783,5.0549027,default
+Languedoc-Roussillon Midi-Pyrénées,Tarn,Mazamet,10118,43.490103,2.376579,default
+Alsace-Champagne-Ardenne-Lorraine,Bas-Rhin,Brumath,10094,48.730702,7.708784,default
+Rhone-Alpes,Loire,Roche-la-Molière,10093,45.433013,4.322825,default
+Centre,Loiret,La Chapelle-Saint-Mesmin,10078,47.887274,1.84021,default
+Picardy,Somme,Albert,10054,50.001357,2.651604,default
+Auvergne Rhône-Alpes,Isere,Eybens,10048,45.147713,5.750144,default
+Champagne-Ardenne,Marne,Tinqueux,10023,49.247224,3.999442,default
+Île-de-France,Val-de-Marne,Ormesson-sur-Marne,10016,48.785694,2.541046,default
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Biot,10015,43.626851,7.09808,default
+Île-de-France,Yvelines,Chanteloup-les-Vignes,10013,48.978825,2.030051,default
+Alsace-Champagne-Ardenne-Lorraine,Moselle,Rombas,10002,49.251254,6.093352,default
+Aquitaine Limousin Poitou-Charentes,Pyrénées-Atlantiques,Lescar,9993,43.333177,-0.434402,default
+Île-de-France,Yvelines,Croissy-sur-Seine,9990,48.878426,2.142746,default

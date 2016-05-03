@@ -3,19 +3,11 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Bischheim", "Population": 17432 }, "geometry": { "type": "Point", "coordinates": [ 7.751991, 48.614813 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Bischwiller", "Population": 12718 }, "geometry": { "type": "Point", "coordinates": [ 7.860032, 48.768088 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Brumath", "Population": 10094 }, "geometry": { "type": "Point", "coordinates": [ 7.708784, 48.730702 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Erstein", "Population": 10916 }, "geometry": { "type": "Point", "coordinates": [ 7.66326, 48.42353 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Haguenau", "Population": 34419 }, "geometry": { "type": "Point", "coordinates": [ 7.79125, 48.813288 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Hoenheim", "Population": 11028 }, "geometry": { "type": "Point", "coordinates": [ 7.7555, 48.621085 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Illkirch-Graffenstaden", "Population": 26455 }, "geometry": { "type": "Point", "coordinates": [ 7.711011, 48.52854 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Lingolsheim", "Population": 17450 }, "geometry": { "type": "Point", "coordinates": [ 7.681749, 48.554457 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Obernai", "Population": 10932 }, "geometry": { "type": "Point", "coordinates": [ 7.48168, 48.46226 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Ostwald", "Population": 11925 }, "geometry": { "type": "Point", "coordinates": [ 7.71023, 48.5434709 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Saverne", "Population": 11609 }, "geometry": { "type": "Point", "coordinates": [ 7.361647, 48.741963 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Schiltigheim", "Population": 31450 }, "geometry": { "type": "Point", "coordinates": [ 7.748453, 48.605226 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Strasbourg", "Population": 275718 }, "geometry": { "type": "Point", "coordinates": [ 7.7521113, 48.5734053 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Sélestat", "Population": 19332 }, "geometry": { "type": "Point", "coordinates": [ 7.454241, 48.259386 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Strasbourg", "Population": 275718, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.7521113, 48.5734053 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Haguenau", "Population": 34419, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.79125, 48.813288 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Schiltigheim", "Population": 31450, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.748453, 48.605226 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Illkirch-Graffenstaden", "Population": 26455, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.711011, 48.52854 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Sélestat", "Population": 19332, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.454241, 48.259386 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Bas-Rhin", "CityName": "Bischheim", "Population": 17432, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.751991, 48.614813 ] } }
 ]
 }

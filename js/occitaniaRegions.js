@@ -202,9 +202,19 @@ var regionFuncs = new function()
 				myRegionTextLabelGroups.append("text")
 					.attr("class", "place-label")
 					.attr("transform", function(d) { return "translate(" + newProjection(d.geometry.coordinates) + ")"; })
-					.attr("x", function(d) { return d.geometry.coordinates[0] > -1 ? 6 : -6; })
+					.attr("x", function(d) {
+						if (d.properties.textPosition == "default")
+							return d.geometry.coordinates[0] > -1 ? 6 : -6;
+						else
+							return (d.properties.textPosition == "left") ? -6 : 6;
+					})
 					.attr("dy", ".35em")
-					.style("text-anchor", function(d) { return d.geometry.coordinates[0] > -1 ? "start" : "end"; })
+					.style("text-anchor", function(d) {
+						if (d.properties.textPosition == "default")
+							return d.geometry.coordinates[0] > -1 ? "start" : "end";
+						else
+							return (d.properties.textPosition == "left") ? "end" : "start";
+					})
 					.text(function(d) { return d.properties.cityname; });
 
 				myRegionTextLabelGroups.append("rect")

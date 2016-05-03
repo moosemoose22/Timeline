@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "RegionName": "Navarre", "DeptName": "Navarra", "Admin3Name": "Cuenca de Pamplona - Pamplona", "CityName": "Valle de Egüés", "Population": 19603, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.5499211, 42.8240875 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Navarre", "DeptName": "Navarra", "Admin3Name": "Cuenca de Pamplona - Pamplona", "CityName": "Pamplona", "Population": 195853, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.6457745, 42.812526 ] } }
+]
+}

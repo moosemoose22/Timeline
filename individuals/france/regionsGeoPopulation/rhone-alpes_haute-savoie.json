@@ -3,6 +3,11 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Annecy", "Population": 52029, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.129384, 45.899247 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Thonon-les-Bains", "Population": 34610, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.477635, 46.373565 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Annemasse", "Population": 34261, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.234158, 46.193253 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Annecy-le-Vieux", "Population": 20166, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.1419499, 45.9192139 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Seynod", "Population": 19624, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.1020358, 45.8890357 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Haute-Savoie", "CityName": "Passy", "Population": 10958, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.684919, 45.923392 ] } }
 ]
 }

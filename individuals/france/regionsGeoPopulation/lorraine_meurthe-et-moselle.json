@@ -3,13 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Laxou", "Population": 14681 }, "geometry": { "type": "Point", "coordinates": [ 6.152525, 48.684256 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Longwy", "Population": 14092 }, "geometry": { "type": "Point", "coordinates": [ 5.761773, 49.519919 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Lunéville", "Population": 19516 }, "geometry": { "type": "Point", "coordinates": [ 6.492339, 48.592237 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Nancy", "Population": 104072 }, "geometry": { "type": "Point", "coordinates": [ 6.184417, 48.692054 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Pont-à-Mousson", "Population": 14792 }, "geometry": { "type": "Point", "coordinates": [ 6.054868, 48.90329 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Toul", "Population": 16128 }, "geometry": { "type": "Point", "coordinates": [ 5.890159, 48.678296 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Vandoeuvre-lès-Nancy", "Population": 29836 }, "geometry": { "type": "Point", "coordinates": [ 6.17376, 48.661118 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Villers-lès-Nancy", "Population": 14133 }, "geometry": { "type": "Point", "coordinates": [ 6.153496, 48.673218 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Nancy", "Population": 104072, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.184417, 48.692054 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Meurthe-et-Moselle", "CityName": "Vandoeuvre-lès-Nancy", "Population": 29836, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.17376, 48.661118 ] } }
 ]
 }

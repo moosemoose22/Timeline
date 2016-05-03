@@ -3,11 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Albi", "Population": 49342 }, "geometry": { "type": "Point", "coordinates": [ 2.1486413, 43.9250853 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Castres", "Population": 41636 }, "geometry": { "type": "Point", "coordinates": [ 2.241295, 43.606214 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Gaillac", "Population": 14334 }, "geometry": { "type": "Point", "coordinates": [ 1.896506, 43.9018159 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Graulhet", "Population": 11807 }, "geometry": { "type": "Point", "coordinates": [ 1.988911, 43.759597 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Lavaur", "Population": 10691 }, "geometry": { "type": "Point", "coordinates": [ 1.820699, 43.699185 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Mazamet", "Population": 10118 }, "geometry": { "type": "Point", "coordinates": [ 2.376579, 43.490103 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Albi", "Population": 49342, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.1486413, 43.9250853 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Tarn", "CityName": "Castres", "Population": 41636, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.241295, 43.606214 ] } }
 ]
 }

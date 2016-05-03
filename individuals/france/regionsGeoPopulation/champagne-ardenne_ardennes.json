@@ -3,7 +3,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Ardennes", "CityName": "Charleville-Mézières", "Population": 48991 }, "geometry": { "type": "Point", "coordinates": [ 4.726096, 49.762085 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Ardennes", "CityName": "Sedan", "Population": 18134 }, "geometry": { "type": "Point", "coordinates": [ 4.93863, 49.70349 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Champagne-Ardenne", "DeptName": "Ardennes", "CityName": "Charleville-Mézières", "Population": 48991, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.726096, 49.762085 ] } }
 ]
 }

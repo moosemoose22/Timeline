@@ -3,6 +3,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Palencia", "Population": 79595 }, "geometry": { "type": "Point", "coordinates": [ -4.5288016, 42.0096857 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Castilla y León", "DeptName": "Palencia", "Admin3Name": "Tierra de Campos", "CityName": "Palencia", "Population": 79595, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -4.5288016, 42.0096857 ] } }
 ]
 }

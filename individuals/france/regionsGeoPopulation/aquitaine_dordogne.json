@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Dordogne", "CityName": "Bergerac", "Population": 28063 }, "geometry": { "type": "Point", "coordinates": [ 0.483392, 44.853806 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Dordogne", "CityName": "Périgueux", "Population": 30036 }, "geometry": { "type": "Point", "coordinates": [ 0.7211149, 45.184029 ] } }
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Dordogne", "CityName": "Périgueux", "Population": 30036, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.7211149, 45.184029 ] } },
+{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Dordogne", "CityName": "Bergerac", "Population": 28063, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.483392, 44.853806 ] } }
 ]
 }

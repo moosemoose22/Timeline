@@ -5,7 +5,7 @@
 import csv, time, urllib.request, urllib.parse, json, sys
 france_cities_list = []
 
-with open('HIST_POP_COM_RP13_20000.csv', 'r') as data_file:
+with open('HIST_POP_COM_RP13_10000.csv', 'r') as data_file:
 	reader = csv.reader(data_file)
 	for row in reader:
 		france_cities_list.append(row)

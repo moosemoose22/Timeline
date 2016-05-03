@@ -88,7 +88,7 @@ One day, we might have 2 versions: 1 for Chrome, and 1 for everybody else.
 Go to the tab titles "Arondissements."
 Copy all the data there and put it in a new XLS sheet or document.
 Export this as a CSV.
-I saved it as rawdata/france/outputFrance.csv.
+I saved it as [rawdata/insee/outputFrance.csv](rawdata/insee/outputFrance.csv).
 
 3. Parse the population data  
 The population has commas, and that could cause problems later on.
@@ -122,7 +122,7 @@ Population size criterion of "Total population" "Greater than" "20000".
 "Select years" of "2015"
 
 2. That gave me around 4 pages of data.
-I copied and pasted the data into a spreadsheet which I exported as outputSpain.csv.
+I copied and pasted the data into a spreadsheet which I exported as [rawdata/ine/outputSpainIne.csv](rawdata/ine/outputSpainIne.csv).
 
 3. Parse the place data
 The place data has codes in them.
