@@ -116,6 +116,7 @@ var landingPage = new function()
 				})
 				.text(function(d) { return d.properties.cityname; });
 
+			// City hover background rectangle
 			myTextLabelGroups.append("rect")
 				.filter(function(d) { return filterPopulation(d.properties.population); })
 				.attr("class", "place-label-bg")

@@ -217,16 +217,22 @@ var regionFuncs = new function()
 					})
 					.text(function(d) { return d.properties.cityname; });
 
+				// City hover background rectangle
 				myRegionTextLabelGroups.append("rect")
 					.attr("class", "place-label-bg")
 					.attr("transform", function(d)
 					{
 						var bbox = this.previousSibling.getBBox();
 						var coords = newProjection(d.geometry.coordinates);
-						if (d.geometry.coordinates[0] < -1)
-							coords[0] -= (bbox.width + 6);
+						var addPixels;
+						if (d.properties.textPosition == "default")
+							addPixels = (d.geometry.coordinates[0] > -1);
 						else
+							addPixels = (d.properties.textPosition == "right");
+						if (addPixels)
 							coords[0] += 6;
+						else
+							coords[0] -= (bbox.width + 6);
 						coords[1] -= (bbox.height / 2);
 						return "translate(" + coords + ")";
 					})
