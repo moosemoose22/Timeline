@@ -26,7 +26,7 @@ We sorted it by population in LibreOfficeCalc.  I then grabbed cities with a pop
 We then got lat/long data from google for the extra cities by running and [rawdata/insee/getDataGoogle.py](rawdata/insee/getDataGoogle.py).  
 The result was saved as [rawdata/insee/outputNewFranceInseeWithLatLng.csv](rawdata/insee/outputNewFranceInseeWithLatLng.csv).  
 
-For Spain, we got [rawdata/ine/outputSpainIneOver1000.csv](rawdata/ine/outputSpainIneOver1000.csv) from [http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1](ine).  
+For Spain, we got [rawdata/ine/outputSpainIneOver1000.csv](rawdata/ine/outputSpainIneOver1000.csv) from http://www.ine.es/nomen2/changeLanguage.do?target=index&language=1.  
 The cities originally had numbers attached to them. You can remove them by running [rawdata/ine/getSpainIne.py](rawdata/ine/getSpainIne.py).  
 We then got lat/long data from google for the extra cities by running and [rawdata/ine/getDataGoogle.py](rawdata/ine/getDataGoogle.py).  
 The result was saved as [rawdata/ine/outputNewSpainIneWithLatLng.csv](rawdata/ine/outputNewSpainIneWithLatLng.csv).  
