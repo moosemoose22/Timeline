@@ -1,17 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Toulouse", "Population": 458298, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.444209, 43.604652 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Colomiers", "Population": 38302, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.336579, 43.612189 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Tournefeuille", "Population": 26206, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.346834, 43.5829 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Muret", "Population": 24725, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.33071, 43.461574 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Blagnac", "Population": 22969, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.39703, 43.635087 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Balma", "Population": 14929, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.500032, 43.606098 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Ramonville-Saint-Agne", "Population": 13475, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.4784139, 43.543794 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Castanet-Tolosan", "Population": 12388, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.499573, 43.51563 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "L'Union", "Population": 11731, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.484186, 43.657192 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Haute-Garonne", "CityName": "Saint-Orens-de-Gameville", "Population": 11243, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.533877, 43.551879 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Midi-Pyrénées",
+                "DeptName": "Haute-Garonne",
+                "CityName": "Toulouse",
+                "Population": 458298,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.444209,
+                    43.604652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.175713,
+                    43.510619
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Haute-Garonne",
+                "CityName": "Saint-Lys",
+                "Population": 8917,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.567057,
+                    43.086263
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Haute-Garonne",
+                "CityName": "Montréjeau",
+                "Population": 2870,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

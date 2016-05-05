@@ -1,26 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Nantes", "Population": 292718, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.553621, 47.218371 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Saint-Nazaire", "Population": 68513, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.213848, 47.2734979 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Saint-Herblain", "Population": 43784, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.651444, 47.210335 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Rezé", "Population": 39568, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.569382, 47.190616 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Saint-Sébastien-sur-Loire", "Population": 25610, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.503103, 47.205376 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Orvault", "Population": 24922, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.619405, 47.274344 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Vertou", "Population": 22820, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.473378, 47.168194 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Couëron", "Population": 20084, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.72885, 47.210999 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Bouguenais", "Population": 18662, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.619656, 47.176385 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Carquefou", "Population": 18646, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.486812, 47.296241 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "La Chapelle-sur-Erdre", "Population": 18412, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.550638, 47.299576 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Guérande", "Population": 15858, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.4297589, 47.328003 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "La Baule-Escoublac", "Population": 15456, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.393236, 47.285448 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Pornic", "Population": 14288, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.104444, 47.115491 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Sainte-Luce-sur-Loire", "Population": 14170, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.487331, 47.249491 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Saint-Brevin-les-Pins", "Population": 13134, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.165807, 47.246659 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Châteaubriant", "Population": 11866, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.3762239, 47.720948 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Pornichet", "Population": 10531, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.340571, 47.263426 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Loire-Atlantique", "CityName": "Pontchâteau", "Population": 10191, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -2.089536, 47.436929 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Loire-Atlantique",
+                "CityName": "Nantes",
+                "Population": 292718,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.553621,
+                    47.218371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.764935,
+                    47.475279
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Loire-Atlantique",
+                "CityName": "Blain",
+                "Population": 9543,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.944482,
+                    47.358852
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Loire-Atlantique",
+                "CityName": "Savenay",
+                "Population": 8100,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.177491,
+                    47.365464
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Loire-Atlantique",
+                "CityName": "Ancenis",
+                "Population": 7474,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

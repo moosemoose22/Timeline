@@ -1,9 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre", "CityName": "Châteauroux", "Population": 45209, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.686779, 46.811434 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre", "CityName": "Issoudun", "Population": 12420, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.988654, 46.947535 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre",
+                "CityName": "Châteauroux",
+                "Population": 45209,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.686779,
+                    46.811434
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.064289,
+                    46.633239
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre",
+                "CityName": "Le Blanc",
+                "Population": 6721,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.986165,
+                    46.581832
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre",
+                "CityName": "La Châtre",
+                "Population": 4289,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.654295,
+                    47.25447
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre",
+                "CityName": "Chabris",
+                "Population": 2731,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Haute-Normandie",
+                "DeptName": "Seine-Maritime",
+                "CityName": "Le Havre",
+                "Population": 172074,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.107929,
+                    49.49437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.007075,
+                    49.357383
+                ]
+            },
+            "properties": {
+                "RegionName": "Normandie",
+                "DeptName": "Seine-Maritime",
+                "CityName": "Grand-Couronne",
+                "Population": 9937,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.419597,
+                    50.04887
+                ]
+            },
+            "properties": {
+                "RegionName": "Normandie",
+                "DeptName": "Seine-Maritime",
+                "CityName": "Eu",
+                "Population": 7189,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

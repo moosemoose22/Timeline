@@ -1,9 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Lot-et-Garonne", "CityName": "Agen", "Population": 34344, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.616363, 44.203142 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Lot-et-Garonne", "CityName": "Villeneuve-sur-Lot", "Population": 23462, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.7072568, 44.4082053 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Aquitaine",
+                "DeptName": "Lot-et-Garonne",
+                "CityName": "Agen",
+                "Population": 34344,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.616363,
+                    44.203142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.308179,
+                    44.391183
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Lot-et-Garonne",
+                "CityName": "Tonneins",
+                "Population": 8914,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.340128,
+                    44.136103
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Lot-et-Garonne",
+                "CityName": "Nérac",
+                "Population": 7070,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.588035,
+                    44.397824
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Lot-et-Garonne",
+                "CityName": "Sainte-Livrade-sur-Lot",
+                "Population": 6132,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

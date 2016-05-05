@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Savoie", "CityName": "Chambéry", "Population": 58653, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.917781, 45.564601 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Savoie", "CityName": "Aix-les-Bains", "Population": 29580, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.908998, 45.692341 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Savoie", "CityName": "La Motte-Servolex", "Population": 11563, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.874112, 45.596488 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Rhone-Alpes",
+                "DeptName": "Savoie",
+                "CityName": "Chambéry",
+                "Population": 58653,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.917781,
+                    45.564601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.344886,
+                    45.275403
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Savoie",
+                "CityName": "Saint-Jean-de-Maurienne",
+                "Population": 7968,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.769548,
+                    45.618598
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Savoie",
+                "CityName": "Bourg-Saint-Maurice",
+                "Population": 7174,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Bourgogne",
+                "DeptName": "Côte-d'Or",
+                "CityName": "Dijon",
+                "Population": 153003,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.04148,
+                    47.322047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9503199,
+                    47.137985
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Côte-d'Or",
+                "CityName": "Nuits-Saint-Georges",
+                "Population": 5572,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.573714,
+                    47.860455
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Côte-d'Or",
+                "CityName": "Châtillon-sur-Seine",
+                "Population": 5478,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

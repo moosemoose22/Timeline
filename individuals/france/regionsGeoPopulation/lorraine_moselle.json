@@ -1,13 +1,147 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Metz", "Population": 118634, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.1757156, 49.1193089 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Thionville", "Population": 41627, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.168426, 49.357571 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Montigny-lès-Metz", "Population": 21831, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.147807, 49.099068 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Forbach", "Population": 21596, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.895295, 49.186515 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Sarreguemines", "Population": 21572, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.070862, 49.106031 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Lorraine", "DeptName": "Moselle", "CityName": "Maizières-lès-Metz", "Population": 11233, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.160064, 49.2102519 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Metz",
+                "Population": 118634,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1757156,
+                    49.1193089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.151378,
+                    49.407626
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Hettange-Grande",
+                "Population": 7568,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.867567,
+                    49.11656
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Farébersviller",
+                "Population": 5554,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.59535,
+                    49.048666
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Faulquemont",
+                "Population": 5439,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.029931,
+                    48.999639
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Sarralbe",
+                "Population": 4571,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.090652,
+                    49.320424
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Serémange-Erzange",
+                "Population": 4286,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.106082,
+                    48.750867
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Réding",
+                "Population": 2424,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.529863,
+                    48.782266
+                ]
+            },
+            "properties": {
+                "RegionName": "Lorraine",
+                "DeptName": "Moselle",
+                "CityName": "Vic-sur-Seille",
+                "Population": 1333,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

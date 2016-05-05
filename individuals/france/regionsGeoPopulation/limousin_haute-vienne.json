@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Limousin", "DeptName": "Haute-Vienne", "CityName": "Limoges", "Population": 135098, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.261105, 45.833619 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Limousin", "DeptName": "Haute-Vienne", "CityName": "Saint-Junien", "Population": 11301, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.901165, 45.88716 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Limousin", "DeptName": "Haute-Vienne", "CityName": "Panazol", "Population": 10560, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.306352, 45.835537 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Limousin",
+                "DeptName": "Haute-Vienne",
+                "CityName": "Limoges",
+                "Population": 135098,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.261105,
+                    45.833619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.051593,
+                    46.122228
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Haute-Vienne",
+                "CityName": "Bellac",
+                "Population": 4164,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.8213841,
+                    45.8249383
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Haute-Vienne",
+                "CityName": "Rochechouart",
+                "Population": 3807,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

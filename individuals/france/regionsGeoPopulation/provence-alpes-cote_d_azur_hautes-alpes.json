@@ -1,10 +1,45 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Hautes-Alpes", "CityName": "Gap", "Population": 40255, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.079758, 44.559638 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Hautes-Alpes", "CityName": "Briançon", "Population": 12190, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.643179, 44.899416 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Hautes-Alpes", "CityName": "Saint-Jean", "Population": 10358, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.701299, 44.424599 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Hautes-Alpes",
+                "CityName": "Gap",
+                "Population": 40255,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.079758,
+                    44.559638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.649365,
+                    44.6610919
+                ]
+            },
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Hautes-Alpes",
+                "CityName": "Guillestre",
+                "Population": 2345,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

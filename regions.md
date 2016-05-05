@@ -69,6 +69,20 @@ Note that in the bash script for Spain, we need to convert some of the names.
 You should also get some topojson errors for ceuta_y_melilla and islas_canarias for spain.  
 Since those aren't promiment on our map (Tenerife isn't on the map at all currently), I haven't dealt with them yet.
 
+##### Adding additional cities to empty admin3 regions for France  
+A bunch of admin3 regions in France don't have any cities in them. Let's add at least 1 city per admin3 region.
+
+There's a script [updateESPmissingAdm3/findFRARegionsNoCities.js](updateESPmissingAdm3/findFRARegionsNoCities.js) that automatically checks for all regions missing admin3 data and saves it to [updateESPmissingAdm3/regionsMissingCitiesFRA.csv](updateESPmissingAdm3/regionsMissingCitiesFRA.csv).  
+It goes through all the processed GEOJson and checks to see which admin3 regions have no cities within them.  
+Note that we also converted any English names to French names by running [updateESPmissingAdm3/fixRegionNames.py](updateESPmissingAdm3/fixRegionNames.py).  
+
+Now let's take that list ([updateESPmissingAdm3/regionsMissingCitiesFRA.csv](updateESPmissingAdm3/regionsMissingCitiesFRA.csv)), and add 1 city to each empty admin3 region.  
+We do that by running [updateESPmissingAdm3/updateFRARegionsNoCities.js](updateESPmissingAdm3/updateFRARegionsNoCities.js).  
+It actually runs [updateESPmissingAdm3/findFRARegionsNoCities.js](updateESPmissingAdm3/findFRARegionsNoCities.js) and then updates the population GEOJson for admin3 regions that have no cities.  
+Then we regenerate the topojson by going to [individuals/france](individuals/france) and running  
+ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\*\*', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./combineIndividuals.sh {}  
+Then copy the directory [individuals/france/regionsTopoNewName](individuals/france/regionsTopoNewName) to [maps/france](maps/france) and rename it [maps/france/regions](maps/france/regions).
+
 ##### Fixing missing admin3 data in Spain  
 The admin3 data for Spain from gadm is mostly missing. The admin3 region names are often "n.a. (*counter*).  
 You can see  a list of all remaining missing regions by running [updateESPmissingAdm3/findAdm3.js](updateESPmissingAdm3/findAdm3.js).  

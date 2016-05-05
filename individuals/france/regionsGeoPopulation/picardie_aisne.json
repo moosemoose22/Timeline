@@ -1,8 +1,96 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Picardie",
+                "DeptName": "Aisne",
+                "CityName": "Saint-Quentin",
+                "Population": 55698,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2874,
+                    49.847066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.084192,
+                    49.9200919
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Aisne",
+                "CityName": "Hirson",
+                "Population": 9346,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.5134759,
+                    49.2012325
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Aisne",
+                "CityName": "Fère-en-Tardenois",
+                "Population": 3183,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.344862,
+                    49.658641
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Aisne",
+                "CityName": "Beautor",
+                "Population": 2692,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.359553,
+                    49.380925
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Aisne",
+                "CityName": "Villeneuve-Saint-Germain",
+                "Population": 2512,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

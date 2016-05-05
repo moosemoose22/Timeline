@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente", "CityName": "Angoulême", "Population": 41970, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.1562369, 45.648377 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Poitou-Charentes",
+                "DeptName": "Charente",
+                "CityName": "Angoulême",
+                "Population": 41970,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1562369,
+                    45.648377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.155689,
+                    45.471894
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente",
+                "CityName": "Barbezieux-Saint-Hilaire",
+                "Population": 4774,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.449541,
+                    45.824163
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente",
+                "CityName": "Chasseneuil-sur-Bonnieure",
+                "Population": 3042,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

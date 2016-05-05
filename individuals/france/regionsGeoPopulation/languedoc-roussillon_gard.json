@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Nîmes", "Population": 150564, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.360054, 43.836699 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Alès", "Population": 40711, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.083352, 44.127204 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Languedoc-Roussillon", "DeptName": "Gard", "CityName": "Villeneuve-lès-Avignon", "Population": 11833, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.796959, 43.96341 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Languedoc-Roussillon",
+                "DeptName": "Gard",
+                "CityName": "Nîmes",
+                "Population": 150564,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.360054,
+                    43.836699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.125188,
+                    44.080058
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon",
+                "DeptName": "Gard",
+                "CityName": "Saint-Hilaire-de-Brethmas",
+                "Population": 4227,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.714011,
+                    43.979192
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon",
+                "DeptName": "Gard",
+                "CityName": "Sumène",
+                "Population": 1626,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

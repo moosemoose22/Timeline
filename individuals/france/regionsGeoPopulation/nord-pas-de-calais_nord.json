@@ -1,37 +1,113 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Lille", "Population": 231491, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.057256, 50.62925 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Roubaix", "Population": 95866, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.177847, 50.6927049 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Tourcoing", "Population": 93974, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.16207, 50.724993 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Dunkerque", "Population": 89882, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.3767763, 51.0343684 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Villeneuve-d'Ascq", "Population": 62616, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.1442651, 50.6232523 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Valenciennes", "Population": 42851, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.518332, 50.357113 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Wattrelos", "Population": 41522, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.215007, 50.701174 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Douai", "Population": 41189, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.080602, 50.367874 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Marcq-en-Baroeul", "Population": 39392, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.096267, 50.670368 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Cambrai", "Population": 32852, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.236633, 50.173538 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Maubeuge", "Population": 30567, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.9674, 50.280228 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Lambersart", "Population": 28491, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.026676, 50.652468 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Armentières", "Population": 25978, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.884218, 50.691652 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "La Madeleine", "Population": 22243, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.073511, 50.654836 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Coudekerque-Branche", "Population": 22015, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.397046, 51.015681 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Hazebrouck", "Population": 21737, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.542555, 50.72748 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Mons-en-Baroeul", "Population": 21513, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.107673, 50.642006 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Grande-Synthe", "Population": 21364, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.302577, 51.013547 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Croix", "Population": 21114, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.148719, 50.67732 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Wasquehal", "Population": 20990, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.130782, 50.669276 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Halluin", "Population": 20915, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.127845, 50.782824 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Loos", "Population": 20650, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.017729, 50.615139 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Denain", "Population": 20549, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.397325, 50.328225 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Hem", "Population": 18721, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.18881, 50.654867 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Faches-Thumesnil", "Population": 17497, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.06953, 50.602642 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Raismes", "Population": 12682, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.484984, 50.392546 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Seclin", "Population": 12571, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.026566, 50.545332 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Bruay-sur-l'Escaut", "Population": 12097, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 3.537198, 50.397664 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Gravelines", "Population": 11638, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.125537, 50.98707 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Nord", "CityName": "Annoeullin", "Population": 10246, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.931557, 50.529722 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais",
+                "DeptName": "Nord",
+                "CityName": "Lille",
+                "Population": 231491,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.057256,
+                    50.62925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.100791,
+                    50.296322
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Nord",
+                "CityName": "Jeumont",
+                "Population": 9897,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.547647,
+                    50.346445
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Nord",
+                "CityName": "Marly",
+                "Population": 9861,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.639274,
+                    50.642989
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Nord",
+                "CityName": "Merville",
+                "Population": 9713,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.2428,
+                    50.4745
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Nord",
+                "CityName": "Orchies",
+                "Population": 8284,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.544235,
+                    50.103942
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Nord",
+                "CityName": "Le Cateau-Cambrésis",
+                "Population": 7047,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Midi-Pyrénées", "DeptName": "Hautes-Pyrénées", "CityName": "Tarbes", "Population": 41062, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.078082, 43.232951 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Midi-Pyrénées",
+                "DeptName": "Hautes-Pyrénées",
+                "CityName": "Tarbes",
+                "Population": 41062,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.078082,
+                    43.232951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.38396,
+                    43.125519
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Hautes-Pyrénées",
+                "CityName": "Lannemezan",
+                "Population": 5940,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.101087,
+                    43.005028
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Hautes-Pyrénées",
+                "CityName": "Argelès-Gazost",
+                "Population": 3048,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

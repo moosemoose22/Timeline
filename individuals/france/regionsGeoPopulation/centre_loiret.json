@@ -1,18 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Orléans", "Population": 114375, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.909251, 47.902964 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Fleury-les-Aubrais", "Population": 20677, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.920754, 47.931513 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Olivet", "Population": 20458, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.897565, 47.865408 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Saint-Jean-de-Braye", "Population": 19571, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.970843, 47.912048 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Saint-Jean-de-la-Ruelle", "Population": 16488, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.874149, 47.912722 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Saran", "Population": 15449, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.880734, 47.94791 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Gien", "Population": 14624, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.624758, 47.698059 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Montargis", "Population": 14326, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.736291, 47.99729 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Châlette-sur-Loing", "Population": 12812, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.73203, 48.014736 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "Amilly", "Population": 12232, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.768125, 47.975346 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loiret", "CityName": "La Chapelle-Saint-Mesmin", "Population": 10078, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.84021, 47.887274 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loiret",
+                "CityName": "Orléans",
+                "Population": 114375,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.909251,
+                    47.902964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.255849,
+                    48.173423
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loiret",
+                "CityName": "Pithiviers",
+                "Population": 9039,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.710694,
+                    47.990319
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loiret",
+                "CityName": "Villemandeur",
+                "Population": 6813,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

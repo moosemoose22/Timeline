@@ -1,22 +1,113 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Bordeaux", "Population": 243626, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.57918, 44.837789 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Mérignac", "Population": 68386, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.656358, 44.8448769 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Pessac", "Population": 60763, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.630386, 44.80583 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Talence", "Population": 41517, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.588054, 44.802614 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Villenave-d'Ornon", "Population": 30663, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.5672574, 44.7799813 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Saint-Médard-en-Jalles", "Population": 29178, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.7181, 44.895295 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Bègles", "Population": 26104, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.543784, 44.812023 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "La Teste-de-Buch", "Population": 25587, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.148224, 44.631077 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Gradignan", "Population": 24439, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.618945, 44.774267 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Libourne", "Population": 23947, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.243985, 44.912998 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Le Bouscat", "Population": 23207, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.59944, 44.865164 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Cenon", "Population": 22882, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.530906, 44.857738 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Eysines", "Population": 21762, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.648815, 44.885793 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Lormont", "Population": 20770, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.523108, 44.880163 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Aquitaine", "DeptName": "Gironde", "CityName": "Gujan-Mestras", "Population": 20294, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.071189, 44.635731 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Aquitaine",
+                "DeptName": "Gironde",
+                "CityName": "Bordeaux",
+                "Population": 243626,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.57918,
+                    44.837789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.976619,
+                    44.642114
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Gironde",
+                "CityName": "Biganos",
+                "Population": 9950,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.245126,
+                    44.555419
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Gironde",
+                "CityName": "Langon",
+                "Population": 7418,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.93519,
+                    45.305814
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Gironde",
+                "CityName": "Lesparre-Médoc",
+                "Population": 5588,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.361672,
+                    44.920034
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Gironde",
+                "CityName": "Izon",
+                "Population": 5432,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.662941,
+                    45.126841
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Gironde",
+                "CityName": "Blaye",
+                "Population": 4730,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

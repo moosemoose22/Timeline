@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Basse-Normandie",
+                "DeptName": "Calvados",
+                "CityName": "Caen",
+                "Population": 107229,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.370679,
+                    49.182863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.233262,
+                    49.418762
+                ]
+            },
+            "properties": {
+                "RegionName": "Normandie",
+                "DeptName": "Calvados",
+                "CityName": "Honfleur",
+                "Population": 7676,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.552764,
+                    48.850993
+                ]
+            },
+            "properties": {
+                "RegionName": "Normandie",
+                "DeptName": "Calvados",
+                "CityName": "Condé-sur-Noireau",
+                "Population": 5244,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.872814,
+                    49.242769
+                ]
+            },
+            "properties": {
+                "RegionName": "Normandie",
+                "DeptName": "Calvados",
+                "CityName": "Le Molay-Littry",
+                "Population": 3093,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

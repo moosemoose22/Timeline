@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Bourgogne",
+                "DeptName": "Nievre",
+                "CityName": "Nevers",
+                "Population": 34841,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.162845,
+                    46.990896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.018014,
+                    47.177091
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Nievre",
+                "CityName": "La Charité-sur-Loire",
+                "Population": 5050,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.518769,
+                    47.459605
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Nievre",
+                "CityName": "Clamecy",
+                "Population": 3993,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.9244916,
+                    47.0569552
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Nièvre",
+                "CityName": "Château-Chinon (Ville)",
+                "Population": 2086,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

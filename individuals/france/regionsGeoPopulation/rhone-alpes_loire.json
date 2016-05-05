@@ -1,11 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Loire", "CityName": "Saint-Étienne", "Population": 172023, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.3871779, 45.439695 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Loire", "CityName": "Roanne", "Population": 35507, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.072695, 46.034432 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Loire", "CityName": "Saint-Chamond", "Population": 35308, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.5127119, 45.476088 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Loire", "CityName": "Roche-la-Molière", "Population": 10093, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.322825, 45.433013 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Rhone-Alpes",
+                "DeptName": "Loire",
+                "CityName": "Saint-Étienne",
+                "Population": 172023,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3871779,
+                    45.439695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.2620909,
+                    45.5264318
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Loire",
+                "CityName": "Andrézieux-Bouthéon",
+                "Population": 9844,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.062936,
+                    46.08593
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Loire",
+                "CityName": "Mably",
+                "Population": 7673,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

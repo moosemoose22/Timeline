@@ -1,10 +1,96 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "La Rochelle", "Population": 74344, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -1.151139, 46.160329 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "Saintes", "Population": 25601, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.633389, 45.744175 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Poitou-Charentes", "DeptName": "Charente-Maritime", "CityName": "Rochefort", "Population": 24761, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.961697, 45.936698 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Poitou-Charentes",
+                "DeptName": "Charente-Maritime",
+                "CityName": "La Rochelle",
+                "Population": 74344,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.151139,
+                    46.160329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.891574,
+                    45.943621
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente-Maritime",
+                "CityName": "Tonnay-Charente",
+                "Population": 7914,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.926507,
+                    45.672361
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente-Maritime",
+                "CityName": "Saujon",
+                "Population": 7111,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.431058,
+                    45.445368
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente-Maritime",
+                "CityName": "Jonzac",
+                "Population": 3465,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.679295,
+                    45.879469
+                ]
+            },
+            "properties": {
+                "RegionName": "Aquitaine Limousin Poitou-Charentes",
+                "DeptName": "Charente-Maritime",
+                "CityName": "Saint-Savinien",
+                "Population": 2452,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

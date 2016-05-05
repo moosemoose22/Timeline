@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.605232,
+                    42.964127
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Ariege",
+                "CityName": "Foix",
+                "Population": 9731,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.146088,
+                    42.982876
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Ariege",
+                "CityName": "Saint-Girons",
+                "Population": 6289,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.575968,
+                    43.233683
+                ]
+            },
+            "properties": {
+                "RegionName": "Languedoc-Roussillon Midi-Pyrénées",
+                "DeptName": "Ariege",
+                "CityName": "Saverdun",
+                "Population": 4583,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

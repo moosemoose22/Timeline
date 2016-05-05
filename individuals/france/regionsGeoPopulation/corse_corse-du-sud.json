@@ -1,8 +1,45 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Corse",
+                "DeptName": "Corse-du-Sud",
+                "CityName": "Ajaccio",
+                "Population": 67507,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.738635,
+                    41.919229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9017592,
+                    41.6738915
+                ]
+            },
+            "properties": {
+                "RegionName": "Corse",
+                "DeptName": "Corse-du-Sud",
+                "CityName": "Propriano",
+                "Population": 3734,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

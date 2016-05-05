@@ -1,13 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Grenoble", "Population": 160215, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.724524, 45.188529 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Saint-Martin-d'Hères", "Population": 38019, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.767761, 45.165133 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Échirolles", "Population": 35684, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.718034, 45.142151 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Vienne", "Population": 29325, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.874339, 45.525587 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Bourgoin-Jallieu", "Population": 27163, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.27212, 45.597108 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Isere", "CityName": "Fontaine", "Population": 22066, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.688211, 45.192754 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Rhone-Alpes",
+                "DeptName": "Isere",
+                "CityName": "Grenoble",
+                "Population": 160215,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.724524,
+                    45.188529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.161867,
+                    45.7462329
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Isere",
+                "CityName": "Charvieu-Chavagneux",
+                "Population": 8544,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.445327,
+                    45.564026
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Isere",
+                "CityName": "La Tour-du-Pin",
+                "Population": 7922,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

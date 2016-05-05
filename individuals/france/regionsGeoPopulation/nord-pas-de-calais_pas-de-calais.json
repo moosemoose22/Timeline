@@ -1,21 +1,130 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Calais", "Population": 72520, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.858686, 50.95129 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Boulogne-sur-Mer", "Population": 42537, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.613334, 50.725231 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Arras", "Population": 40830, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.777535, 50.291002 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Lens", "Population": 31647, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.83183, 50.42893 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Liévin", "Population": 31517, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.775222, 50.417921 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Hénin-Beaumont", "Population": 26748, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.94728, 50.420087 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Béthune", "Population": 25463, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.63926, 50.531036 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Bruay-la-Buissière", "Population": 22802, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.543206, 50.483113 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Berck", "Population": 14835, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.591865, 50.408188 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Outreau", "Population": 14390, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.59255, 50.706513 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Bully-les-Mines", "Population": 12678, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.720937, 50.446598 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Longuenesse", "Population": 11204, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.243632, 50.736744 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Montigny-en-Gohelle", "Population": 10227, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.9270679, 50.428189 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Nord-Pas-de-Calais", "DeptName": "Pas-de-Calais", "CityName": "Lillers", "Population": 10184, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.4806309, 50.564129 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Calais",
+                "Population": 72520,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.858686,
+                    50.95129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.396187,
+                    50.638757
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Aire-sur-la-Lys",
+                "Population": 9947,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.991651,
+                    50.4636179
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Oignies",
+                "Population": 9712,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.576772,
+                    50.7074209
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Le Portel",
+                "Population": 9632,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.680904,
+                    50.522368
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Beuvry",
+                "Population": 9298,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.801689,
+                    50.300542
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Saint-Laurent-Blangy",
+                "Population": 6637,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.623721,
+                    50.483379
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Pas-de-Calais",
+                "CityName": "Cucq",
+                "Population": 5128,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

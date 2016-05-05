@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Cher", "CityName": "Bourges", "Population": 67189, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.398782, 47.081012 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Cher", "CityName": "Vierzon", "Population": 27113, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.069791, 47.221438 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Cher", "CityName": "Saint-Amand-Montrond", "Population": 10238, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.505604, 46.7254859 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Cher",
+                "CityName": "Bourges",
+                "Population": 67189,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.398782,
+                    47.081012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.217346,
+                    47.145637
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Cher",
+                "CityName": "Mehun-sur-Yèvre",
+                "Population": 6804,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.572022,
+                    46.887605
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Cher",
+                "CityName": "Dun-sur-Auron",
+                "Population": 4121,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loir-et-Cher", "CityName": "Blois", "Population": 45539, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.3359475, 47.5860921 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loir-et-Cher", "CityName": "Vendôme", "Population": 17121, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.065343, 47.792551 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Loir-et-Cher", "CityName": "Romorantin-Lanthenay", "Population": 16891, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.747259, 47.358657 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loir-et-Cher",
+                "CityName": "Blois",
+                "Population": 45539,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.3359475,
+                    47.5860921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.053595,
+                    47.425029
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loir-et-Cher",
+                "CityName": "Salbris",
+                "Population": 5509,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.862388,
+                    47.752435
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Loir-et-Cher",
+                "CityName": "Montoire-sur-le-Loir",
+                "Population": 3903,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

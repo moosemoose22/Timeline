@@ -1,42 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Évry", "Population": 53237, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.441782, 48.629828 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Corbeil-Essonnes", "Population": 47632, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.474805, 48.6102599 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Massy", "Population": 45902, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.27137, 48.730756 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Savigny-sur-Orge", "Population": 37206, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.349282, 48.6851259 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Sainte-Geneviève-des-Bois", "Population": 35868, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.3259213, 48.6408416 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Palaiseau", "Population": 31264, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.245748, 48.714509 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Viry-Châtillon", "Population": 31132, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.375902, 48.666218 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Vigneux-sur-Seine", "Population": 31126, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.416924, 48.700094 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Athis-Mons", "Population": 30094, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.38479, 48.7092979 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Yerres", "Population": 28797, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.490967, 48.712858 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Draveil", "Population": 28687, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.408154, 48.685388 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Grigny", "Population": 27716, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.385166, 48.656473 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Ris-Orangis", "Population": 27312, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.410451, 48.645663 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Brunoy", "Population": 26066, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.504543, 48.698071 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Brétigny-sur-Orge", "Population": 25624, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.30604, 48.611486 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Les Ulis", "Population": 24914, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.16647, 48.6792779 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Étampes", "Population": 24502, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.16142, 48.434416 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Montgeron", "Population": 23565, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.4604529, 48.703859 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Longjumeau", "Population": 21657, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.2947615, 48.6930642 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Morsang-sur-Orge", "Population": 21377, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.345709, 48.661766 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Gif-sur-Yvette", "Population": 20631, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.134078, 48.701844 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Saint-Michel-sur-Orge", "Population": 20057, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.312884, 48.63264 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Chilly-Mazarin", "Population": 19502, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.310271, 48.705134 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Orsay", "Population": 16153, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.189617, 48.697161 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Verrières-le-Buisson", "Population": 15709, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.266838, 48.746318 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Juvisy-sur-Orge", "Population": 15545, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.37216, 48.691738 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Courcouronnes", "Population": 13466, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.407091, 48.617871 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Mennecy", "Population": 13194, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.434436, 48.566784 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Épinay-sous-Sénart", "Population": 12565, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.515825, 48.693052 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Morangis", "Population": 12456, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.336018, 48.7022059 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Arpajon", "Population": 10707, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.246237, 48.589172 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Épinay-sur-Orge", "Population": 10499, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.323859, 48.672714 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Villebon-sur-Yvette", "Population": 10344, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.236654, 48.6964029 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Dourdan", "Population": 10342, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.0152549, 48.529171 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Île-de-France", "DeptName": "Essonne", "CityName": "Igny", "Population": 10228, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 2.2228629, 48.73753 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Île-de-France",
+                "DeptName": "Essonne",
+                "CityName": "Évry",
+                "Population": 53237,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.441782,
+                    48.629828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.163977,
+                    48.696893
+                ]
+            },
+            "properties": {
+                "RegionName": "Île-de-France",
+                "DeptName": "Essonne",
+                "CityName": "Bures-sur-Yvette",
+                "Population": 9725,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17112,
+                    48.566131
+                ]
+            },
+            "properties": {
+                "RegionName": "Île-de-France",
+                "DeptName": "Essonne",
+                "CityName": "Breuillet",
+                "Population": 8454,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

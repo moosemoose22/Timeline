@@ -1,10 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Mayenne", "CityName": "Laval", "Population": 50479, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.7669906, 48.0785146 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Mayenne", "CityName": "Mayenne", "Population": 13376, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.620935, 48.3061239 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Mayenne", "CityName": "Château-Gontier", "Population": 11582, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.7069, 47.8267669 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Mayenne",
+                "CityName": "Laval",
+                "Population": 50479,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.7669906,
+                    48.0785146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.939978,
+                    48.296902
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Mayenne",
+                "CityName": "Ernée",
+                "Population": 5786,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.949622,
+                    47.84867
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Mayenne",
+                "CityName": "Craon",
+                "Population": 4481,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

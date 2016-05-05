@@ -1,10 +1,113 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Mulhouse", "Population": 112063, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.335888, 47.750839 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Kingersheim", "Population": 12720, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.334499, 47.789641 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Alsace", "DeptName": "Haut-Rhin", "CityName": "Cernay", "Population": 11664, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 7.176532, 47.807124 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Alsace",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Mulhouse",
+                "Population": 112063,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.335888,
+                    47.750839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.102382,
+                    47.810702
+                ]
+            },
+            "properties": {
+                "RegionName": "Alsace-Champagne-Ardenne-Lorraine",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Thann",
+                "Population": 7933,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.351814,
+                    47.86593
+                ]
+            },
+            "properties": {
+                "RegionName": "Alsace-Champagne-Ardenne-Lorraine",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Ensisheim",
+                "Population": 7395,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.243036,
+                    47.620391
+                ]
+            },
+            "properties": {
+                "RegionName": "Alsace-Champagne-Ardenne-Lorraine",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Altkirch",
+                "Population": 5743,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3965041,
+                    48.0761566
+                ]
+            },
+            "properties": {
+                "RegionName": "Alsace-Champagne-Ardenne-Lorraine",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Horbourg-Wihr",
+                "Population": 5377,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.182224,
+                    48.2457179
+                ]
+            },
+            "properties": {
+                "RegionName": "Alsace-Champagne-Ardenne-Lorraine",
+                "DeptName": "Haut-Rhin",
+                "CityName": "Sainte-Marie-aux-Mines",
+                "Population": 5193,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

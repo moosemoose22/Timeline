@@ -1,9 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Franche-Comté", "DeptName": "Jura", "CityName": "Dole", "Population": 23312, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.49081, 47.09534 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Franche-Comté", "DeptName": "Jura", "CityName": "Saint-Claude", "Population": 10346, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.8677659, 46.387405 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Franche-Comté",
+                "DeptName": "Jura",
+                "CityName": "Dole",
+                "Population": 23312,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.49081,
+                    47.09534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.905725,
+                    46.746091
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Jura",
+                "CityName": "Champagnole",
+                "Population": 7901,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0223705,
+                    46.5239422
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Jura",
+                "CityName": "Morez",
+                "Population": 4998,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

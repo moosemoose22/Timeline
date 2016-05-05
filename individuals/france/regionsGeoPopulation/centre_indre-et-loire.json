@@ -1,17 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Tours", "Population": 134803, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.68484, 47.394144 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Joué-lès-Tours", "Population": 37703, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.6613099, 47.351861 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Saint-Cyr-sur-Loire", "Population": 16239, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.6633599, 47.401366 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Saint-Pierre-des-Corps", "Population": 15404, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.722479, 47.3898439 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Saint-Avertin", "Population": 14893, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.726905, 47.367854 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Amboise", "Population": 13246, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.984407, 47.413326 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Chambray-lès-Tours", "Population": 10881, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.7013087, 47.3376625 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Montlouis-sur-Loire", "Population": 10787, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.827383, 47.388264 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "La Riche", "Population": 10276, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.658258, 47.388309 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Indre-et-Loire", "CityName": "Fondettes", "Population": 10193, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.599971, 47.404813 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre-et-Loire",
+                "CityName": "Tours",
+                "Population": 134803,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.68484,
+                    47.394144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.240385,
+                    47.167296
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre-et-Loire",
+                "CityName": "Chinon",
+                "Population": 8044,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.997664,
+                    47.128158
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Indre-et-Loire",
+                "CityName": "Loches",
+                "Population": 6343,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

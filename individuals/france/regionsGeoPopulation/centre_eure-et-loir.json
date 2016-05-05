@@ -1,13 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Chartres", "Population": 38840, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.489012, 48.443854 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Dreux", "Population": 31373, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.370889, 48.736134 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Lucé", "Population": 16149, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.466895, 48.439575 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Châteaudun", "Population": 13226, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.327696, 48.070369 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Nogent-le-Rotrou", "Population": 10496, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.8217759, 48.321762 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Centre", "DeptName": "Eure-et-Loir", "CityName": "Mainvilliers", "Population": 10368, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 1.464086, 48.44921 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Eure-et-Loir",
+                "CityName": "Chartres",
+                "Population": 38840,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.489012,
+                    48.443854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.385289,
+                    48.181453
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Eure-et-Loir",
+                "CityName": "Bonneval",
+                "Population": 4838,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.530432,
+                    48.647832
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Eure-et-Loir",
+                "CityName": "Nogent-le-Roi",
+                "Population": 4125,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.014305,
+                    48.471285
+                ]
+            },
+            "properties": {
+                "RegionName": "Centre",
+                "DeptName": "Eure-et-Loir",
+                "CityName": "La Loupe",
+                "Population": 3530,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

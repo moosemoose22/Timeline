@@ -1,9 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Ain", "CityName": "Bourg-en-Bresse", "Population": 40490, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.2255007, 46.2051675 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Ain", "CityName": "Oyonnax", "Population": 22258, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.655335, 46.257773 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Rhone-Alpes",
+                "DeptName": "Ain",
+                "CityName": "Bourg-en-Bresse",
+                "Population": 40490,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.2255007,
+                    46.2051675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.02513,
+                    46.2437479
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Ain",
+                "CityName": "Saint-Genis-Pouilly",
+                "Population": 9635,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3486269,
+                    45.903996
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Ain",
+                "CityName": "Lagnieu",
+                "Population": 6889,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.607762,
+                    46.153405
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Ain",
+                "CityName": "Nantua",
+                "Population": 3524,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

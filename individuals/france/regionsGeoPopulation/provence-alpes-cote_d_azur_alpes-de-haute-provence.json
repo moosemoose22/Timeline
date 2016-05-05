@@ -1,9 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Alpes-de-Haute-Provence", "CityName": "Manosque", "Population": 22412, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.790916, 43.835744 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Provence-Alpes-Côte d'Azur", "DeptName": "Alpes-de-Haute-Provence", "CityName": "Digne-les-Bains", "Population": 16512, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 6.235976, 44.092193 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Alpes-de-Haute-Provence",
+                "CityName": "Manosque",
+                "Population": 22412,
+                "TextPosition": "left"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.790916,
+                    43.835744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.921487,
+                    43.914706
+                ]
+            },
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Alpes-de-Haute-Provence",
+                "CityName": "Oraison",
+                "Population": 5716,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.650463,
+                    44.3863
+                ]
+            },
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Alpes-de-Haute-Provence",
+                "CityName": "Barcelonnette",
+                "Population": 2706,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5137,
+                    43.8462419
+                ]
+            },
+            "properties": {
+                "RegionName": "Provence-Alpes-Côte d'Azur",
+                "DeptName": "Alpes-de-Haute-Provence",
+                "CityName": "Castellane",
+                "Population": 1549,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

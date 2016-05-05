@@ -1,11 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Sarthe", "CityName": "Le Mans", "Population": 144244, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.199556, 48.00611 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Sarthe", "CityName": "La Flèche", "Population": 14992, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.074646, 47.69589 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Sarthe", "CityName": "Sablé-sur-Sarthe", "Population": 12575, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ -0.3334185, 47.8404856 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Pays de la Loire", "DeptName": "Sarthe", "CityName": "Allonnes", "Population": 11047, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 0.159363, 47.968893 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Sarthe",
+                "CityName": "Le Mans",
+                "Population": 144244,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.199556,
+                    48.00611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.655979,
+                    48.185934
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Sarthe",
+                "CityName": "La Ferté-Bernard",
+                "Population": 9116,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.418068,
+                    47.692668
+                ]
+            },
+            "properties": {
+                "RegionName": "Pays de la Loire",
+                "DeptName": "Sarthe",
+                "CityName": "Château-du-Loir",
+                "Population": 4750,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

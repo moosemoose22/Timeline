@@ -1,8 +1,96 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Bourgogne",
+                "DeptName": "Saône-et-Loire",
+                "CityName": "Chalon-sur-Saône",
+                "Population": 45166,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.853947,
+                    46.780764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.120665,
+                    46.452222
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Saône-et-Loire",
+                "CityName": "Paray-le-Monial",
+                "Population": 9064,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.800459,
+                    46.309859
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Saône-et-Loire",
+                "CityName": "Charnay-lès-Mâcon",
+                "Population": 6919,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.390612,
+                    46.698034
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Saône-et-Loire",
+                "CityName": "Blanzy",
+                "Population": 6515,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.223371,
+                    46.628291
+                ]
+            },
+            "properties": {
+                "RegionName": "Bourgogne Franche-Comté",
+                "DeptName": "Saône-et-Loire",
+                "CityName": "Louhans",
+                "Population": 6405,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

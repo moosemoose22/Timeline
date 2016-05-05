@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Picardie",
+                "DeptName": "Somme",
+                "CityName": "Amiens",
+                "Population": 132699,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295753,
+                    49.894067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.933353,
+                    49.933071
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Somme",
+                "CityName": "Péronne",
+                "Population": 7702,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.566932,
+                    49.647007
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Somme",
+                "CityName": "Montdidier",
+                "Population": 6189,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.389287,
+                    50.066072
+                ]
+            },
+            "properties": {
+                "RegionName": "Nord-Pas-de-Calais Picardie",
+                "DeptName": "Somme",
+                "CityName": "Mers-les-Bains",
+                "Population": 2867,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

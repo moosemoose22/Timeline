@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Ille-et-Vilaine",
+                "CityName": "Rennes",
+                "Population": 211373,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6777926,
+                    48.117266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.055125,
+                    48.633024
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Ille-et-Vilaine",
+                "CityName": "Dinard",
+                "Population": 9839,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.083938,
+                    47.650742
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Ille-et-Vilaine",
+                "CityName": "Redon",
+                "Population": 9114,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.405353,
+                    48.109406
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Ille-et-Vilaine",
+                "CityName": "Châteaubourg",
+                "Population": 6513,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

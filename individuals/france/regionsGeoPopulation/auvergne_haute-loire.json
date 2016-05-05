@@ -1,8 +1,62 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Auvergne", "DeptName": "Haute-Loire", "CityName": "Le Puy-en-Velay", "Population": 18619 }, "geometry": { "type": "Point", "coordinates": [ 3.882936, 45.042768 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Auvergne",
+                "DeptName": "Haute-Loire",
+                "CityName": "Le Puy-en-Velay",
+                "Population": 18619,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.882936,
+                    45.042768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.172183,
+                    45.292432
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Haute-Loire",
+                "CityName": "Monistrol-sur-Loire",
+                "Population": 8788,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.386482,
+                    45.295564
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Haute-Loire",
+                "CityName": "Brioude",
+                "Population": 6657,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

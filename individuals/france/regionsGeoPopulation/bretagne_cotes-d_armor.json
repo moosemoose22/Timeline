@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Cotes-d'Armor",
+                "CityName": "Saint-Brieuc",
+                "Population": 45331,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.765835,
+                    48.51418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.444943,
+                    48.815456
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Cotes-d'Armor",
+                "CityName": "Perros-Guirec",
+                "Population": 7312,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.148352,
+                    48.561366
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Cotes-d'Armor",
+                "CityName": "Guingamp",
+                "Population": 7106,
+                "TextPosition": "default"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.028408,
+                    48.45524
+                ]
+            },
+            "properties": {
+                "RegionName": "Bretagne",
+                "DeptName": "Cotes-d'Armor",
+                "CityName": "Lanvallay",
+                "Population": 3903,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }

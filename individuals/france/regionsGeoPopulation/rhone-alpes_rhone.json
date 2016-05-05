@@ -1,23 +1,45 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Lyon", "Population": 500715, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.835659, 45.764043 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Villeurbanne", "Population": 147192, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.8901709, 45.771944 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Vénissieux", "Population": 61636, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.8844649, 45.699594 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Vaulx-en-Velin", "Population": 44087, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.922661, 45.782029 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Saint-Priest", "Population": 42950, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.947071, 45.698938 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Caluire-et-Cuire", "Population": 42581, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.842426, 45.79681 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Bron", "Population": 38746, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.911927, 45.733316 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Villefranche-sur-Saône", "Population": 36531, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.718821, 45.991471 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Meyzieu", "Population": 31438, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 5.003658, 45.766821 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Rillieux-la-Pape", "Population": 30645, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.897126, 45.819655 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Décines-Charpieu", "Population": 26826, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.957024, 45.7674499 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Oullins", "Population": 26072, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.80066, 45.711926 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Sainte-Foy-lès-Lyon", "Population": 21646, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.804827, 45.735237 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Tassin-la-Demi-Lune", "Population": 21102, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.776921, 45.761337 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Saint-Genis-Laval", "Population": 20696, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.792768, 45.691999 ] } },
-{ "type": "Feature", "properties": { "RegionName": "Rhone-Alpes", "DeptName": "Rhône", "CityName": "Saint-Fons", "Population": 17584, "TextPosition": "default" }, "geometry": { "type": "Point", "coordinates": [ 4.853374, 45.708874 ] } }
-]
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "RegionName": "Rhone-Alpes",
+                "DeptName": "Rhône",
+                "CityName": "Lyon",
+                "Population": 500715,
+                "TextPosition": "default"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.835659,
+                    45.764043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.745161,
+                    46.109457
+                ]
+            },
+            "properties": {
+                "RegionName": "Auvergne Rhône-Alpes",
+                "DeptName": "Rhône",
+                "CityName": "Belleville",
+                "Population": 8123,
+                "TextPosition": "default"
+            }
+        }
+    ]
 }
