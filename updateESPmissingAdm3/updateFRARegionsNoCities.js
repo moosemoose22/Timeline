@@ -201,6 +201,7 @@ function findCity(geom, areaElem, cityElem, populationFileName)
 			{
 				if (convertName(regionArr[x]) == admin3NameFound)
 				{
+					// Remove this admin3 region from list of admin3regions that don't have cities
 					var firstPart = regionArr.slice(0, x);
 					var secondPart = regionArr.slice(x + 1);
 					finalArray = firstPart.concat(secondPart);

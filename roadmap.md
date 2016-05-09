@@ -13,3 +13,4 @@ Roadmap for the future
   2. Design a way to show this information.
 3. Add more cities to maps, especially in admin3 regions in France/Spain which have no cities.
 4. Add better weighting to cities to determine which cities to show when.
+5. Put everything in a database to keep better track of data and allow for easier growth.
