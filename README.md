@@ -20,6 +20,7 @@ The demo is here: http://orent.info/timeline
 
 Thank you to:  
 [GADM database of Global Administrative Areas](http://gadm.org/) for providing the data that let us draw every country and every region.  
-[insee](http://www.insee.fr/fr/default.asp) for providing France population data and [ine](http://ine.es/) for providing Spain population data.  
+[insee](http://www.insee.fr/fr/default.asp) for providing France population data.  
+[ine](http://ine.es/) for providing Spain population data.  
 [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) for providing the service to help us generate latitude and longitude values for cities.  
 [Jonas Raoni Soares Silva](http://jsfromhell.com/math/is-point-in-poly), for providing the function that was used to update missing level 3 administrative names from Spain.
