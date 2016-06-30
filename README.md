@@ -12,7 +12,7 @@ Stage 1 is to create a map that lets you see each region with cities in detail.
 
 To learn about how to get the data for the landing page, [please see this file](landing.md).
 
-To learn about how to get the data for each region, [please see this file](regions.md).
+To learn about how to get the data for each zoomed-in region, [please see this file](regions.md).
 
 To see a roadmap for future development/bug fixes, [please see this file](roadmap.md).
 
