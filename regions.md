@@ -53,7 +53,7 @@ We read in each region from the admin2 gadm data, then read in the area of every
 From [individuals/france](individuals/france)  
 ogrinfo FRA_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\_', NAME_2) as newName FROM  FRA_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./makeTopojson.sh {}  
 From [individuals/spain](individuals/spain)  
-ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\_', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./makeTopojson.sh {}  
+ogrinfo ESP_adm2.shp -geom=NO -sql "SELECT CONCAT(CAST(ID_2 AS character), '\*\*', NAME_1, '\_', NAME_2) as newName FROM  ESP_adm2" | grep "newName (String)" | sed 's/  newName (String) = //g' | sed "s/'/\_/g" | sed "s/ /\_/g" | xargs -I {} ./[individuals/spain/makeTopojson.sh](makeTopojson.sh) {}  
 
 We use ogrinfo to read in data. We grab the name of the admin1 and admin2 regions. We then parse out empty lines and any other lines that doesn't have this data. 
 Then we replace unneeded data such as field labels. Single quotes and spaces become underscored. We then pass this data to a bash script that creates the area GEOjson. You can ignore the topojson that the files creates.  
