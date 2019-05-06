@@ -1,6 +1,11 @@
 var regionFuncs = new function()
 {
-	this.init = function(mapCountry, regionID, subregionID)
+	var regionSVG;
+	var populationJSON;
+	var newPath;
+	var newProjection;
+
+	this.init = function(mapCountry, regionID, subregionID, callback)
 	{
 		var mapStr = "maps/" + mapCountry + "/regions/" + mapCountry + "." + subregionID + ".topo.json";
 		console.log(mapStr);
@@ -10,9 +15,8 @@ var regionFuncs = new function()
 			windowHeight = window.innerHeight - 20;
 
 			var regions = topojson.feature(regionTopoJson, regionTopoJson.objects.region);
-			var population;
 			if ("population" in regionTopoJson.objects)
-				population = topojson.feature(regionTopoJson, regionTopoJson.objects.population);
+				populationJSON = topojson.feature(regionTopoJson, regionTopoJson.objects.population);
 
 			var scaleOverride, finaTopOffset;
 			if (mapCountry == "spain" && (subregionID == "andalucia_almeria" || subregionID == "ceuta_ceuta"))
@@ -103,12 +107,12 @@ var regionFuncs = new function()
 			}
 
 			//var center = path.centroid(regions);
-			var newProjection = d3.geo.albers()
+			newProjection = d3.geo.albers()
 				.center([0, 43.96])
 				.rotate([1, 0.37])
 				.parallels([50, 60]);
 
-			var newPath = d3.geo.path().projection(newProjection).pointRadius(2.4);
+			newPath = d3.geo.path().projection(newProjection).pointRadius(2.4);
 			newProjection
 				.scale(1)
 				.translate([0, 0]);
@@ -136,7 +140,7 @@ var regionFuncs = new function()
 
 			// Color each region based on country
 			// See "Area coloring" in the styles above
-			var regionSVG = d3.select("#openRegionContainer").append("svg")
+			regionSVG = d3.select("#openRegionContainer").append("svg")
 				.attr("width", windowWidth)
 				.attr("height", windowHeight)
 				.attr("id", "regionMap");
@@ -176,88 +180,106 @@ var regionFuncs = new function()
 				.on('click', function(d){
 					;
 				});
-
-			if (population && "features" in population)
-			{
-				var myRegionTextLabelGroups = regionSVG.selectAll(".region-place-label")
-					.data(population.features)
-					.enter()
-					.append("g");
-
-				// Add little gray dot next to city
-				myRegionTextLabelGroups.append("path")
-					.attr("d", newPath)
-					.attr("class", "place")
-					.on('mouseover', function(d)
-					{
-						selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
-						selectedRegionManager.writeData();
-						$(this.nextSibling.nextSibling).css("fill-opacity", 0.1);
-					})
-					.on('mouseout', function(d)
-					{
-						$(this.nextSibling.nextSibling).css("fill-opacity", 0.01);
-					});
-
-				myRegionTextLabelGroups.append("text")
-					.attr("class", "place-label")
-					.attr("transform", function(d) { return "translate(" + newProjection(d.geometry.coordinates) + ")"; })
-					.attr("x", function(d) {
-						if (d.properties.textPosition == "default")
-							return d.geometry.coordinates[0] > -1 ? 6 : -6;
-						else
-							return (d.properties.textPosition == "left") ? -6 : 6;
-					})
-					.attr("dy", ".35em")
-					.style("text-anchor", function(d) {
-						if (d.properties.textPosition == "default")
-							return d.geometry.coordinates[0] > -1 ? "start" : "end";
-						else
-							return (d.properties.textPosition == "left") ? "end" : "start";
-					})
-					.text(function(d) { return d.properties.cityname; });
-
-				// City hover background rectangle
-				myRegionTextLabelGroups.append("rect")
-					.attr("class", "place-label-bg")
-					.attr("transform", function(d)
-					{
-						var bbox = this.previousSibling.getBBox();
-						var coords = newProjection(d.geometry.coordinates);
-						var addPixels;
-						if (d.properties.textPosition == "default")
-							addPixels = (d.geometry.coordinates[0] > -1);
-						else
-							addPixels = (d.properties.textPosition == "right");
-						if (addPixels)
-							coords[0] += 6;
-						else
-							coords[0] -= (bbox.width + 6);
-						coords[1] -= (bbox.height / 2);
-						return "translate(" + coords + ")";
-					})
-					.attr("width", function(d)
-					{
-						var bbox = this.previousSibling.getBBox();
-						return bbox.width;
-					})
-					.attr("height", function(d)
-					{
-						var bbox = this.previousSibling.getBBox();
-						return bbox.height;
-					})
-					.style("fill-opacity", 0.01)
-					.on('mouseover', function(d)
-					{
-						selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
-						selectedRegionManager.writeData();
-						$(this).css("fill-opacity", 0.1);
-					})
-					.on('mouseout', function(d)
-					{
-						$(this).css("fill-opacity", 0.01);
-					});
-			}
+			if (callback)
+				callback();
 		});
+	}
+
+	this.addCities = function()
+	{
+		if (!(populationJSON && "features" in populationJSON))
+			return;
+		console.log(populationJSON);
+		var myRegionTextLabelGroups = regionSVG.selectAll(".region-place-label")
+			.data(populationJSON.features)
+			.enter()
+			.append("g");
+
+		// Add little gray dot next to city
+		myRegionTextLabelGroups.append("path")
+			.attr("d", newPath)
+			.attr("class", "place")
+			.on('mouseover', function(d)
+			{
+				selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+				selectedRegionManager.writeData();
+				$(this.nextSibling.nextSibling).css("fill-opacity", 0.1);
+			})
+			.on('mouseout', function(d)
+			{
+				$(this.nextSibling.nextSibling).css("fill-opacity", 0.01);
+			});
+
+		myRegionTextLabelGroups.append("text")
+			.attr("class", "place-label")
+			.attr("transform", function(d) { return "translate(" + newProjection(d.geometry.coordinates) + ")"; })
+			.attr("x", function(d) {
+				if (d.properties.textPosition == "default")
+					return d.geometry.coordinates[0] > -1 ? 6 : -6;
+				else
+					return (d.properties.textPosition == "left") ? -6 : 6;
+			})
+			.attr("dy", ".35em")
+			.style("text-anchor", function(d) {
+				if (d.properties.textPosition == "default")
+					return d.geometry.coordinates[0] > -1 ? "start" : "end";
+				else
+					return (d.properties.textPosition == "left") ? "end" : "start";
+			})
+			.text(function(d) { return d.properties.cityname; });
+
+		// City hover background rectangle
+		myRegionTextLabelGroups.append("rect")
+			.attr("class", "place-label-bg")
+			.attr("transform", function(d)
+			{
+				var bbox = this.previousSibling.getBBox();
+				var coords = newProjection(d.geometry.coordinates);
+				var addPixels;
+				if (d.properties.textPosition == "default")
+					addPixels = (d.geometry.coordinates[0] > -1);
+				else
+					addPixels = (d.properties.textPosition == "right");
+				if (addPixels)
+					coords[0] += 6;
+				else
+					coords[0] -= (bbox.width + 6);
+				coords[1] -= (bbox.height / 2);
+				return "translate(" + coords + ")";
+			})
+			.attr("width", function(d)
+			{
+				var bbox = this.previousSibling.getBBox();
+				return bbox.width;
+			})
+			.attr("height", function(d)
+			{
+				var bbox = this.previousSibling.getBBox();
+				return bbox.height;
+			})
+			.style("fill-opacity", 0.01)
+			.on('mouseover', function(d)
+			{
+				selectedRegionManager.select(d.properties.populregionname, d.properties.populsubregionname, undefined, d.properties.cityname, d.properties.population.toLocaleString());
+				selectedRegionManager.writeData();
+				$(this).css("fill-opacity", 0.1);
+			})
+			.on('mouseout', function(d)
+			{
+				$(this).css("fill-opacity", 0.01);
+			});
+	}
+
+	this.setPopulationJSON = function(newPopulationJSON)
+	{
+		populationJSON = newPopulationJSON;
+	}
+
+	this.reset = function()
+	{
+		regionSVG = null;
+		populationJSON = null;
+		newPath = null;
+		newProjection = null;
 	}
 };

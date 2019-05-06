@@ -65,6 +65,10 @@ path {
 	fill: #444;
 }
 
+.place-label-capital {
+	fill: #cc0000;
+}
+
 .place-label-bg {
 	fill: #000;
 }
