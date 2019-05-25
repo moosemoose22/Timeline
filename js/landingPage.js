@@ -54,7 +54,7 @@ var landingPage = new function()
 				.on('click', function(d){
 					windowManager.openRegionWindow(mapCountry, d);
 				});
-			
+
 			if (callback)
 				callback();
 		});
@@ -62,7 +62,7 @@ var landingPage = new function()
 
 	// In case you ever wanted to filter further by population, this function is here
 	// The data is is pre-filtered so as to included the most-populated city per sub-region (admin level 2 region)
-	// And exception was made for Nice: Grasse is more populous than Nice, but Nice is clearly the more well-known city
+	// An exception was made for Nice: Grasse is more populous than Nice, but Nice is clearly the more well-known city
 	// Some cities within large metropoli (especially Paris) were removed: they'd all overlap too much, and they're part of 1 larger urban area anyways.
 	function filterPopulation(population)
 	{
@@ -71,7 +71,7 @@ var landingPage = new function()
 
 	this.writeCities = function(mapCountry)
 	{
-		var mapLoc = "maps/occitania.population.direct.topo.json";
+		var mapLoc = "maps/landingpage.population.topo.json";
 		d3.json(mapLoc, function(error, occitania)
 		{
 			var myTextLabelGroups = svg.selectAll(".place-label")
@@ -83,7 +83,13 @@ var landingPage = new function()
 			myTextLabelGroups.append("path")
 				.filter(function(d) { return filterPopulation(d.properties.population); })
 				.attr("d", path)
-				.attr("class", "place")
+				.attr("class", function(d)
+				{
+					if ("capital" in d.properties && d.properties.capital)
+						return "place-label-capital";
+					else
+						return "place-label";
+				})
 				.on('mouseover', function(d)
 				{
 					selectedRegionManager.select(d.properties.regionname, d.properties.subregionname, d.properties.admin3name, d.properties.cityname, d.properties.population.toLocaleString());
@@ -97,12 +103,18 @@ var landingPage = new function()
 
 			myTextLabelGroups.append("text")
 				.filter(function(d) { return filterPopulation(d.properties.population); })
-				.attr("class", "place-label")
+				.attr("class", function(d)
+				{
+					if ("capital" in d.properties && d.properties.capital)
+						return "place-label-capital";
+					else
+						return "place-label";
+				})
 				.attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
 				.attr("x", function(d)
 				{
 					if (d.properties.textPosition == "default")
-						return d.geometry.coordinates[0] > -1 ? 6 : -6;
+						return 6;
 					else
 						return (d.properties.textPosition == "left") ? -6 : 6;
 				})
@@ -110,7 +122,7 @@ var landingPage = new function()
 				.style("text-anchor", function(d)
 				{
 					if (d.properties.textPosition == "default")
-						return d.geometry.coordinates[0] > -1 ? "start" : "end";
+						return "start";
 					else
 						return (d.properties.textPosition == "left") ? "end" : "start";
 				})
@@ -126,7 +138,7 @@ var landingPage = new function()
 					var coords = projection(d.geometry.coordinates);
 					var addPixels;
 					if (d.properties.textPosition == "default")
-						addPixels = (d.geometry.coordinates[0] > -1);
+						addPixels = true;
 					else
 						addPixels = (d.properties.textPosition == "right");
 					if (addPixels)

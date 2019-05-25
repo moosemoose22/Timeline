@@ -12,7 +12,7 @@ function convertRegionName(regionname)
 	convertRegionObj["cataluna"] = "catalunya";
 	convertRegionObj["castile_and_leon"] = "castilla_y_leon";
 	convertRegionObj["islas_baleares"] = "illes_balears";
-	
+
 	if (regionname in convertRegionObj)
 		return convertRegionObj[regionname];
 	else
@@ -26,7 +26,7 @@ function convertSubRegionName(subregionname)
 	convertSubRegionObj["guipuzcoa"] = "gipuzkoa";
 	convertSubRegionObj["vizcaya"] = "bizkaia";
 	convertSubRegionObj["baleares"] = "illes_balears";
-	
+
 	if (subregionname in convertSubRegionObj)
 		return convertSubRegionObj[subregionname];
 	else
@@ -85,7 +85,11 @@ var windowManager = new function()
 		{
 			var regionName = convertID(latinize(data.properties.regionname).toLowerCase());
 			var subRegionName = convertID(latinize(data.properties.subregionname).toLowerCase());
-			regionFuncs.init(mapCountry, data.properties.regionID, convertRegionName(regionName) + "_" + convertSubRegionName(subRegionName));
+
+			// Once we're done reading the data from the topoJSON file, we add cities
+			// This needs to be done in a callback since reading the file is asynchronous
+			var regionCallback = regionFuncs.addCities;
+			regionFuncs.init(mapCountry, data.properties.regionID, convertRegionName(regionName) + "_" + convertSubRegionName(subRegionName), regionCallback);
 		}
 
 		var countryAbbrev = data.properties.region;
@@ -127,6 +131,7 @@ var windowManager = new function()
 	// of region detail window
 	this.closeWindowPrelim = function()
 	{
+		regionFuncs.reset();
 		calledRegionPrelimClose = true;
 		$(".openRegionStyle").css("z-index", "-1").css("visibility", "hidden");
 		$("#regionZoomAnimationContainer").css("visibility", "visible");

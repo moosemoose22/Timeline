@@ -92,7 +92,7 @@ var regionFuncs = new function()
 						;//subelement.reverse();
 					});
 				});
-				
+
 				regions.features.forEach(function(element, index, array)
 				{
 					console.log(d3.geo.area(element));
@@ -236,7 +236,9 @@ var regionFuncs = new function()
 				var bbox = this.previousSibling.getBBox();
 				var coords = newProjection(d.geometry.coordinates);
 				var addPixels;
-				if (d.properties.textPosition == "default")
+				if (!d.properties.textPosition)
+					addPixels = true;
+				else if (d.properties.textPosition == "default")
 					addPixels = (d.geometry.coordinates[0] > -1);
 				else
 					addPixels = (d.properties.textPosition == "right");
